@@ -11,4 +11,4 @@ Status
  - Not started  http://youtube.com/watch?v=7UYDxjTXYu4 Compact Style Monster Feast
  - Not started  http://youtube.com/watch?v=E-JNnFChAZo Extra project 
 ### Week 1 - Day 2
- - Waiting for YouTube to auto translate first  http://youtube.com/watch?v=7BrPpaDN_RY Treasure Island
+ - Not started  http://youtube.com/watch?v=7BrPpaDN_RY Treasure Island
