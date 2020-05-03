@@ -1157,7 +1157,7 @@ that is gonna present a bug later but
 we'll fix it so when I call it food
 
 0:15:30.109,0:15:34.889
-admittedly in a real app I made named it
+admittedly in a real app I might name it
 
 0:15:32.459,0:15:37.199
 like num food remaining or something
@@ -1169,7 +1169,7 @@ like that but but food is better because
 it's short it's gonna show up in our
 
 0:15:38.999,0:15:45.149
-watcher just fine tonight got this
+watcher just fine so now I've got this
 
 0:15:41.489,0:15:46.679
 variable food in general I like to go
@@ -1193,13 +1193,13 @@ just you can't see it right so it's
 under the hood it's hidden somewhere in
 
 0:16:02.040,0:16:06.179
-my computer great but I want to see it
+my computer right but I want to see it
 
 0:16:04.769,0:16:09.119
 just because we're learning about
 
 0:16:06.179,0:16:10.470
-various now normally when you code you
+variables now normally when you code you
 
 0:16:09.119,0:16:12.779
 have variables that aren't visible all
@@ -1226,7 +1226,7 @@ in the middle of my screen which I'm
 going to move up here
 
 0:16:23.879,0:16:29.279
-I had this surprised me but there's a
+This surprised me but there's a
 
 0:16:26.790,0:16:31.019
 little bug inside the watcher code I
@@ -1238,31 +1238,31 @@ know it's hard to see in your screen
 right now maybe I'll move this out of
 
 0:16:32.489,0:16:37.499
-the way well there is a slider that you
+the way a little there is a slider that you
 
 0:16:35.279,0:16:40.470
 can move across the bottom you can also
 
 0:16:37.499,0:16:43.949
-just grab it movie here but it says
+just grab it and move it here but it says
 
 0:16:40.470,0:16:45.239
-property food of monster from global
+property food of monster for global
 
 0:16:43.949,0:16:49.829
-variables that you're supposed to say
+variables it's really supposed to say
 
 0:16:45.239,0:16:51.989
-property food of any I don't know why I
+property food of any I don't know why it
 
 0:16:49.829,0:16:54.540
 auto-generated the wrong code for you I
 
 0:16:51.989,0:16:56.249
-consider that a bug and Pinker but if
+consider that a bug in Tynker but if
 
 0:16:54.540,0:16:58.049
-you want to work right you're gonna have
+you want it work right you're gonna have
 
 0:16:56.249,0:17:00.269
 to go into the food watcher so it
@@ -1277,16 +1277,16 @@ code so that it says any instead of
 monster and you know it's working
 
 0:17:04.139,0:17:11.370
-because it will say boom five at the top
+because it will say food five at the top
 
 0:17:08.519,0:17:13.860
 here if it says food : with like nothing
 
 0:17:11.370,0:17:16.639
-there that it means that you have not
+there then it means that you have not
 
 0:17:13.860,0:17:19.919
-yet properly fixed that bug great ah
+yet properly fixed that bug right ah
 
 0:17:16.639,0:17:22.319
 cool and it really shouldn't work with
@@ -1298,16 +1298,16 @@ monster I'm gonna try one more time but
 yeah you can see see there whatever the
 
 0:17:24.299,0:17:29.639
-default toad it shows up blank I'm crazy
+default code it shows up blank isn't that crazy
 
 0:17:27.449,0:17:30.360
-fix that thinker watch this video and
+fix that tynker watch this video and
 
 0:17:29.639,0:17:33.650
 fix it
 
 0:17:30.360,0:17:35.850
-and it's only a bug for global learners
+and it's only a bug for global variables
 
 0:17:33.650,0:17:38.730
 so what I want to do is when I break
@@ -1316,16 +1316,16 @@ so what I want to do is when I break
 collect this cupcake I want food to go
 
 0:17:38.730,0:17:43.380
-down on my face now if you wanted you
+down now if you wanted you
 
 0:17:41.460,0:17:45.930
-could obviously start at zero but you
+could obviously start at zero and you
 
 0:17:43.380,0:17:49.680
 can make food go up but I'm gonna have a
 
 0:17:45.930,0:17:51.030
-countdown it's kind of my goal so I'm
+countdown is kind of my goal so I'm
 
 0:17:49.680,0:17:53.550
 going to go into the code for my cupcake
@@ -1337,16 +1337,16 @@ and I'm going to modify my variable in
 there now I don't want to set the
 
 0:17:55.470,0:18:00.810
-variable look I don't want to set it
+variable like I don't want to set it
 
 0:17:56.850,0:18:05.460
-before I want to change it by one so I
+to four I want to change it by one so I
 
 0:18:00.810,0:18:07.770
 want to change food by one and so I'm
 
 0:18:05.460,0:18:10.260
-going to say negative one because I want
+going to say negative one because I want it
 
 0:18:07.770,0:18:12.720
 to go down alright cool so I'll go ahead
@@ -1355,16 +1355,16 @@ to go down alright cool so I'll go ahead
 and so I'll pop up the stage just so we
 
 0:18:12.720,0:18:17.580
-can see that the camera is here there
+can see that the counter is there
 
 0:18:14.270,0:18:21.000
-when I hit food a Twix before which is
+when I hit food it went to four which is
 
 0:18:17.580,0:18:23.490
-cool alright let's put some
+cool alright let's 
 
 0:18:21.000,0:18:25.200
-mass-producing cupcakes so I happen to
+mass produce cupcakes so I happen to
 
 0:18:23.490,0:18:27.120
 know that there's one more change that
@@ -1379,7 +1379,7 @@ gonna go ahead and mass-produce it now
 so you can see the downside of early
 
 0:18:31.980,0:18:39.180
-mass production right it's a duplicate
+mass production right so duplicate
 
 0:18:34.610,0:18:42.630
 and so there I now have five cupcakes
@@ -1403,19 +1403,19 @@ too close to your monster because if he
 grabs them off the go it's gonna be hard
 
 0:18:53.340,0:18:59.220
-to figure out what's going on we have a
+to figure out what's going on being
 
 0:18:56.400,0:19:00.990
-CD I'm going to name my cupcakes you can
+OCD I'm going to name my cupcakes you can
 
 0:18:59.220,0:19:03.450
 see it kind of tried to go in unique
 
 0:19:00.990,0:19:05.970
-names but it didn't like named them as
+names but it didn't like name them as
 
 0:19:03.450,0:19:09.150
-logically as I would have I so I'm going
+logically as I would have so I'm going
 
 0:19:05.970,0:19:11.250
 to rename them one two three four five
@@ -1430,7 +1430,7 @@ area and rename them one two three four
 five cool and so now if I run it as I
 
 0:19:16.680,0:19:21.960
-collect these things and to make it
+collect these things oops lets make it
 
 0:19:18.240,0:19:25.380
 bigger it says three two one and then
@@ -1439,7 +1439,7 @@ bigger it says three two one and then
 here it says zero now whenever I get to
 
 0:19:25.380,0:19:32.400
-zero I nothing really happens right so
+zero nothing really happens right so
 
 0:19:29.520,0:19:35.520
 we're doing good but we want something
@@ -1448,7 +1448,7 @@ we're doing good but we want something
 to happen we want the Monster to say you
 
 0:19:35.520,0:19:41.730
-win the game to stop I'll beat the zero
+win and the game to stop when we get to zero
 
 0:19:38.520,0:19:43.140
 so let's go and add that code so for the
@@ -1475,10 +1475,10 @@ the bottom and I want to check if that
 variable is zero well all my cupcakes
 
 0:19:58.770,0:20:04.799
-are gone on the back so I hit play stop
+are gone i want them back so I hit play stop
 
 0:20:01.200,0:20:09.960
-back there back so if that variable is
+alright now they're back so if that variable is
 
 0:20:04.799,0:20:12.150
 zero then do stuff equals is an operator
@@ -1508,7 +1508,7 @@ could make each of these count up and
 then this would be like it food equals
 
 0:20:33.030,0:20:37.770
-five but but I have mine's a countdown
+five but mine's a countdown
 
 0:20:35.520,0:20:40.350
 so I want food equals zero now if that
@@ -1517,13 +1517,13 @@ so I want food equals zero now if that
 happens I want to say you win so I'm
 
 0:20:40.350,0:20:45.809
-gonna go to looks and I'm gonna find us
+gonna go to looks and I'm gonna find 
 
 0:20:43.260,0:20:47.340
-a block so there's really complex
+a say block so there's really complex
 
 0:20:45.809,0:20:49.860
-gearing ones up here and then there's
+scary ones up here and then there's
 
 0:20:47.340,0:20:52.770
 really simple ones down here I actually
@@ -1535,7 +1535,7 @@ want one of the complex scary ones and
 I'm going to drop it in here and the
 
 0:20:54.450,0:20:58.860
-reason I want a complex everyone is
+reason I want a complex scary one is
 
 0:20:56.309,0:21:01.410
 because it's got all the options that I
@@ -1544,7 +1544,7 @@ because it's got all the options that I
 can set so I can set the text obviously
 
 0:21:01.410,0:21:07.919
-I'm gonna make this a you win I can set
+I'm gonna make it say you win I can set
 
 0:21:04.049,0:21:10.350
 what type of text box it is I'm gonna go
@@ -1559,22 +1559,22 @@ the default one by the way just puts a
 message at the bottom of the screen
 
 0:21:13.740,0:21:17.640
-which is cool but but not what we want
+which is cool but not what we want
 
 0:21:15.660,0:21:19.500
 here and then for speech bubbles I
 
 0:21:17.640,0:21:21.540
-happened into the 18 is a really small
+happened to know that 18 is a really small
 
 0:21:19.500,0:21:23.700
-font I so I'm gonna bump it up before
+font I so I'm gonna bump it up to 
 
 0:21:21.540,0:21:26.549
-date so I set the text set the style of
+48 so I set the text set the style to
 
 0:21:23.700,0:21:28.890
-a rectangular and then I set this to 48
+rectangular and then I set this to 48
 
 0:21:26.549,0:21:32.940
 and then the last thing I want to do is
@@ -1583,37 +1583,37 @@ and then the last thing I want to do is
 I want to put a stop all immediately
 
 0:21:32.940,0:21:36.929
-after of that text message so I'm going
+after that text message so I'm going
 
 0:21:35.070,0:21:40.950
 to put it immediately after that text
 
 0:21:36.929,0:21:43.980
-message I'm gonna go and run it I just
+message I'm gonna go and run it just
 
 0:21:40.950,0:21:48.120
 to see if it works so I grab a donut or
 
 0:21:43.980,0:21:50.429
-a cupcake cupcake to left and 0 so now
+a cupcake cupcake two left and 0 so now
 
 0:21:48.120,0:21:55.340
 it says you win and the game comes to a
 
 0:21:50.429,0:21:56.930
-stop which is going great so almost done
+stop which is cool great so almost done
 
 0:21:55.340,0:21:59.630
-we worth saving some click on the Save
+probably worth saving so I'm gonna click on the Save
 
 0:21:56.930,0:22:01.850
 button for now so I'm just gonna save
 
 0:21:59.630,0:22:03.050
-I'll tell all I'll do it and publish
+I'll tell what I'll do an and publish
 
 0:22:01.850,0:22:05.770
-later right now I'm still working about
+later right now I'm still working on
 
 0:22:03.050,0:22:05.770
 it so I'm just gonna click Save
@@ -1676,13 +1676,13 @@ right now things like that really get
 people because you're like oh my monster
 
 0:22:50.810,0:22:56.750
-stop movement and go panic one thing you
+stopped moving and go panic one thing you
 
 0:22:53.990,0:22:59.390
 can do is you can try to look at your
 
 0:22:56.750,0:23:00.890
-food but also this debug button can be
+code but also this debug button can be
 
 0:22:59.390,0:23:04.490
 handy as well so if I click on this
@@ -1691,7 +1691,7 @@ handy as well so if I click on this
 debug button and I hit play what it'll
 
 0:23:04.490,0:23:10.880
-do is it will let me redo that a little
+do is it will let me do that a little
 
 0:23:08.750,0:23:13.280
 slower so if I hit play you can see it
@@ -1703,7 +1703,7 @@ goes through and shows you each line of
 code like as it's running and telling
 
 0:23:16.040,0:23:21.080
-you you see what's happening and then
+you what's happening and then
 
 0:23:18.560,0:23:22.490
 when it gets to the bottom you can see
@@ -1730,7 +1730,7 @@ know you can set breakpoints that's what
 you can do in the bottom of control you
 
 0:23:35.270,0:23:41.210
-can put a breakpoint in and so I you
+can put a breakpoint in and so you
 
 0:23:38.090,0:23:42.830
 know you put a breakpoint in and you can
@@ -1742,7 +1742,7 @@ see what happens like when it when it
 hits your breakpoint right now of course
 
 0:23:45.050,0:23:47.780
-if you put a very point that you've
+if you put a breakpoint there you've
 
 0:23:46.340,0:23:49.220
 obviously figured out what the problem
@@ -1760,7 +1760,7 @@ you're trying to figure out these
 stumpers and of course the problem is
 
 0:23:55.700,0:24:01.130
-that was just a normal slide
+that was just in the wrong spot
 
 0:23:57.110,0:24:03.830
 ah cool so game almost complete I'm
@@ -1769,7 +1769,7 @@ ah cool so game almost complete I'm
 going to add one more feature i want the
 
 0:24:03.830,0:24:09.900
-monster to start slow and then you
+monster to start slow and then get
 
 0:24:07.170,0:24:12.090
 faster I'm going to need another
@@ -1790,7 +1790,7 @@ speed I'm going to let the cupcakes
 change it so I'm gonna say it's for all
 
 0:24:21.390,0:24:26.310
-actors but really just the just a
+actors but really just the 
 
 0:24:23.610,0:24:28.980
 monster uses it by the way you can set a
@@ -1805,13 +1805,13 @@ we wanted him to reset to ten and that
 will make sure that the variable
 
 0:24:33.480,0:24:38.490
-automatically gets yourself or you know
+automatically gets reset for you now
 
 0:24:35.880,0:24:40.110
-I rarely do that trick the reset very
+I rarely do that trick the reset variable
 
 0:24:38.490,0:24:42.600
-blogs just showed you that it's but it's
+I was just showing you that it's 
 
 0:24:40.110,0:24:44.880
 possible and that's because I like for
@@ -1820,10 +1820,10 @@ possible and that's because I like for
 it to actually be in my code so I can
 
 0:24:44.880,0:24:50.700
-see it right so I like to say on my code
+see it right so I like to say in my code
 
 0:24:47.840,0:24:53.940
-set speed so I'm on the monster spare
+set speed so I'm on the monster's code
 
 0:24:50.700,0:24:57.480
 now set speed to be ten and then I can
@@ -1832,16 +1832,16 @@ now set speed to be ten and then I can
 see it in my code as opposed to you know
 
 0:24:57.480,0:25:02.310
-they're there a reset on stop trick
+they're reset on stop trick
 
 0:24:59.820,0:25:04.320
-reset stop is useful but I prefer to
+reset on stop is useful but I prefer to
 
 0:25:02.310,0:25:06.480
 just put it in here now I want to use
 
 0:25:04.320,0:25:09.360
-speed so I'm going to speed to be right
+speed so I want speed to be right
 
 0:25:06.480,0:25:11.040
 here so right now all I've done is I've
@@ -1850,7 +1850,7 @@ here so right now all I've done is I've
 just made the game slower right because
 
 0:25:11.040,0:25:17.340
-I went from 30 to ten what about the
+I went from 30 to ten what I want the
 
 0:25:14.910,0:25:20.700
 cupcakes to do is I want cupcakes to
@@ -1859,25 +1859,25 @@ cupcakes to do is I want cupcakes to
 increase speed so cupcakes now have two
 
 0:25:20.700,0:25:27.900
-functions they make food go down then
+functions they make food go down and 
 
 0:25:26.190,0:25:30.690
 they make speed go up right now I've
 
 0:25:27.900,0:25:32.760
-only modified cupcake one so when I
+only modified cupcake one so whenever I
 
 0:25:30.690,0:25:35.130
-write get like cupcake to you know
+get like cupcake two you know
 
 0:25:32.760,0:25:36.930
 nothing really happens or this cupcake
 
 0:25:35.130,0:25:38.610
-nothing what happens now whenever I hit
+nothing really happens now whenever I hit
 
 0:25:36.930,0:25:40.920
-the one that is kept the cake one which
+the one that is cupcake one which
 
 0:25:38.610,0:25:43.530
 was that one it did speed up but
@@ -1895,10 +1895,10 @@ is I'm going to drag and drop it on the
 dot cupcake and that one and that one
 
 0:25:53.090,0:25:59.040
-and that one so what that means that
+and that one so what that did is that
 
 0:25:56.010,0:26:01.920
-actually put it somewhere in there block
+actually put it somewhere in their block
 
 0:25:59.040,0:26:03.930
 of code but it didn't actually put it in
@@ -1940,19 +1940,19 @@ mouse pointer it's going nice and slow
 and then as he hits cupcakes
 
 0:26:31.239,0:26:38.679
-I hit begins to speed up cool so you win
+he hit begins to speed up cool so you win
 
 0:26:35.309,0:26:39.879
-all right so I'm ready to to be done of
+all right so I'm ready to be done with
 
 0:26:38.679,0:26:42.099
 this thing I'm going to go ahead and
 
 0:26:39.879,0:26:44.619
-click on publish to community I just saw
+click on publish to community I just so
 
 0:26:42.099,0:26:51.399
-other people can see lifts and so this
+other people can see this and so this
 
 0:26:44.619,0:26:59.259
 is my connecting with code week one day
@@ -1961,7 +1961,7 @@ is my connecting with code week one day
 one exercise so I'll hit save and
 
 0:26:59.259,0:27:04.989
-publish I'm hey since this is kind of
+publish hey since this is kind of
 
 0:27:02.950,0:27:08.259
 the advanced video maybe we'll do one
@@ -1982,7 +1982,7 @@ because it can be nice to make multiple
 examples let's go ahead and see if we
 
 0:27:16.869,0:27:20.470
-can make one more I'm actually maybe I
+can make one more actually maybe I
 
 0:27:19.269,0:27:22.450
 should make that a different video so
@@ -2000,7 +2000,7 @@ video
 alright see you next time thanks for
 
 0:27:27.220,0:27:32.019
-joining us for connecting with to keep
+joining us for connecting with code keep
 
 0:27:29.590,0:27:36.429
 doing this stuff also make sure you're
