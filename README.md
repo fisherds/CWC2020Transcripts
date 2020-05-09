@@ -9,6 +9,6 @@ Status
 ### Week 1 - Day 1
  - Not started  http://youtube.com/watch?v=D5yKuhgDSXc Camp Style Monster Feast (do this one last in case of refilm)
  - Ready to Upload  http://youtube.com/watch?v=7UYDxjTXYu4 Compact Style Monster Feast
- - Not started  http://youtube.com/watch?v=E-JNnFChAZo Extra project 
+ - In Progress  http://youtube.com/watch?v=E-JNnFChAZo Extra project 
 ### Week 1 - Day 2
  - Not started  http://youtube.com/watch?v=7BrPpaDN_RY Treasure Island
