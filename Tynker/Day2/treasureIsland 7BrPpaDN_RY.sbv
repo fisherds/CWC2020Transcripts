@@ -2,10 +2,10 @@
 [Music]
 
 0:00:03.890,0:00:08.250
-hey welcome back today is day two the
+hey welcome back today is day two of the 
 
 0:00:06.810,0:00:10.500
-tinkerer can't what we're going to be
+Tynker camp what we're going to be
 
 0:00:08.250,0:00:12.090
 working on today is building on the
@@ -17,7 +17,7 @@ skills that we got yesterday so we're
 gonna continue to work with variables to
 
 0:00:14.280,0:00:17.520
-get better with tinker and today we're
+get better with Tynker and today we're
 
 0:00:15.960,0:00:18.810
 gonna do some things with drawing it's
@@ -38,7 +38,7 @@ that's not coding but it is right so
 coding creating apps creating projects
 
 0:00:28.199,0:00:33.270
-there's a lot of design emerges really
+there's a lot of design it emerges really
 
 0:00:30.689,0:00:34.350
 well with art and music and so today one
@@ -47,10 +47,10 @@ well with art and music and so today one
 of the main things we're doing is
 
 0:00:34.350,0:00:38.160
-working our drawing we're stuck in the
+working on our drawing we're still gonna
 
 0:00:36.030,0:00:40.500
-right code too so here's the game that
+write code too so here's the game that
 
 0:00:38.160,0:00:43.320
 we're gonna make so we're gonna make a
@@ -59,7 +59,7 @@ we're gonna make so we're gonna make a
 game it's called Treasure Island you can
 
 0:00:43.320,0:00:46.680
-kinda love whatever you want but the
+title it whatever you want but the
 
 0:00:45.090,0:00:49.950
 idea of Treasure Island is that your
@@ -86,13 +86,13 @@ the variable in the corner see where it
 says speed 20 up there watch what
 
 0:01:04.170,0:01:11.100
-happens if I went again it says speed 40
+happens if I win again it says speed 40
 
 0:01:08.100,0:01:13.890
-and so our speed which is our variable I
+and so our speed which is our variable 
 
 0:01:11.100,0:01:16.979
-gets fast for each time and then if you
+gets faster each time and then if you
 
 0:01:13.890,0:01:18.869
 do hit an island it'll say you wrecked
@@ -107,7 +107,7 @@ and what we're gonna do is we're gonna
 make this together you wrecked your ship
 
 0:01:22.140,0:01:27.990
-and then you're challenged for today if
+and then your challenged for today if
 
 0:01:25.380,0:01:30.150
 you like a challenge is to build the
@@ -131,7 +131,7 @@ home so you made at home and then of
 course it says let's go faster so I
 
 0:01:42.780,0:01:46.380
-think that's the that's the idea and
+think that's the idea and
 
 0:01:44.340,0:01:47.549
 then if you wreck it does that so that's
@@ -173,7 +173,7 @@ I'm gonna go ahead and say blank block
 coding
 
 0:02:13.710,0:02:18.120
-project I just because that is
+project just because that is
 
 0:02:15.330,0:02:19.860
 definitely what we're making so the
@@ -191,7 +191,7 @@ remember don't need a monster in this
 one so the first thing I'm gonna do is
 
 0:02:25.800,0:02:29.790
-I'm going to delete my monster I saw I'm
+I'm going to delete my monster so I'm
 
 0:02:28.290,0:02:34.350
 gonna click on these little three dots
@@ -314,7 +314,7 @@ pirate ship was actually very small that
 way I could kind of like make an
 
 0:04:09.480,0:04:13.680
-intricate you know island may use for
+intricate you know island maze for
 
 0:04:12.300,0:04:15.840
 him to get through so I'm gonna take my
@@ -359,7 +359,7 @@ started my pirate ship and then after
 that I'm gonna go do some drawing and
 
 0:04:43.949,0:04:47.100
-drawing it's going to be kind of the
+drawing is going to be kind of the
 
 0:04:45.090,0:04:49.860
 interesting things that really bring
@@ -389,7 +389,7 @@ games you have an on start and so on
 start is code that runs whenever you
 
 0:05:04.650,0:05:09.120
-want to restart this game and what I'm
+start this game and what I'm
 
 0:05:07.500,0:05:11.910
 gonna choose to do here is I'm gonna be
@@ -401,7 +401,7 @@ a little like controlling I'm gonna add
 a go to block just to make sure my
 
 0:05:14.610,0:05:20.669
-pirates dip starts in the correct spot
+pirates ship starts in the correct spot
 
 0:05:17.750,0:05:22.259
 now this go to block isn't strictly
@@ -458,7 +458,7 @@ video and go get a sheet of paper it's
 nice to have a sheet of paper so you can
 
 0:06:01.080,0:06:05.550
-write down some numbers right I so I'm
+write down some numbers right so I'm
 
 0:06:03.720,0:06:07.229
 gonna get a sheet of paper and I'm gonna
@@ -467,7 +467,7 @@ gonna get a sheet of paper and I'm gonna
 write those numbers down on the sheet of
 
 0:06:07.229,0:06:15.539
-paper so for me it's negative 641 Y 305
+paper so for me it's x negative 641 Y 305
 
 0:06:12.560,0:06:17.639
 so now I've got that written down so now
@@ -515,7 +515,7 @@ you type them in and the reason we wrote
 them down is because we have to move our
 
 0:06:50.340,0:06:53.100
-mouse to go type of mam and then we
+mouse to go type them in and then we
 
 0:06:52.170,0:06:55.320
 can't see them anymore
@@ -632,7 +632,7 @@ mouse pointer and the difference is
 point towards doesn't move him he just
 
 0:08:20.190,0:08:23.970
-he just kind of aims it back right that
+he just kind of aims at the mouse right that
 
 0:08:22.110,0:08:26.100
 way he'll take some number of steps
@@ -671,7 +671,7 @@ right so we have we have plenty of code
 here to try it so let's go ahead and run
 
 0:08:53.329,0:09:01.190
-our code and we'll see if he follows her
+our code and we'll see if he follows the
 
 0:08:58.820,0:09:04.730
 mouse ah this was a good test because I
@@ -686,7 +686,7 @@ it he basically just stays with my mouse
 no matter what I have a bug in my code I
 
 0:09:09.980,0:09:14.389
-didn't do it on purpose it just just I
+didn't do it on purpose it just I
 
 0:09:12.500,0:09:17.720
 forgot to have something right and the
@@ -713,7 +713,7 @@ infinitely fast so I needed a time delay
 I just forgot I've been using scratch
 
 0:09:33.110,0:09:38.209
-too much Oh scratch you don't need it
+too much and in scratch you don't need it
 
 0:09:34.730,0:09:45.139
 so I need a small time delay so go to
@@ -731,7 +731,7 @@ find it it was actually really near the
 bottom so if you go all the way to the
 
 0:09:51.470,0:09:56.290
-bottom you'll find this wait one second
+bottom you'll find this wait one seconds
 
 0:09:56.470,0:10:02.510
 and you can drop it in to the bottom of
@@ -761,7 +761,7 @@ number that I use a lot is 0.05 that's
 five hundredths of a second and so
 
 0:10:25.579,0:10:29.449
-basically that makes your game be it
+basically that makes your game be at
 
 0:10:26.990,0:10:31.459
 what's called twenty frames per second
@@ -836,13 +836,13 @@ variable it's that orange button that I
 clicked on whenever you create a
 
 0:11:30.830,0:11:35.089
-variable and I ask you a couple
+variable it asks you a couple
 
 0:11:32.029,0:11:36.740
-questions the questions that I ask you
+questions the questions that it asks you
 
 0:11:35.089,0:11:39.050
-is to ask you what do you want to name
+is it asks you what do you want to name
 
 0:11:36.740,0:11:42.110
 your variable this variable is going to
@@ -872,7 +872,7 @@ then but the cupcakes changed it so both
 people used it now it's just gonna be
 
 0:12:00.500,0:12:06.230
-the shit so you can actually just say
+the ship that uses it so you can actually just say
 
 0:12:03.050,0:12:08.120
 for this actor only which was the
@@ -884,10 +884,10 @@ default for me so now I go ahead and
 click on create now at this point I have
 
 0:12:11.899,0:12:18.170
-a variable it sits in my computer it's
+a variable it's in my computer it's
 
 0:12:14.930,0:12:20.600
-there but I can't see the value all I
+there but I can't see the value so what I
 
 0:12:18.170,0:12:24.440
 like to do is I'm gonna add a text
@@ -935,10 +935,10 @@ so we can actually just hit play and we
 should see the value of speed which I
 
 0:12:56.630,0:13:01.520
-forgot to set again all right every time
+forgot to set again right every time
 
 0:12:59.600,0:13:05.510
-I seem to forget this at the set the
+I seem to forget to set the
 
 0:13:01.520,0:13:06.920
 speed so last time just to share we had
@@ -947,10 +947,10 @@ speed so last time just to share we had
 to like change something in here I don't
 
 0:13:06.920,0:13:09.640
-think that's an
+think that's necessary
 
 0:13:07.690,0:13:13.360
-sorry this time but we do still need to
+this time but we do still need to
 
 0:13:09.640,0:13:15.970
 set the speed making lots of good errors
@@ -992,10 +992,10 @@ and right now it doesn't know what
 variable to set so I'm going to click on
 
 0:13:43.330,0:13:50.680
-the drop down and say speed we have
+the drop down and say speed we have a question
 
 0:13:48.570,0:13:53.260
-alright that's the hold on got got a
+alright so hold on we got a
 
 0:13:50.680,0:13:54.730
 question so I'm gonna pause here I've
@@ -1007,10 +1007,10 @@ got my campers with me again today I
 didn't even say that all right so what's
 
 0:13:57.100,0:14:03.850
-your question
+your question our code does not look like your code
 
 0:13:57.610,0:14:08.020
-oh yeah so I've got got code like this
+how do we get it back oh yeah so we've got code like this
 
 0:14:03.850,0:14:09.940
 so the problem is and you did a great
@@ -1031,13 +1031,13 @@ code for the speed watcher but I'm
 changing the code for my hero so this is
 
 0:14:20.140,0:14:24.310
-currently in the wrong spot so Boeing
+currently in the wrong spot so Bowen
 
 0:14:22.480,0:14:27.310
 you're gonna have to take take something
 
 0:14:24.310,0:14:30.450
-out so to take something out click on
+out take the set out so to take something out click on
 
 0:14:27.310,0:14:36.130
 the little handle on the far right and
@@ -1049,16 +1049,16 @@ trash that and now switch over to the
 sleepy dragon and now grab a set for the
 
 0:14:41.890,0:14:51.220
-sleepy dragon and put it up here now bow
+sleepy dragon and put it up here now Bowen
 
 0:14:47.500,0:14:53.070
-in your code and my code I look to be a
+your code and my code look to be a
 
 0:14:51.220,0:14:58.589
-lot better so that makes sense bone
+lot better so that makes sense Bowen
 
 0:14:53.070,0:15:00.460
-great job you can do good alright
+great job Keegan you good alright
 
 0:14:58.589,0:15:03.880
 alright so let's keep going
@@ -1088,16 +1088,16 @@ my little test first so I set it to 10
 and what I want to do is I want to see
 
 0:15:20.560,0:15:22.600
-if
+if my 
 
 0:15:20.860,0:15:24.250
-texe watchers working so I'm just gonna
+text watcher is working so I'm just gonna
 
 0:15:22.600,0:15:26.560
 run it really quick just to see if my
 
 0:15:24.250,0:15:29.830
-text lectures working and it is workin
+text watcher is working and it is working
 
 0:15:26.560,0:15:31.450
 right so there was no no bug today so
@@ -1130,7 +1130,7 @@ variable but we're not using it anywhere
 and we're not changing it anywhere we're
 
 0:15:51.490,0:15:55.390
-gonna change it later well let's go
+gonna change it later let's go
 
 0:15:53.110,0:15:57.880
 ahead and use it for now so take speed
@@ -1145,7 +1145,7 @@ speed into move speed pixels and so now
 what's gonna happen is your ship is
 
 0:16:07.300,0:16:11.860
-going to move based on that variable I
+going to move based on that variable 
 
 0:16:10.000,0:16:15.280
 so just to kind of test it let's say you
@@ -1166,7 +1166,7 @@ with the speed of 50 and of course if
 your speed was slower let's say I tried
 
 0:16:26.110,0:16:31.510
-to that would make my ship move quite a
+two that would make my ship move quite a
 
 0:16:29.800,0:16:34.270
 bit slower so you can see that this
@@ -1178,16 +1178,16 @@ variable is being used but right now
 it's not changing and then when you're
 
 0:16:37.750,0:16:43.600
-done with that test put it back to it in
+done with that test put it back to an in
 
 0:16:39.970,0:16:46.240
 between value now if you did that great
 
 0:16:43.600,0:16:48.400
-it's fun like CJ code changes but you
+it's fun to like see code changes but you
 
 0:16:46.240,0:16:51.040
-could also just watch mine and Bend just
+could also have just watched mine and been just
 
 0:16:48.400,0:16:53.290
 fine so I think our ship is actually
@@ -1259,13 +1259,13 @@ image so I put in a kitchen and it was
 just like boom there this time if you
 
 0:17:56.090,0:17:59.450
-kind of like Lance up my finished
+kind of like glance at my finished
 
 0:17:57.380,0:18:01.730
 product this time what's going to happen
 
 0:17:59.450,0:18:04.070
-is we're going to draw so we're gonna
+is we're going to draw it so we're gonna
 
 0:18:01.730,0:18:06.230
 have to fill in the water with a blue
@@ -1307,7 +1307,7 @@ where the creativity aspect comes in I
 also like to add little challenges of
 
 0:18:31.970,0:18:34.370
-mine like where somebody like things
+mine like where somebody like thinks
 
 0:18:33.230,0:18:36.080
 they might be able to shoot it through
@@ -1316,19 +1316,19 @@ they might be able to shoot it through
 the middle I can't believe I just did
 
 0:18:36.080,0:18:41.360
-that I maybe I make it through the
+that I make it through the
 
 0:18:37.429,0:18:43.789
 middle like 1 in 10 times right and then
 
 0:18:41.360,0:18:46.159
-you know it's it's a fun challenging
+you know it's a fun challenging
 
 0:18:43.789,0:18:49.030
 game so that's kind of the idea so let's
 
 0:18:46.159,0:18:51.890
-go start brawling so click on the stage
+go start drawing so click on the stage
 
 0:18:49.030,0:18:54.380
 you'll notice that the stage has no code
@@ -1337,7 +1337,7 @@ you'll notice that the stage has no code
 and there's no backdrop yet so the only
 
 0:18:54.380,0:18:58.780
-thing if you click on the stage is this
+thing you click on the stage is this
 
 0:18:55.880,0:19:01.580
 gear so go and click on this little gear
@@ -1346,7 +1346,7 @@ gear so go and click on this little gear
 and what we want to do is and it says
 
 0:19:01.580,0:19:06.710
-hey the stage can't up costume sounds
+hey the stage can have costumes sounds
 
 0:19:03.799,0:19:08.990
 and advanced things we want costumes and
@@ -1355,7 +1355,7 @@ and advanced things we want costumes and
 so we want to click on add background so
 
 0:19:08.990,0:19:14.240
-go and click on add backgrounds ok now
+go and click on add backgrounds now
 
 0:19:12.470,0:19:15.590
 this screen we saw last time this is
@@ -1364,7 +1364,7 @@ this screen we saw last time this is
 actually trying to encourage you to
 
 0:19:15.590,0:19:19.750
-select a different background but we
+select a different background but what we
 
 0:19:17.780,0:19:22.190
 want to do this time is we want to draw
@@ -1379,13 +1379,13 @@ paintbrush and so this is where we're
 gonna draw image so go and click on
 
 0:19:26.600,0:19:31.640
-drawl image and for some reason you have
+draw image and then for some reason you have
 
 0:19:29.720,0:19:36.020
-to click it again tip to come draw image
+to click it again so you have to click on draw image
 
 0:19:31.640,0:19:37.909
-again maybe if we came back in here I
+again maybe if we came back in here we
 
 0:19:36.020,0:19:42.350
 would see something different so now we
@@ -1409,7 +1409,7 @@ to learn and then we're going to delete
 it and then we'll come back for the real
 
 0:19:51.920,0:19:55.250
-thing so this we're just we're just kind
+thing so this we're just kind
 
 0:19:53.210,0:19:58.370
 of learning so let's kind of learn more
@@ -1418,7 +1418,7 @@ of learning so let's kind of learn more
 about what this setup is so there's
 
 0:19:58.370,0:20:02.270
-different like drawing tools over all
+different like drawing tools over on
 
 0:20:00.530,0:20:05.000
 the left and then there's different
@@ -1454,7 +1454,7 @@ of your main drawing tools with the
 pencil you can change how big it is
 
 0:20:24.470,0:20:30.710
-right so go ahead and with the pencil I
+right so go ahead and with the pencil 
 
 0:20:27.950,0:20:32.750
 just kind of draw a little bit and you
@@ -1463,7 +1463,7 @@ just kind of draw a little bit and you
 can kind of see how drawing with the
 
 0:20:32.750,0:20:37.880
-pencil works now if somebody is is a
+pencil works now if somebody is a
 
 0:20:35.600,0:20:39.950
 great artist maybe they could draw you
@@ -1478,13 +1478,13 @@ right so my art with a pencil would be
 not very good but I do really like that
 
 0:20:47.440,0:20:53.900
-tinker and scratch both really encourage
+Tynker and scratch both really encourage
 
 0:20:50.510,0:20:56.060
 and allow creativity and drawing there
 
 0:20:53.900,0:20:57.920
-was a recent post on tinker where she
+was a recent post on Tynker where she
 
 0:20:56.060,0:21:00.890
 draws a dog and like she's just amazing
@@ -1493,7 +1493,7 @@ draws a dog and like she's just amazing
 so look up virtual pet some time on
 
 0:21:00.890,0:21:04.450
-thinker and you'll see how good she is
+tynker and you'll see how good she is
 
 0:21:02.840,0:21:07.190
 at drawing things right
@@ -1511,7 +1511,7 @@ the brush is for adding like artistic
 effects so you notice that the brush is
 
 0:21:15.050,0:21:19.180
-similar to the pencil and that you can
+similar to the pencil in that you can
 
 0:21:16.490,0:21:21.980
 change size but the brush has this like
@@ -1574,10 +1574,10 @@ put my mouse right here and I click
 right here
 
 0:22:07.560,0:22:15.180
-but what anything's going to happen if I
+Bowen what do you think is going to happen if I
 
 0:22:09.660,0:22:16.620
-click right here with yellow yeah it's
+click right here with yellow it's
 
 0:22:15.180,0:22:18.210
 just gonna do the whole entire screen so
@@ -1589,10 +1589,10 @@ if I click there it just does the whole
 entire screen yellow and that's because
 
 0:22:19.980,0:22:23.880
-phil has to be a closed shape and you'll
+fill has to be a closed shape and you'll
 
 0:22:22.650,0:22:26.190
-notice that this one is it's very much
+notice that one is it's very much
 
 0:22:23.880,0:22:28.170
 open so when we're drawing Islands today
@@ -1613,7 +1613,7 @@ island like that it's gonna work very
 badly right so if I fill that one in
 
 0:22:37.440,0:22:41.730
-oops I need to go to my my fill I fill
+oops I need to go to my my fill if I fill
 
 0:22:39.810,0:22:44.340
 this one then it works great if I fill
@@ -1628,10 +1628,10 @@ just kind of be aware that that's how
 the fill tool works the stamp tool is
 
 0:22:49.950,0:22:54.450
-fun it's just for adding a little like
+fun it's just for adding like little
 
 0:22:51.810,0:22:57.600
-decorations to your to your thing
+decorations to your thing
 
 0:22:54.450,0:23:00.990
 usually when you stamp something it's
@@ -1664,10 +1664,10 @@ tool do notice the line also has this
 thing called opacity so I'm just going
 
 0:23:22.710,0:23:27.450
-to kind of ensure that there's squares
+to kind of mention that there's squares
 
 0:23:25.310,0:23:30.540
-there's there's all kinds of things you
+there's all kinds of things you
 
 0:23:27.450,0:23:33.090
 can do right the other thing is text
@@ -1682,13 +1682,13 @@ font you want to use so if I wanted to
 say David Fisher I can do it in a cool
 
 0:23:38.850,0:23:45.540
-flat now I'm gonna point out something
+font now I'm gonna point out something
 
 0:23:43.380,0:23:47.130
-tricky cuz you guys are good let's let's
+tricky cuz you guys are good let's 
 
 0:23:45.540,0:23:48.540
-say what's what's tricky about the
+say what's tricky about the
 
 0:23:47.130,0:23:51.180
 drawing tool well one thing that's
@@ -1709,10 +1709,10 @@ click off on it
 what's happened is I've clicked off on
 
 0:23:59.580,0:24:03.810
-it and it's it's it's called a blip
+it and it's called a blit
 
 0:24:01.830,0:24:06.330
-that's what it is and it's it's been
+is what it is and it's been
 
 0:24:03.810,0:24:08.220
 painted on to the background I can no
@@ -1721,7 +1721,7 @@ painted on to the background I can no
 longer just grab it at this point right
 
 0:24:08.220,0:24:13.760
-so that's how tinker works
+so that's how Tynker works
 
 0:24:11.870,0:24:16.820
 if I just kind of do another example
@@ -1736,13 +1736,13 @@ it I can kind of move it around but as
 soon as I let go of it it's done
 
 0:24:22.640,0:24:27.230
-it sits on there right so it got pasted
+its on there right so it got pasted
 
 0:24:24.800,0:24:30.980
-in and that same thing is true for four
+in and that same thing is true for 
 
 0:24:27.230,0:24:34.040
-rectangles and you know I could I can
+rectangles and you know I can
 
 0:24:30.980,0:24:35.900
 grab it I can actually resize it but as
@@ -1766,7 +1766,7 @@ and you've used its vector mode this
 does behave differently now what's
 
 0:24:45.350,0:24:49.610
-worrying about one other thing I've been
+warn you about one other thing I've been
 
 0:24:47.330,0:24:53.540
 making this game I've been making this
@@ -1781,10 +1781,10 @@ I'm looking at on the screen is actually
 not the whole stage and the reason I
 
 0:24:58.130,0:25:01.340
-know that it's because see these bars on
+know that is because see these bars on
 
 0:24:59.960,0:25:05.690
-the side saying they don't fill the
+the side see how they don't fill the
 
 0:25:01.340,0:25:09.920
 whole thing zoom out for me so it turns
@@ -1811,10 +1811,10 @@ mistake a couple times but I start
 drawing and like I fill up the whole
 
 0:25:22.640,0:25:28.820
-thing and then I realized later that I
+thing and then I realize later that I
 
 0:25:25.820,0:25:31.070
-was actually waves good cool so that is
+was actually way zoomed in cool so that is
 
 0:25:28.820,0:25:34.490
 a beautiful backdrop I'm pretty proud of
@@ -1835,7 +1835,7 @@ like crazy but now what we're gonna do
 is we're gonna work together to build
 
 0:25:44.420,0:25:49.820
-something specific so your dots on this
+something specific so go nuts on this
 
 0:25:47.840,0:25:52.280
 sheet as much as you want but on the
@@ -1856,10 +1856,10 @@ just because I feel like it it's called
 blank one but I'm gonna change the name
 
 0:26:05.900,0:26:12.650
-to be islands that is not necessary I
+to be island that is not necessary I
 
 0:26:10.190,0:26:14.000
-just just don't like doing it the next
+just don't like doing it the next
 
 0:26:12.650,0:26:16.820
 thing I want to do is I want to change
@@ -1901,7 +1901,7 @@ of blue there's this color picker down
 here I don't know if you've seen this
 
 0:26:44.450,0:26:51.020
-yet but for this color picker I can pick
+yet but from this color picker I can pick
 
 0:26:47.000,0:26:53.150
 any shade of blue that I would like and
@@ -1967,13 +1967,13 @@ islands now for the coding reasons your
 islands all have to be the same color
 
 0:27:41.630,0:27:46.370
-because what the ship is doing is it
+because what the ship is doing is it is
 
 0:27:43.880,0:27:48.800
-saying hey if I touch this color that I
+saying hey if I touch this color then I'm
 
 0:27:46.370,0:27:51.860
-that I'm doing right so let's pick the
+doomed right so let's pick the
 
 0:27:48.800,0:27:53.630
 color for your islands I'm gonna go with
@@ -2000,7 +2000,7 @@ very specific color inside the color
 picker that'd be just fine
 
 0:28:06.290,0:28:10.340
-I maybe I'll go with kind of like a dark
+maybe I'll go with kind of like a dark
 
 0:28:07.970,0:28:15.800
 green island and what I'm gonna do is
@@ -2015,10 +2015,10 @@ where your your creativity comes in I'm
 gonna choose to have kind of like one
 
 0:28:20.660,0:28:27.440
-big island and then a couple other small
+big island and then a couple other smaller
 
 0:28:24.890,0:28:29.240
-more islands so you can see with the way
+islands so you can see with the way
 
 0:28:27.440,0:28:31.460
 I'm gonna strategize my game I'm gonna
@@ -2030,10 +2030,10 @@ make it to where you could if your risky
 shoot through the short cut but then
 
 0:28:34.220,0:28:39.220
-it's easier if you go a lot around the
+it's easier if you go around the
 
 0:28:36.680,0:28:42.429
-long way so
+long way so I'm
 
 0:28:39.220,0:28:43.840
 not gonna you know give you an unlimited
@@ -2045,19 +2045,19 @@ amount of time to do this you're
 probably gonna have to pause the video
 
 0:28:44.980,0:28:51.700
-but you can draw shapes for each of this
+but you can draw shapes for ages
 
 0:28:48.490,0:28:55.419
 right kids love to draw and if your
 
 0:28:51.700,0:28:57.520
-first pass goes weld and super I hope it
+first pass goes well then super I hope it
 
 0:28:55.419,0:28:59.679
 goes badly you know you can always do it
 
 0:28:57.520,0:29:02.409
-again so I'm gonna draw all some shapes
+again so I'm gonna draw some shapes
 
 0:28:59.679,0:29:05.799
 just to kind of like make my game tricky
@@ -2078,13 +2078,13 @@ that I've kind of done that with my
 shapes once you've got a couple shapes
 
 0:29:18.640,0:29:25.480
-it's time to fill them in to fill a menu
+it's time to fill them in to fill them in you
 
 0:29:22.690,0:29:32.140
 go to your paint bucket and you fill in
 
 0:29:25.480,0:29:34.419
-your very shapes and you can zoom in to
+your various shapes and you can zoom in to
 
 0:29:32.140,0:29:37.030
 try to like hit them better if you want
@@ -2144,28 +2144,28 @@ eyedropper tool so if they ever needed
 to draw in blue again you say eyedropper
 
 0:30:18.669,0:30:22.630
-and blue and then that lets you kind of
+and click in blue and then that lets you kind of
 
 0:30:20.919,0:30:24.970
 have an opportunity to kind of like draw
 
 0:30:22.630,0:30:26.530
-in your blue so like I could dido loop
+in your blue so like I could you know loop
 
 0:30:24.970,0:30:27.970
 this out a little bit more or if they
 
 0:30:26.530,0:30:29.559
-wanted to draw more on their island
+wanted to draw more in their island
 
 0:30:27.970,0:30:31.659
 color they could use the eyedropper
 
 0:30:29.559,0:30:33.130
-click there island color and then they
+click their island color and then they
 
 0:30:31.659,0:30:34.659
-could draw a little bit more than color
+could draw a little bit more in their island color
 
 0:30:33.130,0:30:36.970
 so that was a good skill for them and
@@ -2186,16 +2186,16 @@ our goal or target that we're trying to
 get to and so let's go ahead and draw
 
 0:30:48.280,0:30:52.519
-I'll just go and use the pencil again I
+I'll just go and use the pencil again I'll
 
 0:30:49.960,0:30:55.879
 use a big pencil but pick a new color
 
 0:30:52.519,0:30:58.970
-for your career victory so this is kind
+for your victory so this is kind
 
 0:30:55.879,0:31:01.009
-of like your your gold right and so
+of like your gold right and so
 
 0:30:58.970,0:31:05.450
 somewhere I just kind of like put a
@@ -2213,7 +2213,7 @@ now interestingly I picked a very
 different color I just so you could see
 
 0:31:12.470,0:31:17.600
-it quite vividly but it couldn't be
+it quite vividly but it could be
 
 0:31:14.799,0:31:19.909
 similar in color just so long as it's
@@ -2234,7 +2234,7 @@ cannot use either of those two colors so
 if you start like making stamps and
 
 0:31:31.909,0:31:36.559
-things if there are completely different
+things if they are completely different
 
 0:31:34.129,0:31:38.690
 colors you can do that I'm not going to
@@ -2288,7 +2288,7 @@ only get to move it like one time and
 then as soon as you let go
 
 0:32:19.759,0:32:25.309
-it's it stuck on there just for giggles
+it's stuck on there just for giggles
 
 0:32:22.999,0:32:29.240
 I will make a mistake right so I'm gonna
@@ -2297,7 +2297,7 @@ I will make a mistake right so I'm gonna
 click up here I'm gonna say you know
 
 0:32:29.240,0:32:40.159
-Dave Fisher's islands and so I want this
+Dave Fisher's island and so I want this
 
 0:32:36.259,0:32:42.019
 to be moved into here right now if I did
@@ -2306,7 +2306,7 @@ to be moved into here right now if I did
 mess up let's say I put it up here and
 
 0:32:42.019,0:32:46.279
-then I let go of it I'd stuck there
+then I let go of it ah it's stuck there
 
 0:32:45.019,0:32:48.139
 right by the way it jumped a little bit
@@ -2336,13 +2336,13 @@ add text or something you can so there
 I'm going to add Dave Fisher
 
 0:33:06.029,0:33:13.559
-Islands and then once you're happy with
+Island and then once you're happy with
 
 0:33:09.809,0:33:16.859
 that we can click on save and we can go
 
 0:33:13.559,0:33:18.389
-back to the other one so I've got who
+back to the other one so I've got oh
 
 0:33:16.859,0:33:19.710
 actually before we go back let's do one
@@ -2354,7 +2354,7 @@ more thing let's write down some stuff
 onto our sheet of paper so our code
 
 0:33:23.729,0:33:29.429
-needs to know what colors were used so
+needs to know what colors we used so
 
 0:33:27.509,0:33:31.109
 we're gonna need that in our code so
@@ -2381,13 +2381,13 @@ follow along with me even if you're
 doing something different click on the
 
 0:33:42.869,0:33:47.820
-eyedropper click on you're your death
+eyedropper click on your death
 
 0:33:46.049,0:33:52.229
 color so click on one of your islands
 
 0:33:47.820,0:33:56.249
-and then click on this light color
+and then click on this like color
 
 0:33:52.229,0:33:59.639
 selector I know it's like 18 steps right
@@ -2423,7 +2423,7 @@ just so you know how it works
 the letters if it's a letter is going to
 
 0:34:22.470,0:34:32.700
-be a through F and the numbers are 4 0
+be a through F and the numbers are of course 0
 
 0:34:25.529,0:34:34.139
 through 9 so mine here is 6 5 8 0 3 B so
@@ -2450,13 +2450,13 @@ click on the color chooser and then you
 click on hex by the way scratch makes
 
 0:34:51.720,0:34:56.849
-this way easier but let's not think it
+this way easier but oh well that's how Tynker
 
 0:34:54.510,0:35:00.150
 works so now I'm going to write down the
 
 0:34:56.849,0:35:02.069
-color of my my victory all that when I
+color of my victory oh that one I
 
 0:35:00.150,0:35:04.950
 maybe could have memorized kind of looks
@@ -2465,7 +2465,7 @@ maybe could have memorized kind of looks
 like the word food except for those O's
 
 0:35:04.950,0:35:09.779
-or zeros yeah O's and zeros are never a
+they're zeros yeah O's and zeros are never a
 
 0:35:08.160,0:35:11.250
 question you know that it's a number you
@@ -2474,7 +2474,7 @@ question you know that it's a number you
 know that it's a zero because the
 
 0:35:11.250,0:35:19.289
-letters can only be a through F right so
+letters can only be A through F right so
 
 0:35:13.890,0:35:19.530
 this one is FF 0 0 D 5 so yeah it's like
@@ -2486,10 +2486,10 @@ a
 four-step process so you click on color
 
 0:35:22.710,0:35:28.830
-chooser I'm sorry I dropper then the
+chooser or sorry eye dropper then the
 
 0:35:26.640,0:35:30.990
-color chooser and then hax and that's
+color chooser and then hex and that's
 
 0:35:28.830,0:35:33.570
 the number that your codes going to need
@@ -2510,13 +2510,13 @@ which one is pink for me right by the
 way if you happen to really like know
 
 0:35:42.510,0:35:47.100
-about colors and light colors and what a
+about colors and light colors and want to learn 
 
 0:35:44.790,0:35:50.430
-lot about hexadecimals this number is
+about hexadecimals this number is
 
 0:35:47.100,0:35:53.550
-meaningful but that's not now or up to
+meaningful but that's not what we're up to
 
 0:35:50.430,0:35:55.860
 today cool so once you've got your
@@ -2534,7 +2534,7 @@ part of today and you can go back to
 your game now when I click back
 
 0:36:03.450,0:36:08.850
-it looks like I've still got the two two
+it looks like I've still got the two 
 
 0:36:06.930,0:36:09.840
 drawings that are made in here you can
@@ -2582,10 +2582,10 @@ sail right through your islands it
 doesn't really matter right so that's
 
 0:36:43.380,0:36:46.350
-just how this game works how you can say
+just how this game works how you can sail
 
 0:36:45.330,0:36:47.520
-all right over here and touch your
+right over here and touch your
 
 0:36:46.350,0:36:49.710
 treasure but nothing happens there
@@ -2594,7 +2594,7 @@ treasure but nothing happens there
 either the reason I'm doing this is
 
 0:36:49.710,0:36:54.120
-because this is a way to test I did you
+because this is a way to test did you
 
 0:36:52.440,0:36:56.520
 did you do a good job with your game
@@ -2624,7 +2624,7 @@ time to do now I'm gonna call mine good
 enough so that we can all move forward
 
 0:37:09.420,0:37:17.250
-right so now let's let's have the pirate
+right so now let's have the pirate
 
 0:37:13.020,0:37:20.490
 ship check am i touching the islands and
@@ -2633,7 +2633,7 @@ ship check am i touching the islands and
 if so I lose right or am i touching the
 
 0:37:20.490,0:37:27.060
-goal um and if so I win so a check is an
+goal and if so I win so a check is an
 
 0:37:24.750,0:37:30.900
 if statement so an if statement is in
@@ -2642,7 +2642,7 @@ if statement so an if statement is in
 control and so we're going to add an if
 
 0:37:30.900,0:37:36.640
-statement for a my touching
+statement for am I touching
 
 0:37:33.340,0:37:38.260
 the island and then because we know that
@@ -2660,7 +2660,7 @@ gonna be like am i touching victory
 right so it's either have I died or have
 
 0:37:45.910,0:37:49.000
-I won and if neither of those things are
+I won and if neither of those things have
 
 0:37:47.740,0:37:52.900
 happened then we just keep playing right
@@ -2696,7 +2696,7 @@ and then drop one of these in there now
 we've got two colors we've got one color
 
 0:38:18.580,0:38:23.260
-which is it's death and the other color
+which is death and the other color
 
 0:38:21.310,0:38:25.540
 which is victory what I'm going to do is
@@ -2714,7 +2714,7 @@ color and I'll type in mine and it's
 going to be some combination of numbers
 
 0:38:38.110,0:38:43.270
-and letters now the nice thing is is
+and letters now the nice thing is
 
 0:38:40.030,0:38:44.650
 when you finish you should get feedback
@@ -2732,7 +2732,7 @@ stage so I'm going to do that for my
 other one as well make sure you leave
 
 0:38:51.670,0:38:59.500
-that little hatch over there right so FF
+that little hatch over there right so FF000D5
 
 0:38:56.670,0:39:02.470
 so don't worry about my colors you worry
@@ -2744,7 +2744,7 @@ about your colors right so there I
 should have typed in both of my colors
 
 0:39:04.630,0:39:12.610
-that I'm done with my sheet of paper now
+then I'm done with my sheet of paper now
 
 0:39:05.890,0:39:13.480
 right so now in my code I'm checking did
@@ -2774,10 +2774,10 @@ speech bubbles again there's these
 speech bubbles that are really
 
 0:39:30.340,0:39:34.150
-intimidating they have lots of features
+intimidating that have lots of features and 
 
 0:39:32.230,0:39:36.250
-then there's a really simple ones I
+then there's really simple ones I
 
 0:39:34.150,0:39:39.250
 would like to use a simple one that
@@ -2801,22 +2801,22 @@ so instead of saying hello this is where
 they've just wrecked their ship right so
 
 0:39:51.540,0:40:05.490
-I'm gonna say you rekt yo ship so you
+I'm gonna say you wrecked yo ship so you
 
 0:40:00.690,0:40:06.990
 can say whatever you'd like to say so
 
 0:40:05.490,0:40:09.089
-once you get your type you might have to
+once you get yours typed you might have to
 
 0:40:06.990,0:40:11.790
-pause the video but once you get your
+pause the video but once you get yours
 
 0:40:09.089,0:40:14.430
-type you can then pick the style so the
+typed you can then pick the style so the
 
 0:40:11.790,0:40:15.690
-style by default is a bottom message or
+style by default is a bottom message a
 
 0:40:14.430,0:40:17.880
 bottom message like takes over this
@@ -2825,7 +2825,7 @@ bottom message like takes over this
 whole bottom bar I think I would rather
 
 0:40:17.880,0:40:23.190
-it it felt like the ship was saying it
+it felt like the ship was saying it
 
 0:40:20.250,0:40:26.430
 and so I'm gonna put it on a rectangular
@@ -2849,7 +2849,7 @@ in a speech bubble I happen to know the
 up to 48 so I'm just gonna say you
 
 0:40:39.300,0:40:44.099
-wrecked your ship and then I'll tell
+wrecked yo ship and then I'll tell
 
 0:40:42.930,0:40:45.270
 what I'll go ahead and play it right now
@@ -2888,7 +2888,7 @@ make the game just stop that's over in
 control and the very very very bottom
 
 0:41:12.930,0:41:20.910
-command in the control is stop now again
+command in the control is stop all now again
 
 0:41:17.940,0:41:23.010
 stop all is a dangerous command and you
@@ -2903,7 +2903,7 @@ you'll notice it's in this advanced area
 because if you put it in the wrong spot
 
 0:41:27.359,0:41:33.210
-it was very badly right and so it should
+it goes very badly right and so it should
 
 0:41:30.119,0:41:35.339
 be fine because I've got it inside of my
@@ -2936,13 +2936,13 @@ ship for two seconds maybe I'll bump it
 up a little bit maybe I'll say it for
 
 0:41:55.250,0:41:58.300
-loops
+oops
 
 0:41:57.040,0:42:00.610
-it's not their own place to bump it up
+that was not the right place to bump it up
 
 0:41:58.300,0:42:05.230
-maybe I'll bump it up done five seconds
+maybe I'll bump it up to five seconds
 
 0:42:00.610,0:42:08.890
 or something that's loss right let's do
@@ -2957,7 +2957,7 @@ off by doing the same thing we're going
 to start off by saying a message so
 
 0:42:15.850,0:42:23.140
-we're gonna say well I could really put
+we're gonna say well I can barely fit 
 
 0:42:19.090,0:42:27.240
 it down in there so we're gonna say
@@ -3002,7 +3002,7 @@ would be to change that X&Y so there it
 says you win right to change that X&Y
 
 0:43:03.760,0:43:08.380
-that you start it out and then you could
+that you started at and then you could
 
 0:43:06.190,0:43:11.680
 cheat and you can get to your victory
@@ -3017,7 +3017,7 @@ working fine interestingly enough the
 game doesn't stop so when you win you
 
 0:43:16.180,0:43:21.130
-just keep winning and tell eventually
+just keep winning until eventually
 
 0:43:18.760,0:43:25.750
 you hit the island behind it right so
@@ -3044,7 +3044,7 @@ ship back to the starting spot we want
 to say let's go faster and then we want
 
 0:43:42.790,0:43:47.110
-to modify our variable so those that's
+to modify our variable so that's
 
 0:43:45.790,0:43:49.120
 our goal let's go ahead and start doing
@@ -3074,16 +3074,16 @@ line of code down below so click on the
 little black handle that's on the right
 
 0:44:06.940,0:44:11.350
-side of this and I want to copy
+side of this and I want to copy this
 
 0:44:09.530,0:44:14.750
 line of code so I'm going to hit
 
 0:44:11.350,0:44:19.100
-control-c I don't copy it and then
+control-c that'll copy it and then
 
 0:44:14.750,0:44:21.200
-control V and it's command C and command
+control-V and it's command C and command-
 
 0:44:19.100,0:44:24.470
 V if you're on Mac so now I've got a
@@ -3104,7 +3104,7 @@ gonna enjoy their victory for two
 seconds then I'm gonna snap them back to
 
 0:44:36.830,0:44:54.590
-the beginning and I'm gonna say let's go
+the beginning and then I'm gonna say let's go
 
 0:44:40.790,0:44:57.710
 faster let's go faster now this one just
@@ -3116,7 +3116,7 @@ to show it I had made as a bottom
 message box in my example and what the
 
 0:45:00.740,0:45:04.340
-heck aw I'll just leave it as a bottom
+heck I'll just leave it as a bottom
 
 0:45:02.450,0:45:06.050
 message box or you can change it to
@@ -3143,7 +3143,7 @@ and then I left it as a bottom message
 box just so you can see it and I left
 
 0:45:19.700,0:45:24.890
-the font so that's wide now our code
+the font so that's fine now our code
 
 0:45:23.330,0:45:28.130
 right now does some of the things we
@@ -3158,7 +3158,7 @@ says let's go faster but it doesn't
 actually go faster yet um
 
 0:45:33.440,0:45:37.340
-bow and how would we go faster do you
+Bowen how would we go faster do you
 
 0:45:35.480,0:45:40.270
 have any ideas for how how do you go
@@ -3167,25 +3167,25 @@ have any ideas for how how do you go
 faster in this game you have any ideas
 
 0:45:40.270,0:45:43.300
-he gives you have any ideas for how we
+Keegan do you have any ideas for how we
 
 0:45:42.320,0:45:48.620
 go faster
 
 0:45:43.300,0:45:51.110
-sissie oh yeah set we could change speed
+sissy set we could change speed
 
 0:45:48.620,0:45:53.150
-right so let's go into variable sissy so
+right so let's go into variable sissy was that
 
 0:45:51.110,0:45:58.400
-what you're gonna say so we're gonna
+what you were gonna say so we're gonna
 
 0:45:53.150,0:46:01.880
 change speed now there's a couple ways
 
 0:45:58.400,0:46:04.220
-to modify speed we we can use change
+to modify speed we can use change
 
 0:46:01.880,0:46:06.050
 that would be one way to do it we could
@@ -3305,7 +3305,7 @@ gonna try an intentional loss first it
 says you wrecked your ship and then the
 
 0:47:45.160,0:47:50.410
-game just ends right so nothing nothing
+game just ends right so nothing
 
 0:47:47.380,0:47:54.070
 else happens and now I'm gonna try to
@@ -3317,7 +3317,7 @@ win one right so to win mine I've kind
 of got two paths I've got the shortcut
 
 0:47:55.870,0:48:05.740
-path so there's a shortcut happen
+path so there's the shortcut path
 
 0:48:03.160,0:48:08.710
 remember is my speed is currently 10 and
@@ -3338,16 +3338,16 @@ going to get too hard no matter how good
 you are right
 
 0:48:16.720,0:48:21.700
-so my 20 is now at 40 and it doesn't
+so my 20 is now at 40 and it does
 
 0:48:20.260,0:48:25.770
 kind of start to freak out as it goes
 
 0:48:21.700,0:48:32.080
-like super fast right I'm gonna try 80 I
+like super fast right alright I'm gonna try 80 I
 
 0:48:25.770,0:48:34.870
-can do this do this you know now 160 is
+can do this do this heyyyy now 160 is
 
 0:48:32.080,0:48:37.750
 hopeless right yeah
@@ -3359,10 +3359,10 @@ because it just goes crazy and so I
 managed to make it up to 160 which is
 
 0:48:40.300,0:48:44.620
-pretty good right alright so you can
+pretty good right so you can
 
 0:48:42.370,0:48:47.530
-charge your adult and see if they can do
+challenge your adult and see if they can do
 
 0:48:44.620,0:48:49.510
 better than you so we're done with the
@@ -3377,7 +3377,7 @@ coding I'm gonna click on this little
 down arrow and I'm gonna say publish to
 
 0:48:54.550,0:49:02.350
-community and publish to community -
+community and publish to community mine is
 
 0:49:00.490,0:49:05.110
 ready to go now yours may not be ready
@@ -3389,10 +3389,10 @@ to go you may have a lot of people do
 this you may have discovered that your
 
 0:49:06.460,0:49:10.450
-island was impossible to solve or he may
+island was impossible to solve or you may
 
 0:49:08.680,0:49:13.150
-have discovered it was too too easy to
+have discovered it was too easy to
 
 0:49:10.450,0:49:13.870
 solve and your job is to make it fun
@@ -3401,7 +3401,7 @@ solve and your job is to make it fun
 right
 
 0:49:13.870,0:49:17.230
-lipstick slick on the back here I didn't
+oops I clicked on the back arrow I didn't
 
 0:49:15.190,0:49:20.080
 mean to do that your job is to make it
@@ -3413,7 +3413,7 @@ fun so you're gonna have to tweak your
 island so you should understand the
 
 0:49:22.630,0:49:27.760
-concepts now shooter got to tweak your
+concepts now so you'e going to have to tweak your
 
 0:49:24.100,0:49:30.280
 island maybe resize your ship all kinds
@@ -3425,7 +3425,7 @@ of things that you can do so that's the
 goal now every day I want to see how my
 
 0:49:35.470,0:49:39.670
-campers are doing on the table campers
+campers are doing around the table campers
 
 0:49:38.200,0:49:41.790
 are you ready for me to see your project
@@ -3467,25 +3467,25 @@ smaller that's a very clever thing to do
 so there you lose let's go and see you
 
 0:50:06.880,0:50:12.010
-win one Keegan - I just go yeah he's got
+win one Keegan - I'll tell you what just go yeah he's got
 
 0:50:10.630,0:50:14.110
-a shortcut misty we're get his cutting
+a shortcut we're just gonna go 
 
 0:50:12.010,0:50:20.110
-board on the outside get down there and
+around the outside get down there and
 
 0:50:14.110,0:50:21.670
-win Keegan final come on Devon if you
+win Keegan fine we're moving on to Bowen if you'd
 
 0:50:20.110,0:50:25.510
-like to win one for me and come back by
+like to win one for me I can come back by
 
 0:50:21.670,0:50:28.120
-them all right Bowen has a cool line and
+Bowen has a cool island and
 
 0:50:25.510,0:50:32.020
-now he's bones use lots of stats so go
+oh Bowen's used lots of stamps so go
 
 0:50:28.120,0:50:34.510
 ahead and play it though all right so
@@ -3497,7 +3497,7 @@ he's got a sleepy dragon that's coming
 around oh he caught that tip that's a
 
 0:50:38.140,0:50:42.610
-dangerous tip you've got their bow I
+dangerous tip you've got there Bowen I
 
 0:50:40.110,0:50:44.020
 consider that a feature but you can
@@ -3506,10 +3506,10 @@ consider that a feature but you can
 always change things until you're happy
 
 0:50:44.020,0:50:46.320
-with
+with them
 
 0:50:47.349,0:50:54.109
-it's a dangerous game all right good job
+it's a dangerous game Keegan's still doing good all right Bowen good job
 
 0:50:52.070,0:50:56.150
 see if you can win your game and then
@@ -3518,16 +3518,16 @@ see if you can win your game and then
 we've got McKinley over here
 
 0:50:56.150,0:51:01.010
-McKinley Murray looks like it's Murray's
+McKinley Marie looks like it's Marie's
 
 0:50:58.580,0:51:03.230
-Island I got infected clear on there
+Island I got caught there
 
 0:51:01.010,0:51:06.440
-sorry Michael it looks like she's got a
+sorry cool it looks like she's got a
 
 0:51:03.230,0:51:07.790
-ship that's sailing around I mean right
+ship that's sailing around and right
 
 0:51:06.440,0:51:08.589
 now she's doing a speed of 10 it looks
@@ -3548,7 +3548,7 @@ here's what we've done in the past we
 have encouraged people to try to build
 
 0:51:21.530,0:51:27.500
-one on their own from scratch that's the
+one on your own from scratch that's the
 
 0:51:24.349,0:51:30.170
 same coding concepts but a different
@@ -3566,7 +3566,7 @@ another thing to do see if you can make
 a very similar game with a different
 
 0:51:38.000,0:51:43.910
-theme so here I'm doing a space-themed
+theme so here I'm doing a space-theme
 
 0:51:40.790,0:51:47.690
 right so I used a spaceship and I drew
@@ -3581,13 +3581,13 @@ earth image that I that I found but it's
 still the same thing if I touch one of
 
 0:51:52.609,0:51:58.550
-these colors Iraq and if I touch the the
+these colors I wreck and if I touch the 
 
 0:51:56.089,0:51:59.869
 green that's in the home I win I also
 
 0:51:58.550,0:52:02.480
-decorated this one with a little alien
+decorated this one with little alien
 
 0:51:59.869,0:52:03.500
 men all right so that's all we've got
@@ -3599,7 +3599,7 @@ for today
 we hope you had fun with it I think
 
 0:52:05.960,0:52:09.260
-today's was a great example I builds on
+today's was a great example it builds on
 
 0:52:08.030,0:52:11.030
 yesterday and it's gonna build for what
@@ -3608,7 +3608,7 @@ yesterday and it's gonna build for what
 we do tomorrow and we'll see you next
 
 0:52:11.030,0:52:17.219
-time
+time bye
 
 0:52:13.210,0:52:17.219
 [Music]
