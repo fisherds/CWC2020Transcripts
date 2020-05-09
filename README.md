@@ -11,4 +11,4 @@ Status
  - Ready to Upload  http://youtube.com/watch?v=7UYDxjTXYu4 Compact Style Monster Feast
  - Ready to Upload  http://youtube.com/watch?v=E-JNnFChAZo Extra project 
 ### Week 1 - Day 2
- - Not started  http://youtube.com/watch?v=7BrPpaDN_RY Treasure Island
+ - In Progress  http://youtube.com/watch?v=7BrPpaDN_RY Treasure Island
