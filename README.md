@@ -12,3 +12,10 @@ Status
  - Ready to Upload  http://youtube.com/watch?v=E-JNnFChAZo Extra project 
 ### Week 1 - Day 2
  - Ready to Upload  http://youtube.com/watch?v=7BrPpaDN_RY Treasure Island
+### Week 1 - Day 3
+ - Not started https://youtu.be/63-RorBEV1Q aMAZEing Game
+### Week 1 - Day 4
+ - Not started https://youtu.be/HaUk_mSj9xE Race Car
+ ### Week 1 - Day 
+ - Editing Dragon Crossing 
+ - Not started https://youtu.be/alY8G3Tgpsk US Flag
