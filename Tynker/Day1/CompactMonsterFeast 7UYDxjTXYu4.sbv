@@ -2,7 +2,7 @@
 [Music]
 
 0:00:03.770,0:00:12.030
-so I'm Dave Fisher so this is going to
+Hello I'm Dave Fisher so this is going to
 
 0:00:07.500,0:00:13.440
 be camp one day one this is the compact
@@ -20,7 +20,7 @@ like has my family in it which is kind
 of like a more camp feel and kind of
 
 0:00:20.609,0:00:24.869
-like you a camp look but there's a little
+like a camp look but there's a little
 
 0:00:22.859,0:00:26.730
 bit of fluff in those right and so I
@@ -59,7 +59,7 @@ through you registered for the camp long
 ago and you know how to sign in to
 
 0:00:47.670,0:00:51.660
-tinker right and so I'm going to show
+tynker right and so I'm going to show
 
 0:00:50.010,0:00:53.460
 you what it is we're going to make first
@@ -74,19 +74,19 @@ finished solution so here's a finished
 solution for what we're gonna make today
 
 0:00:57.980,0:01:05.010
-so we're learning about tinker skills so
+so we're learning about tynker skills so
 
 0:01:02.850,0:01:07.860
-tinker is extremely similar to scratch
+tynker is extremely similar to scratch
 
 0:01:05.010,0:01:09.570
-we're just on Turnitin in tinker where
+we're just learning it in tynker where
 
 0:01:07.860,0:01:11.610
 the monster is following the mouse
 
 0:01:09.570,0:01:14.130
-different places and we'll run about
+different places and we'll learn about
 
 0:01:11.610,0:01:16.049
 variables right now food is 5 as soon as
@@ -95,7 +95,7 @@ variables right now food is 5 as soon as
 he gets it you can see the food went
 
 0:01:16.049,0:01:19.380
-before also if you're gonna stoop
+to four also if you're an astute
 
 0:01:18.119,0:01:20.790
 observer you'll notice that he's
@@ -113,7 +113,7 @@ so there's only three left and he's
 moving even faster if he gets these two
 
 0:01:27.180,0:01:31.229
-up here names he's kind of bulking it
+up here now you can see he's kind of bulking it
 
 0:01:29.100,0:01:33.689
 around the screen one left and then when
@@ -122,13 +122,13 @@ around the screen one left and then when
 he gets it it says you win so that's the
 
 0:01:33.689,0:01:37.590
-game that we're making together I
+game that we're making together so 
 
 0:01:35.479,0:01:40.710
-thought I want you to do is I want you
+what I want you to do is I want you
 
 0:01:37.590,0:01:42.360
-to log in to tinker I sent you will log
+to log in to tynker I sent you a log
 
 0:01:40.710,0:01:44.189
 in and hopefully you know how to use
@@ -152,10 +152,10 @@ and doing different things so go ahead
 and click on new project make sure you
 
 0:01:54.299,0:01:58.259
-solver and click there so I click on my
+saw where I clicked there so I clicked on my
 
 0:01:55.829,0:02:00.570
-project so the class is like you know up
+projects so the class is like you know up
 
 0:01:58.259,0:02:02.159
 here in the dashboard and the different
@@ -167,10 +167,10 @@ things you can do within projects is
 kind of what we're focused on for this
 
 0:02:03.390,0:02:08.459
-video so I want a new blank project I
+video so I want a new blank project 
 
 0:02:06.060,0:02:09.679
-know what this new blank project is
+and what this new blank project is
 
 0:02:08.459,0:02:12.720
 going to be is it's gonna be called
@@ -182,37 +182,37 @@ monster feast sometimes it's
 nice to title them right the start that
 
 0:02:15.990,0:02:19.590
-will you don't forget later it so let's
+way you don't forget later and so let's
 
 0:02:18.060,0:02:21.630
-get more familiar with the tinkerer
+get more familiar with the tynker
 
 0:02:19.590,0:02:24.690
-interface so here's the tinkerer
+interface so here's the tynker
 
 0:02:21.630,0:02:26.280
 interface again it's very similar to
 
 0:02:24.690,0:02:27.660
-scratch and that there's code that you
+scratch in that there's code that you
 
 0:02:26.280,0:02:30.330
-can use over here and that's broken up
+can use over here that's broken up
 
 0:02:27.660,0:02:33.990
 into different categories there's the
 
 0:02:30.330,0:02:36.420
-code for each actor they call actors and
+code for each actor they call actors in
 
 0:02:33.990,0:02:40.530
-scratch or in tinker instead of sprites
+scratch or in tynker instead of sprites
 
 0:02:36.420,0:02:43.110
 like scratch does this actor right now
 
 0:02:40.530,0:02:44.340
-has the following code if I hit play we
+has the following code and if I hit play we
 
 0:02:43.110,0:02:46.770
 can watch what he does and we're going
@@ -227,10 +227,10 @@ want to start that was what I hit this
 button set the rotation style to left
 
 0:02:51.600,0:02:55.740
-and right so he can't play look upwards
+and right so he can't like look upwards
 
 0:02:54.270,0:03:00.090
-on his back he just doesn't left and
+on his back he just does left and
 
 0:02:55.740,0:03:04.050
 right and forever walk at a speed of 10
@@ -239,19 +239,19 @@ right and forever walk at a speed of 10
 pixels per every 5 milliseconds five
 
 0:03:04.050,0:03:08.480
-hundreds of a second and if he's on the
+hundredths of a second and if he's on the
 
 0:03:06.120,0:03:11.640
 edge you'll notice that he bounces right
 
 0:03:08.480,0:03:13.170
-getting more familiar with tinker you
+getting more familiar with tynker you
 
 0:03:11.640,0:03:15.300
-can see this in the desktop mode you've
+can see that in the desktop mode you've
 
 0:03:13.170,0:03:16.950
-got stage here and you can make your
+got a stage here and you can make your
 
 0:03:15.300,0:03:19.680
 stage bigger and smaller with this
@@ -266,7 +266,7 @@ motor here which shows the stage bigger
 and then a left panel which I've never
 
 0:03:24.570,0:03:28.110
-kind of useful so you can just switch
+found useful so you can switch
 
 0:03:25.800,0:03:30.989
 back and forth from the stage in the
@@ -278,7 +278,7 @@ code using that button now to be honest
 that button is useful for the web but
 
 0:03:32.550,0:03:37.019
-really that buttons for iPad users who
+really that buttons is for iPad users who
 
 0:03:34.380,0:03:38.340
 can only see one or the other at a time
@@ -302,16 +302,16 @@ ahead and see if we can pick some things
 up so let's take a look at this code and
 
 0:03:50.280,0:03:55.080
-let's see if we change some things what
+let's see if we change some things to change 
 
 0:03:52.049,0:03:57.540
-happens so if I change his move from 10
+what happens so if I change his move from 10
 
 0:03:55.080,0:03:59.280
 to 30 and you can see then he's going to
 
 0:03:57.540,0:04:01.680
-poke it across the stage right so he's
+book it across the stage right so he's
 
 0:03:59.280,0:04:03.690
 gonna be going really fast if I did
@@ -332,28 +332,28 @@ see that he's just kind of like frozen
 in that position so we can make changes
 
 0:04:12.630,0:04:17.370
-to the toad we can see how the code
+to the code we can see how the code
 
 0:04:14.430,0:04:18.790
 interacts with our actor I'm going to
 
 0:04:17.370,0:04:21.490
-put this on Anna Mae
+put this animate walk back in 
 
 0:04:18.790,0:04:24.490
-now it's kind of one two I'll close up
+now it's kind of one of two I'll close up
 
 0:04:21.490,0:04:27.280
-by the way I was so kind of bad there
+by the way I was kind of bad there
 
 0:04:24.490,0:04:29.590
-whenever you're grabbin code and Tinker
+whenever you're grabbin code in tynker
 
 0:04:27.280,0:04:32.350
 you can grab that block and all the ones
 
 0:04:29.590,0:04:33.820
-under it with this left handle there you
+under it with this left handle or you
 
 0:04:32.350,0:04:35.800
 can grab just that block with the right
@@ -365,7 +365,7 @@ handle so if I wanted to move them all I
 would use the left handle if I wanted to
 
 0:04:38.020,0:04:42.010
-move just that one out I use the the
+move just that one out I'd use the 
 
 0:04:39.670,0:04:44.350
 right handle and so that's how you move
@@ -377,22 +377,22 @@ code is with these handles now people
 are in the habit of just grabbing it
 
 0:04:45.520,0:04:49.960
-from the middle the middle kind of been
+from the middle the middle kind of behaves like
 
 0:04:46.990,0:04:51.400
-used left unlocked handle free all right
+the left handle all right
 
 0:04:49.960,0:04:53.560
-so we're going to pick some things up in
+so we're going to fix some things up in
 
 0:04:51.400,0:04:56.740
 our game the first thing I want to do is
 
 0:04:53.560,0:04:59.230
-I'm at the stage to not be wiped so I'm
+I want the stage to not be wiped so I'm
 
 0:04:56.740,0:05:02.140
-going to click on the stage it's gear
+going to click on the stage its gear
 
 0:04:59.230,0:05:05.230
 icon when I click on that gear icon I
@@ -401,13 +401,13 @@ icon when I click on that gear icon I
 can see that it's got costumes sounds
 
 0:05:05.230,0:05:10.390
-and then some advanced things I want to
+and then some advanced things I want a
 
 0:05:08.020,0:05:11.680
-costume right so I want to look to this
+costume right so I want to look through these
 
 0:05:10.390,0:05:16.180
-thing so I'm gonna like a bad background
+things so I'm gonna click on add background
 
 0:05:11.680,0:05:19.150
 and the one that I picked was from the
@@ -431,7 +431,7 @@ once I select it you can see it's
 already back there but I do have to
 
 0:05:29.620,0:05:34.720
-close the style and then I'd open so now
+close the style that I opened so now
 
 0:05:31.840,0:05:36.700
 my little monster is in the kitchen by
@@ -446,16 +446,16 @@ is actor now actor is kind of a terrible
 name it's kind of like a human's name
 
 0:05:43.270,0:05:46.840
-being human right so if you were to
+being human right so if you were to name your
 
 0:05:45.160,0:05:48.340
-bigger baby it's like Oh what am I gonna
+baby it's like Oh what am I gonna
 
 0:05:46.840,0:05:52.230
 make my baby I'm gonna name him human
 
 0:05:48.340,0:05:54.460
-right I'm gonna call them monster great
+right I'm gonna call them monster right
 
 0:05:52.230,0:05:55.600
 and so that's his name you could call
@@ -470,7 +470,7 @@ whatever you want
 right so he is a monster his name is a
 
 0:06:00.340,0:06:05.140
-pair of monster for me also not a great
+appearently monster for me also not a great
 
 0:06:02.740,0:06:07.720
 name now Monster is gonna go around and
@@ -485,13 +485,13 @@ ahead and make some other cupcakes
 cupcakes are called actors sprites in
 
 0:06:12.670,0:06:17.230
-scratch if you roll with it
+scratch if you familiar with it
 
 0:06:14.320,0:06:19.290
 so I'm going to say add actor you can
 
 0:06:17.230,0:06:21.550
-add an actor by crawling that after
+add an actor by drawing that actor
 
 0:06:19.290,0:06:23.650
 doing a character builder by the way
@@ -509,43 +509,43 @@ builders like change their horns and
 things like that we'll get into that
 
 0:06:27.460,0:06:30.580
-another
+another video 
 
 0:06:28.120,0:06:32.050
-or the media library and this is kind of
+or the media library and this is kinda
 
 0:06:30.580,0:06:34.389
-the one that's I consider the most
+the one that I consider the most
 
 0:06:32.050,0:06:38.050
 common where I just use something from
 
 0:06:34.389,0:06:40.450
-there seven images the thing I want is a
+there are several images now the thing I want is a
 
 0:06:38.050,0:06:43.060
 cupcake and so it's looks like there's a
 
 0:06:40.450,0:06:45.100
-lot of good option sides out of here I'm
+lot of good options inside of here I'm
 
 0:06:43.060,0:06:46.810
-gonna pick the the cupcake because I
+gonna pick the cupcake because I
 
 0:06:45.100,0:06:49.450
-little cupcakes but you can pick
+like cupcakes but you can pick
 
 0:06:46.810,0:06:52.090
 anything you like now when you bring in
 
 0:06:49.450,0:06:54.340
-a sprint its image might be big or small
+a sprite its image might be big or small
 
 0:06:52.090,0:06:56.530
 in the case of a cupcake it came in
 
 0:06:54.340,0:06:59.380
-quite big so I you just grab the handle
+quite big so I can just grab the handle
 
 0:06:56.530,0:07:01.479
 and just size it to whatever I want it
@@ -575,19 +575,19 @@ ahead and look at the code for the
 cupcake so you've noticed I've
 
 0:07:15.040,0:07:19.660
-accidentally just the stage here you can
+accidentally clicked the stage here you can
 
 0:07:16.540,0:07:21.280
 switch through from different actors and
 
 0:07:19.660,0:07:23.229
-the stage and you can see what codes
+the stage and you can see what code
 
 0:07:21.280,0:07:25.840
 they've got so right now the cupcakes
 
 0:07:23.229,0:07:28.120
-got enough so let's go ahead and make
+got nothing so let's go ahead and make
 
 0:07:25.840,0:07:29.770
 some code for the cupcake and so the
@@ -599,7 +599,7 @@ first thing that I'm going to add for
 the cupcake is the on start command this
 
 0:07:32.680,0:07:37.419
-is similar to scratches when green flag
+is similar to scratch's when green flag
 
 0:07:35.050,0:07:40.000
 clicked so it's the same concept but
@@ -641,7 +641,7 @@ monster is touching him he wants to hide
 and change a variable so we still got to
 
 0:08:07.389,0:08:12.400
-get into the variables but that's his
+get into variables but that's his
 
 0:08:10.690,0:08:15.970
 whole mission in life so let's go ahead
@@ -665,19 +665,19 @@ to put in here is am i touching the
 monster so that's in sensing so you'll
 
 0:08:31.810,0:08:37.240
-get better with these different kind of
+get better with these different kinds of
 
 0:08:34.810,0:08:38.960
-different code blocks all we want to do
+different code blocks but what we want to do
 
 0:08:37.240,0:08:41.720
-is we want to know if we're touching
+is we want to know if we're touching the
 
 0:08:38.960,0:08:43.490
 monster or not now the command that I am
 
 0:08:41.720,0:08:45.650
-drawing in here it's the top one if I'm
+drawing in here is the top one if I'm
 
 0:08:43.490,0:08:47.900
 touching the mouse pointer that's
@@ -689,13 +689,13 @@ because mouse pointer you can change to
 be something different and I want to
 
 0:08:49.850,0:08:59.120
-check up on touching the monster so if I
+check if I'm touching the monster so 
 
 0:08:53.420,0:09:01.280
-if touching monster then hide so height
+if touching monster then hide so hide
 
 0:08:59.120,0:09:03.230
-is at the very bottom looks long here's
+is at the very bottom od looks or near 
 
 0:09:01.280,0:09:07.460
 the bottom so I'm going to take hide
@@ -707,7 +707,7 @@ here and put it right in there I can
 test my code like as I build things so
 
 0:09:10.010,0:09:14.390
-the monster eye doesn't touch the
+the monster doesn't touch the
 
 0:09:11.870,0:09:16.490
 cupcake yet so it's not a very good test
@@ -722,7 +722,7 @@ cupcake down in this path and hit run
 you can see that it would in fact hide
 
 0:09:21.080,0:09:26.000
-the cupcake which is good I know I do
+the cupcake which is good now I do
 
 0:09:23.630,0:09:28.880
 have another problem my cupcake got
@@ -752,16 +752,16 @@ will kind of be back I'm sure there's
 some other good way I guess you could
 
 0:09:45.650,0:09:49.850
-probably just adjustable I brought it
+probably just have like brought it
 
 0:09:48.530,0:09:51.200
-over and it's like don't think don't
+over and just like double clicked on 
 
 0:09:49.850,0:09:52.880
 show or something like that to show but
 
 0:09:51.200,0:09:55.040
-I I kind of like just play and pause
+I kind of just like play and pause
 
 0:09:52.880,0:09:56.540
 just to burn it back so I don't really
@@ -779,16 +779,16 @@ go up and down right he just goes back
 and forth so let's fix our monster a
 
 0:10:03.920,0:10:09.410
-little bit so our monster right now it
+little bit so our monster right now he
 
 0:10:07.490,0:10:13.100
 just always goes back and forth well I
 
 0:10:09.410,0:10:15.260
-want him to move still but I wanted to
+want him to move still but I want him to
 
 0:10:13.100,0:10:17.650
-point that the mouse cursor as he does
+point at the mouse cursor as he does
 
 0:10:15.260,0:10:20.690
 things so that's going to be in motion
@@ -815,10 +815,10 @@ like instantaneous so that's not the one
 we want so I'm gonna get that out of
 
 0:10:34.130,0:10:42.440
-there that would be dad and instead I
+there that would be bad and instead I
 
 0:10:37.310,0:10:45.800
-want point towards is very well point
+want point towards ah here it is very bottom point
 
 0:10:42.440,0:10:47.930
 towards mouse pointer and you can see
@@ -842,19 +842,19 @@ pointer as I move it around and if I hit
 the cupcake you can see that I
 
 0:10:59.390,0:11:05.480
-successfully got it I had a five-hit
+successfully got it and if I hit start 
 
 0:11:02.180,0:11:07.790
-stretched up then I can bring my cupcake
+stop then I can bring my cupcake
 
 0:11:05.480,0:11:08.510
-that pretty easily cool so it's going
+back pretty easily cool so it's going
 
 0:11:07.790,0:11:11.390
 pretty good
 
 0:11:08.510,0:11:13.430
-so we monster is moving around if he
+so monster is moving around if he
 
 0:11:11.390,0:11:16.010
 gets to the mouse he kind of freaks out
@@ -869,7 +869,7 @@ because he moves past it so he turns
 around then he comes back and then he
 
 0:11:20.540,0:11:23.600
-was past it and he turns around he comes
+goes past it and he turns around he comes
 
 0:11:22.130,0:11:24.200
 back and he does this ping pong thing
@@ -899,7 +899,7 @@ now always points towards a mouse
 pointer and always moves 30 pixels but I
 
 0:11:45.019,0:11:51.649
-want to not move 30 pixels if I went
+want to not move 30 pixels if I'm
 
 0:11:48.140,0:11:53.540
 touching the mouse pointer so you heard
@@ -911,7 +911,7 @@ the word if in my explanation for what I
 want to do so I'm gonna start with an if
 
 0:11:54.769,0:12:02.450
-statement so I didn't control and what I
+statement so it's in control and what I
 
 0:11:59.480,0:12:04.970
 want to do is I only want to move in
@@ -923,25 +923,25 @@ certain situations right oh by the way
 this if on edge bounce we don't need
 
 0:12:07.100,0:12:11.029
-this anymore right this is this is trash
+this anymore right this is trash
 
 0:12:08.990,0:12:12.500
-code what that was useful when we
+code that was useful when we
 
 0:12:11.029,0:12:14.360
-weren't dieting but now the regarding
+weren't dieting but now we are dieting
 
 0:12:12.500,0:12:16.209
-and we don't need that checked out all
+and we don't need that trash that all
 
 0:12:14.360,0:12:19.550
 right so now it says if some condition
 
 0:12:16.209,0:12:22.160
-then move 30 pixels I'm going to put
+then move 30 pixels so I'm going to put
 
 0:12:19.550,0:12:23.630
-this back in my code I know so if some
+this back in my code right now so if some
 
 0:12:22.160,0:12:26.209
 condition which I haven't filled in yet
@@ -956,13 +956,13 @@ is if I'm not touching the mouse pointer
 so if I'm not touching the mouse pointer
 
 0:12:31.760,0:12:38.870
-didn't go so first I need a knot knots
+then go so first I need a not nots
 
 0:12:35.570,0:12:40.880
 are in operators you have to scroll down
 
 0:12:38.870,0:12:47.440
-and operators until you find a knot
+in operators until you find a not
 
 0:12:40.880,0:12:47.440
 here's not and I want if I'm not
@@ -971,13 +971,13 @@ here's not and I want if I'm not
 touching the mouse pointer so if I'm not
 
 0:12:50.740,0:12:55.370
-touching the mouse pointer there are
+touching the mouse pointer there I
 
 0:12:53.449,0:12:56.690
-doing that to change the argument all
+didn't have to change the argument all
 
 0:12:55.370,0:12:58.190
-right so let's try that let's hit it
+right so let's try that let's see if it
 
 0:12:56.690,0:13:00.500
 does it so if I'm not touching the mouse
@@ -992,7 +992,7 @@ I am touching the mouse pointer he stops
 now he's also doing his little
 
 0:13:05.120,0:13:09.950
-main thing even when he's typed in the
+animate thing even when he's touching the
 
 0:13:07.700,0:13:12.110
 mouse pointer and I don't like that so
@@ -1013,10 +1013,10 @@ now you notice there's a little bug here
 too he kind of keeps walking until he
 
 0:13:24.650,0:13:30.170
-finishes that animation cycle I'm a
+finishes that animation cycle maybe
 
 0:13:27.350,0:13:32.120
-virgin at this stage blueberry and so
+I should make this stage a little bigger and so
 
 0:13:30.170,0:13:37.100
 when he hits the mouse he finishes his
@@ -1040,28 +1040,28 @@ is one way to change costumes and then
 there's also switch costume now this is
 
 0:13:50.480,0:13:57.710
-interesting but what is actually was a
+interesting but walk is actually like a
 
 0:13:54.589,0:14:00.529
 list of costumes and if I exchange
 
 0:13:57.710,0:14:01.490
-animate walk force which costume you
+animate walk to switch to costume
 
 0:14:00.529,0:14:04.130
 walk
 
 0:14:01.490,0:14:05.630
-it'll stop instantaneously right see
+it'll stop instantaneously right you'll 
 
 0:14:04.130,0:14:09.529
-there's as soon as he gets there he
+notice that as soon as he gets there he
 
 0:14:05.630,0:14:11.209
 stops so little details like that I
 
 0:14:09.529,0:14:12.410
-recommend that when you're hurt when
+recommend that when
 
 0:14:11.209,0:14:15.110
 you're coding and you're learning you
@@ -1094,19 +1094,19 @@ cupcakes but we've got a couple problems
 one is we only have one cupcake but
 
 0:14:35.990,0:14:40.400
-before i duplicate my cupcakes on or
+before i duplicate my cupcakes i want to 
 
 0:14:37.820,0:14:41.540
-change his codes um and so what I really
+change his code some and so what I really
 
 0:14:40.400,0:14:44.600
-wanted to do if you remember that
+want to do if you remember that
 
 0:14:41.540,0:14:47.480
 solution is he has a counter appear that
 
 0:14:44.600,0:14:48.830
-showed how much food was lives so I need
+showed how much food was left so I need
 
 0:14:47.480,0:14:51.470
 to do two things I need to make a
@@ -1127,7 +1127,7 @@ today so let's go ahead and make a
 variable so variables are one of the
 
 0:15:01.370,0:15:07.400
-categories it's over here on the left
+categories that's over here on the left
 
 0:15:03.010,0:15:10.820
 and you can create a variable now I'm
@@ -1139,7 +1139,7 @@ going to name my variable food and food
 is going to be either global like for
 
 0:15:14.300,0:15:20.609
-all actors or local to justice
+all actors or local to just this
 
 0:15:16.920,0:15:23.100
 actor now I want food to be modified by
@@ -1157,7 +1157,7 @@ that is gonna present a bug later but
 we'll fix it so when I call it food
 
 0:15:30.109,0:15:34.889
-admittedly in a real app I made named it
+admittedly in a real app I might name it
 
 0:15:32.459,0:15:37.199
 like num food remaining or something
@@ -1169,7 +1169,7 @@ like that but but food is better because
 it's short it's gonna show up in our
 
 0:15:38.999,0:15:45.149
-watcher just fine tonight got this
+watcher just fine so now I've got this
 
 0:15:41.489,0:15:46.679
 variable food in general I like to go
@@ -1193,13 +1193,13 @@ just you can't see it right so it's
 under the hood it's hidden somewhere in
 
 0:16:02.040,0:16:06.179
-my computer great but I want to see it
+my computer right but I want to see it
 
 0:16:04.769,0:16:09.119
 just because we're learning about
 
 0:16:06.179,0:16:10.470
-various now normally when you code you
+variables now normally when you code you
 
 0:16:09.119,0:16:12.779
 have variables that aren't visible all
@@ -1226,7 +1226,7 @@ in the middle of my screen which I'm
 going to move up here
 
 0:16:23.879,0:16:29.279
-I had this surprised me but there's a
+This surprised me but there's a
 
 0:16:26.790,0:16:31.019
 little bug inside the watcher code I
@@ -1238,31 +1238,31 @@ know it's hard to see in your screen
 right now maybe I'll move this out of
 
 0:16:32.489,0:16:37.499
-the way well there is a slider that you
+the way a little there is a slider that you
 
 0:16:35.279,0:16:40.470
 can move across the bottom you can also
 
 0:16:37.499,0:16:43.949
-just grab it movie here but it says
+just grab it and move it here but it says
 
 0:16:40.470,0:16:45.239
-property food of monster from global
+property food of monster for global
 
 0:16:43.949,0:16:49.829
-variables that you're supposed to say
+variables it's really supposed to say
 
 0:16:45.239,0:16:51.989
-property food of any I don't know why I
+property food of any I don't know why it
 
 0:16:49.829,0:16:54.540
 auto-generated the wrong code for you I
 
 0:16:51.989,0:16:56.249
-consider that a bug and Pinker but if
+consider that a bug in Tynker but if
 
 0:16:54.540,0:16:58.049
-you want to work right you're gonna have
+you want it work right you're gonna have
 
 0:16:56.249,0:17:00.269
 to go into the food watcher so it
@@ -1277,16 +1277,16 @@ code so that it says any instead of
 monster and you know it's working
 
 0:17:04.139,0:17:11.370
-because it will say boom five at the top
+because it will say food five at the top
 
 0:17:08.519,0:17:13.860
 here if it says food : with like nothing
 
 0:17:11.370,0:17:16.639
-there that it means that you have not
+there then it means that you have not
 
 0:17:13.860,0:17:19.919
-yet properly fixed that bug great ah
+yet properly fixed that bug right ah
 
 0:17:16.639,0:17:22.319
 cool and it really shouldn't work with
@@ -1298,16 +1298,16 @@ monster I'm gonna try one more time but
 yeah you can see see there whatever the
 
 0:17:24.299,0:17:29.639
-default toad it shows up blank I'm crazy
+default code it shows up blank isn't that crazy
 
 0:17:27.449,0:17:30.360
-fix that thinker watch this video and
+fix that tynker watch this video and
 
 0:17:29.639,0:17:33.650
 fix it
 
 0:17:30.360,0:17:35.850
-and it's only a bug for global learners
+and it's only a bug for global variables
 
 0:17:33.650,0:17:38.730
 so what I want to do is when I break
@@ -1316,16 +1316,16 @@ so what I want to do is when I break
 collect this cupcake I want food to go
 
 0:17:38.730,0:17:43.380
-down on my face now if you wanted you
+down now if you wanted you
 
 0:17:41.460,0:17:45.930
-could obviously start at zero but you
+could obviously start at zero and you
 
 0:17:43.380,0:17:49.680
 can make food go up but I'm gonna have a
 
 0:17:45.930,0:17:51.030
-countdown it's kind of my goal so I'm
+countdown is kind of my goal so I'm
 
 0:17:49.680,0:17:53.550
 going to go into the code for my cupcake
@@ -1337,16 +1337,16 @@ and I'm going to modify my variable in
 there now I don't want to set the
 
 0:17:55.470,0:18:00.810
-variable look I don't want to set it
+variable like I don't want to set it
 
 0:17:56.850,0:18:05.460
-before I want to change it by one so I
+to four I want to change it by one so I
 
 0:18:00.810,0:18:07.770
 want to change food by one and so I'm
 
 0:18:05.460,0:18:10.260
-going to say negative one because I want
+going to say negative one because I want it
 
 0:18:07.770,0:18:12.720
 to go down alright cool so I'll go ahead
@@ -1355,16 +1355,16 @@ to go down alright cool so I'll go ahead
 and so I'll pop up the stage just so we
 
 0:18:12.720,0:18:17.580
-can see that the camera is here there
+can see that the counter is there
 
 0:18:14.270,0:18:21.000
-when I hit food a Twix before which is
+when I hit food it went to four which is
 
 0:18:17.580,0:18:23.490
-cool alright let's put some
+cool alright let's 
 
 0:18:21.000,0:18:25.200
-mass-producing cupcakes so I happen to
+mass produce cupcakes so I happen to
 
 0:18:23.490,0:18:27.120
 know that there's one more change that
@@ -1379,7 +1379,7 @@ gonna go ahead and mass-produce it now
 so you can see the downside of early
 
 0:18:31.980,0:18:39.180
-mass production right it's a duplicate
+mass production right so duplicate
 
 0:18:34.610,0:18:42.630
 and so there I now have five cupcakes
@@ -1403,19 +1403,19 @@ too close to your monster because if he
 grabs them off the go it's gonna be hard
 
 0:18:53.340,0:18:59.220
-to figure out what's going on we have a
+to figure out what's going on being
 
 0:18:56.400,0:19:00.990
-CD I'm going to name my cupcakes you can
+OCD I'm going to name my cupcakes you can
 
 0:18:59.220,0:19:03.450
 see it kind of tried to go in unique
 
 0:19:00.990,0:19:05.970
-names but it didn't like named them as
+names but it didn't like name them as
 
 0:19:03.450,0:19:09.150
-logically as I would have I so I'm going
+logically as I would have so I'm going
 
 0:19:05.970,0:19:11.250
 to rename them one two three four five
@@ -1430,7 +1430,7 @@ area and rename them one two three four
 five cool and so now if I run it as I
 
 0:19:16.680,0:19:21.960
-collect these things and to make it
+collect these things oops lets make it
 
 0:19:18.240,0:19:25.380
 bigger it says three two one and then
@@ -1439,7 +1439,7 @@ bigger it says three two one and then
 here it says zero now whenever I get to
 
 0:19:25.380,0:19:32.400
-zero I nothing really happens right so
+zero nothing really happens right so
 
 0:19:29.520,0:19:35.520
 we're doing good but we want something
@@ -1448,7 +1448,7 @@ we're doing good but we want something
 to happen we want the Monster to say you
 
 0:19:35.520,0:19:41.730
-win the game to stop I'll beat the zero
+win and the game to stop when we get to zero
 
 0:19:38.520,0:19:43.140
 so let's go and add that code so for the
@@ -1475,10 +1475,10 @@ the bottom and I want to check if that
 variable is zero well all my cupcakes
 
 0:19:58.770,0:20:04.799
-are gone on the back so I hit play stop
+are gone i want them back so I hit play stop
 
 0:20:01.200,0:20:09.960
-back there back so if that variable is
+alright now they're back so if that variable is
 
 0:20:04.799,0:20:12.150
 zero then do stuff equals is an operator
@@ -1508,7 +1508,7 @@ could make each of these count up and
 then this would be like it food equals
 
 0:20:33.030,0:20:37.770
-five but but I have mine's a countdown
+five but mine's a countdown
 
 0:20:35.520,0:20:40.350
 so I want food equals zero now if that
@@ -1517,13 +1517,13 @@ so I want food equals zero now if that
 happens I want to say you win so I'm
 
 0:20:40.350,0:20:45.809
-gonna go to looks and I'm gonna find us
+gonna go to looks and I'm gonna find 
 
 0:20:43.260,0:20:47.340
-a block so there's really complex
+a say block so there's really complex
 
 0:20:45.809,0:20:49.860
-gearing ones up here and then there's
+scary ones up here and then there's
 
 0:20:47.340,0:20:52.770
 really simple ones down here I actually
@@ -1535,7 +1535,7 @@ want one of the complex scary ones and
 I'm going to drop it in here and the
 
 0:20:54.450,0:20:58.860
-reason I want a complex everyone is
+reason I want a complex scary one is
 
 0:20:56.309,0:21:01.410
 because it's got all the options that I
@@ -1544,7 +1544,7 @@ because it's got all the options that I
 can set so I can set the text obviously
 
 0:21:01.410,0:21:07.919
-I'm gonna make this a you win I can set
+I'm gonna make it say you win I can set
 
 0:21:04.049,0:21:10.350
 what type of text box it is I'm gonna go
@@ -1559,22 +1559,22 @@ the default one by the way just puts a
 message at the bottom of the screen
 
 0:21:13.740,0:21:17.640
-which is cool but but not what we want
+which is cool but not what we want
 
 0:21:15.660,0:21:19.500
 here and then for speech bubbles I
 
 0:21:17.640,0:21:21.540
-happened into the 18 is a really small
+happened to know that 18 is a really small
 
 0:21:19.500,0:21:23.700
-font I so I'm gonna bump it up before
+font I so I'm gonna bump it up to 
 
 0:21:21.540,0:21:26.549
-date so I set the text set the style of
+48 so I set the text set the style to
 
 0:21:23.700,0:21:28.890
-a rectangular and then I set this to 48
+rectangular and then I set this to 48
 
 0:21:26.549,0:21:32.940
 and then the last thing I want to do is
@@ -1583,37 +1583,37 @@ and then the last thing I want to do is
 I want to put a stop all immediately
 
 0:21:32.940,0:21:36.929
-after of that text message so I'm going
+after that text message so I'm going
 
 0:21:35.070,0:21:40.950
 to put it immediately after that text
 
 0:21:36.929,0:21:43.980
-message I'm gonna go and run it I just
+message I'm gonna go and run it just
 
 0:21:40.950,0:21:48.120
 to see if it works so I grab a donut or
 
 0:21:43.980,0:21:50.429
-a cupcake cupcake to left and 0 so now
+a cupcake cupcake two left and 0 so now
 
 0:21:48.120,0:21:55.340
 it says you win and the game comes to a
 
 0:21:50.429,0:21:56.930
-stop which is going great so almost done
+stop which is cool great so almost done
 
 0:21:55.340,0:21:59.630
-we worth saving some click on the Save
+probably worth saving so I'm gonna click on the Save
 
 0:21:56.930,0:22:01.850
 button for now so I'm just gonna save
 
 0:21:59.630,0:22:03.050
-I'll tell all I'll do it and publish
+I'll tell what I'll do an and publish
 
 0:22:01.850,0:22:05.770
-later right now I'm still working about
+later right now I'm still working on
 
 0:22:03.050,0:22:05.770
 it so I'm just gonna click Save
@@ -1676,13 +1676,13 @@ right now things like that really get
 people because you're like oh my monster
 
 0:22:50.810,0:22:56.750
-stop movement and go panic one thing you
+stopped moving and go panic one thing you
 
 0:22:53.990,0:22:59.390
 can do is you can try to look at your
 
 0:22:56.750,0:23:00.890
-food but also this debug button can be
+code but also this debug button can be
 
 0:22:59.390,0:23:04.490
 handy as well so if I click on this
@@ -1691,7 +1691,7 @@ handy as well so if I click on this
 debug button and I hit play what it'll
 
 0:23:04.490,0:23:10.880
-do is it will let me redo that a little
+do is it will let me do that a little
 
 0:23:08.750,0:23:13.280
 slower so if I hit play you can see it
@@ -1703,7 +1703,7 @@ goes through and shows you each line of
 code like as it's running and telling
 
 0:23:16.040,0:23:21.080
-you you see what's happening and then
+you what's happening and then
 
 0:23:18.560,0:23:22.490
 when it gets to the bottom you can see
@@ -1730,7 +1730,7 @@ know you can set breakpoints that's what
 you can do in the bottom of control you
 
 0:23:35.270,0:23:41.210
-can put a breakpoint in and so I you
+can put a breakpoint in and so you
 
 0:23:38.090,0:23:42.830
 know you put a breakpoint in and you can
@@ -1742,7 +1742,7 @@ see what happens like when it when it
 hits your breakpoint right now of course
 
 0:23:45.050,0:23:47.780
-if you put a very point that you've
+if you put a breakpoint there you've
 
 0:23:46.340,0:23:49.220
 obviously figured out what the problem
@@ -1760,7 +1760,7 @@ you're trying to figure out these
 stumpers and of course the problem is
 
 0:23:55.700,0:24:01.130
-that was just a normal slide
+that was just in the wrong spot
 
 0:23:57.110,0:24:03.830
 ah cool so game almost complete I'm
@@ -1769,7 +1769,7 @@ ah cool so game almost complete I'm
 going to add one more feature i want the
 
 0:24:03.830,0:24:09.900
-monster to start slow and then you
+monster to start slow and then get
 
 0:24:07.170,0:24:12.090
 faster I'm going to need another
@@ -1790,7 +1790,7 @@ speed I'm going to let the cupcakes
 change it so I'm gonna say it's for all
 
 0:24:21.390,0:24:26.310
-actors but really just the just a
+actors but really just the 
 
 0:24:23.610,0:24:28.980
 monster uses it by the way you can set a
@@ -1805,13 +1805,13 @@ we wanted him to reset to ten and that
 will make sure that the variable
 
 0:24:33.480,0:24:38.490
-automatically gets yourself or you know
+automatically gets reset for you now
 
 0:24:35.880,0:24:40.110
-I rarely do that trick the reset very
+I rarely do that trick the reset variable
 
 0:24:38.490,0:24:42.600
-blogs just showed you that it's but it's
+I was just showing you that it's 
 
 0:24:40.110,0:24:44.880
 possible and that's because I like for
@@ -1820,10 +1820,10 @@ possible and that's because I like for
 it to actually be in my code so I can
 
 0:24:44.880,0:24:50.700
-see it right so I like to say on my code
+see it right so I like to say in my code
 
 0:24:47.840,0:24:53.940
-set speed so I'm on the monster spare
+set speed so I'm on the monster's code
 
 0:24:50.700,0:24:57.480
 now set speed to be ten and then I can
@@ -1832,16 +1832,16 @@ now set speed to be ten and then I can
 see it in my code as opposed to you know
 
 0:24:57.480,0:25:02.310
-they're there a reset on stop trick
+they're reset on stop trick
 
 0:24:59.820,0:25:04.320
-reset stop is useful but I prefer to
+reset on stop is useful but I prefer to
 
 0:25:02.310,0:25:06.480
 just put it in here now I want to use
 
 0:25:04.320,0:25:09.360
-speed so I'm going to speed to be right
+speed so I want speed to be right
 
 0:25:06.480,0:25:11.040
 here so right now all I've done is I've
@@ -1850,7 +1850,7 @@ here so right now all I've done is I've
 just made the game slower right because
 
 0:25:11.040,0:25:17.340
-I went from 30 to ten what about the
+I went from 30 to ten what I want the
 
 0:25:14.910,0:25:20.700
 cupcakes to do is I want cupcakes to
@@ -1859,25 +1859,25 @@ cupcakes to do is I want cupcakes to
 increase speed so cupcakes now have two
 
 0:25:20.700,0:25:27.900
-functions they make food go down then
+functions they make food go down and 
 
 0:25:26.190,0:25:30.690
 they make speed go up right now I've
 
 0:25:27.900,0:25:32.760
-only modified cupcake one so when I
+only modified cupcake one so whenever I
 
 0:25:30.690,0:25:35.130
-write get like cupcake to you know
+get like cupcake two you know
 
 0:25:32.760,0:25:36.930
 nothing really happens or this cupcake
 
 0:25:35.130,0:25:38.610
-nothing what happens now whenever I hit
+nothing really happens now whenever I hit
 
 0:25:36.930,0:25:40.920
-the one that is kept the cake one which
+the one that is cupcake one which
 
 0:25:38.610,0:25:43.530
 was that one it did speed up but
@@ -1895,10 +1895,10 @@ is I'm going to drag and drop it on the
 dot cupcake and that one and that one
 
 0:25:53.090,0:25:59.040
-and that one so what that means that
+and that one so what that did is that
 
 0:25:56.010,0:26:01.920
-actually put it somewhere in there block
+actually put it somewhere in their block
 
 0:25:59.040,0:26:03.930
 of code but it didn't actually put it in
@@ -1940,19 +1940,19 @@ mouse pointer it's going nice and slow
 and then as he hits cupcakes
 
 0:26:31.239,0:26:38.679
-I hit begins to speed up cool so you win
+he hit begins to speed up cool so you win
 
 0:26:35.309,0:26:39.879
-all right so I'm ready to to be done of
+all right so I'm ready to be done with
 
 0:26:38.679,0:26:42.099
 this thing I'm going to go ahead and
 
 0:26:39.879,0:26:44.619
-click on publish to community I just saw
+click on publish to community I just so
 
 0:26:42.099,0:26:51.399
-other people can see lifts and so this
+other people can see this and so this
 
 0:26:44.619,0:26:59.259
 is my connecting with code week one day
@@ -1961,7 +1961,7 @@ is my connecting with code week one day
 one exercise so I'll hit save and
 
 0:26:59.259,0:27:04.989
-publish I'm hey since this is kind of
+publish hey since this is kind of
 
 0:27:02.950,0:27:08.259
 the advanced video maybe we'll do one
@@ -1982,7 +1982,7 @@ because it can be nice to make multiple
 examples let's go ahead and see if we
 
 0:27:16.869,0:27:20.470
-can make one more I'm actually maybe I
+can make one more actually maybe I
 
 0:27:19.269,0:27:22.450
 should make that a different video so
@@ -2000,7 +2000,7 @@ video
 alright see you next time thanks for
 
 0:27:27.220,0:27:32.019
-joining us for connecting with to keep
+joining us for connecting with code keep
 
 0:27:29.590,0:27:36.429
 doing this stuff also make sure you're

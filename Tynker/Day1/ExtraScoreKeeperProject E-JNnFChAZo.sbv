@@ -17,22 +17,22 @@ do this one but it's just a little extra
 thing if you'd like I'm gonna start off
 
 0:00:17.160,0:00:22.140
-by showing you a solution I just because
+by showing you a solution just because
 
 0:00:19.740,0:00:24.779
-it's finally the solution this is a
+it's fun to look at the solution this is a
 
 0:00:22.140,0:00:26.849
 scorekeeper for two-player games
 
 0:00:24.779,0:00:28.500
-you see it's all spore keeper but the
+you can see it's called score keeper but the
 
 0:00:26.849,0:00:30.300
 idea is if you're playing a game like
 
 0:00:28.500,0:00:33.390
-I'm gonna rock scissors paper
+I don't know rock scissors paper
 
 0:00:30.300,0:00:34.739
 right then you can keep score with this
@@ -44,7 +44,7 @@ game and it kind of adds a little bit of
 fun to it so let's say I'm playing
 
 0:00:35.820,0:00:40.739
-against Boeing right so if I win so you
+against Bowen right so if I win so you
 
 0:00:39.450,0:00:44.430
 know I throw rock you throw scissors
@@ -56,28 +56,28 @@ then I hit the letter D and D you can
 see of course increased the score for
 
 0:00:46.500,0:00:52.980
-dad and then Bowen wins around he gets a
+dad and then if Bowen wins a round he gets a
 
 0:00:50.100,0:00:56.010
-point and this game its first 1-2-3 is
+point and in this game its first one to three is
 
 0:00:52.980,0:00:58.199
-the winner so if I get Bowen I bet it
+the winner so if I get a Bowen and then a Bowen
 
 0:00:56.010,0:01:01.020
-goin then it pops up a screen that says
+then it pops up a screen that says
 
 0:00:58.199,0:01:02.879
-both pins right you can also add audio
+Bowen wins right you can also add audio
 
 0:01:01.020,0:01:06.240
-which is kind of fun where like you say
+which is kind of fun where you say
 
 0:01:02.879,0:01:09.540
-like boy wins or something like that if
+like Bowen wins or something like that if
 
 0:01:06.240,0:01:11.460
-you'd like I said that's our goal so
+you'd like so that's our goal so
 
 0:01:09.540,0:01:13.860
 let's go ahead and I'm playing with the
@@ -92,16 +92,16 @@ this thing from scratch its goal is to
 teach you about variables and to have a
 
 0:01:18.900,0:01:24.659
-little fun walk away so let's go ahead
+little fun along the away so let's go ahead
 
 0:01:22.259,0:01:27.210
 and go into projects create a new
 
 0:01:24.659,0:01:31.259
-project I had a blank project just like
+project and a blank project just like
 
 0:01:27.210,0:01:33.720
-we did for the months for feast and then
+we did for the monster feast and then
 
 0:01:31.259,0:01:36.750
 inside of here interestingly enough this
@@ -137,7 +137,7 @@ background screen I can't remember where
 I found that so I'll just do a search
 
 0:01:58.200,0:02:04.740
-for for Paul and that's why I use there
+for for pong and that's what I use there
 
 0:02:01.560,0:02:06.899
 use anything you like and then the main
@@ -152,7 +152,7 @@ I'm going to create two variables and so
 I was playing against my son and so I
 
 0:02:11.700,0:02:16.040
-just called
+just called one
 
 0:02:13.010,0:02:18.220
 variable dad and I'm pretty sure that I
@@ -164,13 +164,13 @@ want this variable to go back to zero
 whenever there's a reset so I'm just
 
 0:02:20.420,0:02:25.159
-gonna say reset very one stop to zero I
+gonna say reset variable on stop to zero I
 
 0:02:23.180,0:02:27.950
-don't normally use that reset where
+don't normally use that reset variable
 
 0:02:25.159,0:02:30.200
-everyone usually set it manually but
+I usually set it manually but
 
 0:02:27.950,0:02:32.299
 there was really no reason not to reset
@@ -182,19 +182,19 @@ it to zero in this case it's also
 interesting that since I have no actors
 
 0:02:34.250,0:02:41.450
-like its Keegan in this example one of
+I'll play against Keegan in this example another one of
 
 0:02:38.629,0:02:43.519
-my son's it's interesting that since you
+my sons it's interesting that since you
 
 0:02:41.450,0:02:45.260
 have no actors it doesn't ask you if you
 
 0:02:43.519,0:02:47.690
-wanted to get global variable or local
+wanted it to be a global variable or local
 
 0:02:45.260,0:02:50.720
-because the only option errs is a global
+because the only option is a global
 
 0:02:47.690,0:02:53.540
 variable right and then I want to go
@@ -203,7 +203,7 @@ variable right and then I want to go
 ahead and add a watcher for dad and for
 
 0:02:53.540,0:03:00.319
-Keegan I by the way these Watchers they
+Keegan by the way these Watchers they
 
 0:02:56.660,0:03:02.359
 can be any any size you want like you
@@ -221,13 +221,13 @@ if I play right now you can see it says
 dad zero and it says Keegan
 
 0:03:09.470,0:03:15.590
-apparently missing that's ugly oh and
+apparently missing that's annoying oh man
 
 0:03:14.150,0:03:19.639
-they have so many bugs and these
+they have so many bugs in these
 
 0:03:15.590,0:03:23.510
-Watchers so when I run it I don't see
+Watchers so when I run it I don't know if you can see
 
 0:03:19.639,0:03:28.430
 this it says dad zero but it says Kega :
@@ -239,118 +239,118 @@ that and so you do have to sometimes go
 in and modify the code that's in these
 
 0:03:30.109,0:03:36.049
-Watchers rate and so if I look at this I
+Watchers right and so if I look at this I
 
 0:03:33.079,0:03:43.220
-can see it says some string of Keegan
+can see it says sub string of Keegan
 
 0:03:36.049,0:03:45.590
-from 1 to 5 1 to 6 it must be one Mesa
+from 1 to 6 it must be not be
 
 0:03:43.220,0:03:47.180
-so I guess I want 1 to 7 so must not
+so I guess I want 1 to 7 so it must not
 
 0:03:45.590,0:03:49.549
-include the last thing because I wanted
+include the last thing because I want it to 
 
 0:03:47.180,0:03:52.010
-actually say Keaton's name and it says
+actually say Keegon's name and it says
 
 0:03:49.549,0:03:55.609
 property Keegan Oh dad watcher well
 
 0:03:52.010,0:03:58.639
-that's insane I want to be okay so dad
+that's insane I want to it to be any
 
 0:03:55.609,0:04:01.250
-watch her work by no it's at stage you
+so Dad watcher worked fine oh it said stage you
 
 0:03:58.639,0:04:02.660
 should be able to say any as well so
 
 0:04:01.250,0:04:05.660
-let's go ahead and run that and say that
+let's go ahead and run that and see if that
 
 0:04:02.660,0:04:07.280
-works better she got says dad zero key
+works better so now it says dad zero 
 
 0:04:05.660,0:04:10.099
-to zero
+Keegan zero 
 
 0:04:07.280,0:04:12.829
-I don't know why there are so many buds
+I don't know why there are so many bugs
 
 0:04:10.099,0:04:14.690
-inside the inside the auto generated
+the inside the auto generated
 
 0:04:12.829,0:04:16.760
 code for the Watchers
 
 0:04:14.690,0:04:18.199
-by the way of the things you can do with
+by the way other things you can do with
 
 0:04:16.760,0:04:21.500
-launchers that you can change like the
+watchers that you can change like the
 
 0:04:18.199,0:04:22.880
-font size I said to change it to 48 you
+font size so if you change it to 48 you
 
 0:04:21.500,0:04:25.669
-do that it just how it looks a little
+do that and it just kinda looks a little
 
 0:04:22.880,0:04:26.030
 bigger you can of course also just make
 
 0:04:25.669,0:04:29.780
-the
+the box
 
 0:04:26.030,0:04:34.160
-itself beer so I wanted to I could make
+itself bigger so if I wanted to I could make
 
 0:04:29.780,0:04:37.520
 them both 48 and I can make his box a
 
 0:04:34.160,0:04:40.070
-little bigger so he fits and now if I
+little bigger so he fits and then now if I
 
 0:04:37.520,0:04:41.570
-run it you can see this is dad zero and
+run it you can see that it says dad zero and
 
 0:04:40.070,0:04:44.840
 Keegan still needs to be just a little
 
 0:04:41.570,0:04:48.860
-wider so I'll go ahead and drag him out
+wider so I'll tell you waht I'll go ahead and drag him out
 
 0:04:44.840,0:04:51.550
-just a little wider I'm cool so now if I
+just a little wider cool so now if I
 
 0:04:48.860,0:04:54.410
-run it it's a key to keeps on growing
+run it it looks like Keegan keeps on growing
 
 0:04:51.550,0:04:57.110
-maybe I shouldn't have mess with it so
+maybe I shouldn't have messed with it so
 
 0:04:54.410,0:05:01.160
-48 was just a bit much makeover with 24
+48 was just a bit much maybe I'll go with 24
 
 0:04:57.110,0:05:02.960
 and 24 it's interesting that because
 
 0:05:01.160,0:05:05.630
-they're aspect ratios are different ones
+their aspect ratios are different one
 
 0:05:02.960,0:05:09.140
-that work 5 the other had a little bit
+of them worked fine and then the other had a little bit
 
 0:05:05.630,0:05:11.780
-of issue getting there so it's good
+of an issue getting there so let's go ahead and make 
 
 0:05:09.140,0:05:13.460
-making both kind of big but you can play
+them both kind of big but you can play
 
 0:05:11.780,0:05:16.430
-around the phone line I tell it's easier
+around with them until it's easier
 
 0:05:13.460,0:05:18.530
 for you to see cool then this is a
@@ -362,7 +362,7 @@ simple little game so there's no other
 actors those actors are doing their
 
 0:05:22.220,0:05:26.180
-thing with the origin or any code is
+thing with the auto-generated code just
 
 0:05:24.050,0:05:28.610
 fine and the code that I'm gonna add is
@@ -374,22 +374,22 @@ actually gonna go on the stage and
 that's because we don't have other
 
 0:05:30.470,0:05:34.010
-actors write codes video somewhere oh by
+actors right codes gotta go somewhere oh by
 
 0:05:33.050,0:05:40.460
 the way this is gonna be called
 
 0:05:34.010,0:05:42.410
-scorekeeper just for deeper I'll go
+scorekeeper so scorekeeper I'll go
 
 0:05:40.460,0:05:44.780
 ahead and save it I'll publish it to the
 
 0:05:42.410,0:05:47.539
-community later I would say scorekeeper
+community later I'll just go ahead and say scorekeeper
 
 0:05:44.780,0:05:49.729
-for now alright let's go in at toad hi
+for now alright so let's go ahead and add some code 
 
 0:05:47.539,0:05:51.860
 so what I want to do is I want to have
@@ -410,13 +410,13 @@ but I'm going to switch it to D for dad
 and then I'm gonna also have some code
 
 0:06:02.990,0:06:08.810
-that happens when Kate key get scores so
+that happens when Keegan scores so
 
 0:06:06.020,0:06:13.700
-I'm gonna put him on okay you can use
+I'm gonna put him on k you can use
 
 0:06:08.810,0:06:15.950
-any any keyboard key you'd like of
+any keyboard key you'd like of
 
 0:06:13.700,0:06:18.729
 course and what I want to have happen
@@ -425,40 +425,40 @@ course and what I want to have happen
 whenever that occurs is I just want to
 
 0:06:18.729,0:06:25.400
-change the appropriate variables so I'm
+change the appropriate variables so I'm going to
 
 0:06:22.669,0:06:29.210
-changed dad by one or I'm going to
+change dad by one or I'm going to
 
 0:06:25.400,0:06:31.820
-change keys by one and so now the only
+change Keegan by one and so now the only
 
 0:06:29.210,0:06:33.710
 thing I want to do is also I can run it
 
 0:06:31.820,0:06:35.630
-right now and I should see that works up
+right now and I should see that works so
 
 0:06:33.710,0:06:40.130
-a hit D dad goes
+if I hit D dad goes up
 
 0:06:35.630,0:06:42.560
-but k he goes up right so it's a
+if I hit k Keegan goes up right so it's a
 
 0:06:40.130,0:06:43.970
-scorekeeper I had to stop at play again
+scorekeeper if I hit stop and play again
 
 0:06:42.560,0:06:46.700
-and resets them to zero that's because
+it resets them to zero that's because
 
 0:06:43.970,0:06:48.560
-we set their defaults it's like on here
+we set their defaults if you click on here
 
 0:06:46.700,0:06:49.750
-they have a default of 0 we'll just have
+they have a default of 0 which is kind of neat 
 
 0:06:48.560,0:06:51.680
-an e great
+right
 
 0:06:49.750,0:06:53.720
 alright now the other thing I want to do
@@ -476,34 +476,34 @@ forever so on start forever check for
 things right so I'm going to check to
 
 0:07:04.040,0:07:10.130
-see if dad hits the max score and so I'm
+see if dad hits the max score and if so I'm
 
 0:07:08.690,0:07:14.330
 going to present something that says dad
 
 0:07:10.130,0:07:18.590
-wins or if Keegan knows right so let's
+wins or if Keegan does right so let's
 
 0:07:14.330,0:07:20.570
 go ahead and say operators probably down
 
 0:07:18.590,0:07:27.740
-first the bottom or the logical things
+towards the bottom of the logical things
 
 0:07:20.570,0:07:28.940
-out here's equals so if dad equals and
+oh here's equals so if dad equals and
 
 0:07:27.740,0:07:30.290
-you can decide what you want your be at
+you can decide what you want your game to
 
 0:07:28.940,0:07:32.960
-the couch I'm gonna make it be five
+go to I'm gonna make it be five
 
 0:07:30.290,0:07:35.600
-that's five sided three another example
+so I did three in my other another example
 
 0:07:32.960,0:07:38.630
-we'll all do five-year and if that does
+and I'll do five here and if that does
 
 0:07:35.600,0:07:43.720
 happen I want to somehow say that dad
@@ -521,13 +521,13 @@ bottom messagebox and that might be good
 enough right so now if I start it up
 
 0:07:55.630,0:08:00.980
-that's my stage just so you can see it
+and switch my stage just so you can see it
 
 0:07:58.130,0:08:04.820
-better if I hit dee dee dee dee dee I
+better if I hit (press) d d d d d it
 
 0:08:00.980,0:08:07.550
-says dad wins don't bother so I consider
+says dad wins down at the bottom there so I consider
 
 0:08:04.820,0:08:09.830
 that successful the game does keep on
@@ -542,10 +542,10 @@ of want it to be done so Keegan could
 actually get up to five as well so now
 
 0:08:14.240,0:08:18.020
-it's just like Bally do I say dad wins
+it's just like battling do I say dad wins
 
 0:08:16.070,0:08:22.460
-or keep that's right so I did want to
+or Keegan wins right so I did want to
 
 0:08:18.020,0:08:24.890
 actually stop the game as well by the
@@ -560,10 +560,10 @@ so you can make it be like a center
 message box if you'd rather do that Oh
 
 0:08:30.320,0:08:33.440
-Keegan it's not allowed to win yet
+Keegan is not allowed to win yet
 
 0:08:31.940,0:08:35.719
-that's why I didn't say kicking wins and
+that's why it didn't say Keegan wins and
 
 0:08:33.440,0:08:39.260
 then if that does happen I do want to
@@ -572,22 +572,22 @@ then if that does happen I do want to
 stop the game so now I can go ahead and
 
 0:08:39.260,0:08:44.270
-test it again so if I say dee dee dee
+test it again so if I say (press) d d d
 
 0:08:41.270,0:08:47.780
-dee dee it says dad wins in kind of this
+d d it says dad wins in kind of this
 
 0:08:44.270,0:08:48.750
 not so pretty box now I could duplicate
 
 0:08:47.780,0:08:50.550
-this code
+this code so I could
 
 0:08:48.750,0:08:54.089
-click here duplicate it but I actually
+click here and duplicate it but I actually
 
 0:08:50.550,0:08:56.689
-want to improve its before I do hate it
+want to improve it some before I duplicate it
 
 0:08:54.089,0:08:59.040
 and what I'd like to do is I'd like to
@@ -596,7 +596,7 @@ and what I'd like to do is I'd like to
 make it more fun right
 
 0:08:59.040,0:09:03.509
-and so it's sitting as saying dad wins
+and so instead of just saying dad wins
 
 0:09:01.259,0:09:06.439
 which is perfectly functional I want to
@@ -605,7 +605,7 @@ which is perfectly functional I want to
 like switch to a backdrop that I make
 
 0:09:06.439,0:09:12.120
-for my win and I went keyed this picture
+for my win and I want Keegan to switch to a 
 
 0:09:10.230,0:09:13.410
 backdrop that he makes for his win so
@@ -614,7 +614,7 @@ backdrop that he makes for his win so
 here's what I'm gonna do I'm gonna go to
 
 0:09:13.410,0:09:18.509
-the stage I'm gonna play cuz this year
+the stage I'm gonna click on this gear
 
 0:09:15.449,0:09:21.509
 I'm gonna say add backdrop so now I'm
@@ -623,7 +623,7 @@ I'm gonna say add backdrop so now I'm
 gonna make some backdrop just whatever I
 
 0:09:21.509,0:09:28.649
-want for dad wins so you get a pic walk
+want for dad wins so you get to pick what
 
 0:09:25.500,0:09:31.050
 backdrop you want and then we're gonna
@@ -638,7 +638,7 @@ gonna edit on the stage here so this
 farm landscape this is gonna be the dad
 
 0:09:36.629,0:09:45.779
-windscreen and and this opened up the
+win screen and this opened up the
 
 0:09:42.899,0:09:47.970
 editor which is kind of fun and you can
@@ -656,13 +656,13 @@ hundred size of a hundred opacity and
 I'll say in the font of my choice dad
 
 0:09:58.350,0:10:07.850
-wins right what's about to be red with
+wins right oh it's about to be red I don't know
 
 0:10:02.399,0:10:12.629
-blue I would say dad win
+if I want red I'll go with blue and I'll say dad wins
 
 0:10:07.850,0:10:15.569
-now the thing about there are editors as
+now the thing about their editors as
 
 0:10:12.629,0:10:17.069
 soon as you like let go of the text it
@@ -674,94 +674,94 @@ does kind of become part of the
 background you can't edit it as well
 
 0:10:18.509,0:10:22.199
-then is one place where scratches a
+that is one place where scratch is a
 
 0:10:20.009,0:10:27.410
 little bit better but there's my dad
 
 0:10:22.199,0:10:29.639
-windscreen and then Keegan looks like I
+win screen and then Keegan looks like I'm
 
 0:10:27.410,0:10:33.120
-thought was good with their interface I
+not as good with their interface I
 
 0:10:29.639,0:10:34.709
-need to add it from the other new to say
+need to add it from the other I need to say
 
 0:10:33.120,0:10:36.209
 add backdrop from the other place right
 
 0:10:34.709,0:10:38.519
-so there's there's dad wounds
+so there's dad wins
 
 0:10:36.209,0:10:42.750
-so I'm only halfway done so I I've got
+so I'm only halfway done so I've got
 
 0:10:38.519,0:10:45.149
-the stage I can see they're gonna pong
+the stage I can see that I've got a pong
 
 0:10:42.750,0:10:47.069
-and a dad wooden screen I've got to make
+and a dad win screen I've got to make
 
 0:10:45.149,0:10:49.470
 one for Keegan how about I do it now so
 
 0:10:47.069,0:10:51.660
-I guess the way you add this gear say
+I guess the way you add is you click on this gear say
 
 0:10:49.470,0:10:54.300
 add background and then we'll pick
 
 0:10:51.660,0:10:55.270
-something Rickie and Keegan it's gonna
+something for Keegan Keegan is gonna
 
 0:10:54.300,0:10:58.350
-do something
+do something with
 
 0:10:55.270,0:11:00.550
-face I bet so there's lunar surfaces
+space I bet so there's lunar surfaces
 
 0:10:58.350,0:11:05.290
-maybe even like all that well experience
+oh that one looks fancy 
 
 0:11:00.550,0:11:07.120
-II and so now you can edit it and you
+and so now you can edit it and you
 
 0:11:05.290,0:11:09.100
 can have it say
 
 0:11:07.120,0:11:11.500
-Keegan wins for whatever whatever you
+Keegan wins or whoever you
 
 0:11:09.100,0:11:13.540
 would like right he likes crazy fonts
 
 0:11:11.500,0:11:21.100
-was the craziest font that I can find in
+what's the craziest font that I can find in
 
 0:11:13.540,0:11:26.230
-here sure that was good Keegan win all
+here sure that one looks good Keegan wins all
 
 0:11:21.100,0:11:29.590
-right so save back little sling sure
+right so save then back great it's being a little sluggish
 
 0:11:26.230,0:11:31.570
-so whatever didn't happen wins what I
+here so whenever dad wins what I
 
 0:11:29.590,0:11:34.870
-want to do is I want to instead of
+want to do is instead of
 
 0:11:31.570,0:11:37.630
-saying that I want to actually like who
+saying that I want to actually like go to
 
 0:11:34.870,0:11:42.730
 looks and I want to switch to the
 
 0:11:37.630,0:11:44.920
-background for dad win so they're gonna
+background for dad wins so we're gonna
 
 0:11:42.730,0:11:48.520
-switch to background so I'll switch to
+switch to background switch to 
 
 0:11:44.920,0:11:51.280
 background dad win screen hey while I'm
@@ -773,13 +773,13 @@ in here I'm going to go ahead and make
 sure that it starts off the game on the
 
 0:11:54.460,0:11:58.240
-palm screen just to chase it got
+pong screen just in case it got
 
 0:11:56.140,0:11:59.620
-leftover weird and I think I can go
+left a little weird and I think I can go
 
 0:11:58.240,0:12:02.620
-ahead and duplicate this kid so I'm
+ahead and duplicate this code so I'm
 
 0:11:59.620,0:12:04.480
 going to go ahead and highlight it and
@@ -794,13 +794,13 @@ duplicate it and the nice thing about
 this is now I just have to change this
 
 0:12:08.530,0:12:15.910
-one for Keaton right side pop that out
+one for Keegon right so I pop that out
 
 0:12:11.700,0:12:19.270
-switch that to key and then in variables
+switch that to Keegan and then in variables
 
 0:12:15.910,0:12:20.860
-I pop in Keith now I've done this
+I pop in Keegan now I've done this
 
 0:12:19.270,0:12:23.530
 extremely fast but the nice thing about
@@ -809,22 +809,22 @@ extremely fast but the nice thing about
 videos is that you can pause it and you
 
 0:12:23.530,0:12:27.610
-can look at the finish code and you can
+can look at the finished code and you can
 
 0:12:25.600,0:12:30.340
 make yours look like mine there's no
 
 0:12:27.610,0:12:32.200
-goal for you to type a drink as fast as
+goal for you to type and drag as fast as
 
 0:12:30.340,0:12:34.500
-I type to drag as long as you can see
+I type and drag as long as you can see
 
 0:12:32.200,0:12:37.360
-the finished product it makes sense
+the finished product and it makes sense
 
 0:12:34.500,0:12:39.490
-let's go ahead and delay in here where
+let's go and add a delay in here where
 
 0:12:37.360,0:12:41.920
 you can see the background I don't know
@@ -833,13 +833,13 @@ you can see the background I don't know
 for at least three seconds before the
 
 0:12:41.920,0:12:49.330
-game
+game ends
 
 0:12:43.080,0:12:49.870
-alright snap alright so dddd one more
+alright so now it is kind of better so dddd 
 
 0:12:49.330,0:12:52.690
-time
+one more time
 
 0:12:49.870,0:12:54.280
 dad wins great and it stays like dad
@@ -848,13 +848,13 @@ dad wins great and it stays like dad
 wins until the game ends
 
 0:12:54.280,0:13:00.610
-play it again but Keegan win kkkkk
+play it again and let Keegan win kkkkk
 
 0:12:58.260,0:13:03.420
-and then there was this cute so somehow
+and then it says Keegan wins somehow 
 
 0:13:00.610,0:13:05.990
-because his background is
+his background is
 
 0:13:03.420,0:13:12.399
 microscopically small
@@ -863,7 +863,7 @@ microscopically small
 so Oh old trick I was zoomed way in and
 
 0:13:12.910,0:13:20.570
-bummer
+didn't know it bummer
 
 0:13:14.350,0:13:22.760
 let's see here I need to fix that so I
@@ -875,13 +875,13 @@ think that this game is almost good to
 go oh one more thing that I want to add
 
 0:13:25.250,0:13:32.660
-is my sales can be fun so let's just
+is sounds can be fun so let's just
 
 0:13:28.339,0:13:36.350
-kind of show you sales so I so sounds if
+kind of show you sounds so sounds if
 
 0:13:32.660,0:13:39.500
-I click on the gear here I go into
+I click on the gear here I can go into
 
 0:13:36.350,0:13:41.270
 sounds and I can add sounds it can
@@ -890,7 +890,7 @@ sounds and I can add sounds it can
 actually be really fun to record your
 
 0:13:41.270,0:13:48.500
-own sounds so if you report an audio
+own sounds so if you record an audio
 
 0:13:44.270,0:13:52.610
 file what you can do is you can click on
@@ -899,19 +899,19 @@ file what you can do is you can click on
 record here and use your microphone and
 
 0:13:52.610,0:13:58.640
-you can say Danny winds actually don't
+you can say Daddy wins actually don't
 
 0:13:56.360,0:14:00.350
-make your say Keegan and Eddy make them
+make yours say Keegan and Daddy make them
 
 0:13:58.640,0:14:02.510
-tell you how whatever your name is
+say whatever your name is
 
 0:14:00.350,0:14:04.760
 mine's taking forever to upload hey you
 
 0:14:02.510,0:14:06.709
-know what I've been supposed to work but
+know what it's supposed to work but
 
 0:14:04.760,0:14:09.649
 if it doesn't you know what life goes on
@@ -932,7 +932,7 @@ things I don't want to take an hour to
 figure out my sounds but I'll say that
 
 0:14:20.300,0:14:25.430
-it's a fun thing to to put in some
+it's a fun thing to put in some
 
 0:14:22.850,0:14:27.980
 sounds just because it can make your
@@ -944,10 +944,10 @@ game more fun with sounds and you
 typically use like play until done so
 
 0:14:31.640,0:14:39.230
-maybe dad would be the chicken he will
+maybe dad would be the chicken and Keegan will 
 
 0:14:35.089,0:14:41.839
-be the pig I just kind of make random
+be the pig I don't know I'm just kind of making up random
 
 0:14:39.230,0:14:43.700
 things there so there's my code that
@@ -956,22 +956,22 @@ things there so there's my code that
 should be the finished code hopefully
 
 0:14:43.700,0:14:50.329
-for my little sport people gave if D is
+for my little scorekeeper game if D gets 
 
 0:14:46.880,0:14:51.440
-to 5 I should play the the sound which I
+to 5 it should play the the sound which I
 
 0:14:50.329,0:14:53.140
-don't think is coming through as I
+don't think is coming through becuase I
 
 0:14:51.440,0:14:57.110
-daren't say on the side of this video
+don't have sound set up for this video
 
 0:14:53.140,0:15:00.800
 should have I didn't and if Keegan wins
 
 0:14:57.110,0:15:02.450
-it will play himself and that should
+it will play his sound and that should
 
 0:15:00.800,0:15:04.339
 work for you and actually play a sound
@@ -986,10 +986,10 @@ because I'm not playing system audio I
 don't think at least I can't hear it
 
 0:15:07.339,0:15:13.130
-alright that is the the little follow
+alright that is the little follow
 
 0:15:10.579,0:15:16.070
-along the score keeper if you want to
+along for the score keeper if you want to
 
 0:15:13.130,0:15:18.680
 you can do is save and publish so this
@@ -998,13 +998,13 @@ you can do is save and publish so this
 is an example so this is an extra
 
 0:15:18.680,0:15:30.110
-example for day one of wheat one
+example for day one of week one
 
 0:15:25.420,0:15:35.660
-connected to 2020 savings published
+connecting with code 2020 so I'll click save and publish
 
 0:15:30.110,0:15:37.310
-there alright we'll see you next time
+there and that looks good alright we'll see you next time
 
 0:15:35.660,0:15:39.170
 for day two we'll try to make an
@@ -1019,7 +1019,7 @@ like this and then also a family version
 which is kind of more fun alright see
 
 0:15:43.520,0:15:48.179
-that
+you then bye
 
 0:15:44.660,0:15:48.179
 [Music]
