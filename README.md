@@ -18,4 +18,4 @@ Status
  - No file yet https://youtu.be/HaUk_mSj9xE Race Car
  ### Week 1 - Day 
  - Editing Dragon Crossing 
- - Not started https://youtu.be/alY8G3Tgpsk US Flag
+ - In Progress https://youtu.be/alY8G3Tgpsk US Flag
