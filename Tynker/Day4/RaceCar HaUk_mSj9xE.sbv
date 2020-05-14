@@ -1,0 +1,2784 @@
+0:00:00.640,0:00:06.420
+[Music]
+
+0:00:03.770,0:00:09.090
+hey welcome to day four of the coding
+
+0:00:06.420,0:00:11.700
+camp I'm here with the the family again
+
+0:00:09.090,0:00:14.340
+today so we got keegan age eight
+
+0:00:11.700,0:00:17.340
+we've got mom and boin boin z-- age six
+
+0:00:14.340,0:00:19.199
+and then we've got sissy age ten you
+
+0:00:17.340,0:00:22.230
+guys ready to code some today mm-hmm all
+
+0:00:19.199,0:00:23.850
+right let's show a example of what we're
+
+0:00:22.230,0:00:26.189
+gonna be making today so we're gonna be
+
+0:00:23.850,0:00:27.980
+making a race car game today so here's
+
+0:00:26.189,0:00:30.630
+my race car he's going around the track
+
+0:00:27.980,0:00:32.340
+what we're gonna do is we're gonna draw
+
+0:00:30.630,0:00:34.860
+this car so we're gonna actually draw
+
+0:00:32.340,0:00:37.410
+the sprite ourselves the car is gonna
+
+0:00:34.860,0:00:40.079
+always be moving and I'm using the right
+
+0:00:37.410,0:00:42.059
+arrow to turn right and then the left
+
+0:00:40.079,0:00:43.620
+arrow to turn left and as you can
+
+0:00:42.059,0:00:45.450
+imagine the car is going around the
+
+0:00:43.620,0:00:48.000
+track at whatever speed you the program
+
+0:00:45.450,0:00:49.770
+or design and if you touch the color
+
+0:00:48.000,0:00:53.010
+green which is around the outside in the
+
+0:00:49.770,0:00:55.050
+middle I than my car crashes and so it
+
+0:00:53.010,0:00:57.270
+crash and it actually is playing a
+
+0:00:55.050,0:00:58.770
+little animation as well I really like
+
+0:00:57.270,0:01:02.129
+this project cause it's got a lot of
+
+0:00:58.770,0:01:04.290
+good enhancements I here's an enhanced
+
+0:01:02.129,0:01:06.900
+version of one I made this is a
+
+0:01:04.290,0:01:09.330
+two-player game so like one person would
+
+0:01:06.900,0:01:12.270
+be the blue car and then the other
+
+0:01:09.330,0:01:13.890
+person would be the red car and they
+
+0:01:12.270,0:01:15.479
+would play against each other and you
+
+0:01:13.890,0:01:17.640
+can also do things like if you touch
+
+0:01:15.479,0:01:20.159
+these little red pills they speed you up
+
+0:01:17.640,0:01:22.200
+if you touch a green pill I'm sorry
+
+0:01:20.159,0:01:23.490
+green speeds you up and then red slows
+
+0:01:22.200,0:01:25.049
+you down there's all kinds of things you
+
+0:01:23.490,0:01:27.119
+could do you could even add things like
+
+0:01:25.049,0:01:28.740
+a finish line he would get there and win
+
+0:01:27.119,0:01:31.409
+but instead he's gonna crash
+
+0:01:28.740,0:01:33.299
+and so I like the different enhancements
+
+0:01:31.409,0:01:34.320
+and things you can make to this one so
+
+0:01:33.299,0:01:36.270
+let's go and get started actually
+
+0:01:34.320,0:01:37.710
+building it some of the learning
+
+0:01:36.270,0:01:38.460
+objectives this time that are new is
+
+0:01:37.710,0:01:40.979
+we're going to be learning about
+
+0:01:38.460,0:01:42.210
+animations and functions so some really
+
+0:01:40.979,0:01:44.399
+important things today
+
+0:01:42.210,0:01:46.860
+so go and click on create new project
+
+0:01:44.399,0:01:50.280
+and like I always do I like to like on
+
+0:01:46.860,0:01:51.720
+blank block coding project so there's a
+
+0:01:50.280,0:01:54.689
+lot of different things that have to get
+
+0:01:51.720,0:01:56.790
+done we've got to draw the track we've
+
+0:01:54.689,0:01:59.310
+got to draw the car we've got to add the
+
+0:01:56.790,0:02:00.540
+code for the car can't really decide
+
+0:01:59.310,0:02:02.369
+where I want to start cuz there's so
+
+0:02:00.540,0:02:04.049
+much to do let's start with a little
+
+0:02:02.369,0:02:06.540
+drawing right so let's start with
+
+0:02:04.049,0:02:08.789
+drawing our car so we don't need the
+
+0:02:06.540,0:02:09.319
+monster he's a great actor but we don't
+
+0:02:08.789,0:02:11.299
+we don't need
+
+0:02:09.319,0:02:14.689
+this time instead we're gonna add our
+
+0:02:11.299,0:02:16.189
+own actor we're gonna draw a car so I'm
+
+0:02:14.689,0:02:19.340
+gonna say an actor and I'm gonna say
+
+0:02:16.189,0:02:21.499
+drawing tool now everybody draws at
+
+0:02:19.340,0:02:22.969
+different speeds so what I'm gonna do is
+
+0:02:21.499,0:02:25.099
+I'm gonna kind of like quickly make mine
+
+0:02:22.969,0:02:27.590
+and then encourage you to pause the
+
+0:02:25.099,0:02:29.090
+video when you make yours so here's what
+
+0:02:27.590,0:02:30.590
+I'm gonna do the first thing I like to
+
+0:02:29.090,0:02:32.870
+do is I like to make sure I'm zoomed to
+
+0:02:30.590,0:02:34.159
+see the whole canvas my daughter
+
+0:02:32.870,0:02:36.049
+McKinley yelled at me just like why
+
+0:02:34.159,0:02:37.819
+don't you ever use the 75% button it's
+
+0:02:36.049,0:02:39.139
+right here in the middle and I said
+
+0:02:37.819,0:02:40.189
+because I didn't know about it thank you
+
+0:02:39.139,0:02:41.450
+for teaching me about it
+
+0:02:40.189,0:02:43.549
+so if you click in the middle you can
+
+0:02:41.450,0:02:46.189
+pick a zoom and 75% is it good entomb
+
+0:02:43.549,0:02:47.569
+for at least mine so what you want to do
+
+0:02:46.189,0:02:50.150
+is you want to decide what color you
+
+0:02:47.569,0:02:51.889
+want your car to be so I've been using
+
+0:02:50.150,0:02:54.590
+red as my car so I just kind of pick out
+
+0:02:51.889,0:02:56.090
+a red and like I said I'm gonna do this
+
+0:02:54.590,0:02:59.780
+kind of quick what I like to do to make
+
+0:02:56.090,0:03:02.090
+a car is I like to draw a block which is
+
+0:02:59.780,0:03:06.079
+roughly in the middle and that's going
+
+0:03:02.090,0:03:08.780
+to be my car and then I draw a rectangle
+
+0:03:06.079,0:03:10.400
+kind of for the windows and so I'm gonna
+
+0:03:08.780,0:03:11.840
+go ahead and draw another rectangle here
+
+0:03:10.400,0:03:14.090
+because that do click off that rectangle
+
+0:03:11.840,0:03:16.759
+a rectangle for the windows this is just
+
+0:03:14.090,0:03:18.889
+my style for my car if you want your car
+
+0:03:16.759,0:03:20.989
+to be entirely different that's fine and
+
+0:03:18.889,0:03:22.939
+then I want to draw that same color
+
+0:03:20.989,0:03:26.540
+again so I'm gonna use the eyedropper to
+
+0:03:22.939,0:03:28.519
+pick it back and then draw kind of like
+
+0:03:26.540,0:03:30.590
+another rectangle here and that may not
+
+0:03:28.519,0:03:33.439
+feel like a car at first it kind of is
+
+0:03:30.590,0:03:34.549
+gonna work out to be a car and so what
+
+0:03:33.439,0:03:38.000
+I'm gonna do is I'm going to draw some
+
+0:03:34.549,0:03:41.000
+lines to connect from the corners here
+
+0:03:38.000,0:03:42.769
+to the corners there and I think that
+
+0:03:41.000,0:03:45.049
+I'm starting to kind of have the feel of
+
+0:03:42.769,0:03:48.199
+the top view of a car so you want the
+
+0:03:45.049,0:03:50.900
+top view of a car a car is not a car
+
+0:03:48.199,0:03:53.169
+until you have tires that's what I'm
+
+0:03:50.900,0:03:55.579
+gonna do is I'm gonna make my tires and
+
+0:03:53.169,0:03:57.530
+whenever I make something I still select
+
+0:03:55.579,0:03:59.959
+it that's an opportunity to hit ctrl-c
+
+0:03:57.530,0:04:01.699
+ctrl-v and you can make another one of
+
+0:03:59.959,0:04:05.689
+them so if you want teeing kind of like
+
+0:04:01.699,0:04:08.359
+copy paste your tires again I know that
+
+0:04:05.689,0:04:10.819
+this is way too fast for you to directly
+
+0:04:08.359,0:04:14.060
+follow along but I'm trying to kind of
+
+0:04:10.819,0:04:16.430
+show you the the basics and then once
+
+0:04:14.060,0:04:18.919
+you've got your four tires on I consider
+
+0:04:16.430,0:04:20.750
+that good enough right if you want to
+
+0:04:18.919,0:04:23.120
+make enhancements to it like you want to
+
+0:04:20.750,0:04:24.919
+add headlight through wanted taillights
+
+0:04:23.120,0:04:28.310
+fine but I think that this is a
+
+0:04:24.919,0:04:32.030
+perfectly acceptable car so now I'm
+
+0:04:28.310,0:04:36.710
+gonna name my costume right now it's
+
+0:04:32.030,0:04:38.660
+called blank I'm gonna name it car and
+
+0:04:36.710,0:04:41.210
+I'm gonna go and hit save just so that I
+
+0:04:38.660,0:04:42.680
+can save my current car and now what I
+
+0:04:41.210,0:04:44.690
+want to do is I want to make another
+
+0:04:42.680,0:04:46.580
+route so pause the video until you make
+
+0:04:44.690,0:04:48.290
+your car alright pause the video make
+
+0:04:46.580,0:04:51.080
+your car alright now we've all got a car
+
+0:04:48.290,0:04:54.169
+so now I want to make another version of
+
+0:04:51.080,0:04:56.810
+the car that's crashed right so a crash
+
+0:04:54.169,0:04:58.669
+car so to make another version of
+
+0:04:56.810,0:05:00.710
+something right now it's selected up
+
+0:04:58.669,0:05:03.169
+here I'm gonna click on this copy button
+
+0:05:00.710,0:05:04.340
+right so when I click on copy it makes a
+
+0:05:03.169,0:05:10.130
+copy of my car
+
+0:05:04.340,0:05:11.870
+this next car I'm gonna call crash now
+
+0:05:10.130,0:05:14.750
+there's a bunch of ways to crash a car
+
+0:05:11.870,0:05:17.900
+you could just scribble on it with Lions
+
+0:05:14.750,0:05:19.460
+that's certainly a fine way to to crash
+
+0:05:17.900,0:05:20.600
+a car you know so you could just kind of
+
+0:05:19.460,0:05:22.699
+scribble all over it
+
+0:05:20.600,0:05:24.020
+you can make you know orange flames on
+
+0:05:22.699,0:05:26.030
+top of it it was thought I was gonna
+
+0:05:24.020,0:05:27.770
+change the earth there orange flames on
+
+0:05:26.030,0:05:29.419
+it and that's kind of crashing as well
+
+0:05:27.770,0:05:32.210
+there's another trick that I find fun
+
+0:05:29.419,0:05:34.789
+this selection tool you can kind of like
+
+0:05:32.210,0:05:38.330
+select a wedge of your car and then just
+
+0:05:34.789,0:05:39.680
+kind of like move it or rotate it and I
+
+0:05:38.330,0:05:41.570
+find that that's always a really good
+
+0:05:39.680,0:05:43.789
+way to kind of like make something have
+
+0:05:41.570,0:05:48.020
+an appearance of you know you just got
+
+0:05:43.789,0:05:49.550
+crashed right so and if you wanted to go
+
+0:05:48.020,0:05:50.120
+crazy I know that every time I teach
+
+0:05:49.550,0:05:52.789
+this class
+
+0:05:50.120,0:05:54.260
+somebody just completely explodes their
+
+0:05:52.789,0:05:56.720
+car there's nothing wrong with that
+
+0:05:54.260,0:05:58.070
+right it personally I think it looks
+
+0:05:56.720,0:06:00.139
+better if it's kind of close to a car
+
+0:05:58.070,0:06:03.500
+still but you do whatever makes you
+
+0:06:00.139,0:06:05.419
+happy so there's my crash car so pause
+
+0:06:03.500,0:06:07.250
+the video until you have these two
+
+0:06:05.419,0:06:08.539
+animations by the way you hit the play
+
+0:06:07.250,0:06:11.270
+button here and I'll just kind of show
+
+0:06:08.539,0:06:13.039
+you like here's normal here's crashed so
+
+0:06:11.270,0:06:15.530
+when you hit a wall you're gonna switch
+
+0:06:13.039,0:06:17.900
+it that crash alright so I'm gonna save
+
+0:06:15.530,0:06:21.139
+that up and I'm gonna head back to my
+
+0:06:17.900,0:06:22.820
+game now my car is currently much too
+
+0:06:21.139,0:06:27.110
+big for a track right so I'm gonna have
+
+0:06:22.820,0:06:28.370
+to make my car much smaller and again
+
+0:06:27.110,0:06:29.840
+this is why I encourage you not to
+
+0:06:28.370,0:06:31.219
+necessarily go nuts with draw on
+
+0:06:29.840,0:06:33.590
+headlights and stuff because once your
+
+0:06:31.219,0:06:35.130
+car is small enough you can only see so
+
+0:06:33.590,0:06:37.510
+many of those
+
+0:06:35.130,0:06:40.090
+while we're still in the drawing mood
+
+0:06:37.510,0:06:43.300
+we've got to draw a track so let's go
+
+0:06:40.090,0:06:48.450
+ahead and draw a track really quick so
+
+0:06:43.300,0:06:50.590
+click on the stage say add backgrounds
+
+0:06:48.450,0:06:53.500
+click on the paintbrush because we're
+
+0:06:50.590,0:06:58.120
+gonna draw our track and say draw an
+
+0:06:53.500,0:07:00.520
+image now your track let me get this 75%
+
+0:06:58.120,0:07:02.620
+thanks for Kinley your track is gonna
+
+0:07:00.520,0:07:04.660
+need to have a border around the outside
+
+0:07:02.620,0:07:06.610
+so people can't just like drive off into
+
+0:07:04.660,0:07:08.230
+space and it's gonna have something in
+
+0:07:06.610,0:07:09.760
+the middle and it's going to have enough
+
+0:07:08.230,0:07:11.620
+room that you can actually get around
+
+0:07:09.760,0:07:13.780
+but other than that you can do whatever
+
+0:07:11.620,0:07:15.040
+you want so what I'm going to choose to
+
+0:07:13.780,0:07:17.980
+do is I'm going to make a border around
+
+0:07:15.040,0:07:22.990
+the outside that's maybe like 10 pixels
+
+0:07:17.980,0:07:24.760
+in in thickness I'm gonna choose a like
+
+0:07:22.990,0:07:27.700
+maybe a green color of some sort
+
+0:07:24.760,0:07:29.410
+I go choose like a dark green by the way
+
+0:07:27.700,0:07:31.090
+this hex eye is gonna be late
+
+0:07:29.410,0:07:34.840
+useful later but I'll just wait until
+
+0:07:31.090,0:07:36.490
+later before I I worry about that to
+
+0:07:34.840,0:07:39.220
+make a border around the outside I like
+
+0:07:36.490,0:07:41.890
+to draw it to be nearly big enough maybe
+
+0:07:39.220,0:07:43.330
+I'll make it perfectly big enough if you
+
+0:07:41.890,0:07:45.490
+make it perfect then great you're done
+
+0:07:43.330,0:07:47.680
+if it's not quite perfect you just have
+
+0:07:45.490,0:07:49.000
+to grab these little handles and just
+
+0:07:47.680,0:07:51.610
+scooch it all the way till there's
+
+0:07:49.000,0:07:53.080
+nothing I shown on the outside this is
+
+0:07:51.610,0:07:54.970
+the same thing that we did for the maze
+
+0:07:53.080,0:07:57.310
+so hopefully it's something you're
+
+0:07:54.970,0:08:00.010
+familiar with now we need to draw
+
+0:07:57.310,0:08:02.169
+something in the middle the middle can
+
+0:08:00.010,0:08:05.100
+be what I read like if you wanted to
+
+0:08:02.169,0:08:08.080
+kind of be rectangular you can do that
+
+0:08:05.100,0:08:11.050
+if you would rather it kind of be oval
+
+0:08:08.080,0:08:13.000
+based you know you can do that but it
+
+0:08:11.050,0:08:14.860
+should be a track that people can you
+
+0:08:13.000,0:08:16.960
+know get around right so maybe I'll make
+
+0:08:14.860,0:08:18.550
+them kind of go through there and then
+
+0:08:16.960,0:08:22.360
+up through here but they should be able
+
+0:08:18.550,0:08:23.860
+to drive around it your car is only so
+
+0:08:22.360,0:08:26.650
+big so you might want to give yourself
+
+0:08:23.860,0:08:28.780
+some some space to kind of drive things
+
+0:08:26.650,0:08:31.360
+around right maybe I'll add another
+
+0:08:28.780,0:08:34.750
+little hump here if you'd like to keep
+
+0:08:31.360,0:08:37.150
+the background white that's fine but if
+
+0:08:34.750,0:08:39.219
+you'd like to use a fill and make it
+
+0:08:37.150,0:08:40.210
+kind of like a gray color that's also
+
+0:08:39.219,0:08:44.200
+fine whatever you prefer
+
+0:08:40.210,0:08:46.140
+I also feel free to decorate I always
+
+0:08:44.200,0:08:47.329
+like to put my name on things right so
+
+0:08:46.140,0:08:53.989
+this
+
+0:08:47.329,0:08:58.069
+is dr. Fisher's track so with the more
+
+0:08:53.989,0:08:59.480
+formal dr. Fischer right I'd always
+
+0:08:58.069,0:09:00.439
+likes to drop down a little bit at the
+
+0:08:59.480,0:09:02.929
+end though while I consider that a
+
+0:09:00.439,0:09:05.119
+feature this time and I think that that
+
+0:09:02.929,0:09:08.239
+looks looks good enough for me
+
+0:09:05.119,0:09:09.799
+so Plaza as you need and make sure that
+
+0:09:08.239,0:09:11.749
+you've got some type of track that you
+
+0:09:09.799,0:09:14.899
+can get around and then go ahead and hit
+
+0:09:11.749,0:09:18.470
+save all right so now we're ready to
+
+0:09:14.899,0:09:19.699
+start in with the code kind of drawing
+
+0:09:18.470,0:09:21.589
+is definitely a useful skill I
+
+0:09:19.699,0:09:22.759
+definitely want you to do it but I think
+
+0:09:21.589,0:09:24.799
+we're good enough that you don't have to
+
+0:09:22.759,0:09:26.329
+watch me do it anymore you can just
+
+0:09:24.799,0:09:28.790
+start making them yourself
+
+0:09:26.329,0:09:29.839
+so now it's time for the code so here
+
+0:09:28.790,0:09:34.489
+you will have to kind of follow along
+
+0:09:29.839,0:09:36.049
+with me click on the car if it bothers
+
+0:09:34.489,0:09:38.929
+you might the name of my car is
+
+0:09:36.049,0:09:43.249
+currently actor so I'm gonna rename him
+
+0:09:38.929,0:09:44.809
+race car Oh while I'm naming things I
+
+0:09:43.249,0:09:46.549
+should probably save my project I
+
+0:09:44.809,0:09:48.709
+usually forget to do this and tell like
+
+0:09:46.549,0:09:51.860
+way later but you really should save
+
+0:09:48.709,0:09:56.929
+early and save often right so I'm just
+
+0:09:51.860,0:09:58.579
+gonna call it race car track I don't
+
+0:09:56.929,0:10:01.220
+want to publish it yet I'll publish it
+
+0:09:58.579,0:10:02.209
+later I just wanted to go ahead and save
+
+0:10:01.220,0:10:03.649
+that early because I've done a lot of
+
+0:10:02.209,0:10:06.470
+drawing alright and I don't want to lose
+
+0:10:03.649,0:10:09.379
+all my drawings but now I'm ready to add
+
+0:10:06.470,0:10:12.559
+some code to my race car so my race car
+
+0:10:09.379,0:10:14.540
+needs an on start we've done that many
+
+0:10:12.559,0:10:15.709
+times and are in our projects that's
+
+0:10:14.540,0:10:18.230
+just as soon as you hit the start button
+
+0:10:15.709,0:10:20.419
+that's stuff that happens and we want
+
+0:10:18.230,0:10:22.220
+some things to happen forever so we're
+
+0:10:20.419,0:10:26.029
+gonna add a forever loop so go to
+
+0:10:22.220,0:10:31.639
+control and go ahead and grab a forever
+
+0:10:26.029,0:10:33.619
+loop and we want to do things like we
+
+0:10:31.639,0:10:35.959
+want to check to see if the user is
+
+0:10:33.619,0:10:38.239
+telling us to turn we want to move
+
+0:10:35.959,0:10:40.429
+forwards we want to check to see if
+
+0:10:38.239,0:10:42.410
+we're crashed and then of course we have
+
+0:10:40.429,0:10:43.790
+to add that that wait so that our loop
+
+0:10:42.410,0:10:46.819
+doesn't happen like too fast
+
+0:10:43.790,0:10:48.410
+now normally we just go grab the code
+
+0:10:46.819,0:10:50.569
+and just put it in here and there's
+
+0:10:48.410,0:10:51.739
+nothing wrong with that but today I want
+
+0:10:50.569,0:10:53.629
+to teach you something new about
+
+0:10:51.739,0:10:55.520
+functions click on the button that says
+
+0:10:53.629,0:10:57.800
+functions
+
+0:10:55.520,0:11:01.220
+today's game we're going to make using
+
+0:10:57.800,0:11:03.260
+functions functions are good for making
+
+0:11:01.220,0:11:05.300
+code that you can reuse it's also good
+
+0:11:03.260,0:11:06.589
+for organization so what is a function
+
+0:11:05.300,0:11:09.070
+let's go ahead and make one we'll learn
+
+0:11:06.589,0:11:11.779
+about it so click on create function
+
+0:11:09.070,0:11:13.730
+we're gonna make a function and here you
+
+0:11:11.779,0:11:19.459
+have to do some typing that says check
+
+0:11:13.730,0:11:21.200
+for turns with functions in tinker you
+
+0:11:19.459,0:11:23.300
+can use capital letters you can use
+
+0:11:21.200,0:11:24.709
+lowercase letters you can put spaces in
+
+0:11:23.300,0:11:27.290
+the name of the function doesn't matter
+
+0:11:24.709,0:11:31.399
+I'm going to make mine check for turns
+
+0:11:27.290,0:11:33.500
+and just use spaces as appropriate now a
+
+0:11:31.399,0:11:34.490
+function can also have parameters we're
+
+0:11:33.500,0:11:36.620
+not going to worry about that today
+
+0:11:34.490,0:11:38.480
+maybe tomorrow we'll do that with our
+
+0:11:36.620,0:11:42.230
+with our stars right but check for turns
+
+0:11:38.480,0:11:44.720
+and click on create now when you click
+
+0:11:42.230,0:11:48.410
+on create something happens and they
+
+0:11:44.720,0:11:51.350
+make for you a spot for this function
+
+0:11:48.410,0:11:53.390
+now usually it shows up right on my
+
+0:11:51.350,0:11:55.220
+screen and I can see it but if somehow
+
+0:11:53.390,0:11:57.350
+you don't see that just like zoom out
+
+0:11:55.220,0:11:59.660
+until you find it and then move it to
+
+0:11:57.350,0:12:02.420
+where you can see it but what's gonna
+
+0:11:59.660,0:12:05.000
+happen here is under this checked
+
+0:12:02.420,0:12:06.350
+returns I'm going to put some code and
+
+0:12:05.000,0:12:07.940
+then whenever I want to call that
+
+0:12:06.350,0:12:09.500
+function I'll have to call up from my
+
+0:12:07.940,0:12:11.660
+main loop let's go ahead and write the
+
+0:12:09.500,0:12:15.140
+function together and then we'll call up
+
+0:12:11.660,0:12:17.149
+a remain loop so check for turns a check
+
+0:12:15.140,0:12:18.709
+is an if statement so we know we're
+
+0:12:17.149,0:12:21.980
+gonna have to add some if statements to
+
+0:12:18.709,0:12:23.750
+this function we're gonna need a grand
+
+0:12:21.980,0:12:26.329
+total of two if statements I'm going to
+
+0:12:23.750,0:12:29.029
+move over one if statement and I'm
+
+0:12:26.329,0:12:30.940
+building up this function right and then
+
+0:12:29.029,0:12:35.120
+I'm going to bring another if statement
+
+0:12:30.940,0:12:37.579
+also into my function now currently says
+
+0:12:35.120,0:12:39.680
+if false then but really this is just a
+
+0:12:37.579,0:12:42.890
+placeholder so if some condition happens
+
+0:12:39.680,0:12:45.589
+then run this code the condition we're
+
+0:12:42.890,0:12:52.100
+looking for is the user pressing the
+
+0:12:45.589,0:12:53.360
+left arrow so let's go to sensing and
+
+0:12:52.100,0:12:57.380
+what we're looking for us we're looking
+
+0:12:53.360,0:12:58.940
+for are they pressing a key right so
+
+0:12:57.380,0:13:01.610
+really what we want to do is we want
+
+0:12:58.940,0:13:05.120
+like pressing some key and down here is
+
+0:13:01.610,0:13:07.370
+a good one key up arrow pressed now
+
+0:13:05.120,0:13:08.720
+that's the wrong key but you can see
+
+0:13:07.370,0:13:09.230
+that that's probably a good starting
+
+0:13:08.720,0:13:11.620
+point
+
+0:13:09.230,0:13:17.990
+and we don't want to check the up-arrow
+
+0:13:11.620,0:13:19.820
+we want to check the left arrow and then
+
+0:13:17.990,0:13:26.080
+for the other one we want to also check
+
+0:13:19.820,0:13:28.340
+a key and we're gonna do the right arrow
+
+0:13:26.080,0:13:29.390
+now I'm moving a little bit fast today I
+
+0:13:28.340,0:13:31.790
+don't know I guess it's just warm
+
+0:13:29.390,0:13:34.010
+outside but feel free to pause the video
+
+0:13:31.790,0:13:36.230
+if I'm doing things too too quickly
+
+0:13:34.010,0:13:38.450
+right so I've got a function over here
+
+0:13:36.230,0:13:39.590
+where you see my code I've got a
+
+0:13:38.450,0:13:41.960
+function over here with two if
+
+0:13:39.590,0:13:44.060
+statements in it and right now I'm
+
+0:13:41.960,0:13:45.440
+making this function first but I'm not
+
+0:13:44.060,0:13:47.900
+actually calling this function we're
+
+0:13:45.440,0:13:49.700
+gonna get to that in a second so this
+
+0:13:47.900,0:13:53.690
+function if you're touching the left
+
+0:13:49.700,0:13:55.670
+arrow we want to turn to the left some
+
+0:13:53.690,0:14:01.760
+number of degrees right so let's go
+
+0:13:55.670,0:14:04.000
+ahead and find motion and so if I'm
+
+0:14:01.760,0:14:06.110
+pressing left arrow I want to turn left
+
+0:14:04.000,0:14:08.390
+so you gotta kind of like look at the
+
+0:14:06.110,0:14:12.230
+little arrows on here and if I was a car
+
+0:14:08.390,0:14:15.050
+this bottom one is a left turn and then
+
+0:14:12.230,0:14:21.470
+this top one this top one is my right
+
+0:14:15.050,0:14:22.820
+turn great now the amount 15 degrees you
+
+0:14:21.470,0:14:24.920
+just have to kind of play with it and
+
+0:14:22.820,0:14:27.950
+see see how it goes it depends on how
+
+0:14:24.920,0:14:30.380
+fast your your timing is so I'm just
+
+0:14:27.950,0:14:31.730
+gonna leave it as 15 for now and if I
+
+0:14:30.380,0:14:35.150
+have to change it later I have to change
+
+0:14:31.730,0:14:37.610
+it later so now we've written a function
+
+0:14:35.150,0:14:39.260
+so if we ever want to use this code we
+
+0:14:37.610,0:14:43.660
+can call this function let's go ahead
+
+0:14:39.260,0:14:46.610
+and do that so go back to functions and
+
+0:14:43.660,0:14:50.210
+this check for turns function that we've
+
+0:14:46.610,0:14:52.790
+made we want to call it as the first
+
+0:14:50.210,0:14:56.150
+thing in our forever loop so the first
+
+0:14:52.790,0:14:58.010
+thing we do is we check for turns so now
+
+0:14:56.150,0:15:00.230
+the way our code works is it it hits
+
+0:14:58.010,0:15:03.650
+that function call it hops over to this
+
+0:15:00.230,0:15:05.840
+function and it runs it and then ctrl
+
+0:15:03.650,0:15:07.700
+comes back over here now the next thing
+
+0:15:05.840,0:15:10.370
+I want to do after I check for turns is
+
+0:15:07.700,0:15:11.870
+I want to move the car forward so now
+
+0:15:10.370,0:15:15.250
+I've kind of like done my steering I
+
+0:15:11.870,0:15:20.800
+want to move upwards that's in motion
+
+0:15:15.250,0:15:20.800
+I've had to move 10 pixels
+
+0:15:21.200,0:15:29.120
+now after I move 10 pixels what I want
+
+0:15:25.490,0:15:30.680
+to do is I want to check for a crash and
+
+0:15:29.120,0:15:33.200
+then I want to have a short time delay
+
+0:15:30.680,0:15:35.690
+let's add the time delay and test it and
+
+0:15:33.200,0:15:37.850
+then we'll worry about crashes later so
+
+0:15:35.690,0:15:40.579
+let's add that time delay time delays
+
+0:15:37.850,0:15:44.170
+are over in control they're near the
+
+0:15:40.579,0:15:44.170
+bottom but not all the way to the bottom
+
+0:15:44.769,0:15:50.029
+and it says wait one second and I'm
+
+0:15:48.290,0:15:51.769
+going to pop that in there now one
+
+0:15:50.029,0:15:54.170
+second is a very long time that would
+
+0:15:51.769,0:15:55.699
+make your game feel very like jumpy so
+
+0:15:54.170,0:16:00.800
+we're going to use the the number that
+
+0:15:55.699,0:16:04.100
+we've used in the past and that's 0.05
+
+0:16:00.800,0:16:05.839
+that's one twentieth of a second it
+
+0:16:04.100,0:16:10.070
+makes your game play at 20 frames per
+
+0:16:05.839,0:16:12.019
+second essentially so let's try it if it
+
+0:16:10.070,0:16:13.730
+all works what should happen is you
+
+0:16:12.019,0:16:16.880
+should be able to steer your car around
+
+0:16:13.730,0:16:19.370
+using the left and right arrow now you
+
+0:16:16.880,0:16:22.220
+can decide for you what you want to do
+
+0:16:19.370,0:16:24.459
+about speeds so right now the speed is
+
+0:16:22.220,0:16:27.649
+that he's going forwards at 10 pixels
+
+0:16:24.459,0:16:30.620
+and he's turning at 15 degrees now
+
+0:16:27.649,0:16:33.199
+that's actually kind of a slow turn
+
+0:16:30.620,0:16:36.320
+sorry kind of a slow speed but kind of a
+
+0:16:33.199,0:16:38.209
+fast turn right if you like that leave
+
+0:16:36.320,0:16:39.980
+it right you don't you don't have to
+
+0:16:38.209,0:16:40.399
+change it if you want to tweak it a
+
+0:16:39.980,0:16:42.320
+little bit
+
+0:16:40.399,0:16:46.970
+feel free to tweak it so if you wanted
+
+0:16:42.320,0:16:49.190
+to say move at 15 you could if you
+
+0:16:46.970,0:16:51.620
+wanted to turn a little less hard you
+
+0:16:49.190,0:16:53.060
+could take those 15s down to tens and
+
+0:16:51.620,0:16:57.199
+you could see what that was like right
+
+0:16:53.060,0:17:00.440
+so now I don't turn as sharp but I move
+
+0:16:57.199,0:17:03.260
+kind of faster right so with your track
+
+0:17:00.440,0:17:05.990
+and your car decide what you want your
+
+0:17:03.260,0:17:07.160
+speeds to be and then just whatever you
+
+0:17:05.990,0:17:09.919
+decide you want it to be that's where
+
+0:17:07.160,0:17:12.679
+you leave it cool so I think it's
+
+0:17:09.919,0:17:16.819
+looking pretty good so let's go ahead
+
+0:17:12.679,0:17:21.500
+and add some more stuff I'm gonna click
+
+0:17:16.819,0:17:24.620
+Save really quick so we use this
+
+0:17:21.500,0:17:26.959
+function purely for organization right
+
+0:17:24.620,0:17:30.890
+so it makes our main loop easier to read
+
+0:17:26.959,0:17:33.340
+so it says check for turns move 15 now
+
+0:17:30.890,0:17:35.350
+we want to check for crash
+
+0:17:33.340,0:17:42.850
+make another function so click on
+
+0:17:35.350,0:17:49.630
+functions create function and we'll tell
+
+0:17:42.850,0:17:51.340
+this one check for crash again you could
+
+0:17:49.630,0:17:53.860
+actually name your function anything you
+
+0:17:51.340,0:17:56.770
+wanted upper case lower case using
+
+0:17:53.860,0:18:00.220
+spaces doesn't matter man taker just
+
+0:17:56.770,0:18:01.510
+pick a name that you like and you'll see
+
+0:18:00.220,0:18:04.030
+I can kind of see mine sticking out over
+
+0:18:01.510,0:18:07.630
+here you'll see that it adds a function
+
+0:18:04.030,0:18:09.040
+stub for you so make sure you find that
+
+0:18:07.630,0:18:10.120
+stub right because that's that's
+
+0:18:09.040,0:18:13.180
+important that's where we gonna put your
+
+0:18:10.120,0:18:14.860
+function now just to be different this
+
+0:18:13.180,0:18:16.960
+time let's go ahead and call the
+
+0:18:14.860,0:18:19.750
+function first and then we'll write the
+
+0:18:16.960,0:18:23.080
+function second so to call the function
+
+0:18:19.750,0:18:24.450
+you take this check for crash you can
+
+0:18:23.080,0:18:26.890
+kind of see how it's a different shape
+
+0:18:24.450,0:18:30.070
+I'm gonna choose to put it right between
+
+0:18:26.890,0:18:32.620
+the move and the time delay does it have
+
+0:18:30.070,0:18:33.910
+to go there not really if you go about
+
+0:18:32.620,0:18:35.110
+anywhere in the loop because it doesn't
+
+0:18:33.910,0:18:36.970
+matter what order you do these things
+
+0:18:35.110,0:18:38.950
+they come around so fast that it'll
+
+0:18:36.970,0:18:42.610
+check for the crash pretty often but I'm
+
+0:18:38.950,0:18:45.040
+gonna check right after I move now if
+
+0:18:42.610,0:18:48.130
+you were to play your game right now it
+
+0:18:45.040,0:18:50.080
+would not check for crashes all would do
+
+0:18:48.130,0:18:53.230
+is it would call the function check for
+
+0:18:50.080,0:18:55.360
+crash which is empty and then carry on
+
+0:18:53.230,0:18:57.640
+with life right so functions aren't
+
+0:18:55.360,0:18:59.500
+magic just because you say hey call a
+
+0:18:57.640,0:19:01.360
+function that says check for crash it
+
+0:18:59.500,0:19:03.310
+doesn't just do it it does whatever code
+
+0:19:01.360,0:19:07.300
+you've got there so let's go ahead and
+
+0:19:03.310,0:19:09.790
+add some code inside check for crash so
+
+0:19:07.300,0:19:12.210
+in order to do this you need a pencil
+
+0:19:09.790,0:19:14.440
+and paper which I forgot again today so
+
+0:19:12.210,0:19:16.990
+I'm gonna pause the video go get a
+
+0:19:14.440,0:19:19.990
+pencil paper I'll be right back alright
+
+0:19:16.990,0:19:22.330
+I've got my pencil and paper magically
+
+0:19:19.990,0:19:24.220
+instantly and so what we need to do is
+
+0:19:22.330,0:19:27.250
+we're going to need to check if we're
+
+0:19:24.220,0:19:28.660
+touching the color of the track so I
+
+0:19:27.250,0:19:30.820
+know that I'm going to need that color
+
+0:19:28.660,0:19:32.860
+so I'm just going to go get it first so
+
+0:19:30.820,0:19:35.530
+to go get that color you can click on
+
+0:19:32.860,0:19:37.210
+the pencil icon for the stage because
+
+0:19:35.530,0:19:38.980
+there is this there is a costume there
+
+0:19:37.210,0:19:41.170
+you can just click on the pencil and we
+
+0:19:38.980,0:19:43.690
+need to figure out what color is my
+
+0:19:41.170,0:19:44.570
+track and simultaneously what color is
+
+0:19:43.690,0:19:46.850
+my outside
+
+0:19:44.570,0:19:52.130
+so this game is simple you click on the
+
+0:19:46.850,0:19:55.550
+eyedropper you click on your color you
+
+0:19:52.130,0:19:59.960
+click on the the multicolored tool and
+
+0:19:55.550,0:20:03.950
+then you say hex still cracks me up so
+
+0:19:59.960,0:20:06.860
+write down your ear color mine appears
+
+0:20:03.950,0:20:09.830
+to be that crazy combination of letters
+
+0:20:06.860,0:20:12.590
+and numbers again the letters are going
+
+0:20:09.830,0:20:14.360
+to be a through F so you don't have to
+
+0:20:12.590,0:20:17.240
+worry about like is that a zero is that
+
+0:20:14.360,0:20:18.860
+oh it's a zero because it can't be now
+
+0:20:17.240,0:20:21.170
+alright so now we're gonna check for
+
+0:20:18.860,0:20:25.430
+crash checking for something as an if
+
+0:20:21.170,0:20:27.320
+statement so we're gonna say if so it's
+
+0:20:25.430,0:20:30.590
+in control that's the top one in control
+
+0:20:27.320,0:20:33.200
+so if this condition then run this code
+
+0:20:30.590,0:20:37.250
+the condition we want to check for is in
+
+0:20:33.200,0:20:42.680
+sensing we want to check if we're
+
+0:20:37.250,0:20:45.230
+touching a color and then this is where
+
+0:20:42.680,0:20:47.690
+you need to type in that number that you
+
+0:20:45.230,0:20:48.980
+wrote down these boxes are always kind
+
+0:20:47.690,0:20:51.620
+of annoying I find that if I click at
+
+0:20:48.980,0:20:54.380
+the end of it and I just backspace over
+
+0:20:51.620,0:20:58.400
+it oops alright so I'll type in my
+
+0:20:54.380,0:20:59.930
+number here and again you might have to
+
+0:20:58.400,0:21:01.400
+fight with this box up and so you get it
+
+0:20:59.930,0:21:03.320
+use the left and right arrow keys to
+
+0:21:01.400,0:21:04.820
+kind of navigate back and forth and
+
+0:21:03.320,0:21:07.970
+delete key until you work it out now
+
+0:21:04.820,0:21:09.830
+you'll know that it works because it's
+
+0:21:07.970,0:21:11.120
+gonna match the color perfectly right so
+
+0:21:09.830,0:21:12.770
+at least you do get that confirmation
+
+0:21:11.120,0:21:15.410
+before you run your code that yeah it's
+
+0:21:12.770,0:21:18.650
+gonna work right all right so now if we
+
+0:21:15.410,0:21:20.510
+are touching that color what do we want
+
+0:21:18.650,0:21:25.070
+to have happen well we want to switch
+
+0:21:20.510,0:21:27.710
+our costume to that crash costume we
+
+0:21:25.070,0:21:29.990
+also want to decide like do we want to
+
+0:21:27.710,0:21:32.240
+just in the game outright or what do we
+
+0:21:29.990,0:21:34.880
+want to do for now we will just what is
+
+0:21:32.240,0:21:36.980
+in the game like after a short pause so
+
+0:21:34.880,0:21:41.240
+let's go ahead and switch costumes so
+
+0:21:36.980,0:21:44.420
+that's going to be in looks and we're
+
+0:21:41.240,0:21:47.210
+going to say switch costume switch to
+
+0:21:44.420,0:21:49.850
+costume and now if you named your
+
+0:21:47.210,0:21:53.420
+costumes they'll have good names I was
+
+0:21:49.850,0:21:57.200
+good I named mine car and crash so I'm
+
+0:21:53.420,0:21:58.150
+gonna say switch costume to crash now
+
+0:21:57.200,0:22:00.130
+whenever I start
+
+0:21:58.150,0:22:02.500
+with costumes like this like if I switch
+
+0:22:00.130,0:22:04.990
+to crash later I find that it's always
+
+0:22:02.500,0:22:08.200
+good practice to switch to your normal
+
+0:22:04.990,0:22:10.360
+car right on the starter sometimes it
+
+0:22:08.200,0:22:13.090
+turns out not to be necessary but I
+
+0:22:10.360,0:22:14.320
+always welcome doing it so here's what
+
+0:22:13.090,0:22:17.610
+I'm gonna do I'm gonna grab another
+
+0:22:14.320,0:22:21.400
+switch to costume and I'm gonna put it
+
+0:22:17.610,0:22:23.680
+between on start and forever this is a
+
+0:22:21.400,0:22:25.960
+good place to do kind of like your set
+
+0:22:23.680,0:22:28.270
+up work right and so in this area we're
+
+0:22:25.960,0:22:30.610
+gonna switch to the car it's that way
+
+0:22:28.270,0:22:31.060
+even if it's got crashed in a previous
+
+0:22:30.610,0:22:33.070
+round
+
+0:22:31.060,0:22:34.300
+it'll be reset now what we're actually
+
+0:22:33.070,0:22:36.850
+going to do is we're just going to end
+
+0:22:34.300,0:22:43.480
+the game if that happens ending the game
+
+0:22:36.850,0:22:46.300
+is in control and we scroll down and
+
+0:22:43.480,0:22:47.590
+we're gonna grab this stop all now we're
+
+0:22:46.300,0:22:49.540
+going to come up with a better thing to
+
+0:22:47.590,0:22:51.190
+do after a while but for now just to
+
+0:22:49.540,0:22:52.600
+kind of test it this is what won't
+
+0:22:51.190,0:22:56.080
+happen so we're gonna switch to costume
+
+0:22:52.600,0:22:58.300
+crash and then the game's gonna stop now
+
+0:22:56.080,0:23:00.040
+I happen to know that there's a bug here
+
+0:22:58.300,0:23:01.930
+and the bug is is that as soon as the
+
+0:23:00.040,0:23:04.000
+game ends as soon as stop all happens
+
+0:23:01.930,0:23:05.440
+then you don't see anything else that
+
+0:23:04.000,0:23:07.060
+just resets the beginning so I want to
+
+0:23:05.440,0:23:09.430
+actually wait for a little bit between
+
+0:23:07.060,0:23:11.290
+those two activities maybe I'll wait for
+
+0:23:09.430,0:23:15.250
+like three seconds so that way you can
+
+0:23:11.290,0:23:16.930
+see your car in its crash mode and then
+
+0:23:15.250,0:23:20.640
+you can actually know that you're fresh
+
+0:23:16.930,0:23:20.640
+so now I'm going to go in and hit play
+
+0:23:20.700,0:23:25.990
+and I'm gonna intentionally just crash
+
+0:23:23.290,0:23:27.790
+right into a wall cool and so I can see
+
+0:23:25.990,0:23:30.700
+that I've got a nice little car crash
+
+0:23:27.790,0:23:32.410
+which is fun and then my game did stop
+
+0:23:30.700,0:23:34.900
+so the only way I can play it again is
+
+0:23:32.410,0:23:38.680
+by hitting the button again and then you
+
+0:23:34.900,0:23:40.900
+can race it around or your track and you
+
+0:23:38.680,0:23:45.310
+can see how how long you can make it
+
+0:23:40.900,0:23:49.300
+right and if you hit the outsides
+
+0:23:45.310,0:23:50.860
+I bet should make you crash as well by
+
+0:23:49.300,0:23:58.630
+the way you can also add sound effects
+
+0:23:50.860,0:24:00.490
+sound effects are fun and so if you want
+
+0:23:58.630,0:24:03.850
+to add a sound effect that can be a fun
+
+0:24:00.490,0:24:05.320
+thing to do to add a sound effect we
+
+0:24:03.850,0:24:09.630
+have kind of tried to play with this
+
+0:24:05.320,0:24:12.360
+before you can click on the racecar here
+
+0:24:09.630,0:24:16.510
+you can go into sounds
+
+0:24:12.360,0:24:19.660
+and you can add a sound now you can add
+
+0:24:16.510,0:24:23.170
+sounds from their library you can look
+
+0:24:19.660,0:24:24.700
+around and play sounds and so what you
+
+0:24:23.170,0:24:26.320
+could what you could do is you could do
+
+0:24:24.700,0:24:29.020
+a search if you want to look for
+
+0:24:26.320,0:24:31.030
+something so if you want to add it you
+
+0:24:29.020,0:24:32.560
+click on the top icon if you just want
+
+0:24:31.030,0:24:34.840
+to play it you just hit the play button
+
+0:24:32.560,0:24:36.910
+below it right and so that's that's the
+
+0:24:34.840,0:24:41.110
+way that works so I'm going to choose to
+
+0:24:36.910,0:24:44.350
+add an explosion and what that does is
+
+0:24:41.110,0:24:46.240
+that much like costumes that makes it a
+
+0:24:44.350,0:24:49.930
+costume I can use this makes it a sound
+
+0:24:46.240,0:24:53.530
+I can use now I can use that sound
+
+0:24:49.930,0:24:56.110
+effect in my code alright so what I'm
+
+0:24:53.530,0:24:57.580
+going to do is I've now got the ability
+
+0:24:56.110,0:25:01.240
+to use that sound effect I'm going to go
+
+0:24:57.580,0:25:03.460
+into the sound area and there's two
+
+0:25:01.240,0:25:05.620
+types of sounds there's play sound until
+
+0:25:03.460,0:25:08.620
+done that would be a fine one to use or
+
+0:25:05.620,0:25:12.960
+there's just play sound I'm right now
+
+0:25:08.620,0:25:15.550
+I'm just gonna play sound explosion and
+
+0:25:12.960,0:25:18.970
+so now what you can do is you to try
+
+0:25:15.550,0:25:23.770
+your game again and now when you crash
+
+0:25:18.970,0:25:26.260
+your car you should hear a sound and see
+
+0:25:23.770,0:25:28.750
+the costume change now you probably
+
+0:25:26.260,0:25:30.820
+can't hear my sound because of I'm set
+
+0:25:28.750,0:25:32.590
+up here to record audio but it should
+
+0:25:30.820,0:25:35.020
+work for you right so you should be able
+
+0:25:32.590,0:25:37.380
+to crash your car you should be able to
+
+0:25:35.020,0:25:39.790
+hear a sound and then see the crash
+
+0:25:37.380,0:25:42.220
+alright so now we're ready to add the
+
+0:25:39.790,0:25:45.310
+final cool feature instead of just
+
+0:25:42.220,0:25:47.140
+switching to one costume which is our
+
+0:25:45.310,0:25:49.300
+crash costume and stopping the game
+
+0:25:47.140,0:25:51.190
+we're gonna play in animation animations
+
+0:25:49.300,0:25:53.530
+are really fun so here's what I want you
+
+0:25:51.190,0:25:56.140
+to do I want you to take these three
+
+0:25:53.530,0:25:58.330
+lines of code switch costume wait for
+
+0:25:56.140,0:26:00.010
+three seconds and stop all and just kind
+
+0:25:58.330,0:26:02.410
+of like set them over to the side right
+
+0:26:00.010,0:26:03.670
+so we're actually you could delete them
+
+0:26:02.410,0:26:06.010
+because we don't really need them
+
+0:26:03.670,0:26:07.090
+anymore but I like to keep code around
+
+0:26:06.010,0:26:09.160
+because I went to all the trouble of
+
+0:26:07.090,0:26:12.730
+writing it and instead we're going to
+
+0:26:09.160,0:26:14.890
+play a crash animation now just for the
+
+0:26:12.730,0:26:17.860
+sake of practicing with functions let's
+
+0:26:14.890,0:26:22.330
+make another function called play crash
+
+0:26:17.860,0:26:25.720
+animation so go to functions create a
+
+0:26:22.330,0:26:30.519
+function play
+
+0:26:25.720,0:26:31.830
+crash animation so we're learning about
+
+0:26:30.519,0:26:35.289
+two things we're learning about
+
+0:26:31.830,0:26:36.820
+functions play crash animation the
+
+0:26:35.289,0:26:38.590
+function and we're also going to learn
+
+0:26:36.820,0:26:40.750
+about animations right so kind of kind
+
+0:26:38.590,0:26:41.590
+of a neat a little double dip so the
+
+0:26:40.750,0:26:43.419
+first thing you got to do is you're
+
+0:26:41.590,0:26:46.659
+going to go find the the start of your
+
+0:26:43.419,0:26:49.330
+function so let me get my code organized
+
+0:26:46.659,0:26:51.039
+here so you can see that functions can
+
+0:26:49.330,0:26:53.379
+be good just for kind of like describing
+
+0:26:51.039,0:26:55.509
+what's happening so I want to play this
+
+0:26:53.379,0:26:57.309
+explosion and then play a crash
+
+0:26:55.509,0:26:58.720
+animation I'm gonna do the same thing at
+
+0:26:57.309,0:27:01.029
+the last time I'm gonna call the
+
+0:26:58.720,0:27:03.669
+function first so the way you call a
+
+0:27:01.029,0:27:06.370
+function is it kind of makes a block for
+
+0:27:03.669,0:27:08.500
+you right and I put a blue play sound so
+
+0:27:06.370,0:27:10.299
+it's kind of neat functions or like your
+
+0:27:08.500,0:27:12.129
+ability to make your own blocks that can
+
+0:27:10.299,0:27:13.659
+do anything right so it's really kind of
+
+0:27:12.129,0:27:15.519
+neat so now when we're touching this
+
+0:27:13.659,0:27:17.500
+color we're gonna play a sound an
+
+0:27:15.519,0:27:20.649
+explosion in this case and then we're
+
+0:27:17.500,0:27:22.840
+gonna play a crash animation alright so
+
+0:27:20.649,0:27:24.549
+how do we play an animation well the way
+
+0:27:22.840,0:27:26.710
+you play in animation we've kind of seen
+
+0:27:24.549,0:27:29.529
+the starts of an animation you switch
+
+0:27:26.710,0:27:31.269
+from one costume to the next costume and
+
+0:27:29.529,0:27:33.159
+then the same way animators do it if you
+
+0:27:31.269,0:27:35.289
+make these costumes kind of like close
+
+0:27:33.159,0:27:36.909
+together it can look like movements
+
+0:27:35.289,0:27:38.950
+happening which is kind of cool so
+
+0:27:36.909,0:27:41.169
+really any animation has to start with
+
+0:27:38.950,0:27:43.419
+the costumes so we're gonna have to go
+
+0:27:41.169,0:27:46.929
+back into our racecar again so click on
+
+0:27:43.419,0:27:49.450
+the little gear and right now I've got
+
+0:27:46.929,0:27:52.149
+two costumes I've got one called car and
+
+0:27:49.450,0:27:54.309
+one called crash here's what I want to
+
+0:27:52.149,0:27:57.490
+do instead of having one costume called
+
+0:27:54.309,0:27:59.379
+crash I want to have five so we're going
+
+0:27:57.490,0:28:03.450
+to make some copies of it so I'm going
+
+0:27:59.379,0:28:07.629
+to duplicate it now I've got two crashes
+
+0:28:03.450,0:28:11.679
+duplicate three crashes four crashes and
+
+0:28:07.629,0:28:14.409
+five crashes now you'll notice that when
+
+0:28:11.679,0:28:16.870
+you do this it picks names for you it
+
+0:28:14.409,0:28:19.929
+picked you know just crash and then
+
+0:28:16.870,0:28:22.690
+crash 1 crash 2 crash well crash 11
+
+0:28:19.929,0:28:27.549
+clash 111 not the best names I'm going
+
+0:28:22.690,0:28:32.129
+to change these names to be crash one
+
+0:28:27.549,0:28:35.860
+two three four and five oh and it's
+
+0:28:32.129,0:28:37.929
+drawing a loop see it apparently put a
+
+0:28:35.860,0:28:39.100
+little text on there number of them I
+
+0:28:37.929,0:28:41.250
+didn't really mean to number
+
+0:28:39.100,0:28:44.139
+all right so I want their names to be
+
+0:28:41.250,0:28:46.299
+one two three four five now I started
+
+0:28:44.139,0:28:50.049
+from the bottom to move up
+
+0:28:46.299,0:28:51.789
+I see I'm I'm currently drawing text
+
+0:28:50.049,0:28:53.309
+boxes because I've got that selected all
+
+0:28:51.789,0:28:57.759
+right I just wanted to change the name
+
+0:28:53.309,0:28:59.470
+silly computer even as you get older you
+
+0:28:57.759,0:29:02.429
+still talk to your computers quite a bit
+
+0:28:59.470,0:29:06.970
+right and so my goal is to make
+
+0:29:02.429,0:29:11.769
+eventually five copies and I want to
+
+0:29:06.970,0:29:15.039
+name them crash 1 crash 2 crash 3 crash
+
+0:29:11.769,0:29:17.110
+4 and crash 5 whoo that was harder than
+
+0:29:15.039,0:29:19.600
+I would have expected all right
+
+0:29:17.110,0:29:22.240
+so for each crash what I'm gonna do is
+
+0:29:19.600,0:29:23.590
+I'm gonna add smoke right so I'm gonna
+
+0:29:22.240,0:29:25.600
+zoom to where I can see the whole thing
+
+0:29:23.590,0:29:27.669
+because I always have to do that and I'm
+
+0:29:25.600,0:29:30.389
+gonna have some smoke coming out of my
+
+0:29:27.669,0:29:33.879
+car the first one is gonna have no smoke
+
+0:29:30.389,0:29:35.409
+the second one on is gonna have small
+
+0:29:33.879,0:29:37.570
+smoke that's kind of like near the car
+
+0:29:35.409,0:29:40.029
+and then each one the smokes gonna get
+
+0:29:37.570,0:29:43.059
+bigger and farther away to draw my smoke
+
+0:29:40.029,0:29:47.049
+I'm going to draw circles I'm gonna use
+
+0:29:43.059,0:29:49.120
+some like dark gray color and I'm not an
+
+0:29:47.049,0:29:52.299
+amazing animator so I'm just gonna make
+
+0:29:49.120,0:29:53.980
+like a few circles so I'll just kind of
+
+0:29:52.299,0:29:56.940
+like make a couple circles that are kind
+
+0:29:53.980,0:30:00.909
+of like near the car to start with right
+
+0:29:56.940,0:30:04.960
+so that is the beginnings of my smoke
+
+0:30:00.909,0:30:06.700
+animation that's my crash 2 scene and by
+
+0:30:04.960,0:30:08.440
+the way you can you know you can play
+
+0:30:06.700,0:30:11.549
+these things but let's let's go and make
+
+0:30:08.440,0:30:15.009
+some more smoke so now go to the next
+
+0:30:11.549,0:30:17.559
+frame in your animation so scratch 3 our
+
+0:30:15.009,0:30:19.389
+cracks 3 there's no smoke on this one
+
+0:30:17.559,0:30:23.440
+I'll give that silly three on here that
+
+0:30:19.389,0:30:25.570
+was acts that don't do that so here's
+
+0:30:23.440,0:30:28.389
+what I want to do on Frank 3 I want to
+
+0:30:25.570,0:30:30.700
+know like where were my smokes in the
+
+0:30:28.389,0:30:32.590
+last frame right and draw them a little
+
+0:30:30.700,0:30:34.929
+bigger a little higher now here's where
+
+0:30:32.590,0:30:37.360
+tinker has a nice tool for you this tool
+
+0:30:34.929,0:30:40.590
+right up here if you click on this tool
+
+0:30:37.360,0:30:43.929
+what it'll do is it'll show you a ghost
+
+0:30:40.590,0:30:45.970
+of your previous frame so see how
+
+0:30:43.929,0:30:48.220
+whenever I click it I get a little ghost
+
+0:30:45.970,0:30:51.190
+of those old bubbles that kind of shows
+
+0:30:48.220,0:30:52.870
+me where was the last frame and that's
+
+0:30:51.190,0:30:54.460
+actually really helpful for animation
+
+0:30:52.870,0:30:56.860
+because now I want to draw them a little
+
+0:30:54.460,0:30:58.720
+bigger and a little higher right and
+
+0:30:56.860,0:31:03.010
+then you're going to keep doing this
+
+0:30:58.720,0:31:07.990
+process so there I've drawn my crash
+
+0:31:03.010,0:31:11.370
+three and I switched to crash for now in
+
+0:31:07.990,0:31:14.980
+crash four it shows me a little ghost
+
+0:31:11.370,0:31:16.299
+and the the lady who made the virtual
+
+0:31:14.980,0:31:17.470
+pets talked about this quite a bit but
+
+0:31:16.299,0:31:19.299
+she's like you know that's how a real
+
+0:31:17.470,0:31:22.570
+animators work too right so they use
+
+0:31:19.299,0:31:24.580
+ghost to the previous frame and then
+
+0:31:22.570,0:31:28.120
+they can make them continue to get
+
+0:31:24.580,0:31:31.809
+bigger and then for my final frame there
+
+0:31:28.120,0:31:33.190
+they're gigantic right and what you can
+
+0:31:31.809,0:31:35.260
+do which is kind of fun is you can hit
+
+0:31:33.190,0:31:38.470
+this play button and then kind of see
+
+0:31:35.260,0:31:40.419
+what your animation looks like right now
+
+0:31:38.470,0:31:42.940
+we're doing a relatively simple
+
+0:31:40.419,0:31:45.370
+animation I'm just doing some smoke
+
+0:31:42.940,0:31:47.590
+circles that come off but you can do a
+
+0:31:45.370,0:31:49.750
+lot of creative things with animation
+
+0:31:47.590,0:31:51.970
+this is where like coding and are really
+
+0:31:49.750,0:31:54.940
+come together nicely you can make I mean
+
+0:31:51.970,0:31:56.950
+a hundred page animation flipbook with
+
+0:31:54.940,0:31:58.779
+with just a you know a little bit of
+
+0:31:56.950,0:32:00.640
+code and a lot of drawing if you'd like
+
+0:31:58.779,0:32:02.980
+to do that so you could spend all your
+
+0:32:00.640,0:32:03.940
+time practicing your art skills when
+
+0:32:02.980,0:32:06.940
+you're doing coding which i think is
+
+0:32:03.940,0:32:10.510
+really fun all right as soon as you've
+
+0:32:06.940,0:32:13.899
+got your crash 1 crash 2 crash 3 crash 4
+
+0:32:10.510,0:32:16.480
+and crunch 5 all set we're ready to go
+
+0:32:13.899,0:32:18.880
+write some code to actually bring your
+
+0:32:16.480,0:32:24.460
+animation to life in code so let's go
+
+0:32:18.880,0:32:26.470
+back to our code and inside of our play
+
+0:32:24.460,0:32:33.549
+crash animation we want to put a forever
+
+0:32:26.470,0:32:36.669
+loop so inside of our forever loop so
+
+0:32:33.549,0:32:40.179
+forever what we want to do is we want to
+
+0:32:36.669,0:32:43.390
+switch costumes and then wait a little
+
+0:32:40.179,0:32:45.820
+bit so let's go look at cut let's go
+
+0:32:43.390,0:32:48.520
+look at our commands and looks and see
+
+0:32:45.820,0:32:50.350
+if we could figure out how to do this so
+
+0:32:48.520,0:32:52.480
+one thing we could do we'll just kind of
+
+0:32:50.350,0:32:55.690
+talk about them is we could put in an X
+
+0:32:52.480,0:32:57.370
+costume and below that we could put a
+
+0:32:55.690,0:32:58.779
+time delay and that would almost work
+
+0:32:57.370,0:33:00.730
+except for our smoke would get bigger
+
+0:32:58.779,0:33:03.159
+bigger and bigger and then our car would
+
+0:33:00.730,0:33:04.419
+be cured and then our car would be
+
+0:33:03.159,0:33:06.250
+crashed and the smoke would come out
+
+0:33:04.419,0:33:08.260
+again but there would be that one frame
+
+0:33:06.250,0:33:10.240
+in there that I don't like if I used if
+
+0:33:08.260,0:33:11.980
+I just use next costume and went through
+
+0:33:10.240,0:33:14.169
+all of them there'd be that one glitch
+
+0:33:11.980,0:33:16.000
+that I don't like another thing I could
+
+0:33:14.169,0:33:18.130
+do is I could just say switch to costume
+
+0:33:16.000,0:33:20.559
+and I could just put in each one
+
+0:33:18.130,0:33:22.210
+individually and so I just have like the
+
+0:33:20.559,0:33:25.240
+first thing as I switch to crash 1 I
+
+0:33:22.210,0:33:27.190
+wait switch crash to wait switch crash 3
+
+0:33:25.240,0:33:30.640
+wait and that would work it's just
+
+0:33:27.190,0:33:34.030
+tedious here's the one I want next
+
+0:33:30.640,0:33:37.419
+costume starting with so that's the
+
+0:33:34.030,0:33:39.520
+command that I actually want and I want
+
+0:33:37.419,0:33:40.780
+to start with and if you click in here
+
+0:33:39.520,0:33:42.010
+it will kind of show you your different
+
+0:33:40.780,0:33:43.390
+costumes that's nice because I'm going
+
+0:33:42.010,0:33:47.890
+to click on crash 1 but then I'm going
+
+0:33:43.390,0:33:49.000
+to take off the 1 alright and so what
+
+0:33:47.890,0:33:52.240
+it's going to do is it's going to switch
+
+0:33:49.000,0:33:55.390
+to the next costume that starts with the
+
+0:33:52.240,0:33:57.280
+word crash and so that way it won't
+
+0:33:55.390,0:34:00.250
+include our car frame in our animation
+
+0:33:57.280,0:34:02.890
+it'll just do the crash once and you do
+
+0:34:00.250,0:34:11.080
+need a small delay between them so you
+
+0:34:02.890,0:34:13.060
+can grab a weight and you can decide how
+
+0:34:11.080,0:34:15.669
+long you want between your your
+
+0:34:13.060,0:34:18.070
+animations right so let's say that I
+
+0:34:15.669,0:34:19.599
+want point 3 seconds I don't know it's
+
+0:34:18.070,0:34:21.010
+going to look good you just have to play
+
+0:34:19.599,0:34:27.159
+with it until you figure out what looks
+
+0:34:21.010,0:34:28.480
+good and so now I'm ready to have track
+
+0:34:27.159,0:34:31.119
+my animation right so our first ever
+
+0:34:28.480,0:34:33.369
+animation together looks like my car has
+
+0:34:31.119,0:34:35.530
+disappeared so every so often there are
+
+0:34:33.369,0:34:37.119
+bugs in life and whenever you get like
+
+0:34:35.530,0:34:40.899
+weird bugs like that like my car just
+
+0:34:37.119,0:34:42.220
+disappeared weird my car go I I'm not
+
+0:34:40.899,0:34:45.339
+quite sure what's going on there I'm
+
+0:34:42.220,0:34:47.470
+just gonna refresh the page I saved it
+
+0:34:45.339,0:34:49.119
+first should have pointed that out big
+
+0:34:47.470,0:34:51.879
+bold letters I saved your first hey
+
+0:34:49.119,0:34:54.639
+there my car's back should things like
+
+0:34:51.879,0:34:57.119
+that happen no do things some like that
+
+0:34:54.639,0:34:59.500
+sometimes happen oh yeah apparently so
+
+0:34:57.119,0:35:01.300
+and your goal is just to get better with
+
+0:34:59.500,0:35:02.619
+your tools until you figure out how to
+
+0:35:01.300,0:35:06.760
+do it all right so my game is playing
+
+0:35:02.619,0:35:13.740
+just fine and now if I come around for
+
+0:35:06.760,0:35:17.200
+my big crash boom and my animation fun
+
+0:35:13.740,0:35:18.490
+and that animation is
+
+0:35:17.200,0:35:20.020
+like with the car no matter where it's
+
+0:35:18.490,0:35:21.339
+at so I kind of get this smoke that's
+
+0:35:20.020,0:35:25.410
+coming out so I'm sitting there and just
+
+0:35:21.339,0:35:28.480
+kind of like smoking I consider this
+
+0:35:25.410,0:35:30.339
+finish game so there's all kinds of
+
+0:35:28.480,0:35:31.450
+enhancements that we can make so I'm
+
+0:35:30.339,0:35:33.339
+going to tell you about some of those
+
+0:35:31.450,0:35:34.750
+and then I'm going to go around I'm
+
+0:35:33.339,0:35:36.520
+going to check to see how my campers did
+
+0:35:34.750,0:35:39.579
+I'll tell you what to give them just a
+
+0:35:36.520,0:35:41.020
+second to to finish those up I'm going
+
+0:35:39.579,0:35:44.230
+to show you some some possible
+
+0:35:41.020,0:35:45.790
+enhancements so there are some crazy
+
+0:35:44.230,0:35:48.940
+enhancements you could do to this one
+
+0:35:45.790,0:35:51.070
+one enhancement you could do is to make
+
+0:35:48.940,0:35:52.839
+a second car now you might think oh
+
+0:35:51.070,0:35:53.920
+that's gonna be a lot of trouble you
+
+0:35:52.839,0:35:55.839
+know there's no way I'm gonna take the
+
+0:35:53.920,0:35:57.040
+time to make a second car it turns out
+
+0:35:55.839,0:35:57.820
+that making a second car is actually
+
+0:35:57.040,0:36:01.420
+easier than you think
+
+0:35:57.820,0:36:02.980
+you just duplicate this car and then you
+
+0:36:01.420,0:36:05.050
+go into this other car and you change
+
+0:36:02.980,0:36:07.630
+this color like let's say I wanted him
+
+0:36:05.050,0:36:09.760
+to be blue you just have to change his
+
+0:36:07.630,0:36:12.190
+color and all your different all your
+
+0:36:09.760,0:36:13.750
+different you know versions that you've
+
+0:36:12.190,0:36:16.089
+got of your animation so I guess that's
+
+0:36:13.750,0:36:17.470
+the hard part right so I could go
+
+0:36:16.089,0:36:19.480
+through and I could I could change the
+
+0:36:17.470,0:36:22.630
+rest of them and then you change what
+
+0:36:19.480,0:36:28.030
+keys he moves on a popular set of keys
+
+0:36:22.630,0:36:31.089
+to do is WASD is kind of like your other
+
+0:36:28.030,0:36:33.000
+arrow keys and you can see that with
+
+0:36:31.089,0:36:36.130
+like just like a couple lines of code
+
+0:36:33.000,0:36:38.380
+now I can move one car with one set
+
+0:36:36.130,0:36:40.089
+arrow keys and then the other car with
+
+0:36:38.380,0:36:42.010
+the other set of arrow keys actually
+
+0:36:40.089,0:36:43.660
+didn't made my red car I'll do that but
+
+0:36:42.010,0:36:47.109
+you can see that you can make a
+
+0:36:43.660,0:36:50.430
+two-player game pretty easily I'm gonna
+
+0:36:47.109,0:36:52.599
+undo that before I ship this but that's
+
+0:36:50.430,0:36:54.280
+other things you could do if you wanted
+
+0:36:52.599,0:36:56.980
+in addition to making a two-player game
+
+0:36:54.280,0:37:01.810
+you could use like speed boost so here
+
+0:36:56.980,0:37:04.089
+like my red is a slowdown and my green
+
+0:37:01.810,0:37:06.069
+is a speed-up I've also got oil slicks
+
+0:37:04.089,0:37:08.020
+that have you hit an oil slick I kind of
+
+0:37:06.069,0:37:10.089
+wiped you out is that something that you
+
+0:37:08.020,0:37:13.089
+could add if you wanted you could also
+
+0:37:10.089,0:37:15.099
+add things like winning right so some
+
+0:37:13.089,0:37:17.200
+people don't like to make it game unless
+
+0:37:15.099,0:37:20.230
+they can win it but if you make some
+
+0:37:17.200,0:37:22.359
+color that's like a finish line you
+
+0:37:20.230,0:37:24.160
+could win your game too right so there's
+
+0:37:22.359,0:37:26.530
+a lot of neat enhancements you can make
+
+0:37:24.160,0:37:28.280
+I'm not going to go into these I was
+
+0:37:26.530,0:37:31.090
+just kind of telling you some things
+
+0:37:28.280,0:37:33.980
+you could do if you if you wanted right
+
+0:37:31.090,0:37:36.110
+and so yeah those are some some things
+
+0:37:33.980,0:37:39.380
+that you could do alright so I think
+
+0:37:36.110,0:37:42.380
+it's time to say what before I ship my
+
+0:37:39.380,0:37:43.610
+game I'm going to delete my race car one
+
+0:37:42.380,0:37:45.290
+because I don't I don't meet him I was
+
+0:37:43.610,0:37:50.320
+just demo for you guys I'm gonna save
+
+0:37:45.290,0:37:54.140
+and publish and so this is day for
+
+0:37:50.320,0:37:55.640
+connecting with Co week one I like to do
+
+0:37:54.140,0:37:57.800
+a save and publish so that other people
+
+0:37:55.640,0:38:00.340
+can see my work but I'm curious to see
+
+0:37:57.800,0:38:35.810
+to see how my campers did today
+
+0:38:00.340,0:38:40.780
+are you ready to show us your car you
+
+0:38:35.810,0:38:40.780
+better you bet and then wash your car
+
+0:38:48.640,0:38:56.980
+hey did you like today you join
+
+0:38:53.980,0:38:56.980
+functions
+
+0:38:57.010,0:39:18.920
+day to gallop encounter type thing
+
+0:39:16.820,0:39:23.600
+all right I got you crashing oh yeah
+
+0:39:18.920,0:39:26.810
+yeah and become they become he wanted a
+
+0:39:23.600,0:39:30.040
+lotta animations like this before have
+
+0:39:26.810,0:39:30.040
+you done functions like this before
+
+0:39:34.240,0:39:40.780
+alright so that's always they overtake
+
+0:39:36.470,0:39:44.600
+yeah come back next time for final
+
+0:39:40.780,0:39:47.030
+dysfunction hope you all got some ideas
+
+0:39:44.600,0:39:48.940
+danke be even cooler see you next time
+
+0:39:47.030,0:39:52.949
+next time
+
+0:39:48.940,0:39:52.949
+[Music]
+
