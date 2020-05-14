@@ -7,7 +7,7 @@ Status
  - Uploaded  http://youtube.com/watch?v=_SRrOfNrbPo Login
  - Uploaded  http://youtube.com/watch?v=8Ki0g6jzH9I Office Hours
 ### Week 1 - Day 1
-- Not started https://youtu.be/lzZPPTuiZYM The refilmed Monster Feast
+- In Progress https://youtu.be/lzZPPTuiZYM The refilmed Monster Feast
 - Ready to Upload  http://youtube.com/watch?v=E-JNnFChAZo Extra project 
 ### Week 1 - Day 2
  - Ready to Upload  http://youtube.com/watch?v=7BrPpaDN_RY Treasure Island
@@ -17,4 +17,4 @@ Status
  - Not started https://youtu.be/HaUk_mSj9xE Race Car
  ### Week 1 - Day 
  - No file yet https://youtu.be/7F4-TJ7TgjY Dragon Crossing
- - In Progress https://youtu.be/alY8G3Tgpsk US Flag
+ - Not Started https://youtu.be/alY8G3Tgpsk US Flag
