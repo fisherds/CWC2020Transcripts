@@ -16,5 +16,5 @@ Status
 ### Week 1 - Day 4
  - Ready to Upload https://youtu.be/HaUk_mSj9xE Race Car
  ### Week 1 - Day 
- - Not Started https://youtu.be/7F4-TJ7TgjY Dragon Crossing
+ - In Progress https://youtu.be/7F4-TJ7TgjY Dragon Crossing
  - Not Started https://youtu.be/alY8G3Tgpsk US Flag
