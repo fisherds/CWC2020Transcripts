@@ -12,9 +12,9 @@ Status
 ### Week 1 - Day 2
  - Uploaded  http://youtube.com/watch?v=7BrPpaDN_RY Treasure Island
 ### Week 1 - Day 3
- - In Progress https://youtu.be/63-RorBEV1Q aMAZEing Game
+ - Ready to Upload https://youtu.be/63-RorBEV1Q aMAZEing Game
 ### Week 1 - Day 4
- - Not started https://youtu.be/HaUk_mSj9xE Race Car
+ - Not Started https://youtu.be/HaUk_mSj9xE Race Car
  ### Week 1 - Day 
  - Not Started https://youtu.be/7F4-TJ7TgjY Dragon Crossing
  - Not Started https://youtu.be/alY8G3Tgpsk US Flag
