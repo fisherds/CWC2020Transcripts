@@ -12,7 +12,7 @@ Status
 ### Week 1 - Day 2
  - Uploaded  http://youtube.com/watch?v=7BrPpaDN_RY Treasure Island
 ### Week 1 - Day 3
- - Not started https://youtu.be/63-RorBEV1Q aMAZEing Game
+ - In Progress https://youtu.be/63-RorBEV1Q aMAZEing Game
 ### Week 1 - Day 4
  - Not started https://youtu.be/HaUk_mSj9xE Race Car
  ### Week 1 - Day 
