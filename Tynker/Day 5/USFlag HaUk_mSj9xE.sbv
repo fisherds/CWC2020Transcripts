@@ -23,10 +23,10 @@ and so what we're gonna do today is
 we're going to practice making a drawing
 
 0:00:18.630,0:00:23.160
-so the drawing that we're gonna make is
+so the drawing that we're gonna make is an 
 
 0:00:21.050,0:00:25.680
-American flag so clear you're familiar
+American flag so hopefully you're familiar
 
 0:00:23.160,0:00:27.869
 with the American flag and the idea is
@@ -35,10 +35,10 @@ with the American flag and the idea is
 that we're gonna draw it using a couple
 
 0:00:27.869,0:00:32.279
-of different skills were one gonna use
+of different skills we're one gonna use
 
 0:00:29.970,0:00:35.340
-our drawing skills I should just make
+our drawing skills to just make
 
 0:00:32.279,0:00:38.550
 rectangles like the red rectangles for
@@ -62,13 +62,13 @@ here you can see the stars are drawn on
 to be honest with code you could draw
 
 0:00:52.620,0:00:55.620
-almost faster as slow as you wanted so
+as fast or slow as you wanted so
 
 0:00:54.480,0:00:57.300
 if you wanted them to all just kind of
 
 0:00:55.620,0:00:58.710
-like show up you could I've been here I
+like show up you could but here I
 
 0:00:57.300,0:01:00.030
 put just like a short delay in there
@@ -77,16 +77,16 @@ put just like a short delay in there
 just so you kind of like see them get
 
 0:01:00.030,0:01:04.470
-drawn on there and the idea is is that
+drawn on there and the idea is that
 
 0:01:02.489,0:01:06.150
 you're gonna make an American flag and
 
 0:01:04.470,0:01:08.490
-so it just have a challenge of can you
+so it just a challenge of can you
 
 0:01:06.150,0:01:10.200
-can you actually figure out the code to
+can you actually figure up the code to
 
 0:01:08.490,0:01:12.030
 make this thing so it's not a game
@@ -122,10 +122,10 @@ that are white my flag is not regulation
 so for example you can see that like
 
 0:01:33.659,0:01:36.600
-this white it's a little small that
+this white is a little small that
 
 0:01:34.979,0:01:36.900
-White's a little big not worried about
+white is a little big not worried about
 
 0:01:36.600,0:01:39.329
 it
@@ -143,13 +143,13 @@ can see that if you kind of like count
 the ones down this row there are five of
 
 0:01:47.520,0:01:54.960
-the long rows and the long rolls got six
+the long rows and the long rows have six
 
 0:01:50.729,0:01:56.399
 stars each so 5 times 6 is 30 and then
 
 0:01:54.960,0:02:00.840
-the short rows would start here there's
+the short rows which start here there's
 
 0:01:56.399,0:02:04.049
 1 2 3 4 of those and there's 5 across so
@@ -161,7 +161,7 @@ the short rows would start here there's
 get the 50 stars so really I kind of
 
 0:02:07.079,0:02:11.560
-think of those two patterns is separate
+think of those two patterns as separate
 
 0:02:08.670,0:02:13.330
 there's the five that are six stars and
@@ -191,10 +191,10 @@ you and we're gonna learn some more
 about functions as we do it so I'm gonna
 
 0:02:28.959,0:02:32.709
-come in here and say blade project I
+come in here and say blank project I
 
 0:02:30.370,0:02:35.470
-finally just accepted the project is the
+finally just accepted the blank project is the
 
 0:02:32.709,0:02:37.300
 same as blank block coding project so
@@ -206,13 +206,13 @@ I'm just going to try it I click on
 blank project living living dangerously
 
 0:02:40.170,0:02:43.989
-and the first thing I want to do is why
+and the first thing I want to do is well
 
 0:02:42.519,0:02:46.120
-I don't need this act here so I'm just
+I don't need this actor so I'm just
 
 0:02:43.989,0:02:49.720
-gonna believe him
+gonna delete him
 
 0:02:46.120,0:02:52.239
 I want to make the stage right so I want
@@ -221,7 +221,7 @@ I want to make the stage right so I want
 to just draw all the stage with 13
 
 0:02:52.239,0:02:57.400
-stripes 13 stars some click on the gear
+stripes 13 stars so I'm gonna click on the gear
 
 0:02:55.450,0:03:00.370
 here for the stage I'm gonna say add
@@ -233,7 +233,7 @@ background and I'm just gonna draw a new
 background and so what I want to draw is
 
 0:03:03.569,0:03:12.420
-13 stripes 13s sorry 13 stripes is 7 red
+13 stripes 13s sorry 13 stripes 7 red
 
 0:03:09.150,0:03:16.150
 looks like I need to go a little smaller
@@ -248,7 +248,7 @@ and then the others will will just work
 themselves off I now I want to make this
 
 0:03:20.440,0:03:26.200
-be some color but I want to count or
+be some color but I kinda want to
 
 0:03:23.470,0:03:28.329
 make it be the right color right so I'm
@@ -263,7 +263,7 @@ search for like what color the American
 flag is Wikipedia I'm sure people use
 
 0:03:34.299,0:03:39.160
-Wikipedia plenteous or searching I'll
+Wikipedia plenty for searching I'll
 
 0:03:37.030,0:03:41.049
 find it for us but I just kind of wanted
@@ -278,7 +278,7 @@ you want to learn more about things
 oh you've got all the specs here about
 
 0:03:44.440,0:03:48.609
-the official dimensions from your feller
+the official dimensions if you want to go 
 
 0:03:46.120,0:03:50.230
 crazy I'm really just worried about the
@@ -302,25 +302,25 @@ color right here so B 2 2 2 I'm just
 gonna write this down B 2 2 2 3 4 and
 
 0:04:08.170,0:04:11.859
-then Y min remain as well write down the
+then while I'm in here I might as well write down the
 
 0:04:09.850,0:04:18.669
 blue because I know I'm gonna need it
 
 0:04:11.859,0:04:21.280
-3 C 3 b 6 p now at this time your colors
+3 C 3 b 6 e now at this time your colors
 
 0:04:18.669,0:04:23.470
 will be the exact same as mine so you
 
 0:04:21.280,0:04:25.520
-could just wait time typing right
+could just wait until I type it right
 
 0:04:23.470,0:04:28.250
 so let's go ahead and start off by
 
 0:04:25.520,0:04:30.319
-making some bread I chose to write down
+making some red I chose to write down
 
 0:04:28.250,0:04:35.539
 and memorize the the hex version which
@@ -332,7 +332,7 @@ was B 2 2 2 3 4 and that is the official
 Old Glory red which is the US flag
 
 0:04:39.500,0:04:44.389
-suspending now what I want to do is I
+so that's kinda neat now what I want to do is I
 
 0:04:41.870,0:04:46.729
 want to make some rectangles and these
@@ -344,7 +344,7 @@ rectangles I always do that I always
 make one on accident these rectangles I
 
 0:04:48.800,0:04:54.349
-wanted to be roughly 4 tall and I want
+want them to be roughly 4 tall and I want
 
 0:04:52.370,0:04:56.840
 one of them to kind of be like right on
@@ -353,13 +353,13 @@ one of them to kind of be like right on
 the middle right so you can see if your
 
 0:04:56.840,0:05:02.449
-your eyes are just like I'm a zhilie
+your eyes are just like amazingly
 
 0:04:58.430,0:05:04.430
 good you can see that's 1 2 3 roughly 4
 
 0:05:02.449,0:05:07.280
-tall and I'm just kind of making about
+tall and I'll just kind of make it about
 
 0:05:04.430,0:05:08.930
 that big and then what I'm gonna do
@@ -377,7 +377,7 @@ kind of give me another rectangle and
 I'm gonna move it up roughly the same
 
 0:05:16.580,0:05:21.860
-distance you know round that that four
+distance you know around that that four
 
 0:05:19.909,0:05:23.529
 blocks and then I always have to kind of
@@ -491,7 +491,7 @@ with the bottom of the red and it takes
 up you know not a full half of the flag
 
 0:06:59.610,0:07:03.659
-but but you know you're half like
+but but you know near half like
 
 0:07:02.169,0:07:05.529
 definitely more than a third or fourth
@@ -500,16 +500,16 @@ definitely more than a third or fourth
 and so that's what we're going to try to
 
 0:07:05.529,0:07:09.939
-do for the views so for the blue I'm
+do for the blue so for the blue I'm
 
 0:07:07.089,0:07:11.979
 gonna click on this little wheel I'm
 
 0:07:09.939,0:07:15.939
-gonna try to put in the correct tax
+gonna try to put in the correct hex
 
 0:07:11.979,0:07:18.999
-color for Old Glory a blue that's called
+color for Old Glory I believe it was called
 
 0:07:15.939,0:07:20.619
 blue and what I have written down on my
@@ -533,10 +533,10 @@ takes up this whole thing right cool
 that doesn't look too bad maybe I
 
 0:07:36.159,0:07:42.219
-could've gone just a little wider even I
+could've gone just a little wider even if you 
 
 0:07:38.079,0:07:43.300
-don't like eating noises hit on new and
+don't like it you can always just hit undo and
 
 0:07:42.219,0:07:46.779
 then you can just try it again
@@ -551,7 +551,7 @@ many times you want so I'm gonna call
 that good enough I made it just a little
 
 0:07:50.709,0:07:55.300
-bigger I think then what this one is but
+bigger I think than what this one is but
 
 0:07:54.009,0:07:56.769
 that will just kind of give me a little
@@ -563,16 +563,16 @@ more room to draw so I just kind of
 cheat a little in there and if I wanted
 
 0:07:58.959,0:08:03.909
-to edit it lay very good doesn't doesn't
+to edit it later I could doesn't doesn't
 
 0:08:02.110,0:08:05.979
-have to be perfect does it if yours this
+have to be perfect if yours this
 
 0:08:03.909,0:08:09.399
 a little smaller that's probably better
 
 0:08:05.979,0:08:11.740
-but this is the size the mine is so now
+but this is the size that mine is so now
 
 0:08:09.399,0:08:13.360
 let's go back once you've got this draw
@@ -587,7 +587,7 @@ optional if you want to you can fill in
 these spots with white it turns out that
 
 0:08:18.550,0:08:22.990
-if something's transparent and tinker it
+if something's transparent in Tynker it
 
 0:08:21.429,0:08:26.050
 just shows through what's behind it and
@@ -596,13 +596,13 @@ just shows through what's behind it and
 there's white behind it by default so I
 
 0:08:26.050,0:08:29.979
-just kind of quit they filled another
+just kind of quickly filled them in with 
 
 0:08:27.550,0:08:31.659
 white I'm not worried about the the
 
 0:08:29.979,0:08:33.669
-little transparency that the links
+little transparency that leaks
 
 0:08:31.659,0:08:36.819
 through this time because it should just
@@ -611,10 +611,10 @@ through this time because it should just
 be white cool so now I should have a
 
 0:08:36.819,0:08:40.930
-nice cool stage I should look about like
+nice cool stage it should look about like
 
 0:08:39.219,0:08:42.710
-that I was thinking we got a minor
+that it looks like we got a minor
 
 0:08:40.930,0:08:45.410
 glitch at the top which I'm not
@@ -626,7 +626,7 @@ worried about it so now we're ready to
 start in on drawing stars so I need an
 
 0:08:49.040,0:08:54.320
-actor now you may say what a hole what
+actor now you may say what
 
 0:08:52.730,0:08:56.270
 actor did you use last time I didn't see
@@ -653,7 +653,7 @@ easiest to draw because you don't draw
 anything right and so now it's just it's
 
 0:09:13.370,0:09:17.330
-there I see here there's my actor right
+there see here there's my actor right
 
 0:09:16.010,0:09:20.600
 there I can see a little box around him
@@ -671,10 +671,10 @@ call him my pen right so he is he is my
 pen so the first thing I want to do with
 
 0:09:30.530,0:09:36.230
-my appendix I thought I changed his name
+my pen oops I thought I changed his name
 
 0:09:32.330,0:09:38.780
-to pen and it's my pen the first thing I
+to pen he's my pen the first thing I
 
 0:09:36.230,0:09:42.770
 want to do with my pen is I want to
@@ -686,7 +686,7 @@ practice drawing stars so we're gonna do
 this with functions right and this is a
 
 0:09:45.590,0:09:49.600
-good practice Robert didn't been doing
+good practice for what we've been doing
 
 0:09:47.480,0:09:51.470
 so you're gonna have to have an on start
@@ -695,7 +695,7 @@ so you're gonna have to have an on start
 because that's like where your codes
 
 0:09:51.470,0:09:54.890
-gonna run out when it starts but most of
+gonna run at when it starts but most of
 
 0:09:53.780,0:09:56.870
 the things we're gonna do are going to
@@ -707,7 +707,7 @@ be inside the functions so we're gonna
 have to create a function so go to the
 
 0:09:58.550,0:10:06.710
-functions Ariens a great function i make
+functions area and say create function and make
 
 0:10:01.340,0:10:08.780
 a function called draw star so draw star
@@ -734,10 +734,10 @@ use a marker and you're like the pen
 what's he talking about put the pen down
 
 0:10:21.800,0:10:25.850
-put the tent up there's actually more
+put the pen up there's actually more
 
 0:10:24.200,0:10:28.040
-commands and what you see here so
+commands than what you see here so
 
 0:10:25.850,0:10:29.570
 there's these commands which are all
@@ -746,10 +746,10 @@ there's these commands which are all
 well and good but there's actually even
 
 0:10:29.570,0:10:36.110
-more so this more button down here took
+more see this more button down here click 
 
 0:10:31.190,0:10:38.480
-out more so these are more commands that
+on more so these are more commands that
 
 0:10:36.110,0:10:40.520
 you don't even necessarily know exist
@@ -764,7 +764,7 @@ is called pen cool so that one's going
 to be gonna be available to us now so
 
 0:10:46.610,0:10:50.060
-the pen Mutz us kind of do some marking
+the pen lets us kind of do some marking
 
 0:10:48.500,0:10:53.330
 so now you can see that I've got this
@@ -788,7 +788,7 @@ clear off any old pen markings right so
 I just kind of it clear them off I'd
 
 0:11:04.610,0:11:09.020
-also like to set up my parent I'd like
+also like to set up my pen I'd like
 
 0:11:06.380,0:11:11.240
 to like set its size and its color so
@@ -803,28 +803,28 @@ out of the drawer that you want to use
 so we want set pen size I'm gonna use
 
 0:11:17.450,0:11:21.920
-five for mine if you want a bigger pin
+five for mine if you want a bigger pen
 
 0:11:20.120,0:11:24.350
-you could use like up to ten I'd be fine
+you could use like up to ten that'd be fine
 
 0:11:21.920,0:11:25.160
 but one is kind of too small and one
 
 0:11:24.350,0:11:28.460
-that's the default
+is the default
 
 0:11:25.160,0:11:30.740
 I'm gonna set the color the color that
 
 0:11:28.460,0:11:33.440
-I'm going to use is just all X that's
+I'm going to use is just all f's that's
 
 0:11:30.740,0:11:35.630
 that's white so pretend like what this
 
 0:11:33.440,0:11:38.060
-does is this races your current drawing
+does is this erases your current drawing
 
 0:11:35.630,0:11:41.030
 and then it goes and gets a white marker
@@ -851,22 +851,22 @@ draw a star for me now I could run that
 code but it doesn't do anything cuz it
 
 0:11:56.840,0:12:00.950
-does this I'm gonna calls draw a star
+does this and then it calls draw star
 
 0:11:58.880,0:12:03.710
 and draw star is empty so we're gonna
 
 0:12:00.950,0:12:05.900
-have to draw a star I so let's go ahead
+have to draw a star so let's go ahead
 
 0:12:03.710,0:12:07.580
-and draw a star so here's how to draw
+and draw a star so here's how draw
 
 0:12:05.900,0:12:09.340
 star works well the first thing we need
 
 0:12:07.580,0:12:11.660
-to do is we need to put the pin down and
+to do is we need to put the pen down and
 
 0:12:09.340,0:12:12.950
 then we're gonna do some drawing and
@@ -881,7 +881,7 @@ and the reason we pick it back up is so
 that we can hop over to the next star
 
 0:12:16.460,0:12:20.900
-without like leaving the line right so
+without like leaving a line right so
 
 0:12:18.530,0:12:23.150
 our drawing is gonna be like in here so
@@ -896,13 +896,13 @@ star so I'm gonna go to control so this
 is a good opportunity for loops so a
 
 0:12:31.030,0:12:36.560
-star let's draw a square first there may
+star let's draw a square first and maybe
 
 0:12:33.800,0:12:40.720
-be a triangle next right so a star is
+a triangle next right so a star is
 
 0:12:36.560,0:12:43.580
-really a series of movements terms
+really a series of movements turns
 
 0:12:40.720,0:12:46.400
 movements turns repeated over and over
@@ -929,19 +929,19 @@ need to turn some number of degrees so a
 square would be a 90-degree turn and we
 
 0:13:06.620,0:13:10.430
-would need Oh
+would need four of 
 
 0:13:07.880,0:13:12.500
 these things to draw a square so if I
 
 0:13:10.430,0:13:13.220
-were to run this code I would draw a
+were to run this code it would draw a
 
 0:13:12.500,0:13:16.149
 square
 
 0:13:13.220,0:13:18.980
-now I drew it really fast which is fine
+now it drew it really fast which is fine
 
 0:13:16.149,0:13:21.500
 it just like almost appeared right if
@@ -959,7 +959,7 @@ optional you can just watch this
 you can put in a delay after each one
 
 0:13:27.259,0:13:31.550
-right so here we draw on that side and
+right so here we draw that side and
 
 0:13:29.750,0:13:33.620
 then that side and that side and that
@@ -977,13 +977,13 @@ got here so four is how many sides you
 want 100 is the length of course of each
 
 0:13:44.389,0:13:50.569
-side and 90 90 is interesting how this
+side and 90 90 is interesting how'd this
 
 0:13:47.509,0:13:52.130
 90 get here so maybe you just know that
 
 0:13:50.569,0:13:54.410
-in order to make this square you have to
+in order to make a square you have to
 
 0:13:52.130,0:13:56.899
 do a 90 degree turn but the way it got
@@ -992,10 +992,10 @@ do a 90 degree turn but the way it got
 there is interesting so if you look at
 
 0:13:56.899,0:14:02.420
-how many degrees there aren't a circle
+how many degrees there are in a circle
 
 0:13:58.910,0:14:05.930
-total so does it might no that's why I
+total so does anybody know that's where I
 
 0:14:02.420,0:14:10.519
 wish my kids were here there's 360 right
@@ -1028,7 +1028,7 @@ problem right so operators so that math
 problem was a division math problem that
 
 0:14:32.480,0:14:36.139
-I just did so I'm taking division and
+I just did so I'm gonna take division and
 
 0:14:34.490,0:14:42.259
 drop it in here and that math problem
@@ -1037,7 +1037,7 @@ drop it in here and that math problem
 was really 360 divided by 4 and so that
 
 0:14:42.259,0:14:49.009
-is the same thing it drawls the square
+is the same thing it draws the square
 
 0:14:45.759,0:14:50.990
 now if I wanted to draw a triangle what
@@ -1055,7 +1055,7 @@ would change this to three and what that
 would do is that would draw a triangle
 
 0:14:58.819,0:15:03.709
-and that's pretty cool
+hey that's pretty cool
 
 0:15:00.470,0:15:08.779
 if I wanted to draw a hexagon I would
@@ -1067,10 +1067,10 @@ say repeat 6 times 360 divided by 6 and
 so that would draw a hexagon hey that's
 
 0:15:11.360,0:15:16.130
-pretty cool um so now how do we draw US
+pretty cool um so now how do we draw a 
 
 0:15:13.910,0:15:19.189
-dollar right so star is a little
+star right so star is a little
 
 0:15:16.130,0:15:21.680
 different because if I put in five cuz
@@ -1082,10 +1082,10 @@ the star has five points right
 and I hit play it doesn't make a star it
 
 0:15:25.460,0:15:32.600
-makes a pentagon I'll shoot I don't want
+makes a pentagon oh shoot I don't want
 
 0:15:29.149,0:15:34.940
-to Pentagon I want to stop so a star is
+a Pentagon I want a star so a star is
 
 0:15:32.600,0:15:41.149
 interesting if you actually like go look
@@ -1097,7 +1097,7 @@ at a star so star a star has a iTunes
 star apparently I don't want that fine
 
 0:15:43.370,0:15:49.220
-I'll just think about star a star goes
+I'll just think about a star a star goes
 
 0:15:46.160,0:15:52.220
 over and then turns a lot before it goes
@@ -1118,7 +1118,7 @@ and goes up it actually does instead of
 does 360 times two is really what it
 
 0:16:04.580,0:16:08.720
-does now I won't let you do math like
+does now it won't let you do math like
 
 0:16:06.529,0:16:14.029
 this inside these boxes so I'm just
@@ -1133,7 +1133,7 @@ this is crazy but if you want to make a
 star a pentagon does 360 in the five
 
 0:16:19.100,0:16:24.560
-points and what a star does as a star
+points and what a star does is a star
 
 0:16:22.430,0:16:28.220
 does two laps
@@ -1148,7 +1148,7 @@ neat to see to see different numbers of
 points attempted by the way so here is a
 
 0:16:35.510,0:16:41.320
-triangle but with two laps I didn't
+triangle but with two laps it didn't
 
 0:16:38.029,0:16:44.720
 actually do anything interesting here is
@@ -1169,7 +1169,7 @@ interesting patterns and shapes right
 but only some of them come out to be
 
 0:16:53.750,0:16:58.940
-cool but a star obviously is a good way
+cool but a star obviously is a cool one
 
 0:16:56.390,0:17:00.680
 I mentioned things like that because
@@ -1208,7 +1208,7 @@ testing might be kind of painful right
 so the this if I add it to the end it'll
 
 0:17:30.230,0:17:33.160
-kind of make some anime
+kind of make some animated effect
 
 0:17:31.690,0:17:36.670
 I'll tell you what I'll leave it on
@@ -1259,19 +1259,19 @@ and I'm gonna hit save
 so this is an optional extra for day 5
 
 0:18:18.730,0:18:24.460
-requirement by the way thanks for coming
+week 1 by the way thanks for coming
 
 0:18:22.840,0:18:27.610
 to do the optional extra
 
 0:18:24.460,0:18:28.540
-maybe I should even stall optional
+maybe I should even spell optional
 
 0:18:27.610,0:18:33.040
-practice
+correctly
 
 0:18:28.540,0:18:34.860
-optional extra so now what we want to do
+optional extra for day 5 week 1 so now what we want to do
 
 0:18:33.040,0:18:38.770
 is we don't want to make just one star
@@ -1280,7 +1280,7 @@ is we don't want to make just one star
 we want to modify our code such that it
 
 0:18:38.770,0:18:43.840
-drawls not just want a let's close out
+draws not just one I'll tell you what I'll just put that in 
 
 0:18:41.170,0:18:47.890
 the trash but we want to draw a row of
@@ -1304,7 +1304,7 @@ stars where this one has six and then
 this one has five and then this one has
 
 0:19:00.010,0:19:05.140
-six in this nice box we're doing that
+six and this one has five we're doing that
 
 0:19:02.320,0:19:07.180
 over and over from different spots right
@@ -1319,7 +1319,7 @@ started from here this one started from
 here but only did five so if we had a
 
 0:19:11.200,0:19:15.670
-function that could help us we have to
+function that could help us we'd have to
 
 0:19:13.900,0:19:17.500
 look at what's different each time and
@@ -1331,10 +1331,10 @@ what's the same so the things that are
 different is where you start your X
 
 0:19:19.230,0:19:24.370
-where you start your why and how many
+where you start your Y and how many
 
 0:19:22.420,0:19:25.990
-there are so we're gonna do is we're
+there are so what we're gonna do is we're
 
 0:19:24.370,0:19:27.550
 going to show you a really powerful use
@@ -1349,7 +1349,7 @@ and make our most advanced function ever
 called row of stars and it's our most
 
 0:19:35.260,0:19:39.910
-advanced function average because it's
+advanced function ever because it's
 
 0:19:37.060,0:19:42.160
 gonna receive parameters I'm gonna go
@@ -1385,7 +1385,7 @@ you want
 then it can create a row of them for you
 
 0:20:03.320,0:20:10.100
-it's getting pretty fast I know but it's
+it's getting pretty advanced I know but it's
 
 0:20:05.760,0:20:12.630
 cool and so to create a row of stars
@@ -1397,7 +1397,7 @@ what we're gonna do is we're gonna we're
 gonna call draw star that many times and
 
 0:20:16.860,0:20:19.500
-we're gonna move between each one that
+we're gonna move between each one does that
 
 0:20:18.929,0:20:22.169
 makes sense
@@ -1409,10 +1409,10 @@ and we want it to start at this x and y
 so let's go ahead and write this
 
 0:20:24.090,0:20:27.809
-function together ready I'll move it up
+function together maybe I'll move it up
 
 0:20:25.500,0:20:29.309
-here see this video better so the first
+here so you can see it a little better so the first
 
 0:20:27.809,0:20:31.350
 thing I want to do is if somebody told
@@ -1427,10 +1427,10 @@ thing I have to do is I have to tell my
 actor my pen to go to that location go
 
 0:20:36.960,0:20:47.010
-to that location is emotion so go to x0
+to that location is in motion so go to X 0
 
 0:20:43.350,0:20:49.230
-y0 now I don't want to go to x0 y0 I
+Y 0 now I don't want to go to X 0 Y 0 I
 
 0:20:47.010,0:20:51.240
 want to go to X&Y now this is
@@ -1451,7 +1451,7 @@ literally just drag it from there to
 here it's called a local variable for
 
 0:20:59.940,0:21:03.840
-the function and driving it from here
+the function and dragging it from here to 
 
 0:21:01.799,0:21:05.400
 there so when somebody calls this
@@ -1460,7 +1460,7 @@ there so when somebody calls this
 function the first thing I do is I tell
 
 0:21:05.400,0:21:11.850
-my actor my pen go to that XY that they
+my actor my pen go to that X Y that they
 
 0:21:09.299,0:21:13.950
 asked for right the next thing I want to
@@ -1469,16 +1469,16 @@ asked for right the next thing I want to
 do is I wanna make a loop so I'm going
 
 0:21:13.950,0:21:20.490
-to go to operator I would I'm sorry
+to go to operator oh no I'm sorry
 
 0:21:15.360,0:21:22.860
-control I don't want to make a loop and
+control and I want to make a loop and
 
 0:21:20.490,0:21:26.010
 what its gonna do inside of it is it's
 
 0:21:22.860,0:21:28.350
-gonna run this loop number star x so you
+gonna run this loop number of stars times so you
 
 0:21:26.010,0:21:30.120
 can see how I'm using those things that
@@ -1487,7 +1487,7 @@ can see how I'm using those things that
 got passed in here so it's gonna run
 
 0:21:30.120,0:21:33.600
-number of star x and we're just going to
+number of stars times and what it's going to
 
 0:21:32.250,0:21:36.179
 do in the inside is it's gonna draw a
@@ -1514,7 +1514,7 @@ that move over won't be visible to the
 user because draw a star has picked the
 
 0:21:55.410,0:22:00.480
-and up at the end right so let's go
+pen up at the end right so let's go
 
 0:21:58.020,0:22:02.040
 ahead and say we're going to move over a
@@ -1529,22 +1529,22 @@ number if it turns out that I need to
 make it a little bigger or a little
 
 0:22:06.210,0:22:11.370
-smaller all I'll figure that out great
+smaller I'll figure that out great
 
 0:22:09.420,0:22:13.140
-so now I've got two done like for me to
+so now I've got they make it so they can't 
 
 0:22:11.370,0:22:14.910
-kind of overlap in the cattle run away
+overlap and run away
 
 0:22:13.140,0:22:17.370
 from each other so now I've got a
 
 0:22:14.910,0:22:18.780
-function and another function then it
+function and another function that it
 
 0:22:17.370,0:22:20.520
-calls that I playing around trying to
+calls and I playing around trying to
 
 0:22:18.780,0:22:23.910
 move them to where they look good on the
@@ -1577,7 +1577,7 @@ you just haven't thought about it right
 it's just now we're making our own
 
 0:22:39.690,0:22:44.640
-function that received arguments and so
+function that receives arguments and so
 
 0:22:42.450,0:22:47.460
 now I'm going to start drawing this
@@ -1628,7 +1628,7 @@ or actually you know another thing I
 could do I could just go in and I could
 
 0:23:26.100,0:23:30.960
-make my green flag our SAR as the blue
+make my green flag or sorry the blue
 
 0:23:29.040,0:23:33.210
 on my flag just a little bigger that way
@@ -1655,13 +1655,13 @@ to extend it just a scooch and you know
 you can play with it until it kind of
 
 0:23:48.000,0:23:52.220
-looks like it was part of their part of
+looks like it was part of there part of
 
 0:23:49.800,0:23:54.590
 the thing all along
 
 0:23:52.220,0:23:57.540
-all right cool there we go so yeah
+all right cool there we go so I 
 
 0:23:54.590,0:23:59.880
 modified my blue a little bit just so I
@@ -1676,7 +1676,7 @@ use 25 for the size of the stars and
 those look about right and a hundred
 
 0:24:04.800,0:24:07.590
-between each one those of you about
+between each one those look about
 
 0:24:06.840,0:24:10.410
 right
@@ -1691,7 +1691,7 @@ wonder if 350 would look good enough
 right so now if I run it
 
 0:24:14.880,0:24:21.270
-yeah 350 is good nice huh but I don't it
+yeah 350 is good enough but I don't it
 
 0:24:19.200,0:24:23.790
 doesn't matter if yours is perfect or
@@ -1706,7 +1706,7 @@ something that kind of looks good
 the next thing I wouldn't mind doing is
 
 0:24:27.870,0:24:32.670
-trying to figure out where the bottom
+trying to figure up where the bottom
 
 0:24:29.910,0:24:35.790
 row is I know that seems a little silly
@@ -1724,7 +1724,7 @@ are at so I'm gonna guess based on some
 work I've done previously 25 for the Y
 
 0:24:46.020,0:24:50.760
-and see how that works I'm not I'm just
+and see how that works and then I'm just
 
 0:24:48.480,0:24:53.150
 gonna move it after that so I'd say that
@@ -1739,16 +1739,16 @@ not perfect but I'd say it's good enough
 it's a nice round number being 25 I
 
 0:24:59.220,0:25:03.720
-guess if I could go a little lower x10
+guess if I could go a little lower I could see what 0
 
 0:25:01.620,0:25:05.910
-looks like what zero looks like and
+looks like what does zero look like eh
 
 0:25:03.720,0:25:10.580
 zeros a little too low
 
 0:25:05.910,0:25:13.800
-I'll stick with I'll stick with 24 not
+I'll stick with I'll stick with 20 why not
 
 0:25:10.580,0:25:16.290
 and so from here what I want to do is I
@@ -1760,7 +1760,7 @@ want to challenge you to see if you can
 figure out the rest by yourself right so
 
 0:25:19.860,0:25:27.360
-see if you can figure out where all the
+see if you can figure up where all the
 
 0:25:24.360,0:25:28.910
 the rows of six need to go so you know
@@ -1778,7 +1778,7 @@ if you want to do the math like you know
 with an adult you could try to figure
 
 0:25:36.480,0:25:39.690
-out where they're where they're at if
+up where they're where they're at if
 
 0:25:38.640,0:25:42.420
 you don't want to do the math in your
@@ -1811,10 +1811,10 @@ you can just pause the video and do that
 or just keep watching and I'll show you
 
 0:26:03.420,0:26:09.030
-all the values that I used all right it
+all the values that I used all right if
 
 0:26:06.960,0:26:10.830
-should paused it maybe you worked at
+you paused it maybe you worked at
 
 0:26:09.030,0:26:13.560
 yourself but I think I've got my groups
@@ -1826,13 +1826,13 @@ of 6 together so the order I did is I
 did the top then I did the bottom then I
 
 0:26:15.720,0:26:18.540
-did the middle but I found out 1 this
+did the middle but I found out its 
 
 0:26:17.340,0:26:18.820
-the middle of those two in the middle of
+the middle of those and the middle of
 
 0:26:18.540,0:26:21.730
-those
+those two
 
 0:26:18.820,0:26:24.429
 and then just to make it kind of like
@@ -1841,10 +1841,10 @@ and then just to make it kind of like
 display better I'm going to reorder them
 
 0:26:24.429,0:26:31.570
-now so it looks like I actually coded
+now so that it looks like I actually coded
 
 0:26:27.519,0:26:34.289
-them and top-to-bottom orders right so
+them in top-to-bottom order right so
 
 0:26:31.570,0:26:37.710
 there is all the different groups of six
@@ -1853,7 +1853,7 @@ there is all the different groups of six
 now again see if you can pause the video
 
 0:26:37.710,0:26:45.820
-but see if you can't make the groups of
+but see if you can make the groups of
 
 0:26:41.860,0:26:47.980
 five so the groups of five are all going
@@ -1898,10 +1898,10 @@ right so go and connect that there so
 they obviously don't all belong to
 
 0:27:14.919,0:27:19.539
-twenty but saves you can figure out
+twenty but see if you can figure up
 
 0:27:16.960,0:27:21.100
-where they're all at on your own that
+where they're all at on your own then
 
 0:27:19.539,0:27:23.139
 kind of go halfway between each of these
@@ -1937,7 +1937,7 @@ to go from top to bottom right so it
 does like a six and then a five and then
 
 0:27:46.149,0:27:50.710
-a six and then a five and a six to the
+a six and then a five and then a six and then a 
 
 0:27:47.860,0:27:54.120
 five so six five six five six five six
@@ -1946,7 +1946,7 @@ five so six five six five six five six
 five six five and that makes your
 
 0:27:54.120,0:28:01.029
-animation kind of late for work right so
+animation kind of look cooler right so
 
 0:27:57.940,0:28:03.549
 again I better do one full screen again
@@ -1961,10 +1961,10 @@ good learning opportunity because we
 learned about functions we learned about
 
 0:28:08.590,0:28:13.960
-function parameters and we learn how you
+function parameters and we learned how you
 
 0:28:11.620,0:28:16.929
-can kind of like make some heart there's
+can kind of like make some art there's
 
 0:28:13.960,0:28:19.120
 actually a ton of things you can do with
@@ -1982,7 +1982,7 @@ little too hard admittedly which is why
 it's an optional extra I use it
 
 0:28:27.010,0:28:32.920
-sometimes with middle schoolers as a map
+sometimes with middle schoolers as a math lesson 
 
 0:28:29.440,0:28:35.020
 for like doing averages but that's okay
@@ -2003,5 +2003,5 @@ and I hope you really enjoyed the camp
 all right
 
 0:28:42.790,0:28:45.060
-see ya
+see ya bye
 
