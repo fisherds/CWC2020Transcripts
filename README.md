@@ -7,7 +7,7 @@ Status
  - Uploaded  http://youtube.com/watch?v=_SRrOfNrbPo Login
  - Uploaded  http://youtube.com/watch?v=8Ki0g6jzH9I Office Hours
 ### Week 1 - Day 1
- - Ready to Upload https://youtu.be/lzZPPTuiZYM The refilmed Monster Feast
+ - Uploaded https://youtu.be/lzZPPTuiZYM The refilmed Monster Feast
  - Uploaded  http://youtube.com/watch?v=E-JNnFChAZo Extra project 
 ### Week 1 - Day 2
  - Uploaded  http://youtube.com/watch?v=7BrPpaDN_RY Treasure Island
