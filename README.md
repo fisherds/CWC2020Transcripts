@@ -18,3 +18,6 @@ Status
  ### Week 1 - Day 5
  - Uploaded https://youtu.be/7F4-TJ7TgjY Dragon Crossing
  - Uploaded https://youtu.be/alY8G3Tgpsk US Flag
+ 
+ ### Week 2 - Day 1
+ - Not Started https://youtu.be/HS0Oh7P4SsY 3D Modeling
