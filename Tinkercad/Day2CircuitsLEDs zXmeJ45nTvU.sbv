@@ -1,0 +1,3915 @@
+0:00:00.640,0:00:06.960
+[Music]
+
+0:00:04.640,0:00:10.160
+hey welcome back uh so today is day
+
+0:00:06.960,0:00:12.639
+two of the tinkercad class uh i'm here
+
+0:00:10.160,0:00:15.679
+with uh with my student again
+
+0:00:12.639,0:00:17.440
+uh so this is uh mckinley you ready to
+
+0:00:15.679,0:00:19.199
+go today mckinley yep
+
+0:00:17.440,0:00:21.199
+all right we're gonna do some uh some
+
+0:00:19.199,0:00:24.240
+circuits today so
+
+0:00:21.199,0:00:27.039
+tinkercad um is built with
+
+0:00:24.240,0:00:28.840
+uh 3d model support so it's kind of what
+
+0:00:27.039,0:00:30.240
+we did yesterday with the rocket in the
+
+0:00:28.840,0:00:32.800
+house
+
+0:00:30.240,0:00:34.800
+it's built with circuits so you can do
+
+0:00:32.800,0:00:35.680
+things with like simulating circuits and
+
+0:00:34.800,0:00:38.320
+that's what we're going to do
+
+0:00:35.680,0:00:39.920
+today tomorrow and thursday and then
+
+0:00:38.320,0:00:41.520
+it's also got this new thing called code
+
+0:00:39.920,0:00:43.520
+blocks we'll do that on friday
+
+0:00:41.520,0:00:44.960
+so today we're going to go with circuits
+
+0:00:43.520,0:00:46.399
+i'm going to show you the solutions to
+
+0:00:44.960,0:00:49.200
+some things we're going to build
+
+0:00:46.399,0:00:49.920
+so we're going to build a pretty complex
+
+0:00:49.200,0:00:52.879
+program
+
+0:00:49.920,0:00:54.399
+just teasing that has an led so we're
+
+0:00:52.879,0:00:56.800
+going to show you the right way
+
+0:00:54.399,0:00:58.000
+to hook up an led with the resistor so
+
+0:00:56.800,0:01:00.559
+that you can turn it on and off
+
+0:00:58.000,0:01:02.480
+with this button um and that'll make the
+
+0:01:00.559,0:01:03.039
+led go on and off and then the wrong way
+
+0:01:02.480,0:01:04.960
+to do it
+
+0:01:03.039,0:01:06.960
+uh without a resistor and their little
+
+0:01:04.960,0:01:08.960
+simulator shows
+
+0:01:06.960,0:01:11.119
+disaster right so it explodes on you
+
+0:01:08.960,0:01:12.560
+right uh so that's one thing we're going
+
+0:01:11.119,0:01:13.600
+to build today another thing we're going
+
+0:01:12.560,0:01:16.240
+to build today
+
+0:01:13.600,0:01:17.680
+this is the main project is a stoplight
+
+0:01:16.240,0:01:19.280
+simulator
+
+0:01:17.680,0:01:20.560
+so i'm going to click on start simulator
+
+0:01:19.280,0:01:22.799
+here and so we're going to write code
+
+0:01:20.560,0:01:24.880
+for the stop cycle light simulator
+
+0:01:22.799,0:01:26.720
+and we're also going to build it in a
+
+0:01:24.880,0:01:28.960
+simulated environment
+
+0:01:26.720,0:01:30.240
+such that if you hit this push button so
+
+0:01:28.960,0:01:33.280
+i push this button button
+
+0:01:30.240,0:01:34.159
+my stop light goes green and then yellow
+
+0:01:33.280,0:01:35.520
+and then red
+
+0:01:34.159,0:01:37.520
+it goes pretty quickly just because it
+
+0:01:35.520,0:01:38.960
+makes the simulation work better
+
+0:01:37.520,0:01:40.720
+now the fun thing about what we're going
+
+0:01:38.960,0:01:42.640
+to learn today is these skills are
+
+0:01:40.720,0:01:44.159
+things that you could transfer to uh to
+
+0:01:42.640,0:01:47.200
+real products right
+
+0:01:44.159,0:01:49.360
+so i've got an arduino uno here
+
+0:01:47.200,0:01:50.960
+this one is part of a kit that comes
+
+0:01:49.360,0:01:53.119
+from sparkfun it's a pretty good kit
+
+0:01:50.960,0:01:54.720
+it's their sparkfun inventor kit
+
+0:01:53.119,0:01:56.399
+but i've actually taken the code that
+
+0:01:54.720,0:01:58.399
+we're going to write together and
+
+0:01:56.399,0:01:59.920
+put it on this real board and you can
+
+0:01:58.399,0:02:01.920
+see that when i push the button
+
+0:01:59.920,0:02:03.920
+it does the same thing on a real board
+
+0:02:01.920,0:02:06.159
+so everything that we're doing
+
+0:02:03.920,0:02:07.520
+in the simulator here is something that
+
+0:02:06.159,0:02:08.319
+if you happen to have the actual
+
+0:02:07.520,0:02:09.759
+hardware
+
+0:02:08.319,0:02:11.120
+you could totally build right so for
+
+0:02:09.759,0:02:12.720
+people that happen to have an arduino
+
+0:02:11.120,0:02:14.959
+sitting in a closet somewhere
+
+0:02:12.720,0:02:16.080
+uh they could do that by the way if you
+
+0:02:14.959,0:02:18.239
+did want to buy
+
+0:02:16.080,0:02:20.000
+an arduino you could look on amazon
+
+0:02:18.239,0:02:22.000
+there's some great kits out there
+
+0:02:20.000,0:02:23.280
+e lagoo has some cheap ones the spark
+
+0:02:22.000,0:02:24.879
+phone was also awesome it's just a
+
+0:02:23.280,0:02:27.120
+little more expensive
+
+0:02:24.879,0:02:28.480
+uh so let's go ahead and get started so
+
+0:02:27.120,0:02:30.480
+uh log in to
+
+0:02:28.480,0:02:32.239
+tinkercad uh hopefully you know how to
+
+0:02:30.480,0:02:35.120
+do that at this point
+
+0:02:32.239,0:02:38.400
+um and instead of being in the 3d design
+
+0:02:35.120,0:02:40.480
+area go into the circuits area
+
+0:02:38.400,0:02:42.000
+now when you come into circuits there
+
+0:02:40.480,0:02:44.879
+should be a
+
+0:02:42.000,0:02:45.920
+try circuits like tutorial here that you
+
+0:02:44.879,0:02:46.879
+can get started on
+
+0:02:45.920,0:02:48.560
+let's go ahead and go through that
+
+0:02:46.879,0:02:50.720
+tutorial it's only like three or four
+
+0:02:48.560,0:02:52.400
+parts this time so it's much shorter
+
+0:02:50.720,0:02:54.080
+if you don't have that tutorial you
+
+0:02:52.400,0:02:55.840
+could always get there via the learn
+
+0:02:54.080,0:02:57.280
+approach and like you could get there
+
+0:02:55.840,0:02:58.640
+but it should just be sitting right here
+
+0:02:57.280,0:03:00.080
+which is great i wish they did that for
+
+0:02:58.640,0:03:00.959
+the three designs i don't know what they
+
+0:03:00.080,0:03:03.280
+did they didn't
+
+0:03:00.959,0:03:04.480
+i would go and click on try circuits and
+
+0:03:03.280,0:03:05.760
+what it's going to do is it's going to
+
+0:03:04.480,0:03:08.400
+introduce us
+
+0:03:05.760,0:03:10.480
+to using circuits in a very brief
+
+0:03:08.400,0:03:12.319
+tutorial
+
+0:03:10.480,0:03:15.440
+so this is their first tutorial it's
+
+0:03:12.319,0:03:17.920
+very short it brings up a battery
+
+0:03:15.440,0:03:19.519
+this one is a coin battery i don't like
+
+0:03:17.920,0:03:19.920
+coin batteries they're too dangerous for
+
+0:03:19.519,0:03:21.840
+kids
+
+0:03:19.920,0:03:24.000
+but they work like any other battery
+
+0:03:21.840,0:03:25.680
+right and what this battery is doing is
+
+0:03:24.000,0:03:27.200
+it's going to light up an led when we
+
+0:03:25.680,0:03:29.440
+start the simulation
+
+0:03:27.200,0:03:31.440
+now let's talk about how this works so
+
+0:03:29.440,0:03:33.280
+we're looking at
+
+0:03:31.440,0:03:35.519
+um our project here so it's kind of the
+
+0:03:33.280,0:03:37.120
+middle area is your your board
+
+0:03:35.519,0:03:38.799
+uh and then over to the right here
+
+0:03:37.120,0:03:40.959
+you've got all your components that you
+
+0:03:38.799,0:03:42.799
+can add so you can bring components over
+
+0:03:40.959,0:03:43.840
+this one started with components so we
+
+0:03:42.799,0:03:44.560
+don't need to actually bring anything
+
+0:03:43.840,0:03:46.159
+over
+
+0:03:44.560,0:03:47.760
+and then over here is just the
+
+0:03:46.159,0:03:49.120
+information for this tutorial normally
+
+0:03:47.760,0:03:50.560
+there's nothing over here
+
+0:03:49.120,0:03:52.319
+and then once you're ready you can click
+
+0:03:50.560,0:03:54.000
+on start simulation
+
+0:03:52.319,0:03:55.680
+now start simulation is not that
+
+0:03:54.000,0:03:56.080
+exciting the only thing that happened is
+
+0:03:55.680,0:04:00.000
+this
+
+0:03:56.080,0:04:02.000
+uh led uh lit up right
+
+0:04:00.000,0:04:03.599
+and the reason it lit up is because
+
+0:04:02.000,0:04:06.720
+there is a loop
+
+0:04:03.599,0:04:08.239
+of uh electricity that actually is
+
+0:04:06.720,0:04:10.720
+flowing through this thing
+
+0:04:08.239,0:04:12.959
+so the battery has a plus here and so
+
+0:04:10.720,0:04:15.920
+this is the positive of the battery
+
+0:04:12.959,0:04:18.239
+it flows through a resistor the resistor
+
+0:04:15.920,0:04:19.600
+determines how bright the led is
+
+0:04:18.239,0:04:21.440
+and if you didn't have the resistor it'd
+
+0:04:19.600,0:04:22.639
+be too bright and it could damage the
+
+0:04:21.440,0:04:25.919
+led
+
+0:04:22.639,0:04:27.440
+and then there's an led and led has two
+
+0:04:25.919,0:04:28.320
+legs they're called the anode and the
+
+0:04:27.440,0:04:30.320
+cathode
+
+0:04:28.320,0:04:31.840
+i won't get into the chemistry of it but
+
+0:04:30.320,0:04:33.520
+but they're called anode and cathode for
+
+0:04:31.840,0:04:35.199
+chemistry reasons right
+
+0:04:33.520,0:04:36.880
+and so that that electricity flows
+
+0:04:35.199,0:04:38.800
+through uh the led
+
+0:04:36.880,0:04:40.080
+uh down through this black wire and then
+
+0:04:38.800,0:04:42.479
+back into the battery
+
+0:04:40.080,0:04:44.560
+and that loop is what makes the led come
+
+0:04:42.479,0:04:46.000
+on um now of course if there was a piece
+
+0:04:44.560,0:04:47.280
+missing from that loop like let's say
+
+0:04:46.000,0:04:50.400
+that wire wasn't there
+
+0:04:47.280,0:04:50.720
+uh you'd have no no loop uh no light
+
+0:04:50.400,0:04:53.120
+right
+
+0:04:50.720,0:04:54.720
+so it stops inflation cool and so the
+
+0:04:53.120,0:04:55.360
+only thing that this tutorial was trying
+
+0:04:54.720,0:04:58.160
+to show you
+
+0:04:55.360,0:04:59.280
+is how the environment works and to run
+
+0:04:58.160,0:05:00.720
+a simulation
+
+0:04:59.280,0:05:03.120
+and that's really it for the first
+
+0:05:00.720,0:05:05.199
+tutorial so i said that there are only
+
+0:05:03.120,0:05:07.520
+like i think there's four
+
+0:05:05.199,0:05:09.120
+and one of them is now done right so not
+
+0:05:07.520,0:05:11.440
+too bad
+
+0:05:09.120,0:05:12.320
+uh the next tutorial they've got uh is
+
+0:05:11.440,0:05:15.600
+actually
+
+0:05:12.320,0:05:16.720
+um is what inspires the uh the project
+
+0:05:15.600,0:05:18.800
+that we're building today
+
+0:05:16.720,0:05:20.240
+um it's to build a little traffic light
+
+0:05:18.800,0:05:22.639
+uh program
+
+0:05:20.240,0:05:24.400
+so here they're connecting to uh an
+
+0:05:22.639,0:05:27.039
+arduino uno
+
+0:05:24.400,0:05:28.400
+an arduino uno is a type of
+
+0:05:27.039,0:05:30.160
+microcontroller
+
+0:05:28.400,0:05:32.400
+microcontrollers are in everything like
+
+0:05:30.160,0:05:33.600
+if you press like a lock in your car
+
+0:05:32.400,0:05:34.639
+there's some microcontroller that
+
+0:05:33.600,0:05:35.919
+controls the signal
+
+0:05:34.639,0:05:37.919
+think of those like little bitty
+
+0:05:35.919,0:05:39.039
+computers and so we're going to be
+
+0:05:37.919,0:05:40.880
+programming
+
+0:05:39.039,0:05:43.039
+this microcontroller which is an arduino
+
+0:05:40.880,0:05:44.960
+uno to do things
+
+0:05:43.039,0:05:46.720
+and what we're doing here is we want to
+
+0:05:44.960,0:05:48.400
+make they'll show you a simulation
+
+0:05:46.720,0:05:50.960
+we want to make a little red yellow
+
+0:05:48.400,0:05:52.560
+green traffic light pattern
+
+0:05:50.960,0:05:54.400
+uh but right now you can see that all of
+
+0:05:52.560,0:05:56.560
+our leds are blue
+
+0:05:54.400,0:05:57.600
+and so the goal of this tutorial is
+
+0:05:56.560,0:05:59.520
+purely
+
+0:05:57.600,0:06:01.280
+to help you edit the components to
+
+0:05:59.520,0:06:02.080
+actually change these lights to be the
+
+0:06:01.280,0:06:03.360
+right colors
+
+0:06:02.080,0:06:05.199
+that's all they're doing in this but
+
+0:06:03.360,0:06:06.400
+we'll look at it a little more than that
+
+0:06:05.199,0:06:07.919
+so let's go ahead and follow the
+
+0:06:06.400,0:06:09.440
+tutorial and do what it says it says
+
+0:06:07.919,0:06:12.160
+click on the top led
+
+0:06:09.440,0:06:13.759
+all right and click on the top led and
+
+0:06:12.160,0:06:14.800
+then you'll notice that a little box
+
+0:06:13.759,0:06:17.280
+popped up here
+
+0:06:14.800,0:06:18.800
+and this little box has information
+
+0:06:17.280,0:06:20.880
+about this led
+
+0:06:18.800,0:06:22.720
+the most important thing is that it's
+
+0:06:20.880,0:06:24.319
+got a color
+
+0:06:22.720,0:06:26.800
+and we want to switch the top one to be
+
+0:06:24.319,0:06:29.360
+red now the second one down
+
+0:06:26.800,0:06:30.000
+if you click on the second one down it
+
+0:06:29.360,0:06:32.560
+is also
+
+0:06:30.000,0:06:34.000
+currently blue but as you can guess from
+
+0:06:32.560,0:06:35.720
+the wire color
+
+0:06:34.000,0:06:37.120
+uh we want to make it yellow
+
+0:06:35.720,0:06:38.479
+[Music]
+
+0:06:37.120,0:06:40.400
+the third one down hopefully you've
+
+0:06:38.479,0:06:41.759
+picked up the pattern is connected to a
+
+0:06:40.400,0:06:45.120
+green wire
+
+0:06:41.759,0:06:47.039
+and it is now green now this
+
+0:06:45.120,0:06:49.120
+circuit is actually very similar to the
+
+0:06:47.039,0:06:51.199
+one we saw before with the battery
+
+0:06:49.120,0:06:52.800
+but it looks more complex it's just that
+
+0:06:51.199,0:06:54.080
+the arduino here is better than a
+
+0:06:52.800,0:06:55.039
+battery because the battery is just
+
+0:06:54.080,0:06:56.560
+always on
+
+0:06:55.039,0:06:58.479
+whereas the arduino can make something
+
+0:06:56.560,0:07:00.960
+be on or off
+
+0:06:58.479,0:07:02.479
+and it fits right but pretend like this
+
+0:07:00.960,0:07:04.160
+is the battery for a moment
+
+0:07:02.479,0:07:05.680
+uh current is flowing through this
+
+0:07:04.160,0:07:08.400
+resistor uh
+
+0:07:05.680,0:07:09.599
+through this led uh and then to ground
+
+0:07:08.400,0:07:11.360
+and this ground is just kind of
+
+0:07:09.599,0:07:13.520
+connected between everybody
+
+0:07:11.360,0:07:15.039
+yellow is the same way flows through the
+
+0:07:13.520,0:07:17.520
+yellow and then the ground
+
+0:07:15.039,0:07:18.400
+and green is the same way and it flows
+
+0:07:17.520,0:07:20.560
+through here
+
+0:07:18.400,0:07:22.400
+now all they want you to do on theirs is
+
+0:07:20.560,0:07:24.800
+to change the color of the lights
+
+0:07:22.400,0:07:26.400
+and hit start simulation and then it
+
+0:07:24.800,0:07:29.680
+should go green
+
+0:07:26.400,0:07:31.440
+yellow red and then it just loops right
+
+0:07:29.680,0:07:34.479
+so it goes green
+
+0:07:31.440,0:07:35.440
+yellow red now that's all the tutorial
+
+0:07:34.479,0:07:37.280
+is going to have you do
+
+0:07:35.440,0:07:38.800
+uh i just want to glance at one more
+
+0:07:37.280,0:07:40.160
+thing before we move on
+
+0:07:38.800,0:07:43.120
+um and so i'm going to click on stop
+
+0:07:40.160,0:07:45.280
+simulation um and the way that this
+
+0:07:43.120,0:07:47.280
+whole thing works is via the code
+
+0:07:45.280,0:07:49.520
+that's on the microcontroller so click
+
+0:07:47.280,0:07:51.840
+on where it says code here
+
+0:07:49.520,0:07:52.800
+uh and you can see uh the code that they
+
+0:07:51.840,0:07:54.319
+wrote for this
+
+0:07:52.800,0:07:56.560
+you can see it a couple different ways
+
+0:07:54.319,0:07:59.440
+you can see it as blocks
+
+0:07:56.560,0:08:00.240
+blocks plus text or text uh what we're
+
+0:07:59.440,0:08:01.840
+going to do
+
+0:08:00.240,0:08:03.520
+um and i've done one done want me to
+
+0:08:01.840,0:08:04.639
+change it um what we're going to do
+
+0:08:03.520,0:08:07.360
+today is we're going to use
+
+0:08:04.639,0:08:07.919
+blocks plus text and what we're going to
+
+0:08:07.360,0:08:09.759
+do the
+
+0:08:07.919,0:08:11.520
+the two days after this is just straight
+
+0:08:09.759,0:08:13.039
+text so we're going to be programming
+
+0:08:11.520,0:08:15.120
+with just straight text
+
+0:08:13.039,0:08:16.400
+just to glance at it over here we're not
+
+0:08:15.120,0:08:18.000
+going to memorize it but i'm just going
+
+0:08:16.400,0:08:21.039
+to see some things it does
+
+0:08:18.000,0:08:23.440
+an arduino program
+
+0:08:21.039,0:08:24.560
+has two functions that get called one is
+
+0:08:23.440,0:08:27.199
+called setup
+
+0:08:24.560,0:08:27.759
+it does the setup work to prepare things
+
+0:08:27.199,0:08:29.599
+and then
+
+0:08:27.759,0:08:31.039
+loop uh this is a function that gets
+
+0:08:29.599,0:08:33.599
+called over and over again
+
+0:08:31.039,0:08:35.599
+that keeps going forever in a what's the
+
+0:08:33.599,0:08:38.880
+word sissy
+
+0:08:35.599,0:08:39.839
+forever loop yeah and so right now you
+
+0:08:38.880,0:08:40.320
+can see what they're doing is they're
+
+0:08:39.839,0:08:43.440
+making
+
+0:08:40.320,0:08:45.600
+the uh three leds red yellow and green
+
+0:08:43.440,0:08:47.279
+as output output and output so that's
+
+0:08:45.600,0:08:49.279
+part of the setup
+
+0:08:47.279,0:08:50.320
+and then in the loop uh they're doing
+
+0:08:49.279,0:08:52.399
+different things
+
+0:08:50.320,0:08:53.600
+uh so here they're making the uh the
+
+0:08:52.399,0:08:56.720
+green one on
+
+0:08:53.600,0:08:59.279
+so low low high
+
+0:08:56.720,0:09:00.560
+and then the yellow one on with a low
+
+0:08:59.279,0:09:03.279
+high low
+
+0:09:00.560,0:09:04.080
+and then the red went on with a high low
+
+0:09:03.279,0:09:05.839
+low
+
+0:09:04.080,0:09:07.120
+and then there's a little delay here
+
+0:09:05.839,0:09:09.120
+after each one
+
+0:09:07.120,0:09:11.600
+to make the simulation so like i said
+
+0:09:09.120,0:09:13.040
+we're not going to memorize the code
+
+0:09:11.600,0:09:14.640
+but i just wanted you to have some
+
+0:09:13.040,0:09:16.800
+appreciation
+
+0:09:14.640,0:09:18.399
+for how this thing works and the fact
+
+0:09:16.800,0:09:20.399
+that it's dealing with code
+
+0:09:18.399,0:09:22.240
+and code is going to be our whole focus
+
+0:09:20.399,0:09:23.680
+as we're working together
+
+0:09:22.240,0:09:25.760
+but let's get through the uh the
+
+0:09:23.680,0:09:28.080
+simulations uh the lessons first
+
+0:09:25.760,0:09:29.200
+so go ahead and click on next um and it
+
+0:09:28.080,0:09:31.839
+says that you can
+
+0:09:29.200,0:09:33.920
+change some things if you want uh but i
+
+0:09:31.839,0:09:36.480
+think that we'll do that together
+
+0:09:33.920,0:09:38.160
+so on to the next tutorial the only
+
+0:09:36.480,0:09:40.240
+thing i don't like about these tutorials
+
+0:09:38.160,0:09:42.320
+compared to the uh the 3d modeling ones
+
+0:09:40.240,0:09:42.720
+into the 3d modeling when you got stars
+
+0:09:42.320,0:09:44.480
+right
+
+0:09:42.720,0:09:46.560
+the stars went off you got this warm
+
+0:09:44.480,0:09:47.200
+fuzzy feeling uh where's this there's no
+
+0:09:46.560,0:09:50.640
+stars
+
+0:09:47.200,0:09:52.720
+do you miss the stars sissy all right
+
+0:09:50.640,0:09:55.200
+all right this next one is connecting
+
+0:09:52.720,0:09:56.720
+wires so a big part of wiring is
+
+0:09:55.200,0:09:57.600
+connecting wires
+
+0:09:56.720,0:09:59.680
+and what we're going to do is we're
+
+0:09:57.600,0:10:01.040
+going to connect two wires to this
+
+0:09:59.680,0:10:02.079
+circuit
+
+0:10:01.040,0:10:04.240
+and it shows kind of like a
+
+0:10:02.079,0:10:06.880
+demonstration of how to connect a wire
+
+0:10:04.240,0:10:08.959
+and so most of this circuit is all built
+
+0:10:06.880,0:10:10.560
+it does some crazy things with sound
+
+0:10:08.959,0:10:13.200
+i'll make sure my sound is cranked up
+
+0:10:10.560,0:10:15.519
+for this one it's going to be great
+
+0:10:13.200,0:10:16.800
+but it's missing two important wires the
+
+0:10:15.519,0:10:18.079
+wires that it's missing is the
+
+0:10:16.800,0:10:20.000
+connection to the battery
+
+0:10:18.079,0:10:21.680
+pretty important and so what they want
+
+0:10:20.000,0:10:24.880
+you to do is they want you to connect
+
+0:10:21.680,0:10:25.839
+the the red terminal of this nine volt
+
+0:10:24.880,0:10:28.640
+battery
+
+0:10:25.839,0:10:30.000
+up to the red line that's up here you'll
+
+0:10:28.640,0:10:31.279
+notice that if you look at their circuit
+
+0:10:30.000,0:10:33.440
+there's a red
+
+0:10:31.279,0:10:35.200
+plus rail and it's actually connected
+
+0:10:33.440,0:10:36.800
+all the way down
+
+0:10:35.200,0:10:38.800
+and then there's a red line which makes
+
+0:10:36.800,0:10:40.959
+it connected to the bottom um
+
+0:10:38.800,0:10:42.720
+plus rail down here as well uh we'll
+
+0:10:40.959,0:10:44.320
+talk about breadboards more but the
+
+0:10:42.720,0:10:45.760
+the rails that are on the outside are
+
+0:10:44.320,0:10:48.079
+connected all the way down
+
+0:10:45.760,0:10:49.600
+internally and rails in the middle are
+
+0:10:48.079,0:10:52.640
+connected all the way across
+
+0:10:49.600,0:10:54.399
+internally right so to connect a wire
+
+0:10:52.640,0:10:56.800
+most people they want to click click and
+
+0:10:54.399,0:10:57.360
+drag and that kind of sort of almost
+
+0:10:56.800,0:10:59.760
+works
+
+0:10:57.360,0:11:01.680
+but the best way to do it in tinkercad
+
+0:10:59.760,0:11:02.560
+circuits is to click once for where you
+
+0:11:01.680,0:11:04.160
+start
+
+0:11:02.560,0:11:06.399
+and then i'm no longer touching the
+
+0:11:04.160,0:11:08.880
+mouse and then to click again
+
+0:11:06.399,0:11:10.320
+when you get to here and so that
+
+0:11:08.880,0:11:13.360
+connects the wire
+
+0:11:10.320,0:11:16.640
+with two clicks is how it works best
+
+0:11:13.360,0:11:19.519
+now let's talk about colors so wires uh
+
+0:11:16.640,0:11:20.000
+you can change colors on wires uh the
+
+0:11:19.519,0:11:22.959
+color
+
+0:11:20.000,0:11:24.480
+of a wire is completely meaningless
+
+0:11:22.959,0:11:26.240
+right it's it's just like you spray
+
+0:11:24.480,0:11:29.600
+painted it red or spray painted blue
+
+0:11:26.240,0:11:30.240
+it does not matter at all i like to use
+
+0:11:29.600,0:11:32.720
+colors
+
+0:11:30.240,0:11:34.720
+to make my code easier to look at so for
+
+0:11:32.720,0:11:36.320
+example they used a red and a black here
+
+0:11:34.720,0:11:38.079
+and i just immediately knew hey one of
+
+0:11:36.320,0:11:40.480
+these is for the the positive
+
+0:11:38.079,0:11:42.079
+uh from the battery like the plus and
+
+0:11:40.480,0:11:42.720
+then the other one the black is for the
+
+0:11:42.079,0:11:45.279
+ground
+
+0:11:42.720,0:11:47.279
+so that's why colors are nice so we
+
+0:11:45.279,0:11:48.640
+connected that one
+
+0:11:47.279,0:11:50.320
+uh and then it says to connect the
+
+0:11:48.640,0:11:53.040
+ground one uh so this is the same as
+
+0:11:50.320,0:11:55.519
+what we did before so we click on
+
+0:11:53.040,0:11:57.600
+the black there and then you do have to
+
+0:11:55.519,0:12:00.639
+be careful about where it goes to
+
+0:11:57.600,0:12:01.760
+they want it to go to the black line on
+
+0:12:00.639,0:12:03.600
+the bottom
+
+0:12:01.760,0:12:06.240
+and then i choose to change that and
+
+0:12:03.600,0:12:10.320
+make it be a black wire
+
+0:12:06.240,0:12:12.240
+now let's try it
+
+0:12:10.320,0:12:13.360
+uh and if it works it should make a
+
+0:12:12.240,0:12:16.560
+bunch of noise
+
+0:12:13.360,0:12:17.600
+uh so mine uh thankfully uh isn't making
+
+0:12:16.560,0:12:19.440
+a ton of noise
+
+0:12:17.600,0:12:21.200
+uh because of the how my microphone's
+
+0:12:19.440,0:12:23.519
+set up uh but yours
+
+0:12:21.200,0:12:24.320
+uh yours should be making a bunch of
+
+0:12:23.519,0:12:26.560
+noise
+
+0:12:24.320,0:12:27.030
+all right sissies yours make a noise yep
+
+0:12:26.560,0:12:29.040
+okay
+
+0:12:27.030,0:12:31.120
+[Music]
+
+0:12:29.040,0:12:32.079
+all right so it makes some uh some
+
+0:12:31.120,0:12:33.839
+horrible noises
+
+0:12:32.079,0:12:35.040
+uh when you press the buttons uh so i
+
+0:12:33.839,0:12:35.680
+just realized i wasn't even pressing the
+
+0:12:35.040,0:12:37.839
+buttons but
+
+0:12:35.680,0:12:39.360
+when you press these buttons it should
+
+0:12:37.839,0:12:40.560
+be like a piano
+
+0:12:39.360,0:12:43.040
+and each one should make a different
+
+0:12:40.560,0:12:44.240
+pitch so it's a cute little way to start
+
+0:12:43.040,0:12:46.639
+learning about
+
+0:12:44.240,0:12:47.519
+doing some wiring but really we just
+
+0:12:46.639,0:12:50.079
+connected two
+
+0:12:47.519,0:12:50.880
+wires in the tutorial uh the next thing
+
+0:12:50.079,0:12:52.000
+we're going to do is we're going to
+
+0:12:50.880,0:12:54.639
+learn how to get like
+
+0:12:52.000,0:12:56.399
+fancier with adding wires and also to
+
+0:12:54.639,0:12:58.480
+add some components
+
+0:12:56.399,0:13:01.440
+so this circuit has two double a
+
+0:12:58.480,0:13:05.040
+batteries so that's about 3 volts total
+
+0:13:01.440,0:13:07.200
+driving a motor this circuit does work
+
+0:13:05.040,0:13:08.800
+you can go ahead and test it right now
+
+0:13:07.200,0:13:09.760
+and what it'll do is it'll spin this
+
+0:13:08.800,0:13:11.519
+little motor
+
+0:13:09.760,0:13:13.120
+so these are our pretty inexpensive
+
+0:13:11.519,0:13:15.760
+motors uh it's
+
+0:13:13.120,0:13:17.120
+cruising along at some super fast speed
+
+0:13:15.760,0:13:18.639
+it looks slow here
+
+0:13:17.120,0:13:20.079
+but it's just because it's going so fast
+
+0:13:18.639,0:13:21.760
+that it's messing with the frame rate so
+
+0:13:20.079,0:13:23.720
+it's going super fast right so these
+
+0:13:21.760,0:13:26.320
+motors has been at like
+
+0:13:23.720,0:13:27.760
+5902 rpms is what mine is doing right
+
+0:13:26.320,0:13:28.800
+now
+
+0:13:27.760,0:13:30.000
+and what they're going to do in this
+
+0:13:28.800,0:13:31.600
+tutorial is they're going to have you
+
+0:13:30.000,0:13:35.200
+add
+
+0:13:31.600,0:13:37.200
+a resistor what's called a photoresistor
+
+0:13:35.200,0:13:38.959
+instead of that bottom wire so go ahead
+
+0:13:37.200,0:13:42.880
+and do this click on the bottom wire
+
+0:13:38.959,0:13:44.880
+uh hit delete and then
+
+0:13:42.880,0:13:47.120
+in your component scroll until you find
+
+0:13:44.880,0:13:50.800
+a symbol that kind of looks like that
+
+0:13:47.120,0:13:52.639
+uh here it is so it's a photo resistor
+
+0:13:50.800,0:13:54.880
+all right so there's my photo resistor
+
+0:13:52.639,0:13:56.639
+uh and then what it tells you to do next
+
+0:13:54.880,0:14:00.240
+is it tells you to rotate it
+
+0:13:56.639,0:14:01.760
+um to rotate it you hit the r key
+
+0:14:00.240,0:14:04.320
+so if you hit the r key it'll kind of
+
+0:14:01.760,0:14:05.519
+rotate it around uh if you rotate it too
+
+0:14:04.320,0:14:06.959
+much that's fine you can just kind of
+
+0:14:05.519,0:14:08.240
+keep rotating around or you can hit
+
+0:14:06.959,0:14:11.199
+shift rotate
+
+0:14:08.240,0:14:12.240
+shift r to rotate a certain way and get
+
+0:14:11.199,0:14:15.519
+it to where it's
+
+0:14:12.240,0:14:16.800
+roughly located about here now what we
+
+0:14:15.519,0:14:17.600
+want to do is we want to connect the
+
+0:14:16.800,0:14:19.920
+wire
+
+0:14:17.600,0:14:21.680
+now uh what we learned before is that
+
+0:14:19.920,0:14:22.959
+you can click here
+
+0:14:21.680,0:14:24.880
+and then you can click there and it'll
+
+0:14:22.959,0:14:26.720
+connect a wire but if you look at their
+
+0:14:24.880,0:14:27.519
+picture it's got this cool like bend in
+
+0:14:26.720,0:14:29.360
+it right
+
+0:14:27.519,0:14:31.600
+um and so how did they get that cool
+
+0:14:29.360,0:14:32.800
+little bin uh well let me click undo and
+
+0:14:31.600,0:14:35.440
+let me just try it again
+
+0:14:32.800,0:14:36.560
+uh so you could click here and then
+
+0:14:35.440,0:14:38.800
+somewhere down here
+
+0:14:36.560,0:14:40.560
+and then over here and it puts a cool
+
+0:14:38.800,0:14:42.560
+bend in it for you right
+
+0:14:40.560,0:14:43.920
+but even if you don't do it perfect
+
+0:14:42.560,0:14:45.279
+that's fine you can always grab these
+
+0:14:43.920,0:14:46.959
+they're called handles
+
+0:14:45.279,0:14:48.480
+and you can move it around to your
+
+0:14:46.959,0:14:50.720
+heart's content
+
+0:14:48.480,0:14:53.519
+you could also change the color to be
+
+0:14:50.720,0:14:53.519
+red if you'd like
+
+0:14:54.000,0:14:56.639
+just to practice i'll show you another
+
+0:14:55.360,0:14:58.000
+way you could have done it let's say
+
+0:14:56.639,0:15:00.480
+that i had moved it from here to
+
+0:14:58.000,0:15:01.680
+here and i didn't add that bend well
+
+0:15:00.480,0:15:03.199
+what i can do is when the wire is
+
+0:15:01.680,0:15:05.760
+selected i can double click
+
+0:15:03.199,0:15:08.079
+and add a bend and then i can just move
+
+0:15:05.760,0:15:09.360
+it to wherever i want so you can always
+
+0:15:08.079,0:15:10.959
+edit wires
+
+0:15:09.360,0:15:12.800
+so don't care about if you get them
+
+0:15:10.959,0:15:13.920
+perfect the next time are you going to
+
+0:15:12.800,0:15:15.199
+perfect the first time
+
+0:15:13.920,0:15:16.800
+another thing that's nice to do with
+
+0:15:15.199,0:15:18.160
+wires is you can change their colors
+
+0:15:16.800,0:15:19.680
+using hotkeys
+
+0:15:18.160,0:15:24.320
+and i happen to know that red is the
+
+0:15:19.680,0:15:25.920
+number two so i just put my wire on here
+
+0:15:24.320,0:15:28.399
+i'm gonna choose to put it on with no
+
+0:15:25.920,0:15:32.000
+bend initially and then i'll add a bend
+
+0:15:28.399,0:15:32.880
+uh after the fact and it was red because
+
+0:15:32.000,0:15:34.880
+my last wire i
+
+0:15:32.880,0:15:36.880
+put on was red all right so let's go
+
+0:15:34.880,0:15:38.079
+ahead and start the simulation uh with
+
+0:15:36.880,0:15:41.759
+this
+
+0:15:38.079,0:15:43.839
+so um now um when i start the simulation
+
+0:15:41.759,0:15:45.360
+you can see it's going much slower
+
+0:15:43.839,0:15:47.839
+two oh i should have explained this
+
+0:15:45.360,0:15:51.199
+before rpms
+
+0:15:47.839,0:15:54.320
+this is revolutions per minute
+
+0:15:51.199,0:15:56.720
+uh it's a very common unit uh for motors
+
+0:15:54.320,0:15:58.000
+rpms revolutions per minute so right now
+
+0:15:56.720,0:15:59.920
+it's going very slow
+
+0:15:58.000,0:16:01.360
+because of this photocell but what i can
+
+0:15:59.920,0:16:02.320
+do in this photocell on the show in the
+
+0:16:01.360,0:16:04.639
+circuit here
+
+0:16:02.320,0:16:06.399
+is i can change how much light there is
+
+0:16:04.639,0:16:08.720
+in this photocell
+
+0:16:06.399,0:16:09.600
+and so if this photocell was in uh the
+
+0:16:08.720,0:16:11.360
+sun
+
+0:16:09.600,0:16:13.360
+uh the motor would go very very fast so
+
+0:16:11.360,0:16:15.360
+like if you took it outside in the sun
+
+0:16:13.360,0:16:16.880
+i would just start humming away right uh
+
+0:16:15.360,0:16:19.040
+but if you were in the dark
+
+0:16:16.880,0:16:20.160
+like inside the house or in a dark room
+
+0:16:19.040,0:16:21.839
+it'd be slower
+
+0:16:20.160,0:16:24.000
+and then if you turn off the lights i
+
+0:16:21.839,0:16:26.000
+would get super slow right
+
+0:16:24.000,0:16:27.040
+to the point where it's only going at
+
+0:16:26.000,0:16:29.040
+two rpms
+
+0:16:27.040,0:16:31.040
+and the reason for that is that this
+
+0:16:29.040,0:16:33.839
+component called a photo
+
+0:16:31.040,0:16:35.199
+resistor changes its resistance based on
+
+0:16:33.839,0:16:37.759
+how much light there is
+
+0:16:35.199,0:16:38.480
+uh whenever it's dark it's a really high
+
+0:16:37.759,0:16:40.399
+value
+
+0:16:38.480,0:16:41.839
+which makes the the circuit have very
+
+0:16:40.399,0:16:44.160
+little current flow through it
+
+0:16:41.839,0:16:45.360
+because it's got a lot of resistance uh
+
+0:16:44.160,0:16:46.800
+does that make sense
+
+0:16:45.360,0:16:48.639
+but again you can see the path of
+
+0:16:46.800,0:16:50.240
+current flow goes through here
+
+0:16:48.639,0:16:51.600
+and that's what makes the loop so the
+
+0:16:50.240,0:16:53.279
+only thing we wanted to learn about is
+
+0:16:51.600,0:16:54.560
+adding components so you just drag and
+
+0:16:53.279,0:16:56.399
+drop them from over here
+
+0:16:54.560,0:16:56.960
+and then some extra things about adding
+
+0:16:56.399,0:16:58.320
+wires
+
+0:16:56.960,0:17:00.480
+[Music]
+
+0:16:58.320,0:17:01.920
+great so i think that this one is done
+
+0:17:00.480,0:17:03.600
+uh so that was uh
+
+0:17:01.920,0:17:05.679
+it for the tutorials uh those are for
+
+0:17:03.600,0:17:07.280
+some pretty easy tutorials
+
+0:17:05.679,0:17:08.799
+uh once you've finished the tutorials
+
+0:17:07.280,0:17:09.919
+there's a button to like go back to the
+
+0:17:08.799,0:17:11.520
+project page
+
+0:17:09.919,0:17:13.199
+to be honest where it takes me back to
+
+0:17:11.520,0:17:14.799
+is not the page i really wanted
+
+0:17:13.199,0:17:17.120
+uh the page i really wanted i'm gonna
+
+0:17:14.799,0:17:18.959
+click on the tinkercad logo up here
+
+0:17:17.120,0:17:21.280
+and this will take me to my dashboard
+
+0:17:18.959,0:17:22.559
+right so my dashboard has of course the
+
+0:17:21.280,0:17:24.959
+3d designs
+
+0:17:22.559,0:17:26.480
+which we made yesterday and then it's
+
+0:17:24.959,0:17:28.960
+also got the circuits
+
+0:17:26.480,0:17:31.280
+that we're building today now mine still
+
+0:17:28.960,0:17:32.640
+has this tutorial here for try circuits
+
+0:17:31.280,0:17:34.640
+i do not want to click it again i've
+
+0:17:32.640,0:17:36.000
+already done it once instead what i want
+
+0:17:34.640,0:17:39.840
+to do is i want to say create
+
+0:17:36.000,0:17:41.360
+new circuits so this is the way
+
+0:17:39.840,0:17:42.799
+projects normally work when you click on
+
+0:17:41.360,0:17:44.559
+create new circuit there's no like
+
+0:17:42.799,0:17:47.840
+instructions over here
+
+0:17:44.559,0:17:49.200
+there's just like a blank canvas right
+
+0:17:47.840,0:17:51.039
+it does tell you that there's a cool
+
+0:17:49.200,0:17:53.679
+thing called starters
+
+0:17:51.039,0:17:54.880
+so we'll maybe do that sometime but we
+
+0:17:53.679,0:17:56.080
+don't really want that
+
+0:17:54.880,0:17:57.919
+for right now we're just going to click
+
+0:17:56.080,0:17:59.520
+on show me the basic components and
+
+0:17:57.919,0:18:01.280
+we'll do some things together
+
+0:17:59.520,0:18:02.720
+now one thing that's similar to 3d
+
+0:18:01.280,0:18:03.919
+modeling is when you create a new
+
+0:18:02.720,0:18:07.039
+project
+
+0:18:03.919,0:18:08.559
+it will create a crazy name for you up
+
+0:18:07.039,0:18:10.080
+in the upper left
+
+0:18:08.559,0:18:13.679
+i'm going to change this one to be
+
+0:18:10.080,0:18:14.799
+called my led
+
+0:18:13.679,0:18:17.520
+and what we're going to do is we're just
+
+0:18:14.799,0:18:19.919
+going to practice adding some components
+
+0:18:17.520,0:18:22.000
+and wiring them up so here's some
+
+0:18:19.919,0:18:23.760
+components we're going to add
+
+0:18:22.000,0:18:25.520
+we're going to add an led so go ahead
+
+0:18:23.760,0:18:28.080
+and drag an led and drop it onto your
+
+0:18:25.520,0:18:31.679
+canvas somewhere
+
+0:18:28.080,0:18:34.559
+and we're gonna add a resistor
+
+0:18:31.679,0:18:36.320
+um and then we're gonna add a battery so
+
+0:18:34.559,0:18:37.200
+those are the three things that we saw
+
+0:18:36.320,0:18:40.480
+before
+
+0:18:37.200,0:18:42.320
+uh that we use to uh to drive an led
+
+0:18:40.480,0:18:44.240
+before they used the coin battery this
+
+0:18:42.320,0:18:45.280
+time i used a double a battery
+
+0:18:44.240,0:18:46.880
+now what we're going to do is we're
+
+0:18:45.280,0:18:48.080
+going to before we wire this up we're
+
+0:18:46.880,0:18:50.080
+going to change
+
+0:18:48.080,0:18:52.720
+um some of the details of these
+
+0:18:50.080,0:18:53.919
+components the led can be any color you
+
+0:18:52.720,0:18:55.760
+want
+
+0:18:53.919,0:18:57.280
+so you can change the led color if you'd
+
+0:18:55.760,0:18:58.559
+like so i just
+
+0:18:57.280,0:19:00.320
+click on it and then i can change the
+
+0:18:58.559,0:19:04.080
+color of the led
+
+0:19:00.320,0:19:06.880
+uh the resistor should be a certain size
+
+0:19:04.080,0:19:07.919
+this is kind of an interesting game but
+
+0:19:06.880,0:19:09.919
+it can be
+
+0:19:07.919,0:19:11.039
+some number of kilo ohms that's like
+
+0:19:09.919,0:19:14.400
+thousands of ohms
+
+0:19:11.039,0:19:15.360
+right now it's one kilo ohm uh so it's a
+
+0:19:14.400,0:19:19.039
+thousand ohms
+
+0:19:15.360,0:19:21.679
+i'm going to switch it to 330 ohms right
+
+0:19:19.039,0:19:25.520
+so first off right now it's 1k ohm but
+
+0:19:21.679,0:19:27.039
+if i were to switch it to ohms here
+
+0:19:25.520,0:19:28.960
+what i did right there was identical
+
+0:19:27.039,0:19:32.640
+right so i could say one
+
+0:19:28.960,0:19:34.000
+kilo ohm or 1000 ohms and they're the
+
+0:19:32.640,0:19:35.679
+same number
+
+0:19:34.000,0:19:37.320
+i did this though because i actually
+
+0:19:35.679,0:19:40.160
+want to change it to
+
+0:19:37.320,0:19:43.280
+330 ohms so
+
+0:19:40.160,0:19:45.840
+330 ohms is the correct size
+
+0:19:43.280,0:19:48.080
+for a resistor so that the led is good
+
+0:19:45.840,0:19:50.400
+and bright but not too bright
+
+0:19:48.080,0:19:52.559
+and we won't go into the math but 330 is
+
+0:19:50.400,0:19:54.880
+a good value
+
+0:19:52.559,0:19:55.679
+next up is the battery so the battery
+
+0:19:54.880,0:19:57.840
+actually
+
+0:19:55.679,0:19:59.200
+has some features with them changed to
+
+0:19:57.840,0:20:02.400
+the first is the count
+
+0:19:59.200,0:20:04.000
+i actually want four batteries um and
+
+0:20:02.400,0:20:05.520
+then do you want a built-in switch yes
+
+0:20:04.000,0:20:07.840
+or no i'm going to say
+
+0:20:05.520,0:20:09.200
+yes so they actually sell these things
+
+0:20:07.840,0:20:10.400
+where it's like a little four pack of
+
+0:20:09.200,0:20:12.159
+double a batteries
+
+0:20:10.400,0:20:13.600
+uh and then they've got a little like on
+
+0:20:12.159,0:20:16.080
+off switch on the top here
+
+0:20:13.600,0:20:18.480
+which is kind of handy in this case four
+
+0:20:16.080,0:20:21.919
+double a batteries by the way each one
+
+0:20:18.480,0:20:24.960
+is 1.5 volts uh so four of them together
+
+0:20:21.919,0:20:28.080
+would be what your wrath feels like
+
+0:20:24.960,0:20:30.000
+1.4 would be 6 volts
+
+0:20:28.080,0:20:31.840
+6 volts that's right yep so 6 volts
+
+0:20:30.000,0:20:35.039
+there all right so let's go ahead
+
+0:20:31.840,0:20:36.480
+and hook up this circuit now
+
+0:20:35.039,0:20:38.159
+so to hook up this circuit what i want
+
+0:20:36.480,0:20:39.360
+to do is i want to take the positive
+
+0:20:38.159,0:20:42.559
+voltage
+
+0:20:39.360,0:20:44.080
+uh and connect it to the anode of the
+
+0:20:42.559,0:20:46.240
+led
+
+0:20:44.080,0:20:48.880
+uh and then i like to make my wire be
+
+0:20:46.240,0:20:50.320
+the same color as my led just for fun
+
+0:20:48.880,0:20:52.159
+and in this case it's already done
+
+0:20:50.320,0:20:53.679
+because it's green
+
+0:20:52.159,0:20:55.760
+um and then what i want to do is i want
+
+0:20:53.679,0:20:57.360
+to take the cathode and connect it to
+
+0:20:55.760,0:20:58.559
+the resistor
+
+0:20:57.360,0:21:00.400
+and then take the other end of the
+
+0:20:58.559,0:21:02.559
+resistor and connect it to
+
+0:21:00.400,0:21:03.600
+the negative terminal and now what i'm
+
+0:21:02.559,0:21:05.760
+going to choose to do is i'm going to
+
+0:21:03.600,0:21:07.440
+make that side be black
+
+0:21:05.760,0:21:08.799
+because this is the the connection to
+
+0:21:07.440,0:21:10.159
+ground technically this is the
+
+0:21:08.799,0:21:12.159
+connection to ground
+
+0:21:10.159,0:21:13.679
+this is the connection to the led and
+
+0:21:12.159,0:21:15.600
+this is just some wire in the middle
+
+0:21:13.679,0:21:18.720
+that can be any color you want right
+
+0:21:15.600,0:21:21.360
+so this right here is a good
+
+0:21:18.720,0:21:22.480
+led circuit if you click on start
+
+0:21:21.360,0:21:24.000
+simulation
+
+0:21:22.480,0:21:25.919
+when you click on start simulation it
+
+0:21:24.000,0:21:27.360
+turned your battery pack on for you
+
+0:21:25.919,0:21:29.440
+which is very nice of them
+
+0:21:27.360,0:21:31.200
+but you can turn it on and off with this
+
+0:21:29.440,0:21:35.679
+button here so this is a
+
+0:21:31.200,0:21:37.200
+properly made led circuit
+
+0:21:35.679,0:21:39.840
+now what i want you to do just to kind
+
+0:21:37.200,0:21:42.640
+of practice uh see if you can
+
+0:21:39.840,0:21:44.080
+practice those skills that we just did
+
+0:21:42.640,0:21:46.640
+and make a bad led
+
+0:21:44.080,0:21:48.159
+circuit right next to it so bring over
+
+0:21:46.640,0:21:49.520
+um another led
+
+0:21:48.159,0:21:51.360
+i know you could duplicate that one but
+
+0:21:49.520,0:21:54.159
+bring over another one bring over
+
+0:21:51.360,0:21:54.880
+another battery pack change the color of
+
+0:21:54.159,0:21:58.000
+the led
+
+0:21:54.880,0:21:59.520
+as you see fit set up the battery pack
+
+0:21:58.000,0:22:02.559
+to have the right features to look just
+
+0:21:59.520,0:22:05.039
+like that one and this time just for fun
+
+0:22:02.559,0:22:06.960
+connect it with no resistor so just make
+
+0:22:05.039,0:22:08.640
+the wire go from the cathode
+
+0:22:06.960,0:22:11.360
+straight to the negative terminal of the
+
+0:22:08.640,0:22:12.880
+battery and once you build that
+
+0:22:11.360,0:22:14.559
+we'll see what happens when you run your
+
+0:22:12.880,0:22:15.840
+simulation so take a minute and try to
+
+0:22:14.559,0:22:16.960
+make that happen
+
+0:22:15.840,0:22:18.640
+all right so i'll go ahead and do it
+
+0:22:16.960,0:22:20.159
+really quick but hopefully you were
+
+0:22:18.640,0:22:23.760
+successful in that so i added
+
+0:22:20.159,0:22:25.440
+an led and then i added just one battery
+
+0:22:23.760,0:22:26.880
+but then i switch it to four and i
+
+0:22:25.440,0:22:27.919
+switch it to have a switch that's how i
+
+0:22:26.880,0:22:29.520
+did that
+
+0:22:27.919,0:22:31.760
+uh if you try to run the uh the
+
+0:22:29.520,0:22:33.600
+simulation right now uh your led doesn't
+
+0:22:31.760,0:22:34.000
+do much because i forgot the wires right
+
+0:22:33.600,0:22:36.400
+so
+
+0:22:34.000,0:22:37.520
+make sure you add wires uh and the wires
+
+0:22:36.400,0:22:39.600
+that i'm gonna add this time i'm gonna
+
+0:22:37.520,0:22:42.640
+do it wrong i'm gonna add a red one
+
+0:22:39.600,0:22:44.000
+which i happen to know is color two and
+
+0:22:42.640,0:22:46.559
+a black one
+
+0:22:44.000,0:22:48.159
+which i happen to know is color one i
+
+0:22:46.559,0:22:49.120
+just use the hot keys to save myself
+
+0:22:48.159,0:22:51.600
+time right
+
+0:22:49.120,0:22:53.200
+and so now if you start your simulation
+
+0:22:51.600,0:22:55.919
+uh this is a
+
+0:22:53.200,0:22:57.200
+bad bad thing right so it says the
+
+0:22:55.919,0:23:00.320
+current to the led
+
+0:22:57.200,0:23:04.080
+is 487 milliamps while the
+
+0:23:00.320,0:23:07.600
+absolute maximum is 20 milliamps right
+
+0:23:04.080,0:23:09.520
+and so we didn't size our resistor right
+
+0:23:07.600,0:23:11.280
+and it warns you that this is bad for
+
+0:23:09.520,0:23:13.520
+leds right
+
+0:23:11.280,0:23:14.640
+cool so that's all i wanted to do with
+
+0:23:13.520,0:23:15.440
+this one i just wanted to get you a
+
+0:23:14.640,0:23:17.280
+little practice
+
+0:23:15.440,0:23:19.200
+uh adding some things and adding some
+
+0:23:17.280,0:23:20.159
+wires uh and now we're going to do
+
+0:23:19.200,0:23:23.840
+something
+
+0:23:20.159,0:23:24.480
+a lot more complex so my led uh is now
+
+0:23:23.840,0:23:26.159
+done
+
+0:23:24.480,0:23:27.360
+uh if you wanted to you could share it
+
+0:23:26.159,0:23:27.919
+there's different things you could do to
+
+0:23:27.360,0:23:30.559
+share it
+
+0:23:27.919,0:23:32.320
+i'm not that worried about it just yet
+
+0:23:30.559,0:23:33.440
+so go ahead and go back to your
+
+0:23:32.320,0:23:34.880
+dashboard
+
+0:23:33.440,0:23:36.720
+the easiest way to get there is to click
+
+0:23:34.880,0:23:38.640
+on the little tinker logo
+
+0:23:36.720,0:23:40.320
+and everybody always asks how do i save
+
+0:23:38.640,0:23:42.400
+uh that led thing it's like well it gets
+
+0:23:40.320,0:23:43.919
+saved automatically
+
+0:23:42.400,0:23:45.840
+all right so go ahead and click on new
+
+0:23:43.919,0:23:46.720
+circuit and we're going to start the
+
+0:23:45.840,0:23:49.360
+like actual
+
+0:23:46.720,0:23:50.000
+factual thing we're doing today and that
+
+0:23:49.360,0:23:52.480
+is to build
+
+0:23:50.000,0:23:53.360
+the the stop light uh where if i press
+
+0:23:52.480,0:23:55.279
+this button
+
+0:23:53.360,0:23:58.880
+uh it'll go through green and then
+
+0:23:55.279,0:24:02.480
+yellow red so that's our goal today
+
+0:23:58.880,0:24:05.039
+so our last circuit was just like
+
+0:24:02.480,0:24:06.400
+batteries and leds and that was all good
+
+0:24:05.039,0:24:09.440
+but really
+
+0:24:06.400,0:24:09.840
+what tinkercad simulator is for is it's
+
+0:24:09.440,0:24:12.799
+for
+
+0:24:09.840,0:24:14.080
+simulating arduino circuits so the first
+
+0:24:12.799,0:24:17.279
+thing i want you to do is i want you to
+
+0:24:14.080,0:24:19.520
+drag an arduino uno r3
+
+0:24:17.279,0:24:21.200
+out from the side and put it right onto
+
+0:24:19.520,0:24:22.720
+your canvas
+
+0:24:21.200,0:24:25.120
+the next thing that i like to do is i
+
+0:24:22.720,0:24:26.159
+like to rotate it so i like to look at
+
+0:24:25.120,0:24:28.159
+it this way
+
+0:24:26.159,0:24:30.400
+it makes the text way easier for my eyes
+
+0:24:28.159,0:24:32.000
+to read
+
+0:24:30.400,0:24:33.440
+oh actually you could change the name of
+
+0:24:32.000,0:24:36.400
+it as well
+
+0:24:33.440,0:24:38.080
+i'm gonna call it my stoplights you
+
+0:24:36.400,0:24:39.120
+don't have to start every program uh
+
+0:24:38.080,0:24:41.520
+with the word my
+
+0:24:39.120,0:24:42.720
+but you certainly can if you'd like um
+
+0:24:41.520,0:24:46.000
+in addition to
+
+0:24:42.720,0:24:48.640
+uh the arduino uno most
+
+0:24:46.000,0:24:50.320
+people use these breadboards so go ahead
+
+0:24:48.640,0:24:54.240
+and drag a breadboard
+
+0:24:50.320,0:24:57.039
+uh from the component area over here
+
+0:24:54.240,0:24:58.960
+to your workspace and then hit r a
+
+0:24:57.039,0:25:00.880
+couple times
+
+0:24:58.960,0:25:02.880
+i usually this is how people kind of set
+
+0:25:00.880,0:25:05.440
+up their uh their board so they put an
+
+0:25:02.880,0:25:07.120
+arduino uno right next to the breadboard
+
+0:25:05.440,0:25:08.480
+uh no shock that's what the good people
+
+0:25:07.120,0:25:10.159
+at sparkfun did as well right and they
+
+0:25:08.480,0:25:11.679
+even put a like a little uh backing
+
+0:25:10.159,0:25:13.919
+piece right so pretty common
+
+0:25:11.679,0:25:15.440
+uh way to set up things and the reason
+
+0:25:13.919,0:25:17.840
+breadboards are so popular
+
+0:25:15.440,0:25:18.960
+is because it's really hard even with
+
+0:25:17.840,0:25:20.960
+the last circle we did
+
+0:25:18.960,0:25:22.799
+to hold a bunch of wires i can hold
+
+0:25:20.960,0:25:24.640
+about two and then i run out of hands
+
+0:25:22.799,0:25:26.559
+um and so people plug them into these
+
+0:25:24.640,0:25:28.640
+breadboards and that's a great way to
+
+0:25:26.559,0:25:30.240
+make connections so now what we're going
+
+0:25:28.640,0:25:31.840
+to do is we're going to make another led
+
+0:25:30.240,0:25:34.559
+circuit
+
+0:25:31.840,0:25:36.880
+so go ahead and take an led i'm going to
+
+0:25:34.559,0:25:40.240
+put it somewhere near the top
+
+0:25:36.880,0:25:41.520
+and i'm going to rotate it until it's
+
+0:25:40.240,0:25:43.840
+sideways
+
+0:25:41.520,0:25:45.120
+and i'm going to pop it right into the
+
+0:25:43.840,0:25:47.120
+breadboard
+
+0:25:45.120,0:25:49.120
+and now this is analogous to physically
+
+0:25:47.120,0:25:51.279
+like taking an led and putting it in the
+
+0:25:49.120,0:25:53.520
+breadboard so i really like that
+
+0:25:51.279,0:25:55.039
+and the way this works is uh whenever i
+
+0:25:53.520,0:25:57.520
+plug it into the breadboard
+
+0:25:55.039,0:25:58.799
+i can then plug a wire in anywhere to
+
+0:25:57.520,0:26:01.200
+this row
+
+0:25:58.799,0:26:01.840
+and it's like i'm holding it to that leg
+
+0:26:01.200,0:26:03.919
+of the
+
+0:26:01.840,0:26:05.520
+of the led so what i want to do is i
+
+0:26:03.919,0:26:08.320
+want to take this
+
+0:26:05.520,0:26:10.720
+leg right here and this is the side i
+
+0:26:08.320,0:26:13.440
+normally put so this is my anode side
+
+0:26:10.720,0:26:14.559
+this is the one i normally put to a
+
+0:26:13.440,0:26:17.600
+battery
+
+0:26:14.559,0:26:18.799
+but i'm going to connect it over to i
+
+0:26:17.600,0:26:21.760
+think i'll use pin
+
+0:26:18.799,0:26:22.960
+what the heck i'll use pen four really
+
+0:26:21.760,0:26:24.799
+you could use about
+
+0:26:22.960,0:26:26.880
+any pen you wanted on this side 0
+
+0:26:24.799,0:26:28.080
+through 13. the ones over here are used
+
+0:26:26.880,0:26:29.279
+for different things they're used for
+
+0:26:28.080,0:26:31.039
+analog things
+
+0:26:29.279,0:26:32.799
+but i just want to connect this to pin
+
+0:26:31.039,0:26:36.400
+4.
+
+0:26:32.799,0:26:38.799
+if you would like this is a red led
+
+0:26:36.400,0:26:40.799
+so you could choose to make the wire red
+
+0:26:38.799,0:26:43.679
+if you want it's completely optional
+
+0:26:40.799,0:26:44.799
+uh also depending on your level of
+
+0:26:43.679,0:26:47.039
+ocdness
+
+0:26:44.799,0:26:47.919
+in your life you can choose to double
+
+0:26:47.039,0:26:51.039
+click on it
+
+0:26:47.919,0:26:51.679
+and add bin points and you can make it
+
+0:26:51.039,0:26:54.159
+um
+
+0:26:51.679,0:26:54.799
+you know as pretty as you would like um
+
+0:26:54.159,0:26:56.159
+prettiness
+
+0:26:54.799,0:26:58.000
+doesn't matter if your wires are a
+
+0:26:56.159,0:27:00.000
+jumble it still works but you could
+
+0:26:58.000,0:27:02.400
+choose to make it pretty if you'd like
+
+0:27:00.000,0:27:03.679
+next we need to add a resistor and now
+
+0:27:02.400,0:27:04.880
+what i'm going to do with the resistor
+
+0:27:03.679,0:27:07.039
+is this
+
+0:27:04.880,0:27:08.720
+i'm going to put it on my breadboard and
+
+0:27:07.039,0:27:10.799
+so by putting it here
+
+0:27:08.720,0:27:12.799
+so i very specifically put it in this
+
+0:27:10.799,0:27:15.840
+exact spot by putting it here
+
+0:27:12.799,0:27:16.240
+that connects the top of the resistor to
+
+0:27:15.840,0:27:20.799
+the
+
+0:27:16.240,0:27:23.840
+cathode of the led and then the bottom
+
+0:27:20.799,0:27:26.000
+i'm going to connect to this ground rail
+
+0:27:23.840,0:27:30.000
+that's right here
+
+0:27:26.000,0:27:32.399
+i like to make my ground rails black
+
+0:27:30.000,0:27:33.600
+so i'll make it black also again being
+
+0:27:32.399,0:27:35.760
+very ocd
+
+0:27:33.600,0:27:37.440
+i'm going to add little bins so that it
+
+0:27:35.760,0:27:38.559
+kind of looks like it's connected to the
+
+0:27:37.440,0:27:40.320
+black one
+
+0:27:38.559,0:27:44.080
+and doesn't like shoot over the top of a
+
+0:27:40.320,0:27:46.000
+red one again that doesn't really matter
+
+0:27:44.080,0:27:48.559
+so here's what i'm doing now i've got
+
+0:27:46.000,0:27:50.880
+power that's going to come from pin four
+
+0:27:48.559,0:27:52.320
+um an arduino has this ability to kind
+
+0:27:50.880,0:27:53.919
+of like be like a battery to where it
+
+0:27:52.320,0:27:56.320
+provides power or not
+
+0:27:53.919,0:27:58.399
+um and it's gonna go into my anode it's
+
+0:27:56.320,0:27:59.840
+gonna flow through my led
+
+0:27:58.399,0:28:01.520
+it's gonna flow through my resistor
+
+0:27:59.840,0:28:03.520
+which is currently the wrong size
+
+0:28:01.520,0:28:05.039
+and it's going to flow into this ground
+
+0:28:03.520,0:28:06.799
+rail uh now there's two things we need
+
+0:28:05.039,0:28:08.159
+to fix one thing we need to fix is this
+
+0:28:06.799,0:28:10.399
+ground rail
+
+0:28:08.159,0:28:12.240
+isn't magic it's not connected to ground
+
+0:28:10.399,0:28:13.919
+magically you have to actually connect
+
+0:28:12.240,0:28:15.520
+it to ground somewhere
+
+0:28:13.919,0:28:17.679
+so what i'm going to do is i'm going to
+
+0:28:15.520,0:28:20.880
+connect it from right here
+
+0:28:17.679,0:28:22.159
+to the gnd that's right over here gnd is
+
+0:28:20.880,0:28:24.480
+short for ground
+
+0:28:22.159,0:28:25.919
+so my arduino board is going to get
+
+0:28:24.480,0:28:27.279
+power from the computer
+
+0:28:25.919,0:28:30.159
+and it's going to be basically my
+
+0:28:27.279,0:28:31.679
+battery that can be turned on and off
+
+0:28:30.159,0:28:33.279
+this black wire here by the way it's
+
+0:28:31.679,0:28:35.520
+connected through this rail
+
+0:28:33.279,0:28:36.960
+to this wire so it goes to ground there
+
+0:28:35.520,0:28:38.799
+the other thing i want to fix is i want
+
+0:28:36.960,0:28:39.840
+a different size resistor instead of one
+
+0:28:38.799,0:28:42.320
+kiloohm
+
+0:28:39.840,0:28:43.279
+i'm going to switch it to regular old
+
+0:28:42.320,0:28:46.480
+ohms
+
+0:28:43.279,0:28:49.360
+and use 330.
+
+0:28:46.480,0:28:51.679
+cool so now i have an led circuit
+
+0:28:49.360,0:28:53.760
+connected to pin 4.
+
+0:28:51.679,0:28:55.840
+if i start my simulation though you'll
+
+0:28:53.760,0:28:56.960
+notice that my light does not go on and
+
+0:28:55.840,0:28:58.640
+off
+
+0:28:56.960,0:29:00.480
+interestingly there is a light that is
+
+0:28:58.640,0:29:00.880
+going on and off though uh there's a
+
+0:29:00.480,0:29:02.960
+little
+
+0:29:00.880,0:29:04.559
+light right here that's going on and off
+
+0:29:02.960,0:29:05.600
+that's kind of cool how's that why is
+
+0:29:04.559,0:29:07.360
+that doing that
+
+0:29:05.600,0:29:08.799
+um let's go look at the code to figure
+
+0:29:07.360,0:29:12.159
+out why that's doing that
+
+0:29:08.799,0:29:15.600
+so click on code so whenever
+
+0:29:12.159,0:29:18.480
+you um brought over your arduino
+
+0:29:15.600,0:29:20.880
+it actually had some code for you and
+
+0:29:18.480,0:29:21.520
+the code that it has is using the blocks
+
+0:29:20.880,0:29:23.840
+mode
+
+0:29:21.520,0:29:24.640
+again you can use blocks blocks plus
+
+0:29:23.840,0:29:27.200
+text
+
+0:29:24.640,0:29:28.159
+or text today i'm going to primarily use
+
+0:29:27.200,0:29:31.360
+blocks plus
+
+0:29:28.159,0:29:32.880
+text the only downside of blocks plus
+
+0:29:31.360,0:29:34.000
+text is it does take up like most of
+
+0:29:32.880,0:29:36.159
+your screen
+
+0:29:34.000,0:29:38.480
+but here's what blocks plus text does
+
+0:29:36.159,0:29:40.080
+well it lets you use blocks
+
+0:29:38.480,0:29:42.240
+so this is your tool palette and then
+
+0:29:40.080,0:29:43.840
+this is your code but it lets you see
+
+0:29:42.240,0:29:46.480
+the text that gets typed
+
+0:29:43.840,0:29:47.360
+and this would be a good transition for
+
+0:29:46.480,0:29:48.960
+tomorrow
+
+0:29:47.360,0:29:50.880
+when we just go straight into the text
+
+0:29:48.960,0:29:51.760
+right but the reason that this light is
+
+0:29:50.880,0:29:53.679
+flashing
+
+0:29:51.760,0:29:55.520
+is because there's this code that says
+
+0:29:53.679,0:29:58.399
+set the built-in led
+
+0:29:55.520,0:29:59.360
+that's this little guy right here to
+
+0:29:58.399,0:30:02.000
+high
+
+0:29:59.360,0:30:03.440
+wait for a second and then set it to low
+
+0:30:02.000,0:30:05.039
+and wait for a second
+
+0:30:03.440,0:30:07.760
+you can also see that in the text over
+
+0:30:05.039,0:30:11.279
+here there was a setup function
+
+0:30:07.760,0:30:13.440
+somebody made pin 13 an output so pin
+
+0:30:11.279,0:30:15.919
+13 that's this pin right here it
+
+0:30:13.440,0:30:18.000
+actually is controlling this led
+
+0:30:15.919,0:30:19.440
+and it's going high wait for a second
+
+0:30:18.000,0:30:20.880
+low wait for a second
+
+0:30:19.440,0:30:22.720
+and if you wanted to you could modify it
+
+0:30:20.880,0:30:24.159
+you can make it be low for for three
+
+0:30:22.720,0:30:26.720
+seconds and you can see how
+
+0:30:24.159,0:30:27.600
+change in the blocks uh changes the code
+
+0:30:26.720,0:30:29.679
+instantly
+
+0:30:27.600,0:30:30.880
+so that's why it's going high and then
+
+0:30:29.679,0:30:32.320
+right now it's going low for three
+
+0:30:30.880,0:30:35.600
+seconds because i just changed that
+
+0:30:32.320,0:30:36.799
+and then hi and then back off
+
+0:30:35.600,0:30:37.919
+i don't want to turn that light on
+
+0:30:36.799,0:30:39.200
+enough though i want to turn this light
+
+0:30:37.919,0:30:40.640
+over here on and off
+
+0:30:39.200,0:30:43.520
+so what i'm going to do is i'll tell you
+
+0:30:40.640,0:30:45.440
+what i'm just going to trash their code
+
+0:30:43.520,0:30:48.960
+so you can see that this is uh now empty
+
+0:30:45.440,0:30:50.559
+over here i want to bring in my own code
+
+0:30:48.960,0:30:52.399
+and what i want to do is i want to set
+
+0:30:50.559,0:30:55.840
+pin 4
+
+0:30:52.399,0:30:58.720
+to high and then i want to wait for a
+
+0:30:55.840,0:31:01.360
+second a wait is over and controlled
+
+0:30:58.720,0:31:02.880
+so i'm going to wait for a second and
+
+0:31:01.360,0:31:06.799
+then back into outputs
+
+0:31:02.880,0:31:06.799
+and then i'm going to set pin 4
+
+0:31:06.880,0:31:13.600
+to low so you can see that
+
+0:31:10.960,0:31:14.960
+blocks are nice because there's less
+
+0:31:13.600,0:31:16.159
+errors that you can make as you're
+
+0:31:14.960,0:31:18.640
+getting started
+
+0:31:16.159,0:31:19.919
+but it is also nice to see the code uh
+
+0:31:18.640,0:31:22.159
+because that'll like
+
+0:31:19.919,0:31:23.600
+teach you how to how to use uh arduinos
+
+0:31:22.159,0:31:25.600
+in the wild right
+
+0:31:23.600,0:31:27.039
+and then after i go low i'm gonna set
+
+0:31:25.600,0:31:31.120
+this to uh
+
+0:31:27.039,0:31:34.320
+um wait for one second as well
+
+0:31:31.120,0:31:36.799
+great uh so now i've got my code here um
+
+0:31:34.320,0:31:37.600
+so set pin four high wait for a second
+
+0:31:36.799,0:31:40.080
+set pin for
+
+0:31:37.600,0:31:40.799
+low wait for a second uh by the way some
+
+0:31:40.080,0:31:41.919
+people ask
+
+0:31:40.799,0:31:43.679
+uh you know what's the difference
+
+0:31:41.919,0:31:44.960
+between this one where it says set pin
+
+0:31:43.679,0:31:48.159
+blank too high
+
+0:31:44.960,0:31:50.240
+versus this one set pin this to zero
+
+0:31:48.159,0:31:51.279
+this one right here is for an analog
+
+0:31:50.240,0:31:52.960
+right
+
+0:31:51.279,0:31:54.799
+and you kind of see the the code that's
+
+0:31:52.960,0:31:56.399
+up over there and that's not what we
+
+0:31:54.799,0:31:58.799
+want right now we want to set it
+
+0:31:56.399,0:32:00.080
+all the way higher all the way low so if
+
+0:31:58.799,0:32:01.679
+you start your simulation now i know
+
+0:32:00.080,0:32:04.159
+it's crammed way over the corner
+
+0:32:01.679,0:32:04.880
+uh but you should have this light go on
+
+0:32:04.159,0:32:08.320
+and off
+
+0:32:04.880,0:32:11.600
+on off on off
+
+0:32:08.320,0:32:14.720
+cool not too bad uh let's
+
+0:32:11.600,0:32:16.640
+build some more uh while i'm building
+
+0:32:14.720,0:32:18.080
+more i want my code to kind of like hide
+
+0:32:16.640,0:32:19.600
+to give me more space so i'm just gonna
+
+0:32:18.080,0:32:21.200
+press that button for code
+
+0:32:19.600,0:32:23.519
+it'll just kind of hide over there it's
+
+0:32:21.200,0:32:25.039
+not gone and what i want you to do is i
+
+0:32:23.519,0:32:28.000
+want you to see if you can build
+
+0:32:25.039,0:32:30.159
+two more led circuits uh maybe put one
+
+0:32:28.000,0:32:31.760
+in about the middle put one kind of like
+
+0:32:30.159,0:32:32.960
+near the bottom but not all the way at
+
+0:32:31.760,0:32:34.559
+the bottom because i need to leave room
+
+0:32:32.960,0:32:36.320
+for a button
+
+0:32:34.559,0:32:38.880
+uh but see if you can make the uh the
+
+0:32:36.320,0:32:41.279
+middle one be a yellow light
+
+0:32:38.880,0:32:42.320
+and then make the bottom one be a green
+
+0:32:41.279,0:32:44.000
+light
+
+0:32:42.320,0:32:46.080
+so what i'm going to do is i'm going to
+
+0:32:44.000,0:32:47.360
+not show you how i do it
+
+0:32:46.080,0:32:50.080
+and i'm going to let you do it on your
+
+0:32:47.360,0:32:51.919
+own you can optionally make the wires
+
+0:32:50.080,0:32:54.000
+yellow and greens appropriate but again
+
+0:32:51.919,0:32:56.000
+remember that doesn't actually matter
+
+0:32:54.000,0:32:58.799
+so go and pause the video go make it
+
+0:32:56.000,0:32:58.799
+happen on your own
+
+0:33:00.080,0:33:03.760
+all right so i've got my beautiful
+
+0:33:01.600,0:33:05.600
+circuit here um and if i run the
+
+0:33:03.760,0:33:07.200
+simulation obviously it just does the
+
+0:33:05.600,0:33:09.360
+red light still
+
+0:33:07.200,0:33:10.799
+but i'm hoping that i've wired the rest
+
+0:33:09.360,0:33:12.320
+of these correctly
+
+0:33:10.799,0:33:14.320
+and now i can write code for them as
+
+0:33:12.320,0:33:16.720
+well so let's go ahead and
+
+0:33:14.320,0:33:18.399
+write some code and test to see whether
+
+0:33:16.720,0:33:20.960
+we've done anything useful
+
+0:33:18.399,0:33:22.640
+uh or all you know at all so what i want
+
+0:33:20.960,0:33:24.080
+to do is i'm going to start off by just
+
+0:33:22.640,0:33:26.640
+making them all
+
+0:33:24.080,0:33:28.880
+go high oops that was the wrong command
+
+0:33:26.640,0:33:30.559
+i want to make them all go high together
+
+0:33:28.880,0:33:31.919
+and then i'll go low together and just
+
+0:33:30.559,0:33:35.120
+see if that works
+
+0:33:31.919,0:33:38.559
+so i'm going to grab this set pin
+
+0:33:35.120,0:33:39.279
+high so my goal is to make them all go
+
+0:33:38.559,0:33:41.840
+high
+
+0:33:39.279,0:33:43.519
+uh and then make them all go low so
+
+0:33:41.840,0:33:45.039
+here's what i'm gonna do
+
+0:33:43.519,0:33:46.480
+i'm gonna get some commands ready now
+
+0:33:45.039,0:33:47.279
+i'm gonna set the arguments on them so
+
+0:33:46.480,0:33:50.720
+i'm gonna make
+
+0:33:47.279,0:33:54.320
+four three and two
+
+0:33:50.720,0:33:58.559
+so four three two be high high high
+
+0:33:54.320,0:33:58.559
+and then i'm gonna make four three two
+
+0:34:00.080,0:34:03.519
+be low low low
+
+0:34:04.640,0:34:11.200
+high high high low low low
+
+0:34:08.320,0:34:13.040
+and now if i start my simulation i can
+
+0:34:11.200,0:34:16.480
+test to see whether my
+
+0:34:13.040,0:34:17.520
+wires are correct um and if my wires are
+
+0:34:16.480,0:34:20.960
+correct
+
+0:34:17.520,0:34:22.480
+i should see uh flashing uh red yellow
+
+0:34:20.960,0:34:24.639
+green kind of all together
+
+0:34:22.480,0:34:26.159
+i'm curious to see how my camper is
+
+0:34:24.639,0:34:29.440
+doing over here
+
+0:34:26.159,0:34:30.639
+how's it going sis let's see what hers
+
+0:34:29.440,0:34:34.000
+looks like
+
+0:34:30.639,0:34:35.520
+all her wires are in jumble so not
+
+0:34:34.000,0:34:38.079
+enough no they're not
+
+0:34:35.520,0:34:39.200
+thought of hey it's working great though
+
+0:34:38.079,0:34:43.919
+red yellow green
+
+0:34:39.200,0:34:43.919
+uh which is perfect way to go sis
+
+0:34:44.000,0:34:48.639
+all right so let's write some more code
+
+0:34:45.760,0:34:50.879
+uh so let's make it kind of look like
+
+0:34:48.639,0:34:53.440
+there's a pattern right so let's make it
+
+0:34:50.879,0:34:56.320
+look like it goes green yellow red
+
+0:34:53.440,0:34:57.920
+green yellow red uh so you can pause the
+
+0:34:56.320,0:34:58.480
+video and see if you can do that on your
+
+0:34:57.920,0:34:59.680
+own
+
+0:34:58.480,0:35:02.480
+uh but i'll go ahead and show you this
+
+0:34:59.680,0:35:03.520
+one with you so um right now if we
+
+0:35:02.480,0:35:06.560
+wanted green
+
+0:35:03.520,0:35:09.680
+well green would be turning on just
+
+0:35:06.560,0:35:11.280
+pin two so pin
+
+0:35:09.680,0:35:14.400
+two it's hard to see everything at once
+
+0:35:11.280,0:35:16.720
+right pin two is my green one
+
+0:35:14.400,0:35:17.760
+so if i turn on just pin two so low low
+
+0:35:16.720,0:35:21.280
+high
+
+0:35:17.760,0:35:24.400
+and then yellow would be a low
+
+0:35:21.280,0:35:27.200
+high low uh and then
+
+0:35:24.400,0:35:28.800
+uh the last one um so i guess i kind of
+
+0:35:27.200,0:35:30.640
+need another set here sorry
+
+0:35:28.800,0:35:31.920
+i was sneaky i did a duplicate of the
+
+0:35:30.640,0:35:34.960
+bottom four lines
+
+0:35:31.920,0:35:39.359
+um and then the last one is high
+
+0:35:34.960,0:35:41.200
+low low so high low
+
+0:35:39.359,0:35:42.560
+so what this should do is this should go
+
+0:35:41.200,0:35:43.200
+through a little simulation where it's
+
+0:35:42.560,0:35:46.960
+green
+
+0:35:43.200,0:35:50.079
+yellow red green yellow
+
+0:35:46.960,0:35:51.520
+red cool so the last thing i want to do
+
+0:35:50.079,0:35:54.560
+so i'm almost there
+
+0:35:51.520,0:35:56.160
+is i want it to only do like green
+
+0:35:54.560,0:35:57.680
+yellow red
+
+0:35:56.160,0:35:59.280
+after i push the button so i want to
+
+0:35:57.680,0:36:03.280
+push the button
+
+0:35:59.280,0:36:04.960
+and have it go green yellow and then red
+
+0:36:03.280,0:36:08.160
+and then just stay at red until i push
+
+0:36:04.960,0:36:10.720
+the button again so we're doing great
+
+0:36:08.160,0:36:11.680
+so leds are the most common things that
+
+0:36:10.720,0:36:13.200
+you'll wire up
+
+0:36:11.680,0:36:15.200
+the next most common thing that you'll
+
+0:36:13.200,0:36:16.240
+wire up are push buttons
+
+0:36:15.200,0:36:19.599
+so let's go ahead and stop the
+
+0:36:16.240,0:36:22.240
+simulation hide the code
+
+0:36:19.599,0:36:24.240
+let's go ahead and add a push button so
+
+0:36:22.240,0:36:25.920
+here's a push button
+
+0:36:24.240,0:36:27.599
+push buttons are sneaky uh they've
+
+0:36:25.920,0:36:30.240
+actually got four legs
+
+0:36:27.599,0:36:31.359
+it would appear uh but actually there's
+
+0:36:30.240,0:36:33.920
+there's only two right
+
+0:36:31.359,0:36:35.440
+so these two top and bottom that i see
+
+0:36:33.920,0:36:36.800
+here they're actually connected by a
+
+0:36:35.440,0:36:37.920
+piece of metal inside
+
+0:36:36.800,0:36:39.520
+and what you have to do is you have to
+
+0:36:37.920,0:36:40.480
+put them on your breadboard in a certain
+
+0:36:39.520,0:36:42.000
+way
+
+0:36:40.480,0:36:43.599
+and it's not this way because it won't
+
+0:36:42.000,0:36:46.640
+even spread the middle you've got to
+
+0:36:43.599,0:36:48.160
+rotate it so i'm going to hit rr
+
+0:36:46.640,0:36:50.320
+so my push button i brought it over and
+
+0:36:48.160,0:36:53.680
+i hit rr and now
+
+0:36:50.320,0:36:55.520
+it should fit right into my breadboard
+
+0:36:53.680,0:36:57.280
+uh and what's actually happening here is
+
+0:36:55.520,0:36:59.520
+there's a top to the switch
+
+0:36:57.280,0:37:01.200
+uh so this top is actually all connected
+
+0:36:59.520,0:37:01.839
+together by a piece of metal that's
+
+0:37:01.200,0:37:03.839
+inside
+
+0:37:01.839,0:37:05.440
+and then there's a bottom to the switch
+
+0:37:03.839,0:37:07.119
+which is all together
+
+0:37:05.440,0:37:09.680
+and the way this works is there's
+
+0:37:07.119,0:37:11.520
+literally a piece of metal in the button
+
+0:37:09.680,0:37:13.119
+when you press that piece of metal down
+
+0:37:11.520,0:37:14.079
+it connects the metal on the top and the
+
+0:37:13.119,0:37:16.640
+metal on the bottom
+
+0:37:14.079,0:37:18.480
+and it lets it be connected like a wire
+
+0:37:16.640,0:37:20.160
+and when you're not touching the button
+
+0:37:18.480,0:37:21.680
+there's no metal connection so it's just
+
+0:37:20.160,0:37:23.680
+like two wires that are either
+
+0:37:21.680,0:37:26.400
+touching when you press the button or
+
+0:37:23.680,0:37:28.400
+not touching and that stops current flow
+
+0:37:26.400,0:37:29.839
+or allows it so we're going to do is
+
+0:37:28.400,0:37:30.720
+we're going to connect the bottom to
+
+0:37:29.839,0:37:33.440
+ground
+
+0:37:30.720,0:37:33.839
+and then the top i'm going to connect to
+
+0:37:33.440,0:37:37.440
+pin
+
+0:37:33.839,0:37:40.320
+0 over here uh and i'm going to make it
+
+0:37:37.440,0:37:41.599
+blue it's kind of funny instead of using
+
+0:37:40.320,0:37:43.119
+that i like the hot keys but i can
+
+0:37:41.599,0:37:44.800
+remember which one blue was so i just
+
+0:37:43.119,0:37:46.880
+guessed a whole bunch right
+
+0:37:44.800,0:37:49.119
+all right so we've got a push button uh
+
+0:37:46.880,0:37:52.880
+that's now connected to
+
+0:37:49.119,0:37:55.520
+r0 sorry pin 0
+
+0:37:52.880,0:37:57.200
+and the way this works is internally the
+
+0:37:55.520,0:37:59.680
+arduino uno is going to pull it
+
+0:37:57.200,0:38:01.359
+to 5 volts if you don't press the button
+
+0:37:59.680,0:38:03.359
+but whenever you press the button
+
+0:38:01.359,0:38:04.880
+it's going to take this blue wire and
+
+0:38:03.359,0:38:06.880
+it's going to connect it to ground
+
+0:38:04.880,0:38:08.960
+right so it's kind of interesting that a
+
+0:38:06.880,0:38:12.480
+push button at least on arduino
+
+0:38:08.960,0:38:15.599
+is when you press it that makes it low
+
+0:38:12.480,0:38:17.119
+so a press is a low and then a not press
+
+0:38:15.599,0:38:18.240
+is a high that's backwards of how some
+
+0:38:17.119,0:38:21.119
+people think
+
+0:38:18.240,0:38:21.599
+all right so uh we made a circuit uh
+
+0:38:21.119,0:38:24.079
+which is
+
+0:38:21.599,0:38:25.520
+which is how arduinos work and then we
+
+0:38:24.079,0:38:28.240
+test it with code
+
+0:38:25.520,0:38:29.680
+so what we want to do is we want to um
+
+0:38:28.240,0:38:32.560
+check
+
+0:38:29.680,0:38:33.040
+if somebody presses that button a check
+
+0:38:32.560,0:38:36.720
+is a
+
+0:38:33.040,0:38:39.760
+if statement so go to control
+
+0:38:36.720,0:38:39.760
+find the if statement
+
+0:38:40.400,0:38:43.119
+and i'll tell you what i'll go ahead and
+
+0:38:41.520,0:38:44.880
+wrap the if statement around my whole
+
+0:38:43.119,0:38:46.240
+thing so if you if you move it into just
+
+0:38:44.880,0:38:47.119
+the right position it wraps it around
+
+0:38:46.240,0:38:48.720
+the whole thing
+
+0:38:47.119,0:38:50.320
+now i don't really want the whole thing
+
+0:38:48.720,0:38:53.520
+in here i just want the
+
+0:38:50.320,0:38:55.839
+the green and yellow part inside of here
+
+0:38:53.520,0:38:58.960
+and then this bottom part the red part i
+
+0:38:55.839,0:39:01.359
+can just take it off right
+
+0:38:58.960,0:39:03.680
+and in fact this this bottom weight i
+
+0:39:01.359,0:39:05.760
+don't actually need
+
+0:39:03.680,0:39:07.280
+so i did a couple changes quickly there
+
+0:39:05.760,0:39:09.200
+but i think you can see my code to kind
+
+0:39:07.280,0:39:11.760
+of understand what's going on here so
+
+0:39:09.200,0:39:12.480
+if you press this button then show me
+
+0:39:11.760,0:39:14.079
+green
+
+0:39:12.480,0:39:15.760
+for a second maybe you can make that
+
+0:39:14.079,0:39:17.920
+like three seconds
+
+0:39:15.760,0:39:19.920
+uh and then show me yellow for one
+
+0:39:17.920,0:39:21.200
+second and then go back to just showing
+
+0:39:19.920,0:39:22.560
+me red
+
+0:39:21.200,0:39:24.640
+and so the thing we're missing is we're
+
+0:39:22.560,0:39:26.000
+missing a condition here for our if
+
+0:39:24.640,0:39:27.119
+you can actually look at our code and
+
+0:39:26.000,0:39:28.000
+see it's like hey we're kind of missing
+
+0:39:27.119,0:39:30.800
+a condition right there
+
+0:39:28.000,0:39:31.359
+for if let's go um we want to see if
+
+0:39:30.800,0:39:34.800
+that
+
+0:39:31.359,0:39:36.240
+input is equal to zero so what i'm going
+
+0:39:34.800,0:39:38.560
+to do is i'm going to go into math
+
+0:39:36.240,0:39:41.040
+first you'll notice that this is kind of
+
+0:39:38.560,0:39:41.760
+a triangular like hexagonal looking
+
+0:39:41.040,0:39:43.200
+shape
+
+0:39:41.760,0:39:44.560
+i want the one that's a hexagonal
+
+0:39:43.200,0:39:46.720
+looking shape out of math it's the
+
+0:39:44.560,0:39:48.560
+second one down
+
+0:39:46.720,0:39:50.400
+and what i want to do is i want to check
+
+0:39:48.560,0:39:54.960
+if my input
+
+0:39:50.400,0:39:58.160
+so i want to read digital pin 0
+
+0:39:54.960,0:40:00.480
+i want to see if he is equal to
+
+0:39:58.160,0:40:02.640
+so there's equal to uh i want to see if
+
+0:40:00.480,0:40:06.160
+he's equal to zero
+
+0:40:02.640,0:40:08.960
+because zero is a press um and so
+
+0:40:06.160,0:40:09.680
+if my button is pressed then show me
+
+0:40:08.960,0:40:13.040
+green
+
+0:40:09.680,0:40:14.960
+wait for three seconds show me uh yellow
+
+0:40:13.040,0:40:17.680
+wait for one second and then go back to
+
+0:40:14.960,0:40:20.720
+red time to try it
+
+0:40:17.680,0:40:21.359
+uh so if you run your simulation uh what
+
+0:40:20.720,0:40:24.640
+should happen
+
+0:40:21.359,0:40:26.400
+is it should just be a solid red led
+
+0:40:24.640,0:40:27.760
+and then if you press your button so if
+
+0:40:26.400,0:40:31.040
+i press the button here
+
+0:40:27.760,0:40:33.599
+uh it goes green uh and then yellow
+
+0:40:31.040,0:40:34.800
+and then red so that's exactly what this
+
+0:40:33.599,0:40:36.240
+circuit was doing
+
+0:40:34.800,0:40:38.800
+when you press the button it goes green
+
+0:40:36.240,0:40:41.359
+for a little bit
+
+0:40:38.800,0:40:43.200
+and then after your green cycle is done
+
+0:40:41.359,0:40:46.480
+it goes yellow and red
+
+0:40:43.200,0:40:48.480
+and the cool thing about um tinkercad is
+
+0:40:46.480,0:40:50.880
+it really is just a real circuit
+
+0:40:48.480,0:40:52.319
+so the way that i program that board
+
+0:40:50.880,0:40:53.680
+right there is i literally just took my
+
+0:40:52.319,0:40:57.359
+code right here
+
+0:40:53.680,0:41:00.800
+uh copied it to my clipboard um and
+
+0:40:57.359,0:41:02.400
+i opened up a program called the arduino
+
+0:41:00.800,0:41:04.720
+ide
+
+0:41:02.400,0:41:05.520
+and i just pasted it inside of here
+
+0:41:04.720,0:41:07.200
+right so
+
+0:41:05.520,0:41:09.520
+i think i already had it in here from
+
+0:41:07.200,0:41:10.240
+what i did earlier i paste it inside of
+
+0:41:09.520,0:41:13.200
+here
+
+0:41:10.240,0:41:14.400
+and then i program it to my board i'll
+
+0:41:13.200,0:41:16.240
+tell you what i want to i want to like
+
+0:41:14.400,0:41:17.680
+show that that it's really my code i'll
+
+0:41:16.240,0:41:19.599
+tell you what we'll make the green cycle
+
+0:41:17.680,0:41:20.000
+be like crazy long we'll use like seven
+
+0:41:19.599,0:41:22.079
+seconds
+
+0:41:20.000,0:41:23.839
+on the green cycle so we'll know that
+
+0:41:22.079,0:41:25.760
+it's actually the latest code
+
+0:41:23.839,0:41:27.440
+because it'll have that crazy long green
+
+0:41:25.760,0:41:30.319
+cycle
+
+0:41:27.440,0:41:32.240
+uh so now this new code is on my board
+
+0:41:30.319,0:41:35.040
+and so when i press it
+
+0:41:32.240,0:41:36.160
+it's gonna be green for seven seconds so
+
+0:41:35.040,0:41:39.839
+i'm gonna guess three
+
+0:41:36.160,0:41:43.359
+two one switch yeah that's pretty good
+
+0:41:39.839,0:41:45.040
+uh yellow and then red um so that is uh
+
+0:41:43.359,0:41:48.640
+what we're building today
+
+0:41:45.040,0:41:50.800
+um i love uh tinkercad circuits
+
+0:41:48.640,0:41:52.319
+it is such a good simulator we use it in
+
+0:41:50.800,0:41:53.680
+college classes right like when we're
+
+0:41:52.319,0:41:55.760
+teaching microcontrollers
+
+0:41:53.680,0:41:57.280
+because uh you can do everything in a
+
+0:41:55.760,0:41:58.720
+virtual environment
+
+0:41:57.280,0:42:00.240
+and you can learn even if you don't have
+
+0:41:58.720,0:42:01.920
+any hardware it's great for online
+
+0:42:00.240,0:42:04.800
+learning like we're doing here
+
+0:42:01.920,0:42:06.240
+and that is what we're up to today uh so
+
+0:42:04.800,0:42:08.560
+come back tomorrow
+
+0:42:06.240,0:42:09.839
+to learn some more about circuits
+
+0:42:08.560,0:42:11.680
+obviously if you want to play with
+
+0:42:09.839,0:42:12.720
+circuits just create something and start
+
+0:42:11.680,0:42:14.560
+start goofing around
+
+0:42:12.720,0:42:16.720
+we'll try to do some fun things tomorrow
+
+0:42:14.560,0:42:18.720
+too that i think you'll really enjoy
+
+0:42:16.720,0:42:20.319
+mckinley did you have fun today did you
+
+0:42:18.720,0:42:23.280
+get your finished circuit working
+
+0:42:20.319,0:42:25.810
+nope okay i'll have mckinley pictures
+
+0:42:23.280,0:42:28.599
+and i'll see you tomorrow
+
+0:42:25.810,0:42:31.599
+[Music]
+
+0:42:28.599,0:42:31.599
+bye
+
