@@ -21,4 +21,4 @@ Status
  
  ### Week 2 - Day 1
  - Ready to Upload https://youtu.be/HS0Oh7P4SsY 3D Modeling
- - In Progress https://youtu.be/zXmeJ45nTvU Circuits LEDs
+ - Ready to Upload https://youtu.be/zXmeJ45nTvU Circuits LEDs
