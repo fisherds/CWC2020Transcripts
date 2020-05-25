@@ -20,5 +20,5 @@ Status
  - Uploaded https://youtu.be/alY8G3Tgpsk US Flag
  
  ### Week 2 - Day 1
- - In Progress https://youtu.be/HS0Oh7P4SsY 3D Modeling
+ - Ready to Upload https://youtu.be/HS0Oh7P4SsY 3D Modeling
  - Not Started https://youtu.be/zXmeJ45nTvU Circuits LEDs
