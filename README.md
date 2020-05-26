@@ -15,10 +15,20 @@ Status
  - Uploaded https://youtu.be/63-RorBEV1Q aMAZEing Game
 ### Week 1 - Day 4
  - Uploaded https://youtu.be/HaUk_mSj9xE Race Car
- ### Week 1 - Day 5
+### Week 1 - Day 5
  - Uploaded https://youtu.be/7F4-TJ7TgjY Dragon Crossing
  - Uploaded https://youtu.be/alY8G3Tgpsk US Flag
  
- ### Week 2 - Day 1
- - Ready to Upload https://youtu.be/HS0Oh7P4SsY 3D Modeling
- - Ready to Upload https://youtu.be/zXmeJ45nTvU Circuits LEDs
+ 
+### Week 2 - Day 1
+ - Uploaded https://youtu.be/HS0Oh7P4SsY 3D Modeling
+
+### Week 2 - Day 2
+ - Uploaded https://youtu.be/zXmeJ45nTvU Circuits LEDs
+
+### Week 2 - Day 3
+ - Coming soon        Main video with an RGB led (a refilm of a new Day 3 video)
+ - Not started https://youtu.be/uEERTiVaQGM Extra video with an LCD and Servo
+
+### Week 2 - Day 4
+ - Not started https://youtu.be/jar8rUOOz2E Car
