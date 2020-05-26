@@ -28,7 +28,7 @@ Status
 
 ### Week 2 - Day 3
  - Coming soon        Main video with an RGB led (a refilm of a new Day 3 video)
- - Not started https://youtu.be/uEERTiVaQGM Extra video with an LCD and Servo
+ - In Progress https://youtu.be/uEERTiVaQGM Extra video with an LCD and Servo
 
 ### Week 2 - Day 4
  - Not started https://youtu.be/jar8rUOOz2E Car
