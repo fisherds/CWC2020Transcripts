@@ -1,0 +1,2514 @@
+0:00:00.690,0:00:07.440
+[Music]
+
+0:00:03.799,0:00:09.210
+hey hey welcome back so today is day
+
+0:00:07.440,0:00:11.940
+three I learn it about
+
+0:00:09.210,0:00:14.309
+Tinkercad today what we're going to be
+
+0:00:11.940,0:00:15.780
+working with is programming with code so
+
+0:00:14.309,0:00:17.789
+we're gonna be using code to do some
+
+0:00:15.780,0:00:20.010
+things and we're just going to kind of
+
+0:00:17.789,0:00:22.260
+have some fun we're gonna do some some
+
+0:00:20.010,0:00:25.529
+kind of advanced things we're gonna work
+
+0:00:22.260,0:00:28.260
+with an LCD screen and some servos and
+
+0:00:25.529,0:00:31.769
+write some code as always I'm here with
+
+0:00:28.260,0:00:34.680
+my my trusty camper McKinlay you ready
+
+0:00:31.769,0:00:36.719
+to go today mckinley yes alright let's
+
+0:00:34.680,0:00:39.120
+see what we're after today so today
+
+0:00:36.719,0:00:41.820
+we're going to be playing with an LCD
+
+0:00:39.120,0:00:45.180
+that stands for a liquid crystal display
+
+0:00:41.820,0:00:49.020
+and servo motors and we're gonna be
+
+0:00:45.180,0:00:51.870
+writing some code I've got breadboard
+
+0:00:49.020,0:00:54.090
+that I just built up with the the
+
+0:00:51.870,0:00:55.500
+example in here now what my screen is
+
+0:00:54.090,0:00:57.030
+doing and what my breadboard of doing
+
+0:00:55.500,0:01:00.149
+are kind of like different stages of the
+
+0:00:57.030,0:01:02.149
+project this stage is where you turn the
+
+0:01:00.149,0:01:04.290
+potentiometer to turn the servo motor
+
+0:01:02.149,0:01:05.939
+almost no way you can see the servo
+
+0:01:04.290,0:01:08.010
+motor that that well but who knows
+
+0:01:05.939,0:01:10.560
+cameras are really good these days so as
+
+0:01:08.010,0:01:13.590
+I turn this potentiometer it's gonna
+
+0:01:10.560,0:01:15.060
+turn the servo motor you can also see if
+
+0:01:13.590,0:01:16.530
+you can see the LCD screen that it's
+
+0:01:15.060,0:01:19.080
+showing you what the potentiometer
+
+0:01:16.530,0:01:21.240
+reading is and then also the number of
+
+0:01:19.080,0:01:24.320
+degrees of the servo motor so that's
+
+0:01:21.240,0:01:29.549
+what we're after today is to learn about
+
+0:01:24.320,0:01:32.640
+potentiometers analog readings LCD
+
+0:01:29.549,0:01:33.570
+screens all kinds of fun stuff so what
+
+0:01:32.640,0:01:34.979
+you're going to need to do is you're
+
+0:01:33.570,0:01:37.500
+going to need to go back to your
+
+0:01:34.979,0:01:39.869
+tinkerer dashboard Tinkercad
+
+0:01:37.500,0:01:42.720
+make sure you're not in 3d designs
+
+0:01:39.869,0:01:44.369
+you're in your circuits area and we're
+
+0:01:42.720,0:01:47.720
+going to create a new circuit together
+
+0:01:44.369,0:01:49.680
+so go and click on create new circuit
+
+0:01:47.720,0:01:52.049
+hopefully you've kind of played around
+
+0:01:49.680,0:01:54.600
+with some things in Tinkercad and maybe
+
+0:01:52.049,0:01:56.430
+you've broken a thing or two but that's
+
+0:01:54.600,0:01:57.810
+okay it's it's all it's all for learning
+
+0:01:56.430,0:01:59.579
+that's that's part of the maker spirit
+
+0:01:57.810,0:02:01.290
+so the first thing I'm going to do today
+
+0:01:59.579,0:02:05.420
+to start things off is I'm gonna rename
+
+0:02:01.290,0:02:11.250
+my project I'm gonna call it fun with
+
+0:02:05.420,0:02:12.209
+LCDs and servo motors now normally what
+
+0:02:11.250,0:02:14.730
+we've done
+
+0:02:12.209,0:02:18.480
+to start things off is we've added a
+
+0:02:14.730,0:02:19.920
+breadboard and then we've also added an
+
+0:02:18.480,0:02:21.750
+Arduino Uno
+
+0:02:19.920,0:02:23.430
+uh what's clicking on them just to kind
+
+0:02:21.750,0:02:25.859
+of show you what they were about I don't
+
+0:02:23.430,0:02:27.209
+actually want to add them yet but today
+
+0:02:25.859,0:02:30.750
+what we're gonna teach you a little bit
+
+0:02:27.209,0:02:33.989
+about is the the starter projects so
+
+0:02:30.750,0:02:38.340
+where it says components basics switch
+
+0:02:33.989,0:02:41.939
+it to say starters I don't tell you what
+
+0:02:38.340,0:02:44.099
+to say starters all so components are
+
+0:02:41.939,0:02:46.769
+individual pieces and then you build
+
+0:02:44.099,0:02:48.389
+them up to make things but starters are
+
+0:02:46.769,0:02:50.609
+neat little circuits that you can just
+
+0:02:48.389,0:02:54.239
+kind of like bring over and see like a
+
+0:02:50.609,0:02:55.739
+whole big thing right so I mean I'm
+
+0:02:54.239,0:02:58.019
+tempted to like bring over a whole bunch
+
+0:02:55.739,0:02:59.819
+of them starters are fun right like you
+
+0:02:58.019,0:03:01.019
+could definitely spend the better part
+
+0:02:59.819,0:03:03.389
+of an afternoon just look in different
+
+0:03:01.019,0:03:07.489
+starters so this is not the starter that
+
+0:03:03.389,0:03:11.010
+we're going to do today but this is LEDs
+
+0:03:07.489,0:03:13.650
+that are connected to an RGB LED at the
+
+0:03:11.010,0:03:15.299
+top all kinds of different things you
+
+0:03:13.650,0:03:17.280
+could do right so that was just kind of
+
+0:03:15.299,0:03:18.900
+an example to start remember to undo
+
+0:03:17.280,0:03:20.669
+hopefully that just goes away
+
+0:03:18.900,0:03:22.500
+but I can go through here and I could
+
+0:03:20.669,0:03:25.470
+play with all these different starters
+
+0:03:22.500,0:03:31.470
+I'm like I'm tempted to do em all right
+
+0:03:25.470,0:03:33.629
+this one is a proximity sensor that was
+
+0:03:31.470,0:03:37.049
+Sora's and so when things move in the
+
+0:03:33.629,0:03:39.629
+field of vision the LED goes off so fun
+
+0:03:37.049,0:03:41.459
+to play with these things but today the
+
+0:03:39.629,0:03:45.690
+one that we're looking for is the one
+
+0:03:41.459,0:03:48.000
+that has an LCD screen on it so go down
+
+0:03:45.690,0:03:50.669
+through the scores until you kind of see
+
+0:03:48.000,0:03:52.680
+one all these looks so fun until you see
+
+0:03:50.669,0:03:56.250
+one with an LCD screen on it there it is
+
+0:03:52.680,0:04:00.150
+there's LCD and let's go ahead and drag
+
+0:03:56.250,0:04:02.129
+it over you can drag it over or the way
+
+0:04:00.150,0:04:03.959
+Tinkercad works best is I think if you
+
+0:04:02.129,0:04:05.909
+click on it then click again it pops
+
+0:04:03.959,0:04:07.919
+over it does take it just a second to
+
+0:04:05.909,0:04:11.310
+pop over so don't like touch anything
+
+0:04:07.919,0:04:14.189
+loads bringing it over and so the nice
+
+0:04:11.310,0:04:17.489
+thing about this is they did a bunch of
+
+0:04:14.189,0:04:21.359
+the wiring for an LCD for us which is
+
+0:04:17.489,0:04:25.310
+nice wiring up an LCD there's a standard
+
+0:04:21.359,0:04:27.350
+protocol for it it's not hard I'll talk
+
+0:04:25.310,0:04:29.600
+about it just a little bit but I mean I
+
+0:04:27.350,0:04:31.700
+I wired up my physical one here you
+
+0:04:29.600,0:04:34.010
+could totally do it it just takes a lot
+
+0:04:31.700,0:04:36.050
+of wires I'm gonna describe the most
+
+0:04:34.010,0:04:37.820
+important parts of it so the most
+
+0:04:36.050,0:04:39.830
+important parts of it there's power and
+
+0:04:37.820,0:04:42.230
+ground to the LCD those are the first
+
+0:04:39.830,0:04:46.520
+two actually is ground then power the
+
+0:04:42.230,0:04:48.710
+next one is your contrast pin so I've
+
+0:04:46.520,0:04:50.389
+got my contrast pin set up over here and
+
+0:04:48.710,0:04:54.110
+all the contrast pin what you do is it
+
+0:04:50.389,0:04:56.840
+lets you change the text of like how
+
+0:04:54.110,0:04:59.090
+much contrast there is in your LCD right
+
+0:04:56.840,0:05:01.610
+and so it's very useful on a real
+
+0:04:59.090,0:05:04.639
+circuit but in Tinkercad it's not that
+
+0:05:01.610,0:05:07.130
+important right and then after that
+
+0:05:04.639,0:05:09.889
+there's seven different control lines so
+
+0:05:07.130,0:05:14.720
+here's one two I guess this one's just
+
+0:05:09.889,0:05:16.010
+grounded three four five and six I guess
+
+0:05:14.720,0:05:18.229
+that was my seventh that was grounded
+
+0:05:16.010,0:05:20.810
+there and then there's a backlight on it
+
+0:05:18.229,0:05:23.500
+which is just an LED which is on here so
+
+0:05:20.810,0:05:26.060
+really it's just power ground a contrast
+
+0:05:23.500,0:05:28.820
+7 control lines of which one of which is
+
+0:05:26.060,0:05:30.650
+grounded and then a backlight and then
+
+0:05:28.820,0:05:33.200
+in your code so let's go and look at the
+
+0:05:30.650,0:05:35.000
+code that they added for this guy
+
+0:05:33.200,0:05:37.430
+you'll notice that the code here jumped
+
+0:05:35.000,0:05:39.229
+straight into text and that's because
+
+0:05:37.430,0:05:41.930
+like with blocks it's kind of annoying
+
+0:05:39.229,0:05:44.180
+to do this this code right so let's go
+
+0:05:41.930,0:05:46.760
+ahead and glance at this code and kind
+
+0:05:44.180,0:05:48.830
+of figure out what's on here so the
+
+0:05:46.760,0:05:51.080
+first part of this code is what's called
+
+0:05:48.830,0:05:53.300
+a comment so everything that's kind of
+
+0:05:51.080,0:05:55.010
+like light gray here is a comment now
+
+0:05:53.300,0:05:56.419
+comments are all long good it gives
+
+0:05:55.010,0:05:58.940
+credit to the authors and things like
+
+0:05:56.419,0:06:01.850
+that but I kind of don't want so I'm
+
+0:05:58.940,0:06:03.530
+just gonna delete all the comments just
+
+0:06:01.850,0:06:07.010
+because it'll make my code a little bit
+
+0:06:03.530,0:06:09.080
+cleaner the next comment is another
+
+0:06:07.010,0:06:10.870
+style of comment this is a slash slash
+
+0:06:09.080,0:06:13.190
+again it's kind of this brown color
+
+0:06:10.870,0:06:15.860
+anything that's a brown color is just a
+
+0:06:13.190,0:06:17.479
+comment I can get deleted now you do
+
+0:06:15.860,0:06:18.620
+have to be careful when you're deleting
+
+0:06:17.479,0:06:20.240
+that you don't want to just kind of get
+
+0:06:18.620,0:06:21.919
+haphazard with the leading and delete
+
+0:06:20.240,0:06:24.289
+things that are that are not comments
+
+0:06:21.919,0:06:26.270
+but it's a it's a comma here I'm gonna
+
+0:06:24.289,0:06:28.850
+see if I can make my font a little bit
+
+0:06:26.270,0:06:32.330
+bigger for here maybe if I do this it'll
+
+0:06:28.850,0:06:35.330
+look bigger that works and so we're
+
+0:06:32.330,0:06:37.220
+going to include this library our do we
+
+0:06:35.330,0:06:39.160
+know is really big on libraries it makes
+
+0:06:37.220,0:06:41.710
+it easy to work with complex thing
+
+0:06:39.160,0:06:43.480
+like liquid crystal displays right and
+
+0:06:41.710,0:06:45.970
+what you have to do with this library is
+
+0:06:43.480,0:06:48.880
+you have to initialize it to che which
+
+0:06:45.970,0:06:51.370
+pins were connected so where are those
+
+0:06:48.880,0:06:54.040
+six control lines connected well they're
+
+0:06:51.370,0:06:55.480
+connected to twelve eleven five four
+
+0:06:54.040,0:06:58.810
+three and two and you can see that over
+
+0:06:55.480,0:07:01.860
+here twelve eleven five four three and
+
+0:06:58.810,0:07:04.000
+two and so that lets us control the LCD
+
+0:07:01.860,0:07:05.680
+the first thing we have to do is we have
+
+0:07:04.000,0:07:07.990
+to do a little bit of setup so you have
+
+0:07:05.680,0:07:11.200
+to tell how many rows and how many
+
+0:07:07.990,0:07:14.860
+columns are there in your LCD so this
+
+0:07:11.200,0:07:17.560
+LCD when we start right into it here
+
+0:07:14.860,0:07:19.030
+it's got sixteen across and then there's
+
+0:07:17.560,0:07:20.800
+two rooms
+
+0:07:19.030,0:07:22.030
+I don't like comments so I'm gonna get
+
+0:07:20.800,0:07:24.070
+rid of this comment just to make my code
+
+0:07:22.030,0:07:26.260
+look shorter and then it's gonna print a
+
+0:07:24.070,0:07:27.790
+message to the LCD so when we run this
+
+0:07:26.260,0:07:28.990
+program I haven't done it yet maybe
+
+0:07:27.790,0:07:31.240
+you've already done it
+
+0:07:28.990,0:07:33.160
+it should print hello world right at the
+
+0:07:31.240,0:07:34.930
+top right that's kind of cool I'm
+
+0:07:33.160,0:07:38.650
+curious I'm gonna try it so I'm gonna
+
+0:07:34.930,0:07:40.750
+hit start simulation so as I start the
+
+0:07:38.650,0:07:43.750
+simulation I sure enough it says hello
+
+0:07:40.750,0:07:46.030
+world right at the top now the bottom
+
+0:07:43.750,0:07:47.050
+line just says zero over there to change
+
+0:07:46.030,0:07:49.030
+into one that's kind of weird
+
+0:07:47.050,0:07:51.550
+I know it's what's wrong here I'm just
+
+0:07:49.030,0:07:54.490
+kind of playing and then eventually
+
+0:07:51.550,0:07:55.930
+it'll change to to what it's doing in
+
+0:07:54.490,0:07:57.100
+the bottom let's look at their code and
+
+0:07:55.930,0:08:00.070
+let's see if we can fix it make it
+
+0:07:57.100,0:08:04.930
+better it says set the cursor to column
+
+0:08:00.070,0:08:07.630
+zero of line one so column zero of line
+
+0:08:04.930,0:08:11.230
+one that's the spot right here
+
+0:08:07.630,0:08:13.720
+so rows this is the top row this is the
+
+0:08:11.230,0:08:15.760
+the next row and then columns go this
+
+0:08:13.720,0:08:18.430
+way right and what it's saying is put
+
+0:08:15.760,0:08:22.780
+the cursor right there and then print to
+
+0:08:18.430,0:08:24.490
+the LCD some number of milliseconds so
+
+0:08:22.780,0:08:26.980
+this is how many milliseconds they're
+
+0:08:24.490,0:08:29.110
+been divided by a thousand
+
+0:08:26.980,0:08:31.360
+so milliseconds divided by a thousand
+
+0:08:29.110,0:08:33.270
+should be seconds the reason it wasn't
+
+0:08:31.360,0:08:36.390
+counting in seconds is because of a bug
+
+0:08:33.270,0:08:41.410
+let's type some code to fix the bug so
+
+0:08:36.390,0:08:44.920
+I'm just gonna say fix the bug and to
+
+0:08:41.410,0:08:49.270
+fix the bug we need to add some kind of
+
+0:08:44.920,0:08:52.300
+delay to this circuit so type this to
+
+0:08:49.270,0:08:55.660
+fix the bug add delay one
+
+0:08:52.300,0:08:59.019
+100 semicolon so this is the first bit
+
+0:08:55.660,0:09:00.910
+of code we've typed I typed code is much
+
+0:08:59.019,0:09:03.580
+easier to make little mistakes on right
+
+0:09:00.910,0:09:06.670
+so for example if you spell the word
+
+0:09:03.580,0:09:08.649
+delay wrong it doesn't work there's a
+
+0:09:06.670,0:09:12.130
+parenthesis here maybe I should make my
+
+0:09:08.649,0:09:13.829
+code even bigger I'll just we'll just
+
+0:09:12.130,0:09:16.660
+hope you can zoom it out there a
+
+0:09:13.829,0:09:18.660
+parenthesis and then a 100 and then
+
+0:09:16.660,0:09:22.480
+another parenthesis and then a semicolon
+
+0:09:18.660,0:09:24.010
+and if I add that line of code my
+
+0:09:22.480,0:09:26.680
+simulation should start actually
+
+0:09:24.010,0:09:27.910
+counting seconds quite nicely so it's
+
+0:09:26.680,0:09:29.260
+kind of interesting that they gave you
+
+0:09:27.910,0:09:32.410
+this piece of starter code it kind of
+
+0:09:29.260,0:09:36.579
+had a bug in it the reason for the bug
+
+0:09:32.410,0:09:38.589
+was that on their simulator it was
+
+0:09:36.579,0:09:40.240
+trying to go too fast and it was getting
+
+0:09:38.589,0:09:42.459
+messed up so we fixed the bug with that
+
+0:09:40.240,0:09:44.589
+that code so let's go and keep looking
+
+0:09:42.459,0:09:47.230
+at the code that's in here so it's just
+
+0:09:44.589,0:09:49.959
+counting seconds down there and what I
+
+0:09:47.230,0:09:53.140
+want to do is I want to delete some of
+
+0:09:49.959,0:09:56.140
+these extra comments I just to kind of
+
+0:09:53.140,0:09:59.740
+clean things up a little and now we can
+
+0:09:56.140,0:10:02.350
+see how relatively short this piece of
+
+0:09:59.740,0:10:06.120
+code is now let's make another change
+
+0:10:02.350,0:10:09.100
+right now it says hello world on the LCD
+
+0:10:06.120,0:10:10.839
+let's go ahead and change it to where it
+
+0:10:09.100,0:10:13.270
+has your name on there so I'm going to
+
+0:10:10.839,0:10:16.510
+change mine to where it says David
+
+0:10:13.270,0:10:20.380
+Fisher and so now it says David Fisher
+
+0:10:16.510,0:10:21.970
+and it's counting in in seconds another
+
+0:10:20.380,0:10:24.670
+fun thing you can do we showed this last
+
+0:10:21.970,0:10:27.610
+time but at any time if you had a real
+
+0:10:24.670,0:10:29.680
+board so I'm just gonna take my code
+
+0:10:27.610,0:10:31.870
+that I've got right now and put it on my
+
+0:10:29.680,0:10:34.540
+actual breadboard like this is valid
+
+0:10:31.870,0:10:37.029
+code like the simulator isn't isn't the
+
+0:10:34.540,0:10:40.240
+joke here so now I can make mine say
+
+0:10:37.029,0:10:42.640
+David Fisher and it's counting on second
+
+0:10:40.240,0:10:45.040
+which is nice by the way this fix of the
+
+0:10:42.640,0:10:46.690
+bug isn't necessary on a real board it's
+
+0:10:45.040,0:10:49.170
+only necessary because of the simulator
+
+0:10:46.690,0:10:51.730
+that we're using great so we're
+
+0:10:49.170,0:10:53.350
+continuing to make improvements which is
+
+0:10:51.730,0:10:55.149
+kind of fun so it's just kind of
+
+0:10:53.350,0:10:57.660
+counting away and everything is going
+
+0:10:55.149,0:11:01.750
+good let's go ahead and let's add
+
+0:10:57.660,0:11:03.750
+another potentiometer so that we can
+
+0:11:01.750,0:11:05.880
+display a potentiometer here
+
+0:11:03.750,0:11:09.000
+instead so that's our goal so let's go
+
+0:11:05.880,0:11:11.040
+ahead and hide the code and let's go
+
+0:11:09.000,0:11:13.170
+ahead and add a potentiometer so a
+
+0:11:11.040,0:11:16.560
+potentiometer is not in the starters
+
+0:11:13.170,0:11:19.190
+area it's in the basic components area
+
+0:11:16.560,0:11:22.200
+and so I'm gonna add another
+
+0:11:19.190,0:11:23.790
+potentiometer now I'm gonna choose to
+
+0:11:22.200,0:11:24.800
+just plug it right into my breadboard
+
+0:11:23.790,0:11:26.670
+here because that's how a real
+
+0:11:24.800,0:11:28.680
+potentiometer would work you just plug
+
+0:11:26.670,0:11:30.780
+it right into your breadboard and what
+
+0:11:28.680,0:11:31.560
+I'm gonna do with this bread or this
+
+0:11:30.780,0:11:35.130
+potentiometer
+
+0:11:31.560,0:11:40.140
+is I'm going to take terminal one and
+
+0:11:35.130,0:11:43.140
+I'm gonna hook it up to power and I like
+
+0:11:40.140,0:11:44.460
+for power lines to be read and now here
+
+0:11:43.140,0:11:45.900
+it's just kind of shooting right over
+
+0:11:44.460,0:11:48.510
+the top of all these other things if
+
+0:11:45.900,0:11:50.970
+that bothers you sometimes I'm OCD is as
+
+0:11:48.510,0:11:52.860
+you know right you can kind of bend it
+
+0:11:50.970,0:11:55.710
+to where you can kind of see that it it
+
+0:11:52.860,0:11:58.590
+does in fact go around all those others
+
+0:11:55.710,0:11:59.940
+so it connects there and there and then
+
+0:11:58.590,0:12:02.520
+the other side we're gonna connect to
+
+0:11:59.940,0:12:06.030
+ground so I'm going to connect from
+
+0:12:02.520,0:12:07.950
+somewhere somewhere in this row I
+
+0:12:06.030,0:12:10.650
+noticed that everything that's connected
+
+0:12:07.950,0:12:11.910
+in this this row is all all connected
+
+0:12:10.650,0:12:13.920
+together right so it doesn't matter my
+
+0:12:11.910,0:12:15.030
+potentiometers up there everything in
+
+0:12:13.920,0:12:16.440
+this row is connected so I've
+
+0:12:15.030,0:12:18.510
+essentially taken that leg of the
+
+0:12:16.440,0:12:21.330
+potentiometer and I've connected it
+
+0:12:18.510,0:12:23.310
+straight to ground now this middle leg
+
+0:12:21.330,0:12:24.660
+this is going to be our signal line so
+
+0:12:23.310,0:12:26.730
+our potentiometer similar to theirs
+
+0:12:24.660,0:12:28.560
+right so it's got power on one side
+
+0:12:26.730,0:12:30.990
+ground on the other and then their
+
+0:12:28.560,0:12:33.360
+signal line went here this went to their
+
+0:12:30.990,0:12:37.770
+contrast and our signal line is going to
+
+0:12:33.360,0:12:41.610
+go over to our Arduino and we're going
+
+0:12:37.770,0:12:44.910
+to connect it from here to a zero right
+
+0:12:41.610,0:12:46.320
+over there you can make it any old color
+
+0:12:44.910,0:12:50.040
+you like maybe I'll go with a nice
+
+0:12:46.320,0:12:53.550
+lovely purple shade and then you know if
+
+0:12:50.040,0:12:56.130
+you want to bend wires you can click on
+
+0:12:53.550,0:12:57.900
+the wire double click it and you can
+
+0:12:56.130,0:13:02.700
+kind of like move the move the wires
+
+0:12:57.900,0:13:04.770
+around so now I am getting a reading
+
+0:13:02.700,0:13:06.780
+from the middle of my potentiometer and
+
+0:13:04.770,0:13:08.400
+the way this is set up is with the
+
+0:13:06.780,0:13:11.820
+potentiometer fully in one direction
+
+0:13:08.400,0:13:13.020
+you'll get roughly 0 volts and then if
+
+0:13:11.820,0:13:14.820
+you crank it all the way the other
+
+0:13:13.020,0:13:17.350
+direction you'll get about 5 volts so
+
+0:13:14.820,0:13:19.269
+it'll kind of go between these two rails
+
+0:13:17.350,0:13:21.459
+so right now I've got if it's all the
+
+0:13:19.269,0:13:23.560
+way this way it's getting about five
+
+0:13:21.459,0:13:27.610
+volts right now it's getting five volts
+
+0:13:23.560,0:13:30.519
+to a and zero now an interesting thing
+
+0:13:27.610,0:13:32.380
+happens in code you would probably
+
+0:13:30.519,0:13:34.449
+expect those analog readings to be like
+
+0:13:32.380,0:13:35.949
+between the number zero up to the number
+
+0:13:34.449,0:13:38.529
+five because that's how many volts it is
+
+0:13:35.949,0:13:40.089
+but in code it's interesting and this is
+
+0:13:38.529,0:13:44.110
+because of binary it doesn't go from
+
+0:13:40.089,0:13:46.199
+zero to five it goes from zero which is
+
+0:13:44.110,0:13:52.420
+make sense to a number
+
+0:13:46.199,0:13:55.259
+1023 and 1023 is a special number in
+
+0:13:52.420,0:13:58.089
+binary it's one less than 1024 and
+
+0:13:55.259,0:14:01.329
+that's just how they work right so let's
+
+0:13:58.089,0:14:04.649
+go ahead and play with our codes and see
+
+0:14:01.329,0:14:07.779
+if we can print that reading to our LCD
+
+0:14:04.649,0:14:10.800
+so I open up the code so the first thing
+
+0:14:07.779,0:14:20.079
+that we want to do is we want to set up
+
+0:14:10.800,0:14:21.880
+a zero as an analog input so this is a
+
+0:14:20.079,0:14:23.410
+comment you can type the comment if
+
+0:14:21.880,0:14:25.569
+you'd like I'm just kind of saying what
+
+0:14:23.410,0:14:31.170
+we're doing but the funny thing about
+
+0:14:25.569,0:14:31.170
+this is that it's already done
+
+0:14:31.540,0:14:38.199
+the default for these pins is that they
+
+0:14:34.690,0:14:40.779
+are analog inputs so normally you do
+
+0:14:38.199,0:14:44.110
+have to write code to do some setup but
+
+0:14:40.779,0:14:45.910
+an analog input it's already set up for
+
+0:14:44.110,0:14:47.860
+you so there's actually no setup that
+
+0:14:45.910,0:14:51.550
+needs to be done so we can actually just
+
+0:14:47.860,0:14:53.110
+read the value now the way you read the
+
+0:14:51.550,0:14:58.470
+value I'm going to go ahead and type
+
+0:14:53.110,0:15:02.680
+this down in loop is you do analog read
+
+0:14:58.470,0:15:04.959
+of a zero you can type you can actually
+
+0:15:02.680,0:15:07.600
+type a zero or two zero I just prefer to
+
+0:15:04.959,0:15:11.260
+say plain old zero and what this line of
+
+0:15:07.600,0:15:12.790
+code will do is it will read it but the
+
+0:15:11.260,0:15:16.240
+way code works it's kind of interesting
+
+0:15:12.790,0:15:18.850
+reading it but not like saving it
+
+0:15:16.240,0:15:21.459
+doesn't do anything so what I need to do
+
+0:15:18.850,0:15:23.439
+is I need to save it off to a variable
+
+0:15:21.459,0:15:25.240
+so what I'm going to do is I'm going to
+
+0:15:23.439,0:15:27.279
+choose to at the start of my program
+
+0:15:25.240,0:15:30.220
+like before the setup function up here
+
+0:15:27.279,0:15:31.160
+I'm going to make a variable this
+
+0:15:30.220,0:15:36.139
+variable is going to
+
+0:15:31.160,0:15:41.379
+be an integer variable and an integer
+
+0:15:36.139,0:15:45.860
+variable is abbreviated with int so int
+
+0:15:41.379,0:15:47.839
+is short for integer and pot reading pot
+
+0:15:45.860,0:15:49.699
+is short for potentiometer it's a very
+
+0:15:47.839,0:15:51.079
+common abbreviation so what I'm going to
+
+0:15:49.699,0:15:53.959
+do is I'm going to take this variable
+
+0:15:51.079,0:15:58.160
+called pot reading and I'm gonna put it
+
+0:15:53.959,0:15:59.540
+in front of my analog read so it's
+
+0:15:58.160,0:16:01.610
+important to understand what's happening
+
+0:15:59.540,0:16:03.050
+in code you can you can see what mine is
+
+0:16:01.610,0:16:04.129
+and you can make yours match but the
+
+0:16:03.050,0:16:04.790
+important thing is to understand what's
+
+0:16:04.129,0:16:07.850
+happening here
+
+0:16:04.790,0:16:10.220
+but it's doing an analog read so like
+
+0:16:07.850,0:16:13.790
+it's it's getting the value of this pin
+
+0:16:10.220,0:16:16.879
+and the value is gonna be between 0 to
+
+0:16:13.790,0:16:21.079
+1023 10:23 means it's at 5 volts and
+
+0:16:16.879,0:16:22.459
+we're saving it off to that variable now
+
+0:16:21.079,0:16:24.439
+what I want to do is I'm gonna save off
+
+0:16:22.459,0:16:26.420
+that variable I'd like to see it on my
+
+0:16:24.439,0:16:28.970
+screen so what I'm gonna do is right
+
+0:16:26.420,0:16:33.079
+here instead of printing out mils
+
+0:16:28.970,0:16:38.839
+divided by a thousand I'm instead gonna
+
+0:16:33.079,0:16:42.230
+do an LCD print of the pop reading all
+
+0:16:38.839,0:16:43.730
+right so if I were to run my code now it
+
+0:16:42.230,0:16:47.300
+would work that have kind of a little
+
+0:16:43.730,0:16:51.199
+bug in it so let's go ahead and run it
+
+0:16:47.300,0:16:52.610
+and see what happens by the way if you
+
+0:16:51.199,0:16:53.990
+never try to run it I'm gonna make an
+
+0:16:52.610,0:16:56.120
+error on purpose I'm just gonna I'm
+
+0:16:53.990,0:16:57.889
+gonna leave off this semicolon right so
+
+0:16:56.120,0:17:00.470
+if you ever try to run it and you've
+
+0:16:57.889,0:17:01.730
+typed something wrong it'll say sorry it
+
+0:17:00.470,0:17:03.829
+looks like your code has some errors
+
+0:17:01.730,0:17:08.650
+it'll try to tell you where the problem
+
+0:17:03.829,0:17:11.360
+is but usually it'll tell you the line
+
+0:17:08.650,0:17:12.740
+after the problem right so if you look
+
+0:17:11.360,0:17:14.720
+at the line that they marked so delay
+
+0:17:12.740,0:17:16.490
+100 this thing's fine to me look at the
+
+0:17:14.720,0:17:17.900
+line above it right so oh I probably got
+
+0:17:16.490,0:17:20.419
+a problem right here and sure enough I'm
+
+0:17:17.900,0:17:22.309
+missing a semicolon right there right so
+
+0:17:20.419,0:17:24.740
+I just don't be surprised if you see a
+
+0:17:22.309,0:17:27.949
+bunch of red it's okay I mean
+
+0:17:24.740,0:17:29.480
+something's probably typed wrong so what
+
+0:17:27.949,0:17:31.909
+we should have going on here
+
+0:17:29.480,0:17:37.580
+let me see if I can make my screen
+
+0:17:31.909,0:17:39.820
+better is it should be printing was it
+
+0:17:37.580,0:17:42.980
+not printing it should be printing the
+
+0:17:39.820,0:17:43.680
+potentiometer reading that's coming from
+
+0:17:42.980,0:17:46.800
+analog
+
+0:17:43.680,0:17:48.870
+zero mine doesn't seem to be working why
+
+0:17:46.800,0:17:50.880
+is it mine working actually it looks
+
+0:17:48.870,0:17:52.560
+like what I did is this other
+
+0:17:50.880,0:17:54.750
+potentiometer at some point I was
+
+0:17:52.560,0:17:57.090
+messing with it this other potentiometer
+
+0:17:54.750,0:17:58.830
+is the contrast potentiometer and I
+
+0:17:57.090,0:18:03.090
+can't mess with that right because it'll
+
+0:17:58.830,0:18:04.740
+mess up your display okay so here is so
+
+0:18:03.090,0:18:07.260
+mine's working it's got a bug in it
+
+0:18:04.740,0:18:08.790
+still but it's working and what it says
+
+0:18:07.260,0:18:11.580
+is showing you the value of the
+
+0:18:08.790,0:18:13.200
+potentiometer and so as I go higher and
+
+0:18:11.580,0:18:15.570
+higher it's like as I click this more
+
+0:18:13.200,0:18:18.780
+and more it's gonna get farther and
+
+0:18:15.570,0:18:19.830
+farther towards the positive side and
+
+0:18:18.780,0:18:21.560
+the numbers gonna get bigger and bigger
+
+0:18:19.830,0:18:24.900
+until you gets to ten twenty three now
+
+0:18:21.560,0:18:27.150
+here comes the bug you ready if I go
+
+0:18:24.900,0:18:28.140
+from ten twenty three down I'm gonna
+
+0:18:27.150,0:18:30.540
+just kind of like click on the middle
+
+0:18:28.140,0:18:33.930
+here down by like five hundred it looks
+
+0:18:30.540,0:18:38.820
+like so the real value is 511 it looks
+
+0:18:33.930,0:18:40.590
+like the value says 511 three and that's
+
+0:18:38.820,0:18:43.290
+because that three is just still on
+
+0:18:40.590,0:18:44.910
+there from the ten twenty three right so
+
+0:18:43.290,0:18:46.290
+the ten twenty three had the value on
+
+0:18:44.910,0:18:48.930
+there and then when I went to five
+
+0:18:46.290,0:18:50.280
+eleven that three is still there from
+
+0:18:48.930,0:18:53.010
+the ten twenty three there's a couple
+
+0:18:50.280,0:18:57.420
+ways to fix that bug one way to fix that
+
+0:18:53.010,0:18:58.470
+bug is to clear the LCD you can type
+
+0:18:57.420,0:19:00.210
+this if you want but I'm going to show
+
+0:18:58.470,0:19:03.060
+you a better way to do it and if you
+
+0:19:00.210,0:19:04.670
+clear the LCD it'll it'll fix that bug
+
+0:19:03.060,0:19:08.220
+so now I can go from ten twenty three
+
+0:19:04.670,0:19:10.800
+down to like 511 and it'll be fine
+
+0:19:08.220,0:19:13.680
+the problem with Clear LCD is that my
+
+0:19:10.800,0:19:15.510
+top line Dave Fisher got wiped off even
+
+0:19:13.680,0:19:20.040
+though I liked having out there and also
+
+0:19:15.510,0:19:22.140
+the LCD is kind of flashy so that is one
+
+0:19:20.040,0:19:24.360
+way to fix it but actually that's not
+
+0:19:22.140,0:19:27.480
+the way I like to fix it I like to fix
+
+0:19:24.360,0:19:31.320
+it a much lamer way I like to just print
+
+0:19:27.480,0:19:33.270
+a couple spaces two or three spaces
+
+0:19:31.320,0:19:35.730
+should be enough I'll go ahead and do it
+
+0:19:33.270,0:19:37.710
+three to be thorough and what that does
+
+0:19:35.730,0:19:41.220
+is let's say that you are displaying a
+
+0:19:37.710,0:19:43.290
+number like ten twenty three and then so
+
+0:19:41.220,0:19:45.630
+I'm getting up over a thousand here and
+
+0:19:43.290,0:19:48.300
+then if you quickly switch down like
+
+0:19:45.630,0:19:50.970
+five hundred and something it prints the
+
+0:19:48.300,0:19:53.730
+532 in this case and then a space a
+
+0:19:50.970,0:19:56.130
+space a space and that clears off those
+
+0:19:53.730,0:19:57.510
+other ones so that's a very common trick
+
+0:19:56.130,0:19:59.610
+when you're print
+
+0:19:57.510,0:20:01.679
+to LCDs just to print a couple spaces
+
+0:19:59.610,0:20:05.220
+after and it actually turns out to be
+
+0:20:01.679,0:20:06.110
+much more efficient than LCD clear which
+
+0:20:05.220,0:20:09.179
+is kind of interesting
+
+0:20:06.110,0:20:13.049
+sissie houses years going she was
+
+0:20:09.179,0:20:16.470
+working she's doing great but I do
+
+0:20:13.049,0:20:19.110
+expect there to be problems problems are
+
+0:20:16.470,0:20:20.250
+fine pause the video hopefully you can
+
+0:20:19.110,0:20:22.260
+look at my code hopefully it's big
+
+0:20:20.250,0:20:26.520
+enough now and you can try to get yours
+
+0:20:22.260,0:20:28.890
+work so analog readings are neat we can
+
+0:20:26.520,0:20:31.440
+we can see different analog reading
+
+0:20:28.890,0:20:34.350
+values which is cool but I'd like for
+
+0:20:31.440,0:20:36.470
+this analog reading to do something
+
+0:20:34.350,0:20:38.730
+right so I wanted to control something
+
+0:20:36.470,0:20:43.110
+and what I decided it would be fun to
+
+0:20:38.730,0:20:45.299
+control is a servo motor so let's go
+
+0:20:43.110,0:20:48.049
+ahead and see if we can add a servo
+
+0:20:45.299,0:20:50.610
+motor to our circuit so we've done LCDs
+
+0:20:48.049,0:20:52.230
+potentiometers now we're gonna do servos
+
+0:20:50.610,0:20:54.780
+the service you can scroll around
+
+0:20:52.230,0:20:57.299
+there's two servos in here some one for
+
+0:20:54.780,0:20:59.040
+some reason there's a blue one and then
+
+0:20:57.299,0:21:01.110
+there's a black one somewhere else so I
+
+0:20:59.040,0:21:04.280
+want the blue one I don't want to see
+
+0:21:01.110,0:21:07.350
+right now which is good and so my servo
+
+0:21:04.280,0:21:09.660
+it's fine right where it's at or if you
+
+0:21:07.350,0:21:11.160
+want to you can rotate it around some
+
+0:21:09.660,0:21:13.890
+I'm gonna rotate mine around to where
+
+0:21:11.160,0:21:15.330
+it's this direction for no real reason
+
+0:21:13.890,0:21:17.940
+it's just kind of where I felt like
+
+0:21:15.330,0:21:20.160
+doing it and a servo motor works like
+
+0:21:17.940,0:21:23.309
+this it's got a signal line which comes
+
+0:21:20.160,0:21:26.610
+to the microcontroller power and ground
+
+0:21:23.309,0:21:29.340
+so power we know where connect power we
+
+0:21:26.610,0:21:31.140
+connect that to our red rail and then
+
+0:21:29.340,0:21:34.200
+just because I want to I'm gonna choose
+
+0:21:31.140,0:21:36.390
+to make that wire be read again the wire
+
+0:21:34.200,0:21:38.040
+color doesn't mean anything but it can
+
+0:21:36.390,0:21:40.710
+help make your circuit easier for others
+
+0:21:38.040,0:21:44.429
+to understand the one that's labeled
+
+0:21:40.710,0:21:50.880
+ground I'm going to connect to the black
+
+0:21:44.429,0:21:53.520
+ground rail so I connected ground to the
+
+0:21:50.880,0:21:56.429
+black ground rail and I connected the
+
+0:21:53.520,0:21:58.950
+middle one which was power to the red
+
+0:21:56.429,0:22:01.290
+power rail now this last one which is
+
+0:21:58.950,0:22:04.590
+called signal I'm gonna have to take it
+
+0:22:01.290,0:22:06.120
+over to my microcontroller and what I'm
+
+0:22:04.590,0:22:07.919
+going to do is I'm going to shoot it
+
+0:22:06.120,0:22:12.230
+what the heck I was kind of shoot it
+
+0:22:07.919,0:22:16.770
+over the top here I'm gonna go to pen
+
+0:22:12.230,0:22:18.750
+there's nothing sacred about pen 9 but
+
+0:22:16.770,0:22:20.580
+it is one that definitely works and you
+
+0:22:18.750,0:22:25.620
+can make that color I'll be whatever you
+
+0:22:20.580,0:22:27.240
+want maybe I'll use a white wire maybe
+
+0:22:25.620,0:22:28.920
+why it's not very visible but you can
+
+0:22:27.240,0:22:31.380
+see that there's my there's my white
+
+0:22:28.920,0:22:34.260
+wire so I'm gonna control this servo
+
+0:22:31.380,0:22:35.880
+motor from pen 9 so it's interesting
+
+0:22:34.260,0:22:37.800
+that like I said I was gonna control
+
+0:22:35.880,0:22:39.120
+with the potentiometer but really the
+
+0:22:37.800,0:22:41.340
+potentiometer goes to the
+
+0:22:39.120,0:22:42.900
+microcontroller and the servo goes to
+
+0:22:41.340,0:22:44.070
+the microcontroller and that way the
+
+0:22:42.900,0:22:45.900
+microcontroller is in charge of
+
+0:22:44.070,0:22:47.370
+everything right so yeah the
+
+0:22:45.900,0:22:50.280
+potentiometer controlling it but really
+
+0:22:47.370,0:22:51.900
+it's all via the microcontroller cool so
+
+0:22:50.280,0:22:54.150
+that's the wiring that we need to add
+
+0:22:51.900,0:22:56.160
+for a servo motor by the way if you ever
+
+0:22:54.150,0:22:57.390
+just wanted to learn about servo motors
+
+0:22:56.160,0:22:59.340
+we're not doing this now that I'm just
+
+0:22:57.390,0:23:02.190
+mentioning it there are some starters
+
+0:22:59.340,0:23:04.230
+with servo motors in here and you could
+
+0:23:02.190,0:23:05.580
+so there's one right there and you could
+
+0:23:04.230,0:23:06.990
+use that it's kind of like learning
+
+0:23:05.580,0:23:09.990
+about the code some but we're just gonna
+
+0:23:06.990,0:23:13.920
+do it together so let's go learn about
+
+0:23:09.990,0:23:15.900
+servo motors so servo motors are not
+
+0:23:13.920,0:23:18.480
+extremely complex but they're a little
+
+0:23:15.900,0:23:21.510
+complex they are complex enough that
+
+0:23:18.480,0:23:23.940
+it's kind of nice to use code that
+
+0:23:21.510,0:23:28.650
+somebody else wrote so type this with me
+
+0:23:23.940,0:23:30.080
+at the top so we're gonna use code that
+
+0:23:28.650,0:23:32.460
+somebody else rooms
+
+0:23:30.080,0:23:35.630
+whenever you use somebody else's code
+
+0:23:32.460,0:23:38.700
+you have to do what's called an include
+
+0:23:35.630,0:23:40.350
+into your program and so we're gonna say
+
+0:23:38.700,0:23:44.600
+pound it's just sound like a little
+
+0:23:40.350,0:23:48.630
+hashtag symbol pound include servo dot H
+
+0:23:44.600,0:23:50.370
+so the liquid crystal we got that code
+
+0:23:48.630,0:23:52.230
+for free because whenever we brought in
+
+0:23:50.370,0:23:53.880
+the starter it gave us the code but it
+
+0:23:52.230,0:23:56.880
+shows you the style that we need for a
+
+0:23:53.880,0:23:59.580
+servo and then similar to what we did
+
+0:23:56.880,0:24:02.250
+for liquid crystal we created a variable
+
+0:23:59.580,0:24:05.070
+of type liquid crystal so here we
+
+0:24:02.250,0:24:07.020
+created an invariable here we created a
+
+0:24:05.070,0:24:08.700
+liquid crystal and then right in between
+
+0:24:07.020,0:24:12.000
+the two I'm gonna create a variable for
+
+0:24:08.700,0:24:15.780
+my servo not being very creative with
+
+0:24:12.000,0:24:18.240
+names I'm gonna name my variable my
+
+0:24:15.780,0:24:20.340
+circle so hopefully you can see the form
+
+0:24:18.240,0:24:22.770
+out here it goes what type of variable
+
+0:24:20.340,0:24:24.300
+is it and then what's the name of the
+
+0:24:22.770,0:24:27.000
+variable so this one wasn't
+
+0:24:24.300,0:24:28.710
+Boult int variable it's what's called a
+
+0:24:27.000,0:24:32.100
+primitive variable type and it was
+
+0:24:28.710,0:24:34.020
+called pop reading this one was a liquid
+
+0:24:32.100,0:24:35.790
+crystal variable and the name of that
+
+0:24:34.020,0:24:38.070
+variable is LCD and you can see that
+
+0:24:35.790,0:24:40.980
+it's a fancy variable I can do stuff
+
+0:24:38.070,0:24:43.230
+right so it's an object and then this
+
+0:24:40.980,0:24:45.510
+one is my servo it's also a fancy
+
+0:24:43.230,0:24:48.450
+variable and it has stuff it can do as
+
+0:24:45.510,0:24:49.830
+well by the way this line right here is
+
+0:24:48.450,0:24:52.500
+what's called a constructor so we're
+
+0:24:49.830,0:24:55.410
+constructing a variable called my servo
+
+0:24:52.500,0:24:58.710
+of type servo now in the same way that
+
+0:24:55.410,0:25:02.880
+we did things like LCD begin an LCD
+
+0:24:58.710,0:25:05.100
+print we can do things with my servo my
+
+0:25:02.880,0:25:09.240
+servo has a couple different things that
+
+0:25:05.100,0:25:13.530
+can do one thing is you can say what pin
+
+0:25:09.240,0:25:15.660
+you want it to attach to now how do I
+
+0:25:13.530,0:25:17.310
+know these magic commands in fact I'm
+
+0:25:15.660,0:25:19.080
+not sure that attach is the right word
+
+0:25:17.310,0:25:21.660
+I'm gonna have to go look it up but the
+
+0:25:19.080,0:25:26.400
+way you know commands like this is
+
+0:25:21.660,0:25:28.140
+through coding reference guides now you
+
+0:25:26.400,0:25:29.940
+can you can navigate here with me or you
+
+0:25:28.140,0:25:32.100
+can just watch for a minute but how do I
+
+0:25:29.940,0:25:34.440
+know that that command is attached well
+
+0:25:32.100,0:25:38.760
+then no the way you know things is you
+
+0:25:34.440,0:25:40.170
+go to the arduino reference guide and i
+
+0:25:38.760,0:25:41.670
+just started typing in our tweener
+
+0:25:40.170,0:25:43.950
+reference and mine auto-completed
+
+0:25:41.670,0:25:45.750
+and it's got all the different functions
+
+0:25:43.950,0:25:48.300
+that you can use with an arduino and
+
+0:25:45.750,0:25:50.340
+it's also got here in libraries
+
+0:25:48.300,0:25:53.250
+different libraries that you can use
+
+0:25:50.340,0:25:56.880
+with arduino for example here's liquid
+
+0:25:53.250,0:26:01.230
+crystal here is servo and so if you go
+
+0:25:56.880,0:26:03.530
+into servo you can see that it gives you
+
+0:26:01.230,0:26:05.820
+a couple little examples which are nice
+
+0:26:03.530,0:26:09.060
+and it tells you what the functions are
+
+0:26:05.820,0:26:11.790
+like attached and right you can also
+
+0:26:09.060,0:26:14.670
+read things and in fact one of their
+
+0:26:11.790,0:26:16.260
+examples is called knob this is actually
+
+0:26:14.670,0:26:18.060
+really close to what we're building here
+
+0:26:16.260,0:26:20.280
+so it's a potentiometer circuit that's
+
+0:26:18.060,0:26:21.960
+controlling a servo and these examples
+
+0:26:20.280,0:26:24.780
+are great because they'll actually like
+
+0:26:21.960,0:26:27.300
+show you the code to make this thing
+
+0:26:24.780,0:26:28.920
+work and you'll notice that in their
+
+0:26:27.300,0:26:31.680
+code here they've got the include line
+
+0:26:28.920,0:26:33.630
+they call there's my servo that's where
+
+0:26:31.680,0:26:35.490
+I stole the name from and then they do
+
+0:26:33.630,0:26:37.530
+some other things that we're also going
+
+0:26:35.490,0:26:40.380
+to do but we'll do it
+
+0:26:37.530,0:26:44.310
+kind of one piece at a time all right so
+
+0:26:40.380,0:26:47.940
+let's go back to our code and we'll keep
+
+0:26:44.310,0:26:50.430
+working so back in our code we've
+
+0:26:47.940,0:26:52.530
+attached the servo so we've told this
+
+0:26:50.430,0:26:54.660
+servo object where it's connected to so
+
+0:26:52.530,0:26:58.560
+it's connected to pin nine now we want
+
+0:26:54.660,0:27:01.350
+to do things with that servo so let's go
+
+0:26:58.560,0:27:05.610
+ahead and in the loop let's just try a
+
+0:27:01.350,0:27:12.300
+couple things let's try my servo dot
+
+0:27:05.610,0:27:15.510
+right let's send it to zero and then
+
+0:27:12.300,0:27:17.340
+wait for a full second I'm gonna type
+
+0:27:15.510,0:27:20.850
+this fast and then you can then you can
+
+0:27:17.340,0:27:23.780
+get caught up servo I have a little s my
+
+0:27:20.850,0:27:29.880
+variable name and then I'm gonna do
+
+0:27:23.780,0:27:32.430
+write 180 and wait for a second I might
+
+0:27:29.880,0:27:35.670
+even wait for two seconds here so I
+
+0:27:32.430,0:27:37.860
+wrote that fast because it's sometimes
+
+0:27:35.670,0:27:41.160
+easier to finish it and then let you
+
+0:27:37.860,0:27:42.960
+pause the video and then type of
+
+0:27:41.160,0:27:45.450
+yourself so I'm going to say control the
+
+0:27:42.960,0:27:47.640
+servo so see if you can add that code
+
+0:27:45.450,0:27:49.140
+and then try it out alright so let's try
+
+0:27:47.640,0:27:51.690
+it out so I zoomed in a little bit here
+
+0:27:49.140,0:27:54.660
+so when I run it what should happen is
+
+0:27:51.690,0:27:55.860
+my servo should start at zero so you
+
+0:27:54.660,0:27:58.200
+should kind of like sit there for two
+
+0:27:55.860,0:28:01.920
+seconds and then it should start wiping
+
+0:27:58.200,0:28:03.450
+back and forth which is cool and so you
+
+0:28:01.920,0:28:06.390
+can also by the way you can try this on
+
+0:28:03.450,0:28:09.180
+a real board as well so if I take this
+
+0:28:06.390,0:28:12.000
+code and I paste it over here and I put
+
+0:28:09.180,0:28:14.730
+it on to my real board now it wants its
+
+0:28:12.000,0:28:16.980
+programmed up here what should happen is
+
+0:28:14.730,0:28:21.210
+it should just make the servo just go
+
+0:28:16.980,0:28:22.680
+back and forth from 0 to 180 so a servo
+
+0:28:21.210,0:28:24.690
+motor doesn't spin all the way around
+
+0:28:22.680,0:28:27.480
+there kind of a different style of motor
+
+0:28:24.690,0:28:29.010
+they're designed to go from 0 to 180
+
+0:28:27.480,0:28:31.410
+degrees just wherever you tell them to
+
+0:28:29.010,0:28:33.210
+go so there's different types of motors
+
+0:28:31.410,0:28:35.190
+that do different things and you'll
+
+0:28:33.210,0:28:37.560
+notice that the analog reading is still
+
+0:28:35.190,0:28:39.810
+showing up on my display here but the
+
+0:28:37.560,0:28:42.000
+servo isn't using it yet so that's our
+
+0:28:39.810,0:28:43.680
+next goal is we've kind of got a servo
+
+0:28:42.000,0:28:45.180
+that's working and an analog reading
+
+0:28:43.680,0:28:48.060
+that's working and we're gonna put them
+
+0:28:45.180,0:28:49.230
+together right also go ahead and set
+
+0:28:48.060,0:28:50.550
+this guy over here I'm gonna have to
+
+0:28:49.230,0:28:50.970
+unplug him or else he's gonna really
+
+0:28:50.550,0:28:55.740
+annoy
+
+0:28:50.970,0:28:57.270
+me so I'll plug unplug him there so
+
+0:28:55.740,0:29:01.049
+let's go ahead and try to get these two
+
+0:28:57.270,0:29:02.580
+things working together so what I really
+
+0:29:01.049,0:29:05.580
+want to do is I want to take this pop
+
+0:29:02.580,0:29:09.179
+reading and I want to use it to control
+
+0:29:05.580,0:29:10.260
+the servo now if I just so I'm going to
+
+0:29:09.179,0:29:12.630
+show you something that doesn't really
+
+0:29:10.260,0:29:14.909
+work so I'm going to comment these four
+
+0:29:12.630,0:29:16.110
+lines out these were just kind of for my
+
+0:29:14.909,0:29:19.260
+testing I'm so I'm going to comment this
+
+0:29:16.110,0:29:23.640
+out what I want to do is I want to just
+
+0:29:19.260,0:29:27.809
+take my servo and write to it the pot
+
+0:29:23.640,0:29:31.289
+reading I would love to do that the
+
+0:29:27.809,0:29:35.580
+problem is the pot reading goes from 0
+
+0:29:31.289,0:29:37.559
+to 1023 and the servo goes from 0 to 180
+
+0:29:35.580,0:29:40.860
+right so if I did this
+
+0:29:37.559,0:29:43.620
+it wouldn't work because it would work
+
+0:29:40.860,0:29:46.230
+at the bottom right but as soon as the
+
+0:29:43.620,0:29:47.940
+potentiometer gets up over 180 so as
+
+0:29:46.230,0:29:50.640
+soon as it's like 2 or 3 or 400 great
+
+0:29:47.940,0:29:53.789
+it's not going to work right so we've
+
+0:29:50.640,0:29:56.130
+got to do is we've got to scale the pot
+
+0:29:53.789,0:29:59.070
+reading back now one thing that you
+
+0:29:56.130,0:30:00.480
+could kind of sort of do this does work
+
+0:29:59.070,0:30:03.750
+but it's not not what we're going to do
+
+0:30:00.480,0:30:06.090
+is you could divide it by some number to
+
+0:30:03.750,0:30:07.950
+make it smaller right so if you were to
+
+0:30:06.090,0:30:10.950
+just divide it by some number to make it
+
+0:30:07.950,0:30:13.830
+smaller that would scale it I think that
+
+0:30:10.950,0:30:16.740
+divided by 6 would roughly work you know
+
+0:30:13.830,0:30:18.450
+what I'm curious enough to try it what
+
+0:30:16.740,0:30:22.230
+I'm gonna do is I'm gonna write to the
+
+0:30:18.450,0:30:24.240
+servo divided by 6 and I'm gonna also
+
+0:30:22.230,0:30:26.190
+print out that value just so I know what
+
+0:30:24.240,0:30:26.880
+I'm sending to my servo I don't let me
+
+0:30:26.190,0:30:31.289
+give it a shot
+
+0:30:26.880,0:30:34.110
+so right now it says Dave Fischer 170
+
+0:30:31.289,0:30:36.299
+and it's 170 because it's really 10 23
+
+0:30:34.110,0:30:39.000
+divided by 6 an interesting thing
+
+0:30:36.299,0:30:40.620
+happens with microcontrollers is 10 23
+
+0:30:39.000,0:30:42.299
+divided by 6 should be a fraction right
+
+0:30:40.620,0:30:44.700
+so it should be like this crazy decimal
+
+0:30:42.299,0:30:47.070
+it just truncates it to the nearest
+
+0:30:44.700,0:30:50.190
+integer value it's just how it works so
+
+0:30:47.070,0:30:52.530
+when it's 10 23 divided by 6 that should
+
+0:30:50.190,0:30:54.720
+be 170 I haven't done the math but I'm
+
+0:30:52.530,0:30:58.140
+sure the top must work out and then if I
+
+0:30:54.720,0:31:01.740
+move to like the middle then my servo
+
+0:30:58.140,0:31:03.570
+follows that and then if I move all the
+
+0:31:01.740,0:31:04.740
+way up to the end of the range it goes
+
+0:31:03.570,0:31:08.340
+there so I can
+
+0:31:04.740,0:31:10.500
+my servo with this code and now again
+
+0:31:08.340,0:31:14.399
+just because I enjoy doing it I could
+
+0:31:10.500,0:31:17.880
+switch to driving this on a real board
+
+0:31:14.399,0:31:20.549
+as well so if I wanted to I could run
+
+0:31:17.880,0:31:23.970
+this on my actual factual board and I
+
+0:31:20.549,0:31:25.980
+could see the the servo moving back and
+
+0:31:23.970,0:31:29.210
+forth as I moved the potentiometer which
+
+0:31:25.980,0:31:31.320
+is kind of cool so now it's got my
+
+0:31:29.210,0:31:34.549
+potentiometer reading displayed on here
+
+0:31:31.320,0:31:37.649
+divided by six and as I turn this knob
+
+0:31:34.549,0:31:39.870
+you can see that it turns the
+
+0:31:37.649,0:31:42.330
+potentiometer as well and it actually
+
+0:31:39.870,0:31:44.460
+works it works pretty neat sis did you
+
+0:31:42.330,0:31:46.110
+get yours working yes cool so I think
+
+0:31:44.460,0:31:47.610
+that that is a pretty neat thing to do
+
+0:31:46.110,0:31:51.570
+that's almost the end of the exercise
+
+0:31:47.610,0:31:54.450
+for today now there is a special like
+
+0:31:51.570,0:31:59.460
+magic command in Arduino that can do
+
+0:31:54.450,0:32:03.539
+this conversion from like 0 to 1023 to 0
+
+0:31:59.460,0:32:05.159
+to 180 perfectly and it's called map so
+
+0:32:03.539,0:32:07.559
+it's just one of the functions that's
+
+0:32:05.159,0:32:11.100
+built into Arduino we'll go ahead and
+
+0:32:07.559,0:32:12.450
+try it out so what we're gonna need
+
+0:32:11.100,0:32:14.909
+first is we're gonna need another
+
+0:32:12.450,0:32:16.590
+variable by the way make sure you always
+
+0:32:14.909,0:32:18.270
+top your simulation before you try to
+
+0:32:16.590,0:32:20.250
+type I'm sure that everybody has done
+
+0:32:18.270,0:32:22.440
+this but if you try to type when you're
+
+0:32:20.250,0:32:25.140
+still in the middle of a simulation it
+
+0:32:22.440,0:32:29.549
+won't do anything so I'll tell I'll make
+
+0:32:25.140,0:32:30.870
+a new variable I'll call it Dec dag is
+
+0:32:29.549,0:32:33.149
+short for degrees
+
+0:32:30.870,0:32:35.940
+I couldn't type degrees but I feel lazy
+
+0:32:33.149,0:32:38.340
+today so I'm just gonna type beg for
+
+0:32:35.940,0:32:42.059
+degrees all right so now I've got this
+
+0:32:38.340,0:32:48.919
+new variable dig and what I'm gonna do
+
+0:32:42.059,0:32:51.000
+is I'm gonna say dag is equal to map and
+
+0:32:48.919,0:32:54.179
+what we're gonna do is we're gonna map
+
+0:32:51.000,0:32:59.340
+that pot reading which normally goes
+
+0:32:54.179,0:33:02.279
+from 0 to 1023 into a new range from 0
+
+0:32:59.340,0:33:04.140
+to 180 and so this is this special
+
+0:33:02.279,0:33:06.000
+function map does that's called linear
+
+0:33:04.140,0:33:09.029
+interpolation for you so take this
+
+0:33:06.000,0:33:12.360
+reading which goes from 0 to 1023 and
+
+0:33:09.029,0:33:15.000
+map it to a new value that goes from 0
+
+0:33:12.360,0:33:17.460
+to 180 and now what I can do is instead
+
+0:33:15.000,0:33:18.360
+of doing pot reading divided by 6 which
+
+0:33:17.460,0:33:23.780
+was a pretty good
+
+0:33:18.360,0:33:28.170
+approximation I'm just gonna print out
+
+0:33:23.780,0:33:31.020
+deck and then I'm gonna also used egg to
+
+0:33:28.170,0:33:33.840
+write to my servo and now what should
+
+0:33:31.020,0:33:37.170
+happen is dag should very accurately go
+
+0:33:33.840,0:33:39.840
+from zero to 180 now before it was going
+
+0:33:37.170,0:33:42.870
+from zero to 170 personally that was
+
+0:33:39.840,0:33:45.960
+pretty darn good but now at 10:23 it
+
+0:33:42.870,0:33:49.140
+should go to 180 and then if I go all
+
+0:33:45.960,0:33:50.190
+the way down to zero I goes there and it
+
+0:33:49.140,0:33:54.150
+should go everywhere in between
+
+0:33:50.190,0:33:56.790
+so obviously map is better than divide
+
+0:33:54.150,0:34:01.380
+by six but to be honest divided by six
+
+0:33:56.790,0:34:04.050
+it's pretty darn good cool so that is a
+
+0:34:01.380,0:34:05.790
+map and that's actually the end so I
+
+0:34:04.050,0:34:07.380
+think that this is a pretty good place
+
+0:34:05.790,0:34:09.810
+to call it good
+
+0:34:07.380,0:34:11.970
+I suppose the the final thing I should
+
+0:34:09.810,0:34:14.010
+probably put onto my board and we should
+
+0:34:11.970,0:34:17.010
+be able to see this thing going back and
+
+0:34:14.010,0:34:20.250
+forth now I do encourage you to play
+
+0:34:17.010,0:34:22.890
+some with this and so like one thing
+
+0:34:20.250,0:34:26.700
+that I played with so now it goes from
+
+0:34:22.890,0:34:31.200
+zero so actually it's at 180 right now
+
+0:34:26.700,0:34:33.060
+all the way down to two zero cool so I
+
+0:34:31.200,0:34:35.790
+do encourage you to play with this if
+
+0:34:33.060,0:34:37.500
+you remember my solution I did some
+
+0:34:35.790,0:34:39.720
+other goofing around things I'd love for
+
+0:34:37.500,0:34:42.540
+you to goof around some more one thing
+
+0:34:39.720,0:34:45.660
+that I did is I added three servo motors
+
+0:34:42.540,0:34:49.440
+I just kind of Fergus I make them all
+
+0:34:45.660,0:34:52.710
+get controlled by pin nine you can also
+
+0:34:49.440,0:34:54.720
+this this is an optional extra you can
+
+0:34:52.710,0:34:57.090
+try to write some code here I'm using a
+
+0:34:54.720,0:34:59.940
+for loop that kind of like smoothly goes
+
+0:34:57.090,0:35:01.800
+from zero to 180 I'm not gonna work this
+
+0:34:59.940,0:35:03.420
+with you but if you did want to do
+
+0:35:01.800,0:35:05.550
+something like this this is an extra
+
+0:35:03.420,0:35:08.100
+thing that you could build on your own
+
+0:35:05.550,0:35:09.660
+that I would love for you to to try to
+
+0:35:08.100,0:35:11.390
+do to make yours better
+
+0:35:09.660,0:35:13.680
+alright that's all we got for today
+
+0:35:11.390,0:35:18.210
+hopefully you learned about analog
+
+0:35:13.680,0:35:20.220
+readings potentiometers LCD displays and
+
+0:35:18.210,0:35:22.130
+servo motors we look forward to seeing
+
+0:35:20.220,0:35:24.360
+you tomorrow we'll do some other stuff
+
+0:35:22.130,0:35:27.660
+hopefully you got some good hands-on
+
+0:35:24.360,0:35:29.610
+experience with with typing code I am
+
+0:35:27.660,0:35:30.210
+sure that you made a lot more buttons
+
+0:35:29.610,0:35:31.810
+than me
+
+0:35:30.210,0:35:33.790
+and you got some practice
+
+0:35:31.810,0:35:35.860
+debugging practice with debugging is
+
+0:35:33.790,0:35:37.720
+super important so don't feel bad when
+
+0:35:35.860,0:35:40.090
+you see that read that's that's you
+
+0:35:37.720,0:35:41.980
+learning right so so red is good all
+
+0:35:40.090,0:35:44.290
+right we will see you tomorrow thanks so
+
+0:35:41.980,0:35:48.260
+much for joining us
+
+0:35:44.290,0:35:48.260
+[Music]
+

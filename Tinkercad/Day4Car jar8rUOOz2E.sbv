@@ -1,0 +1,3303 @@
+0:00:00.640,0:00:07.859
+[Music]
+
+0:00:03.920,0:00:10.710
+hey hey welcome to day four of camp as
+
+0:00:07.859,0:00:13.040
+always I'm here with with my camper
+
+0:00:10.710,0:00:15.299
+McKinley when I say good morning Kenny
+
+0:00:13.040,0:00:17.369
+McKinley is going to help us do a demo
+
+0:00:15.299,0:00:19.830
+here in just a sec what we're gonna make
+
+0:00:17.369,0:00:23.279
+today is we're gonna make a little
+
+0:00:19.830,0:00:25.170
+remote-control car so it's good even if
+
+0:00:23.279,0:00:26.580
+it's simulation to learn about motors so
+
+0:00:25.170,0:00:28.590
+today's focus is going to be about
+
+0:00:26.580,0:00:30.420
+motors and we've got a little demo for
+
+0:00:28.590,0:00:33.450
+you this you want to be the driver for
+
+0:00:30.420,0:00:35.850
+the demo so what we've got set up here
+
+0:00:33.450,0:00:37.050
+so we've got a little remote-control car
+
+0:00:35.850,0:00:40.140
+so we're going to be learning about
+
+0:00:37.050,0:00:42.239
+motors in simulation but we've got
+
+0:00:40.140,0:00:43.829
+motors connected to the bottom this
+
+0:00:42.239,0:00:45.989
+boards just something this kit can do
+
+0:00:43.829,0:00:48.059
+which is fun we're gonna be controlling
+
+0:00:45.989,0:00:51.809
+it with remote control so since they go
+
+0:00:48.059,0:00:58.379
+ahead and send an F or forwards great
+
+0:00:51.809,0:01:03.660
+and send B for backwards and then go
+
+0:00:58.379,0:01:06.900
+ahead and try an L for a left turn and
+
+0:01:03.660,0:01:08.549
+then an R for a right turn and then just
+
+0:01:06.900,0:01:09.900
+to be silly send like three B's or
+
+0:01:08.549,0:01:11.880
+something to make it go backwards three
+
+0:01:09.900,0:01:13.200
+times as much I will see if we can catch
+
+0:01:11.880,0:01:16.130
+it before it falls off the table I
+
+0:01:13.200,0:01:18.450
+always recommend the students that they
+
+0:01:16.130,0:01:20.610
+use the floor whenever they're doing
+
+0:01:18.450,0:01:22.530
+things with wheels but we're just kind
+
+0:01:20.610,0:01:25.680
+of doing it on the table I've also got
+
+0:01:22.530,0:01:27.750
+my speed set to SuperDuper slow just so
+
+0:01:25.680,0:01:36.420
+it doesn't fall off the table but
+
+0:01:27.750,0:01:39.259
+obviously it is this you'll find that
+
+0:01:36.420,0:01:42.360
+when it comes to two kids of
+
+0:01:39.259,0:01:44.640
+remote-control cars there's a always a
+
+0:01:42.360,0:01:46.320
+desire to make things crash alright
+
+0:01:44.640,0:01:46.920
+let's go ahead and get started back over
+
+0:01:46.320,0:01:49.110
+to your seat
+
+0:01:46.920,0:01:53.729
+we'll teach you how to how to make
+
+0:01:49.110,0:01:56.100
+motors go you gotta figure out how to
+
+0:01:53.729,0:01:59.420
+make this silly car stop
+
+0:01:56.100,0:02:01.800
+maybe I'll just up in the
+
+0:01:59.420,0:02:04.700
+yeah I suppose I can unplug it as well
+
+0:02:01.800,0:02:07.590
+thanks so much for help there's this
+
+0:02:04.700,0:02:10.050
+alright so let's go ahead and get
+
+0:02:07.590,0:02:12.060
+started today so this is the the
+
+0:02:10.050,0:02:14.580
+finished circuit that we're building so
+
+0:02:12.060,0:02:17.990
+we'll build it piece by piece it's like
+
+0:02:14.580,0:02:19.860
+I do need to kill power on this thing
+
+0:02:17.990,0:02:22.590
+alright so I'm gonna go ahead and head
+
+0:02:19.860,0:02:25.070
+over to my dashboard so that I can make
+
+0:02:22.590,0:02:27.210
+a new circuit so click on new circuit
+
+0:02:25.070,0:02:28.710
+and the first pieces that we're going to
+
+0:02:27.210,0:02:31.500
+add are things that we've used quite a
+
+0:02:28.710,0:02:35.130
+bit we're gonna add a breadboard and
+
+0:02:31.500,0:02:36.840
+we're gonna add an Arduino so there are
+
+0:02:35.130,0:02:38.700
+some cool starters that we can use but I
+
+0:02:36.840,0:02:40.950
+kind of like to just start from the
+
+0:02:38.700,0:02:43.110
+basic so I'm gonna single click on
+
+0:02:40.950,0:02:45.270
+breadboard I find that sometimes single
+
+0:02:43.110,0:02:46.830
+click works better and then single click
+
+0:02:45.270,0:02:50.850
+over here sometimes I try to drag it
+
+0:02:46.830,0:02:53.400
+over but I forget that Tinkercad works
+
+0:02:50.850,0:02:55.470
+better with just like you click it then
+
+0:02:53.400,0:02:57.720
+you just kind of wait for a second and
+
+0:02:55.470,0:02:58.860
+then you drop it over here and so what
+
+0:02:57.720,0:03:00.239
+we're gonna do is we're gonna add these
+
+0:02:58.860,0:03:02.310
+two components they're gonna be
+
+0:03:00.239,0:03:04.920
+principal things we're gonna do we're
+
+0:03:02.310,0:03:07.080
+also going to add some motors there's a
+
+0:03:04.920,0:03:08.760
+bunch of different motors even in
+
+0:03:07.080,0:03:12.090
+Tinkercad and certainly in the real
+
+0:03:08.760,0:03:14.760
+world the ones that I'm gonna add are
+
+0:03:12.090,0:03:16.860
+these hobby motors these are fun these
+
+0:03:14.760,0:03:20.070
+come from a company in China called
+
+0:03:16.860,0:03:21.120
+Daegu they are inexpensive you can buy
+
+0:03:20.070,0:03:23.549
+them on a number of different websites
+
+0:03:21.120,0:03:25.500
+sites I think I got mine from robot shop
+
+0:03:23.549,0:03:27.660
+once upon a time this kit came with a
+
+0:03:25.500,0:03:31.019
+couple right but they're really good for
+
+0:03:27.660,0:03:32.040
+making like cars and things like that so
+
+0:03:31.019,0:03:32.390
+those are some things that we're gonna
+
+0:03:32.040,0:03:34.590
+use
+
+0:03:32.390,0:03:37.350
+other pieces just kind of what we're
+
+0:03:34.590,0:03:39.209
+getting are our big pieces together it's
+
+0:03:37.350,0:03:41.820
+always nice to when you deal with motors
+
+0:03:39.209,0:03:43.350
+to be able to control the speed to like
+
+0:03:41.820,0:03:45.780
+make it go a little faster or a little
+
+0:03:43.350,0:03:50.489
+slower and a good way to do that is with
+
+0:03:45.780,0:03:53.880
+a potentiometer so you can always change
+
+0:03:50.489,0:03:55.739
+speeds in code but it can sometimes be
+
+0:03:53.880,0:03:57.720
+nice to have a potentiometer on the
+
+0:03:55.739,0:04:01.170
+board so I'm going to add two
+
+0:03:57.720,0:04:03.510
+potentiometers one that kind of controls
+
+0:04:01.170,0:04:04.980
+the speed of the right motor and then
+
+0:04:03.510,0:04:07.739
+the other it controls the speed of the
+
+0:04:04.980,0:04:09.060
+left motor now in simulation you could
+
+0:04:07.739,0:04:10.410
+control the speed with a single
+
+0:04:09.060,0:04:12.150
+potentiometer and they both
+
+0:04:10.410,0:04:14.760
+go faster or slower together in
+
+0:04:12.150,0:04:15.780
+simulation but in real Hardware every
+
+0:04:14.760,0:04:18.030
+motor is different
+
+0:04:15.780,0:04:19.920
+especially in super slow speeds so you
+
+0:04:18.030,0:04:22.380
+really do need two potentiometers in a
+
+0:04:19.920,0:04:24.750
+real system so that you can like make
+
+0:04:22.380,0:04:26.520
+the right go a little faster or the left
+
+0:04:24.750,0:04:28.620
+go a little faster so that it drives in
+
+0:04:26.520,0:04:31.800
+a fairly straight line so those are good
+
+0:04:28.620,0:04:33.990
+things to add to our circuit so now
+
+0:04:31.800,0:04:35.760
+we've got our two motors we've got our
+
+0:04:33.990,0:04:38.970
+board we've got our Arduino we've got
+
+0:04:35.760,0:04:40.970
+our trimpots so we control speed the
+
+0:04:38.970,0:04:45.030
+thing we're missing is we're missing
+
+0:04:40.970,0:04:47.430
+electronics to drive the motor so in the
+
+0:04:45.030,0:04:49.710
+same way that like you know you drive a
+
+0:04:47.430,0:04:51.900
+car all you do is you just you press the
+
+0:04:49.710,0:04:54.270
+gas pedal which tells the car hey make
+
+0:04:51.900,0:04:55.650
+the big motor go you don't like get out
+
+0:04:54.270,0:04:58.680
+and push right like that's not how it
+
+0:04:55.650,0:05:00.960
+works um with electronics motors take a
+
+0:04:58.680,0:05:03.000
+lot of power they take a lot of bumps
+
+0:05:00.960,0:05:04.830
+right and the microcontroller is not
+
+0:05:03.000,0:05:06.300
+made to do that the microcontrollers
+
+0:05:04.830,0:05:09.990
+just made to push the gas pedal right
+
+0:05:06.300,0:05:11.460
+and so he needs something else to make
+
+0:05:09.990,0:05:13.740
+the motor go so that was a big long
+
+0:05:11.460,0:05:16.710
+speech to say something that we need is
+
+0:05:13.740,0:05:18.500
+a transistor now there's two there's a
+
+0:05:16.710,0:05:24.300
+couple different types of transistors
+
+0:05:18.500,0:05:26.550
+one of them is called a MOSFET mosfe t
+
+0:05:24.300,0:05:27.600
+we're not going to use a MOSFET today
+
+0:05:26.550,0:05:30.180
+but I want to tell you about it real
+
+0:05:27.600,0:05:31.340
+quick it's a type of transistor
+
+0:05:30.180,0:05:33.410
+it stands for like
+
+0:05:31.340,0:05:35.430
+metal-oxide-semiconductor field-effect
+
+0:05:33.410,0:05:38.820
+transistor right that might be right I
+
+0:05:35.430,0:05:40.500
+don't even know and that is a good type
+
+0:05:38.820,0:05:43.260
+of transistor they're very popular at
+
+0:05:40.500,0:05:45.650
+turning something either on or off so if
+
+0:05:43.260,0:05:48.600
+you wanted your car to go and just
+
+0:05:45.650,0:05:49.980
+forward right then a MOSFET would be
+
+0:05:48.600,0:05:51.900
+great because they can turn the motor on
+
+0:05:49.980,0:05:53.640
+or I could turn it off but what it
+
+0:05:51.900,0:05:55.920
+doesn't give you the ability to do is
+
+0:05:53.640,0:05:58.380
+reverse right and we want reverse we've
+
+0:05:55.920,0:06:00.510
+got a car there's also an engine or a
+
+0:05:58.380,0:06:02.430
+NPN transistor but I'm not going to get
+
+0:06:00.510,0:06:06.180
+into that either the other thing that's
+
+0:06:02.430,0:06:08.880
+good is called an H bridge so an H
+
+0:06:06.180,0:06:10.710
+bridge is a chip so it's a little chip
+
+0:06:08.880,0:06:12.390
+that you put on your board they come in
+
+0:06:10.710,0:06:14.250
+all different flavors and we are going
+
+0:06:12.390,0:06:17.250
+to use an H bridge so I'm gonna single
+
+0:06:14.250,0:06:18.540
+click on the H bridge rotate it a couple
+
+0:06:17.250,0:06:20.130
+times and the way these chips work is
+
+0:06:18.540,0:06:23.350
+you plunk them right down right into the
+
+0:06:20.130,0:06:26.020
+middle of your breadboard
+
+0:06:23.350,0:06:27.760
+and so this H bridge chip has a lot of
+
+0:06:26.020,0:06:30.370
+pins on it right so it's got a lot of
+
+0:06:27.760,0:06:32.590
+different things going on I'm just going
+
+0:06:30.370,0:06:34.360
+to kind of tell you how do we connect it
+
+0:06:32.590,0:06:36.520
+but I'm just going to tell you the short
+
+0:06:34.360,0:06:39.400
+summary one side of the H bridge
+
+0:06:36.520,0:06:40.870
+controls one motor the other side of the
+
+0:06:39.400,0:06:43.240
+H bridge controls the other motor that's
+
+0:06:40.870,0:06:44.800
+kind of like the big picture and I think
+
+0:06:43.240,0:06:47.740
+that we're ready to start doing some
+
+0:06:44.800,0:06:50.320
+wires Oh actually one more piece one
+
+0:06:47.740,0:06:53.470
+more piece so motors take a lot of power
+
+0:06:50.320,0:06:55.900
+right sissy do you like motors they make
+
+0:06:53.470,0:06:57.910
+me feel like like RRR right and they
+
+0:06:55.900,0:07:01.360
+need a lot of power and power comes from
+
+0:06:57.910,0:07:03.250
+batteries so this won't affect the
+
+0:07:01.360,0:07:07.480
+simulation but I'm gonna do it anyway
+
+0:07:03.250,0:07:09.310
+I'm gonna put on an external battery so
+
+0:07:07.480,0:07:11.170
+this guy actually has external batteries
+
+0:07:09.310,0:07:13.420
+on the bottom so that he can have more
+
+0:07:11.170,0:07:16.000
+power than just what the computer
+
+0:07:13.420,0:07:18.460
+provides and typically what you do is
+
+0:07:16.000,0:07:21.640
+use for double-a batteries so I've
+
+0:07:18.460,0:07:25.360
+brought over a double-a battery and this
+
+0:07:21.640,0:07:27.490
+big power pack is gonna drive the motors
+
+0:07:25.360,0:07:30.550
+instead of just using my computer to do
+
+0:07:27.490,0:07:32.260
+it I just to kind of organize my circle
+
+0:07:30.550,0:07:35.170
+a little bit I'm gonna put it kind of
+
+0:07:32.260,0:07:36.880
+like up above my breadboard if you lay
+
+0:07:35.170,0:07:39.190
+your parts out just like mine it might
+
+0:07:36.880,0:07:40.930
+make it easier for you but obviously
+
+0:07:39.190,0:07:42.940
+where the parts are at doesn't really
+
+0:07:40.930,0:07:44.470
+matter I'm just trying to like keep
+
+0:07:42.940,0:07:46.000
+things that are on the left on the left
+
+0:07:44.470,0:07:47.560
+and things that are on the right on the
+
+0:07:46.000,0:07:50.800
+right and that way I'll kind of like
+
+0:07:47.560,0:07:52.330
+build my car since I just put this big
+
+0:07:50.800,0:07:54.610
+power supply up here let's go ahead and
+
+0:07:52.330,0:07:57.070
+connect it so the first thing I want to
+
+0:07:54.610,0:08:00.820
+do is I want to connect ground to ground
+
+0:07:57.070,0:08:02.380
+I like for my ground wires to be black
+
+0:08:00.820,0:08:05.890
+just to like make them easier to see
+
+0:08:02.380,0:08:08.260
+colors of wires don't matter but I like
+
+0:08:05.890,0:08:10.330
+for my grounds to be black and the way
+
+0:08:08.260,0:08:12.190
+that I did that is after I put the wire
+
+0:08:10.330,0:08:13.320
+I hit the one key which is a shortcut
+
+0:08:12.190,0:08:16.360
+key just like black
+
+0:08:13.320,0:08:19.480
+likewise I'm going to connect my power
+
+0:08:16.360,0:08:21.670
+and power is red so I'm going to connect
+
+0:08:19.480,0:08:24.670
+that wire and then hit the two so that
+
+0:08:21.670,0:08:27.370
+connects my power and ground so my big
+
+0:08:24.670,0:08:28.930
+power is on this rail and then I'm also
+
+0:08:27.370,0:08:31.360
+going to put my little power on the
+
+0:08:28.930,0:08:34.510
+other rail so I'm gonna connect ground
+
+0:08:31.360,0:08:35.640
+from here to here and that one's gonna
+
+0:08:34.510,0:08:38.700
+be black
+
+0:08:35.640,0:08:43.710
+and then I'm gonna use the 5v taken act
+
+0:08:38.700,0:08:44.880
+little power over on the side now you
+
+0:08:43.710,0:08:46.500
+know we're just kind of learning about
+
+0:08:44.880,0:08:48.210
+electronics and we're like why do we
+
+0:08:46.500,0:08:50.340
+have two different power supplies well
+
+0:08:48.210,0:08:52.770
+this is you know big power which is like
+
+0:08:50.340,0:08:54.450
+six volts and more than six volts it can
+
+0:08:52.770,0:08:56.580
+provide like up to over an amp of
+
+0:08:54.450,0:08:59.190
+current and this is little power it's
+
+0:08:56.580,0:09:01.710
+five volts and it can only provide like
+
+0:08:59.190,0:09:03.750
+a hundred milliamps of current so big
+
+0:09:01.710,0:09:06.060
+power little power now regardless of how
+
+0:09:03.750,0:09:08.820
+many powers you have you still only want
+
+0:09:06.060,0:09:12.450
+one ground so do this for me click on
+
+0:09:08.820,0:09:14.880
+the ground on this side and what I'm
+
+0:09:12.450,0:09:17.250
+gonna do is I'm gonna connect ground to
+
+0:09:14.880,0:09:19.200
+the bottom of my breadboard and so what
+
+0:09:17.250,0:09:21.810
+that says is you know I've got a big
+
+0:09:19.200,0:09:24.150
+power and I've got a little power so
+
+0:09:21.810,0:09:26.730
+that's great but there is only one
+
+0:09:24.150,0:09:28.530
+ground and this is true for all
+
+0:09:26.730,0:09:30.480
+electronics you only want one ground one
+
+0:09:28.530,0:09:34.830
+things now we're ready to start
+
+0:09:30.480,0:09:37.400
+connecting our chip so our chip here
+
+0:09:34.830,0:09:39.870
+wants to drive the motors with big power
+
+0:09:37.400,0:09:43.500
+and the pin that you need to connect on
+
+0:09:39.870,0:09:46.980
+this chip to big power is the lower left
+
+0:09:43.500,0:09:48.930
+corner and if you want sometimes I like
+
+0:09:46.980,0:09:50.820
+to bend it around that's completely
+
+0:09:48.930,0:09:54.450
+optional I just see can kind of see that
+
+0:09:50.820,0:09:59.820
+it's going to big power and then little
+
+0:09:54.450,0:10:01.920
+power goes into the top right and the
+
+0:09:59.820,0:10:04.380
+way this chip is designed is that it
+
+0:10:01.920,0:10:06.240
+wants little power so that it can do its
+
+0:10:04.380,0:10:07.950
+internal functionalities correctly just
+
+0:10:06.240,0:10:10.710
+like a microcontroller needs power and
+
+0:10:07.950,0:10:12.960
+then it needs big power because it'll
+
+0:10:10.710,0:10:15.380
+use that with some transistors as inside
+
+0:10:12.960,0:10:17.880
+to drive the motors with big power
+
+0:10:15.380,0:10:22.230
+another thing these chips need is they
+
+0:10:17.880,0:10:26.490
+need a lot of ground connections and so
+
+0:10:22.230,0:10:28.620
+all the middle pins so two on the left
+
+0:10:26.490,0:10:31.680
+and two on the right all need to get
+
+0:10:28.620,0:10:32.310
+connected to ground now like that's
+
+0:10:31.680,0:10:34.680
+silly
+
+0:10:32.310,0:10:37.380
+why why do I have to connect four
+
+0:10:34.680,0:10:40.770
+different pins to ground because really
+
+0:10:37.380,0:10:42.540
+a chip only really needs one ground but
+
+0:10:40.770,0:10:44.339
+it's because of there's a lot of power
+
+0:10:42.540,0:10:46.079
+things going on here and then
+
+0:10:44.339,0:10:48.029
+wanted a really good path to get the
+
+0:10:46.079,0:10:50.040
+ground and so that's why there's four of
+
+0:10:48.029,0:10:51.449
+them it also made the packaging work out
+
+0:10:50.040,0:10:54.449
+better back when they designed this ship
+
+0:10:51.449,0:10:56.550
+many decades ago all right so that's
+
+0:10:54.449,0:10:57.930
+kind of the gist of it the next thing we
+
+0:10:56.550,0:11:01.019
+need to do is we need to connect our
+
+0:10:57.930,0:11:04.050
+motors to this thing so let's go ahead
+
+0:11:01.019,0:11:05.610
+and connect the left motor to the left
+
+0:11:04.050,0:11:07.319
+side and the right motor to the right
+
+0:11:05.610,0:11:12.779
+side so here's what I'm gonna do I'm
+
+0:11:07.319,0:11:16.399
+gonna take a pen just above ground and
+
+0:11:12.779,0:11:16.399
+I'm gonna connect it down to my motor
+
+0:11:17.360,0:11:23.459
+now these wires can be any color it
+
+0:11:20.879,0:11:25.259
+doesn't really matter a lot of places
+
+0:11:23.459,0:11:26.459
+show them is like black and red but
+
+0:11:25.259,0:11:29.370
+they're not blocking around I actually
+
+0:11:26.459,0:11:31.139
+dislike that these are labeled black and
+
+0:11:29.370,0:11:32.790
+red and they're labeled black and red
+
+0:11:31.139,0:11:34.889
+because the real car they're black and
+
+0:11:32.790,0:11:39.269
+red but murders don't have a black and a
+
+0:11:34.889,0:11:40.800
+red motors have an implicit in EM -
+
+0:11:39.269,0:11:43.079
+because if you put power through one
+
+0:11:40.800,0:11:44.339
+direction it spins one way and if you
+
+0:11:43.079,0:11:46.379
+put power and the other direction it
+
+0:11:44.339,0:11:49.019
+spins the other way so really they
+
+0:11:46.379,0:11:50.610
+shouldn't be black and red they should
+
+0:11:49.019,0:11:53.220
+just be like white and blue or something
+
+0:11:50.610,0:11:55.769
+like that but you know that that's fine
+
+0:11:53.220,0:11:58.529
+so to emphasize that I'm gonna make the
+
+0:11:55.769,0:12:00.540
+wires that go to them just be blue it
+
+0:11:58.529,0:12:02.879
+looks like my wire kind of goes under
+
+0:12:00.540,0:12:04.050
+the motor they're gonna look like it was
+
+0:12:02.879,0:12:07.559
+disconnected so I'm gonna move it over
+
+0:12:04.050,0:12:10.170
+scooch so that is how we connect the
+
+0:12:07.559,0:12:11.519
+motor on the left side we're going
+
+0:12:10.170,0:12:13.800
+through things kind of fast but you can
+
+0:12:11.519,0:12:16.230
+always pause the video if you ever need
+
+0:12:13.800,0:12:17.759
+por McKinley over here she's desperately
+
+0:12:16.230,0:12:21.620
+trying to keep up with me she's doing
+
+0:12:17.759,0:12:24.779
+good I now we got to connect the
+
+0:12:21.620,0:12:27.929
+right-side motor and it's very similar
+
+0:12:24.779,0:12:30.569
+symmetric which is nice so I'm gonna
+
+0:12:27.929,0:12:33.029
+bring him down here and when it comes to
+
+0:12:30.569,0:12:34.980
+rotten wires you can see that I always
+
+0:12:33.029,0:12:38.189
+like to try to like run them a certain
+
+0:12:34.980,0:12:40.589
+way but there is no there is no wrong
+
+0:12:38.189,0:12:42.059
+way to run a wire right I'll have to
+
+0:12:40.589,0:12:42.720
+take a look at McKinley's board when
+
+0:12:42.059,0:12:44.759
+we're done here
+
+0:12:42.720,0:12:46.920
+I predict that she doesn't bother with
+
+0:12:44.759,0:12:50.610
+all the all the little movements that I
+
+0:12:46.920,0:12:52.699
+I tend to do right cool so I think that
+
+0:12:50.610,0:12:54.990
+that that's looking pretty good
+
+0:12:52.699,0:12:56.370
+all right now I was watching McKinley
+
+0:12:54.990,0:12:57.410
+over here and she was trying really hard
+
+0:12:56.370,0:12:59.839
+to figure out it's like
+
+0:12:57.410,0:13:01.699
+this bottom wire go to the black and
+
+0:12:59.839,0:13:04.250
+then just the bottom wire over here go
+
+0:13:01.699,0:13:06.050
+to the red and she's like trying to make
+
+0:13:04.250,0:13:09.829
+sure that she gets it just perfect it
+
+0:13:06.050,0:13:11.180
+turns out that I don't care how I put
+
+0:13:09.829,0:13:12.620
+these wires in it's easier I guess if
+
+0:13:11.180,0:13:14.060
+you do it the exact same as me so we can
+
+0:13:12.620,0:13:16.579
+run in the same problems but what I'm
+
+0:13:14.060,0:13:19.519
+wiring a circuit like this I just plug
+
+0:13:16.579,0:13:20.810
+in the wires into the right spots and I
+
+0:13:19.519,0:13:22.639
+don't care if I get things crossed
+
+0:13:20.810,0:13:24.170
+because the worst thing that happens is
+
+0:13:22.639,0:13:26.209
+that my motor goes and reversed when I
+
+0:13:24.170,0:13:28.339
+start running and if it does I'll just
+
+0:13:26.209,0:13:29.899
+change the code to fix it right so
+
+0:13:28.339,0:13:32.689
+literally I decided where to connect
+
+0:13:29.899,0:13:34.670
+this wire honestly where ever it would
+
+0:13:32.689,0:13:36.589
+make my circuit prettiest but but if you
+
+0:13:34.670,0:13:37.759
+swap them and doesn't really matter
+
+0:13:36.589,0:13:39.740
+because you can always fix it in code
+
+0:13:37.759,0:13:42.560
+later now the next thing we want to do
+
+0:13:39.740,0:13:44.329
+is we want to control the left motor and
+
+0:13:42.560,0:13:46.220
+control the right motor we want to
+
+0:13:44.329,0:13:48.170
+control the speed that it goes at that's
+
+0:13:46.220,0:13:49.670
+oh there's one pin that's like how fast
+
+0:13:48.170,0:13:51.560
+you go and so it's kind of like a knob
+
+0:13:49.670,0:13:52.879
+that you turn and then we want to
+
+0:13:51.560,0:13:55.790
+control the direction we either want to
+
+0:13:52.879,0:13:57.920
+go forwards backwards or reverse since
+
+0:13:55.790,0:14:01.699
+there's three options forwards backwards
+
+0:13:57.920,0:14:03.529
+I'm sorry Forge backwards or stop as
+
+0:14:01.699,0:14:05.269
+since there's three options we actually
+
+0:14:03.529,0:14:07.040
+need two pins to do that so like it
+
+0:14:05.269,0:14:10.160
+could be like one zero because we're
+
+0:14:07.040,0:14:12.170
+over one direction zero one it'll go the
+
+0:14:10.160,0:14:14.209
+opposite direction or zero zero it'll
+
+0:14:12.170,0:14:15.769
+stop so I knew two pins to control the
+
+0:14:14.209,0:14:18.980
+direction and then the third one to
+
+0:14:15.769,0:14:21.589
+control how fast to do that so let's go
+
+0:14:18.980,0:14:22.880
+ahead and connect these three pins so
+
+0:14:21.589,0:14:25.160
+the first one I'm going to connect is
+
+0:14:22.880,0:14:27.410
+I'm going to connect the how fast pen so
+
+0:14:25.160,0:14:33.319
+I'm going to connect the top left which
+
+0:14:27.410,0:14:35.600
+is right there to pen 11 over here and
+
+0:14:33.319,0:14:38.480
+I'm gonna choose to make everything on
+
+0:14:35.600,0:14:40.850
+this side be green just so that I kind
+
+0:14:38.480,0:14:43.699
+of like don't get it confused and if you
+
+0:14:40.850,0:14:45.860
+want to to try to make it pretty
+
+0:14:43.699,0:14:48.769
+of course I want to try to make it
+
+0:14:45.860,0:14:51.889
+pretty you can add bins and things as
+
+0:14:48.769,0:14:54.199
+you see fit to try to to pretty your
+
+0:14:51.889,0:14:56.480
+wires up some I'm good enough obviously
+
+0:14:54.199,0:15:00.170
+right there so that one's going to pen
+
+0:14:56.480,0:15:01.430
+11 now I pick pen 11 let me put in a
+
+0:15:00.170,0:15:04.160
+little dip here just so you can see it
+
+0:15:01.430,0:15:04.810
+because it's got this little like tilde
+
+0:15:04.160,0:15:07.300
+in front of
+
+0:15:04.810,0:15:12.550
+a tilde in front of a pen means that it
+
+0:15:07.300,0:15:14.470
+can be used in analog output or PWM mode
+
+0:15:12.550,0:15:16.660
+so that way you can control it's not
+
+0:15:14.470,0:15:19.029
+just zero or one it can be anywhere in
+
+0:15:16.660,0:15:21.160
+between and so that's why that is on one
+
+0:15:19.029,0:15:22.810
+of those tilde lines now the other two
+
+0:15:21.160,0:15:25.029
+lines well there's only two lines left
+
+0:15:22.810,0:15:28.690
+on the side it's here here they're gonna
+
+0:15:25.029,0:15:32.560
+go to 12 and 13 because they don't need
+
+0:15:28.690,0:15:33.730
+the ability to do an analog right and so
+
+0:15:32.560,0:15:38.860
+I'm just gonna go ahead and connect this
+
+0:15:33.730,0:15:41.830
+guy to 12 and then I'll connect this one
+
+0:15:38.860,0:15:45.670
+right here let's see if I can work my
+
+0:15:41.830,0:15:49.110
+way around this guy to 13 so I've got
+
+0:15:45.670,0:15:53.560
+three wires that control the left side
+
+0:15:49.110,0:15:56.140
+and one of them is special it's like the
+
+0:15:53.560,0:15:58.660
+the how fast and it's in the upper left
+
+0:15:56.140,0:16:01.410
+of the chip and it's going to pen 11
+
+0:15:58.660,0:16:04.000
+which has that little tilde symbol right
+
+0:16:01.410,0:16:05.980
+I'm gonna go ahead and connect my other
+
+0:16:04.000,0:16:08.920
+wires while I'm here just kind of while
+
+0:16:05.980,0:16:13.600
+I'm in wiring wood and the right side
+
+0:16:08.920,0:16:17.200
+the lower right controls his speed and
+
+0:16:13.600,0:16:18.490
+I'm gonna connect him to pin 3 and just
+
+0:16:17.200,0:16:20.589
+to kind of like make him all the same
+
+0:16:18.490,0:16:24.430
+maybe I'll use yellow wires for him
+
+0:16:20.589,0:16:27.790
+right now I chose to connect him to pin
+
+0:16:24.430,0:16:30.070
+3 because pin 3 also has one of those
+
+0:16:27.790,0:16:31.630
+little tilde jobbies so if you look
+
+0:16:30.070,0:16:35.230
+right there if your eyes are super good
+
+0:16:31.630,0:16:36.880
+it's got a tilde job' and then the other
+
+0:16:35.230,0:16:40.180
+two pins on the side I'm just gonna
+
+0:16:36.880,0:16:41.410
+collect nearby I see 2 & 4 are available
+
+0:16:40.180,0:16:46.900
+so I'm just gonna connect one of these
+
+0:16:41.410,0:16:51.400
+to 2 and then the other one to 4 so now
+
+0:16:46.900,0:16:53.260
+I've got my control line set up so the
+
+0:16:51.400,0:16:55.780
+the microcontrollers whole thing is he
+
+0:16:53.260,0:16:58.209
+controls what the H bridge does and then
+
+0:16:55.780,0:17:00.190
+the H bridge is in control of driving
+
+0:16:58.209,0:17:01.959
+the actual motors and you can look at
+
+0:17:00.190,0:17:03.760
+the data sheets for how these works and
+
+0:17:01.959,0:17:06.730
+why these pins are put in like this but
+
+0:17:03.760,0:17:07.810
+I think it's a pretty pretty good way to
+
+0:17:06.730,0:17:10.060
+arrange it there are different ways to
+
+0:17:07.810,0:17:12.250
+review nature bridge mode with them as
+
+0:17:10.060,0:17:14.699
+long as we're doing wiring let's go
+
+0:17:12.250,0:17:16.610
+ahead and wire up our potentiometers our
+
+0:17:14.699,0:17:18.290
+potentiometers all
+
+0:17:16.610,0:17:20.839
+top we're gonna put a connection to
+
+0:17:18.290,0:17:24.860
+power and on the bottom we're gonna put
+
+0:17:20.839,0:17:27.410
+a connection to ground and I'm gonna use
+
+0:17:24.860,0:17:29.390
+little power for this because I don't
+
+0:17:27.410,0:17:31.520
+want to like drive a motor or anything I
+
+0:17:29.390,0:17:34.970
+just want to be able to do control
+
+0:17:31.520,0:17:38.390
+things so I'm going to take the top to
+
+0:17:34.970,0:17:41.630
+power the bottom to ground on that one
+
+0:17:38.390,0:17:43.340
+and on this one and again you can see I
+
+0:17:41.630,0:17:45.470
+just connected the the power to
+
+0:17:43.340,0:17:48.080
+somewhere in this row and then the
+
+0:17:45.470,0:17:50.390
+ground to somewhere in this row and then
+
+0:17:48.080,0:17:51.040
+here the top is to power the bottom mr.
+
+0:17:50.390,0:17:53.690
+ground
+
+0:17:51.040,0:17:56.120
+alright so let's connect our last two
+
+0:17:53.690,0:17:57.919
+wires we want to connect the middle of
+
+0:17:56.120,0:18:02.600
+this potentiometer this is the analog
+
+0:17:57.919,0:18:04.610
+signal to a zero doesn't matter what
+
+0:18:02.600,0:18:07.130
+color wire you make it I feel like
+
+0:18:04.610,0:18:09.010
+purple just this purple spun and then
+
+0:18:07.130,0:18:15.200
+I'm gonna connect the middle of this one
+
+0:18:09.010,0:18:17.330
+to a one pretty impressive circuit that
+
+0:18:15.200,0:18:19.280
+we built here so we've got two
+
+0:18:17.330,0:18:22.100
+potentiometers which we're gonna use to
+
+0:18:19.280,0:18:24.260
+control the amount of the speed we've
+
+0:18:22.100,0:18:26.660
+got three control lines for the left
+
+0:18:24.260,0:18:29.120
+motor direction and how fast three
+
+0:18:26.660,0:18:30.710
+control lines for the right motor and
+
+0:18:29.120,0:18:33.410
+then we've got the motors connected down
+
+0:18:30.710,0:18:35.510
+here and then we've done some things to
+
+0:18:33.410,0:18:37.820
+like have big power and little power
+
+0:18:35.510,0:18:40.880
+right people also call it unregulated
+
+0:18:37.820,0:18:42.679
+power and regulated power so now we're
+
+0:18:40.880,0:18:46.340
+ready to see if we've done anything
+
+0:18:42.679,0:18:47.750
+useful at all by testing it in code so
+
+0:18:46.340,0:18:50.710
+the first thing I want to do to save it
+
+0:18:47.750,0:18:55.340
+is I want to call this my remote control
+
+0:18:50.710,0:18:58.760
+car when you change the name and you
+
+0:18:55.340,0:19:00.740
+type in your new name so your remote
+
+0:18:58.760,0:19:02.720
+control car it does automatically save
+
+0:19:00.740,0:19:06.200
+it I think you see up here it says all
+
+0:19:02.720,0:19:08.630
+changes saved all right so let's dive
+
+0:19:06.200,0:19:11.840
+into code now when it comes to the code
+
+0:19:08.630,0:19:14.809
+we've got a law things to test a lot of
+
+0:19:11.840,0:19:16.460
+things to test so let's go ahead and
+
+0:19:14.809,0:19:19.220
+we'll just kind of pick where we want to
+
+0:19:16.460,0:19:21.200
+start we're gonna do everything with
+
+0:19:19.220,0:19:24.440
+text today so go and switch it over to
+
+0:19:21.200,0:19:25.760
+text mode are you sure you want to
+
+0:19:24.440,0:19:29.000
+switch to text and be like yeah that'd
+
+0:19:25.760,0:19:29.789
+be fine and I don't want any of their
+
+0:19:29.000,0:19:31.830
+current code
+
+0:19:29.789,0:19:34.470
+so nothing that they put on here is
+
+0:19:31.830,0:19:37.200
+useful for us it was about flashing LEDs
+
+0:19:34.470,0:19:39.989
+we did LEDs and push buttons our first
+
+0:19:37.200,0:19:42.239
+day on Tuesday the second day by the way
+
+0:19:39.989,0:19:45.809
+we did analog so you should already know
+
+0:19:42.239,0:19:47.909
+about those and LCDs and servos and then
+
+0:19:45.809,0:19:49.379
+today we're doing motors I'll tell you
+
+0:19:47.909,0:19:53.159
+what since we already know about analogs
+
+0:19:49.379,0:19:54.809
+maybe we'll start with those so the
+
+0:19:53.159,0:19:57.539
+first thing I want to do is I want to
+
+0:19:54.809,0:20:01.309
+make some variables I'm going to make a
+
+0:19:57.539,0:20:03.509
+variable called left pot and right pot
+
+0:20:01.309,0:20:05.700
+they're going to both be integer
+
+0:20:03.509,0:20:07.859
+variables and what I'm going to do is
+
+0:20:05.700,0:20:09.960
+I'm going to read the left pot and right
+
+0:20:07.859,0:20:11.999
+pot and I'm going to print the values
+
+0:20:09.960,0:20:14.909
+just to make sure that the values how to
+
+0:20:11.999,0:20:19.229
+look good so there's my two variables
+
+0:20:14.909,0:20:21.570
+left pot right pot normally with the pen
+
+0:20:19.229,0:20:23.190
+you have to do some setup for it which
+
+0:20:21.570,0:20:25.169
+would be in the setup area but there's
+
+0:20:23.190,0:20:27.179
+no setup for analog input that's that's
+
+0:20:25.169,0:20:29.309
+the default which is nice so I'm gonna
+
+0:20:27.179,0:20:30.720
+say my left pot and I'm just going to
+
+0:20:29.309,0:20:34.769
+type this fast you can pause it if you
+
+0:20:30.720,0:20:37.590
+need is an analog read and we got to
+
+0:20:34.769,0:20:39.409
+figure out where he's connected to so my
+
+0:20:37.590,0:20:43.289
+left pot right here if i trace the wire
+
+0:20:39.409,0:20:45.239
+he is on a 1 so I want to do an analog
+
+0:20:43.289,0:20:47.129
+read of 1 you can also type a 1 and then
+
+0:20:45.239,0:20:50.009
+I can like just type in the number 1 and
+
+0:20:47.129,0:20:52.109
+it works so I like to do that and then
+
+0:20:50.009,0:20:55.049
+we'll do an analog read for the right
+
+0:20:52.109,0:20:57.599
+pot this is my right side pot and he's
+
+0:20:55.049,0:21:01.109
+connected to a 0 so I'm just going to
+
+0:20:57.599,0:21:04.679
+type in a 0 now just to make sure that
+
+0:21:01.109,0:21:07.979
+it's working I'm going to print the
+
+0:21:04.679,0:21:09.570
+value to the serial monitor so you can
+
+0:21:07.979,0:21:12.409
+see where it says serial monitor down
+
+0:21:09.570,0:21:15.029
+here so the serial monitor is
+
+0:21:12.409,0:21:16.739
+communication while the program is
+
+0:21:15.029,0:21:20.340
+running communication between your
+
+0:21:16.739,0:21:21.690
+computer and your Arduino board so it's
+
+0:21:20.340,0:21:23.879
+kind of interesting that your computer
+
+0:21:21.690,0:21:25.259
+is used to program it so like you send
+
+0:21:23.879,0:21:27.029
+the program over and then you're 2 then
+
+0:21:25.259,0:21:29.009
+you're done with it but you can also
+
+0:21:27.029,0:21:31.649
+communicate with it while it's running
+
+0:21:29.009,0:21:33.960
+through the serial monitor and the
+
+0:21:31.649,0:21:35.659
+serial monitor is new today we're going
+
+0:21:33.960,0:21:38.429
+to spend a lot of time right
+
+0:21:35.659,0:21:41.370
+so the first thing we have to do to use
+
+0:21:38.429,0:21:45.690
+the serial monitor is we have to type a
+
+0:21:41.370,0:21:47.640
+command called serial begin whenever you
+
+0:21:45.690,0:21:50.250
+do serial communications you have to
+
+0:21:47.640,0:21:53.070
+decide how fast it's going to go and so
+
+0:21:50.250,0:21:55.020
+your computer and your board have to be
+
+0:21:53.070,0:21:56.520
+speaking at the same speed to hear each
+
+0:21:55.020,0:21:59.400
+other if you just talking different
+
+0:21:56.520,0:22:05.250
+speeds it doesn't work this number right
+
+0:21:59.400,0:22:07.110
+here is 9,600 bits per second so they
+
+0:22:05.250,0:22:09.390
+talk fast right so they're talking like
+
+0:22:07.110,0:22:11.669
+they're saying like 10,000 things a
+
+0:22:09.390,0:22:14.630
+second if you talked and said 10,000
+
+0:22:11.669,0:22:17.179
+words a second I would go very badly and
+
+0:22:14.630,0:22:20.880
+what I want to do is I want to print out
+
+0:22:17.179,0:22:23.460
+those values so what I'm gonna do is I'm
+
+0:22:20.880,0:22:27.559
+gonna print I'm just gonna make a little
+
+0:22:23.460,0:22:29.820
+message here I'm gonna say L is equal to
+
+0:22:27.559,0:22:31.020
+and I'm just gonna type the whole thing
+
+0:22:29.820,0:22:34.640
+here and you can type it up whatever
+
+0:22:31.020,0:22:40.740
+speed you type L is equal to left pot
+
+0:22:34.640,0:22:45.120
+and then I'm going to type R is equal to
+
+0:22:40.740,0:22:48.600
+a right pot I'm certain that you type at
+
+0:22:45.120,0:22:50.460
+a different speed than me but I have no
+
+0:22:48.600,0:22:52.860
+value in typing it slow so I just do it
+
+0:22:50.460,0:22:54.090
+fast and then you can get yup now what I
+
+0:22:52.860,0:22:55.770
+want to do is you'll notice that these
+
+0:22:54.090,0:22:56.640
+are all print statements so they stay on
+
+0:22:55.770,0:23:00.120
+the same line
+
+0:22:56.640,0:23:02.429
+I want the last one to go onto a new
+
+0:23:00.120,0:23:05.010
+line and to make something going to a
+
+0:23:02.429,0:23:07.620
+new line you can put this L in on here
+
+0:23:05.010,0:23:09.960
+it's since the newline character at the
+
+0:23:07.620,0:23:12.539
+end so that way all four of these things
+
+0:23:09.960,0:23:14.309
+the L the Left Pot reading the are the
+
+0:23:12.539,0:23:16.440
+right part reading are on one line then
+
+0:23:14.309,0:23:18.799
+it'll go to the next line now if I just
+
+0:23:16.440,0:23:20.940
+did that it would print out super fast
+
+0:23:18.799,0:23:25.049
+so what I'm gonna do is I'm gonna put a
+
+0:23:20.940,0:23:27.330
+delay in here of one second now this
+
+0:23:25.049,0:23:29.490
+code is really just test code it's to
+
+0:23:27.330,0:23:32.940
+see if our potentiometers are hooked up
+
+0:23:29.490,0:23:34.470
+correctly and if it works then my goal
+
+0:23:32.940,0:23:37.289
+is to delete it all when we're done
+
+0:23:34.470,0:23:38.970
+right but that's my goal so I'm going to
+
+0:23:37.289,0:23:41.190
+go ahead and run mine you'll have to
+
+0:23:38.970,0:23:43.080
+pause the video as necessary to get
+
+0:23:41.190,0:23:46.799
+yours to work but I'm gonna click on
+
+0:23:43.080,0:23:48.790
+start simulation and right now I'm
+
+0:23:46.799,0:23:50.590
+printing things to the serial monitor
+
+0:23:48.790,0:23:53.590
+so I've got to see the serial monitor so
+
+0:23:50.590,0:23:56.110
+I click on serial monitor and you can
+
+0:23:53.590,0:23:59.500
+see that it's printing out L 0 and R 0
+
+0:23:56.110,0:24:00.850
+all the way if I switch this guy to like
+
+0:23:59.500,0:24:03.430
+in the middle for the right one
+
+0:24:00.850,0:24:06.310
+you can see that it says 511 that's
+
+0:24:03.430,0:24:08.980
+right at the middle good job me and if I
+
+0:24:06.310,0:24:13.510
+click it like all the way up like near
+
+0:24:08.980,0:24:17.590
+the max it should be 10 23 left should
+
+0:24:13.510,0:24:21.480
+also be movable so there it's 10 23 and
+
+0:24:17.590,0:24:25.300
+then there it's 5 11 and then here it's
+
+0:24:21.480,0:24:26.740
+well looks like it's about 164 again
+
+0:24:25.300,0:24:29.650
+it's important to note the range of
+
+0:24:26.740,0:24:33.480
+these things they go from 0 all the way
+
+0:24:29.650,0:24:35.830
+up to 10 23 now it turns out for motors
+
+0:24:33.480,0:24:40.330
+motors you're gonna also run in the same
+
+0:24:35.830,0:24:43.570
+range from 0 to 1023 they run about as
+
+0:24:40.330,0:24:45.550
+fastest that are gonna run anything like
+
+0:24:43.570,0:24:47.320
+300 above they all run about the same
+
+0:24:45.550,0:24:49.600
+that's just a feature of motors and if
+
+0:24:47.320,0:24:51.670
+you want to run it lower you kind of
+
+0:24:49.600,0:24:54.930
+have to go somewhere in this range so
+
+0:24:51.670,0:24:57.460
+I'm gonna put mine like straight down
+
+0:24:54.930,0:24:59.350
+and so straight down that's gonna run it
+
+0:24:57.460,0:25:00.670
+kind of like a middle speed right so
+
+0:24:59.350,0:25:02.500
+it's gonna run up kind of a middle speed
+
+0:25:00.670,0:25:04.420
+now depends on the motor now the nice
+
+0:25:02.500,0:25:06.190
+thing is is that we are using simulated
+
+0:25:04.420,0:25:08.230
+motors and they work perfectly but
+
+0:25:06.190,0:25:10.540
+that's going to be a good speed for a
+
+0:25:08.230,0:25:11.860
+lot of real motors by the way you'll
+
+0:25:10.540,0:25:14.140
+notice that the motors have a little
+
+0:25:11.860,0:25:18.000
+indication on them here they say zero
+
+0:25:14.140,0:25:21.880
+rpms that's zero revolutions per minute
+
+0:25:18.000,0:25:24.520
+alright so my analog inputs work I'm
+
+0:25:21.880,0:25:27.910
+quite confident that they work once I'm
+
+0:25:24.520,0:25:31.540
+confident that my code works I sometimes
+
+0:25:27.910,0:25:33.520
+just comment it out right so I know I
+
+0:25:31.540,0:25:35.650
+know it's frustrating it's like I just
+
+0:25:33.520,0:25:38.200
+typed all that code and now if you're
+
+0:25:35.650,0:25:40.960
+telling me to comment it out very common
+
+0:25:38.200,0:25:43.330
+to test some small piece see that it
+
+0:25:40.960,0:25:44.980
+works but we don't need to be printing
+
+0:25:43.330,0:25:47.050
+all the time so I'm gonna take it out
+
+0:25:44.980,0:25:50.800
+and then to kind of move on to the next
+
+0:25:47.050,0:25:52.630
+piece all right so it's time to test
+
+0:25:50.800,0:25:54.190
+some more hardware it looks like the
+
+0:25:52.630,0:25:57.190
+next thing we need to do is we need to
+
+0:25:54.190,0:25:59.740
+start tackling our motors so we're going
+
+0:25:57.190,0:26:00.120
+to start by laying a little groundwork
+
+0:25:59.740,0:26:03.690
+for
+
+0:26:00.120,0:26:05.070
+Motors so functions are things that you
+
+0:26:03.690,0:26:07.920
+can call so for example here's a
+
+0:26:05.070,0:26:11.490
+function analog read one analog read
+
+0:26:07.920,0:26:14.820
+zero another function for delay well I
+
+0:26:11.490,0:26:17.570
+wish we had as I wish we had a function
+
+0:26:14.820,0:26:19.800
+where we could just say like left motor
+
+0:26:17.570,0:26:23.460
+and we could just give it a number we
+
+0:26:19.800,0:26:25.340
+just say like five hundred and I wish we
+
+0:26:23.460,0:26:29.820
+had a function that you said right motor
+
+0:26:25.340,0:26:31.650
+you go at negative five hundred and if
+
+0:26:29.820,0:26:33.930
+we had a function that we could just do
+
+0:26:31.650,0:26:35.940
+things like that then our motors would
+
+0:26:33.930,0:26:38.820
+be much more useful right because we
+
+0:26:35.940,0:26:40.560
+could just say go with the speed so like
+
+0:26:38.820,0:26:43.170
+five hundred would be like a middle
+
+0:26:40.560,0:26:45.990
+speed negative five hundred would be
+
+0:26:43.170,0:26:47.430
+like a middle speed but in Reverse if I
+
+0:26:45.990,0:26:51.360
+wanted to stop it I could just say you
+
+0:26:47.430,0:26:54.210
+know stop zero right so I wish that
+
+0:26:51.360,0:26:56.640
+those functions exist all right I wish
+
+0:26:54.210,0:26:59.340
+that they did exist but they don't right
+
+0:26:56.640,0:27:01.800
+and so we have to write that function
+
+0:26:59.340,0:27:03.030
+and the reason they don't is obviously
+
+0:27:01.800,0:27:04.440
+people could write them but everybody's
+
+0:27:03.030,0:27:05.910
+different right so where you hook up
+
+0:27:04.440,0:27:08.400
+your wires and things so we're going to
+
+0:27:05.910,0:27:09.750
+make those functions so we haven't made
+
+0:27:08.400,0:27:12.120
+functions yet but they're extremely
+
+0:27:09.750,0:27:15.860
+powerful and we're gonna make these two
+
+0:27:12.120,0:27:19.050
+functions we're gonna do left together
+
+0:27:15.860,0:27:20.940
+and then we're going to have you try to
+
+0:27:19.050,0:27:23.310
+do the right one by yourself so I'm
+
+0:27:20.940,0:27:26.160
+gonna make a little space here so this
+
+0:27:23.310,0:27:29.130
+function for a left motor it's going to
+
+0:27:26.160,0:27:34.830
+take in one what's called an argument
+
+0:27:29.130,0:27:37.320
+for speed this argument that it takes in
+
+0:27:34.830,0:27:39.900
+so here we called it we said hey left
+
+0:27:37.320,0:27:42.750
+motor go at 500 this is what the syntax
+
+0:27:39.900,0:27:44.940
+looks like in C to make a function it's
+
+0:27:42.750,0:27:46.740
+kind of confusing by the way but it's
+
+0:27:44.940,0:27:48.900
+saying here that we're passing in 500
+
+0:27:46.740,0:27:51.270
+which is an integer and then whenever we
+
+0:27:48.900,0:27:54.870
+pass in that number it becomes the value
+
+0:27:51.270,0:27:57.000
+speed so don't type this but I'm just
+
+0:27:54.870,0:28:00.900
+gonna say so if i said cyril dot print
+
+0:27:57.000,0:28:03.330
+line speed it would print out 500 in
+
+0:28:00.900,0:28:06.210
+this case right cuz i passed it in speed
+
+0:28:03.330,0:28:08.220
+and if i put in you know like 50 then of
+
+0:28:06.210,0:28:09.290
+course this prep would print out 50
+
+0:28:08.220,0:28:11.570
+because speed becomes
+
+0:28:09.290,0:28:13.910
+you get the idea alright though it's
+
+0:28:11.570,0:28:17.570
+just an example so we want to do is we
+
+0:28:13.910,0:28:19.910
+want to drive the motors depending on
+
+0:28:17.570,0:28:21.680
+the value of speed now the first thing
+
+0:28:19.910,0:28:26.210
+we need to know is we need to know if
+
+0:28:21.680,0:28:29.900
+speed is positive or negative so if P
+
+0:28:26.210,0:28:31.280
+speed is positive we'll do one thing and
+
+0:28:29.900,0:28:33.410
+if it's negative we'll do something
+
+0:28:31.280,0:28:35.870
+different and if it's zero we'll do
+
+0:28:33.410,0:28:38.810
+something even different so here's how
+
+0:28:35.870,0:28:41.570
+this works so if so use a lot of if
+
+0:28:38.810,0:28:44.780
+statements in coding if speed is greater
+
+0:28:41.570,0:28:48.110
+than zero then run the lines of code
+
+0:28:44.780,0:28:51.050
+that I put in here before I put that
+
+0:28:48.110,0:28:59.260
+code in I'm gonna do some more things if
+
+0:28:51.050,0:29:02.870
+speed is less than zero I do this stuff
+
+0:28:59.260,0:29:04.430
+so the syntax is hard but the concepts
+
+0:29:02.870,0:29:06.550
+were want to care about you learning so
+
+0:29:04.430,0:29:09.320
+if it's greater than zero do this stuff
+
+0:29:06.550,0:29:12.650
+and then else meaning if it's not
+
+0:29:09.320,0:29:14.180
+greater than zero I check to see if it's
+
+0:29:12.650,0:29:18.320
+less than zero
+
+0:29:14.180,0:29:20.870
+now there's one number that doesn't
+
+0:29:18.320,0:29:22.910
+satisfy either criteria so if it's
+
+0:29:20.870,0:29:24.050
+greater than zero do that if it's less
+
+0:29:22.910,0:29:25.640
+than zero do this
+
+0:29:24.050,0:29:28.300
+sissie have you figured out what the
+
+0:29:25.640,0:29:32.660
+other number is what's the other number
+
+0:29:28.300,0:29:34.970
+too busy trying she's panic trying to to
+
+0:29:32.660,0:29:38.240
+type the other number is zero itself
+
+0:29:34.970,0:29:42.110
+right so if it's bigger than zero do
+
+0:29:38.240,0:29:45.560
+this if it's less than zero do this and
+
+0:29:42.110,0:29:47.330
+if it is zero I do this so those are
+
+0:29:45.560,0:29:52.370
+kind of the three situations and so that
+
+0:29:47.330,0:29:55.010
+is go forwards go backwards or stop
+
+0:29:52.370,0:29:56.930
+those are kind of our three options now
+
+0:29:55.010,0:29:58.820
+we've got to figure out how do we how do
+
+0:29:56.930,0:30:01.430
+we go forwards how do we go backwards
+
+0:29:58.820,0:30:05.420
+how do we stop and the way we do it is
+
+0:30:01.430,0:30:08.000
+we do digital rights to our different
+
+0:30:05.420,0:30:12.020
+control pins so I'm gonna say digital
+
+0:30:08.000,0:30:14.780
+right this is my left motor so these are
+
+0:30:12.020,0:30:19.430
+my green lines so the digital ones are
+
+0:30:14.780,0:30:20.360
+looks like 12 and 13 so I'm gonna say 12
+
+0:30:19.430,0:30:36.559
+go
+
+0:30:20.360,0:30:38.690
+hi and 13 go low so what that will do is
+
+0:30:36.559,0:30:40.850
+those are my two control lines so
+
+0:30:38.690,0:30:43.190
+remember I said how if one of them's one
+
+0:30:40.850,0:30:46.010
+and then the other zero that it'll go in
+
+0:30:43.190,0:30:47.809
+that direction and then if you want to
+
+0:30:46.010,0:30:49.880
+go in the opposite direction I'm just
+
+0:30:47.809,0:30:53.809
+gonna copy those two lines and I'm gonna
+
+0:30:49.880,0:30:56.660
+switch it I'm doing low and high again
+
+0:30:53.809,0:30:59.059
+I'm typing ludicrously fast but that's
+
+0:30:56.660,0:31:01.820
+because with the beauty of videos you
+
+0:30:59.059,0:31:05.330
+can pause it right so so that's kind of
+
+0:31:01.820,0:31:07.790
+the idea so if it's going forwards do a
+
+0:31:05.330,0:31:11.900
+high and a low if it's going backwards
+
+0:31:07.790,0:31:16.910
+do the reverse a low and a high so you
+
+0:31:11.900,0:31:19.880
+do the exact opposite now if you're not
+
+0:31:16.910,0:31:21.200
+moving at all so if your stop so I'm
+
+0:31:19.880,0:31:24.470
+going to copy this down to the stopped
+
+0:31:21.200,0:31:26.630
+area we just bring them below you could
+
+0:31:24.470,0:31:28.340
+also bring them both high that also
+
+0:31:26.630,0:31:30.110
+works if they're the same it stops it
+
+0:31:28.340,0:31:31.549
+the ones called coasts the other is
+
+0:31:30.110,0:31:34.940
+called break but it doesn't matter that
+
+0:31:31.549,0:31:38.030
+won't that will stop it now the thing
+
+0:31:34.940,0:31:40.220
+we've neglected here is how fast do you
+
+0:31:38.030,0:31:42.350
+want to do that right so we can do
+
+0:31:40.220,0:31:45.679
+better than just go we can actually like
+
+0:31:42.350,0:31:52.220
+set the speed to set the speed we have
+
+0:31:45.679,0:31:55.130
+to do an analogue right the analog right
+
+0:31:52.220,0:31:58.100
+is a different command right and analog
+
+0:31:55.130,0:32:01.280
+rights are only possible on pins that
+
+0:31:58.100,0:32:02.900
+have this little till dinner right so it
+
+0:32:01.280,0:32:06.290
+says somewhere on here at least for real
+
+0:32:02.900,0:32:08.990
+board it does yeah so PWM is is it tilde
+
+0:32:06.290,0:32:12.020
+right and so analog right
+
+0:32:08.990,0:32:14.330
+if you send 500 that sends like roughly
+
+0:32:12.020,0:32:18.320
+two and a half volts and we can control
+
+0:32:14.330,0:32:20.929
+the speed so each time I want to control
+
+0:32:18.320,0:32:24.740
+the direction and I also want to control
+
+0:32:20.929,0:32:26.150
+the speed now in the second case in
+
+0:32:24.740,0:32:28.669
+speed is negative I have to put a
+
+0:32:26.150,0:32:30.559
+negative sign in front of here and the
+
+0:32:28.669,0:32:31.070
+reason for putting that negative sign in
+
+0:32:30.559,0:32:32.870
+front of the
+
+0:32:31.070,0:32:36.550
+it's because two negatives make a
+
+0:32:32.870,0:32:39.650
+positive right so if it was negative 500
+
+0:32:36.550,0:32:41.480
+that I do this to control the direction
+
+0:32:39.650,0:32:43.850
+but then the thing I actually analog
+
+0:32:41.480,0:32:47.770
+right is always a positive number so
+
+0:32:43.850,0:32:50.360
+it's there and then our last case
+
+0:32:47.770,0:32:53.360
+doesn't matter what we put in for speed
+
+0:32:50.360,0:32:55.370
+it's actually ignored but I like to be
+
+0:32:53.360,0:32:59.090
+thorough so I'm just gonna put an
+
+0:32:55.370,0:33:01.610
+analogue right of zero now I've written
+
+0:32:59.090,0:33:04.640
+a bunch of code here and I have not
+
+0:33:01.610,0:33:06.170
+worried about direction at all and the
+
+0:33:04.640,0:33:08.020
+reason I haven't worried about direction
+
+0:33:06.170,0:33:11.030
+at all is because I can always change it
+
+0:33:08.020,0:33:14.120
+let's say that my wiring is such that
+
+0:33:11.030,0:33:16.370
+you know 12 and 13 high-low actually
+
+0:33:14.120,0:33:18.620
+making gu reverse I can always just
+
+0:33:16.370,0:33:19.940
+change it later I didn't worry about it
+
+0:33:18.620,0:33:20.810
+because I'm just gonna test it and see
+
+0:33:19.940,0:33:23.420
+what happens
+
+0:33:20.810,0:33:24.950
+and then I'll go from there all right so
+
+0:33:23.420,0:33:27.560
+I think I've got some code that's ready
+
+0:33:24.950,0:33:30.710
+to test before I test it I'm gonna
+
+0:33:27.560,0:33:32.720
+comment out this call to write motor
+
+0:33:30.710,0:33:33.980
+because we haven't written that function
+
+0:33:32.720,0:33:34.760
+yet if you try to call a function that
+
+0:33:33.980,0:33:37.370
+doesn't exist
+
+0:33:34.760,0:33:38.030
+bad things happen so the first thing I'm
+
+0:33:37.370,0:33:39.470
+going to do is I'm going to show you
+
+0:33:38.030,0:33:41.330
+what happens if you have made an error
+
+0:33:39.470,0:33:42.860
+so I'm just going to intentionally make
+
+0:33:41.330,0:33:45.260
+an error here maybe I put a bunch of
+
+0:33:42.860,0:33:47.000
+ease and speed the time the way you
+
+0:33:45.260,0:33:50.270
+check it for errors is you just click
+
+0:33:47.000,0:33:52.820
+run and if it has an error you see a
+
+0:33:50.270,0:33:55.760
+bunch of red nothing wrong with red red
+
+0:33:52.820,0:33:57.830
+is read as part of coding right it's all
+
+0:33:55.760,0:33:59.690
+fixed that one I don't see if I made any
+
+0:33:57.830,0:34:02.660
+accidental errors so I don't have any
+
+0:33:59.690,0:34:04.280
+accidental errors which is good so now
+
+0:34:02.660,0:34:08.210
+what I want to see is I want to see if
+
+0:34:04.280,0:34:10.669
+my motors spinning her hat right and so
+
+0:34:08.210,0:34:12.860
+it looks like my motor is currently
+
+0:34:10.669,0:34:15.080
+humming along with the code that I put
+
+0:34:12.860,0:34:18.379
+in it's running at a hundred and
+
+0:34:15.080,0:34:21.230
+fifty-two rpms kind of fluctuates
+
+0:34:18.379,0:34:22.639
+between 150 to 150 three they just kind
+
+0:34:21.230,0:34:24.470
+of put that in the simulation for fun
+
+0:34:22.639,0:34:26.450
+let's run it a little slower and see
+
+0:34:24.470,0:34:30.620
+what happens so let's stop the
+
+0:34:26.450,0:34:33.620
+simulation let's run it at 100 and hit
+
+0:34:30.620,0:34:35.750
+start simulation and whenever I run it
+
+0:34:33.620,0:34:39.050
+at 100 you can see that it's running
+
+0:34:35.750,0:34:40.690
+quite a bit slower now we've went to all
+
+0:34:39.050,0:34:43.080
+the trouble to make this potentiometer
+
+0:34:40.690,0:34:44.380
+let's run the left motor
+
+0:34:43.080,0:34:49.130
+[Applause]
+
+0:34:44.380,0:34:52.850
+left pop speed gonna be kind of fun so
+
+0:34:49.130,0:34:55.520
+now it'll run it whatever speed the the
+
+0:34:52.850,0:34:59.030
+potentiometer is getting now this is
+
+0:34:55.520,0:35:01.250
+interesting it says zero why is it zero
+
+0:34:59.030,0:35:03.200
+I actually that's like a real questions
+
+0:35:01.250,0:35:05.990
+to see why is it zero
+
+0:35:03.200,0:35:07.970
+I don't know why it's zero all right so
+
+0:35:05.990,0:35:11.390
+mine is really freaking out
+
+0:35:07.970,0:35:13.010
+and so the problem it's so I made a
+
+0:35:11.390,0:35:14.720
+mistake right it just straight up I made
+
+0:35:13.010,0:35:16.970
+a mistake but I'm gonna just kind of
+
+0:35:14.720,0:35:19.640
+figure it out with you so when it's all
+
+0:35:16.970,0:35:21.050
+the way down at zero when I speed it up
+
+0:35:19.640,0:35:25.280
+a little bit it looks like it's go on at
+
+0:35:21.050,0:35:27.290
+5 or 1000 sorry 100 and something but I
+
+0:35:25.280,0:35:29.450
+speed up a little bit more it's going
+
+0:35:27.290,0:35:30.980
+faster so that's good speed up a little
+
+0:35:29.450,0:35:33.920
+bit more and boom it just drops to like
+
+0:35:30.980,0:35:36.950
+6 or something I'm pretty sure will test
+
+0:35:33.920,0:35:38.510
+this that the problem is and I just made
+
+0:35:36.950,0:35:41.480
+this bug legit that's how programming
+
+0:35:38.510,0:35:44.330
+works I forgot to set any of these pins
+
+0:35:41.480,0:35:48.920
+as outputs right so I got lazy
+
+0:35:44.330,0:35:50.720
+so for digital sort of analog inputs you
+
+0:35:48.920,0:35:52.490
+don't have to set up anything but for
+
+0:35:50.720,0:35:55.760
+other things you you gotta set up the
+
+0:35:52.490,0:35:57.710
+pins right and so I think that almost
+
+0:35:55.760,0:36:01.490
+certainly what's wrong is that I didn't
+
+0:35:57.710,0:36:03.200
+set up any of the pins to be outputs and
+
+0:36:01.490,0:36:06.710
+that's what's really causing this thing
+
+0:36:03.200,0:36:09.190
+to freak out so I've got 6 output pins
+
+0:36:06.710,0:36:12.980
+here I've got eleven twelve and thirteen
+
+0:36:09.190,0:36:15.560
+which are for one motor and then I've
+
+0:36:12.980,0:36:17.540
+got two three and four which are for the
+
+0:36:15.560,0:36:21.350
+other motor now I'm not using that other
+
+0:36:17.540,0:36:23.390
+motor yet but it really was was a
+
+0:36:21.350,0:36:24.440
+messing with me that it wasn't working
+
+0:36:23.390,0:36:27.950
+right I think it's just that they
+
+0:36:24.440,0:36:30.140
+weren't actually set as outputs alright
+
+0:36:27.950,0:36:33.080
+so let's try this out so I start slow
+
+0:36:30.140,0:36:35.420
+and then I move up and then it gets
+
+0:36:33.080,0:36:38.090
+faster it gets faster oh and then some
+
+0:36:35.420,0:36:40.220
+point goes slower again I actually I
+
+0:36:38.090,0:36:42.200
+made another bug it's all about bugs
+
+0:36:40.220,0:36:47.870
+today here's the bug
+
+0:36:42.200,0:36:51.290
+easy to fix the speed right here doesn't
+
+0:36:47.870,0:36:54.460
+actually go from zero to a thousand it
+
+0:36:51.290,0:36:56.740
+goes from 0 to 255
+
+0:36:54.460,0:36:58.330
+that was a goof on my part so I've got
+
+0:36:56.740,0:37:00.240
+to change something since I want to use
+
+0:36:58.330,0:37:02.200
+the pots here's what I'm going to change
+
+0:37:00.240,0:37:05.800
+inside of here I'm just going to do a
+
+0:37:02.200,0:37:09.760
+divided by four and that's because
+
+0:37:05.800,0:37:12.460
+analog right goes from 0 to 255 I forgot
+
+0:37:09.760,0:37:14.890
+that Arduino worked I not zero to a
+
+0:37:12.460,0:37:17.410
+thousand 23 so I'm just gonna do a
+
+0:37:14.890,0:37:19.690
+divided by four right there and a
+
+0:37:17.410,0:37:22.450
+divided by four right there and life
+
+0:37:19.690,0:37:23.560
+will get quite a bit better all right
+
+0:37:22.450,0:37:26.410
+sorry
+
+0:37:23.560,0:37:28.150
+made multiple bugs there I could refill
+
+0:37:26.410,0:37:31.330
+them obviously but I choose not to
+
+0:37:28.150,0:37:33.609
+because bugs are are part of how things
+
+0:37:31.330,0:37:36.339
+work right so now things should work
+
+0:37:33.609,0:37:39.520
+better so my left pot is down here it's
+
+0:37:36.339,0:37:42.460
+going like 24 and then as I speed up a
+
+0:37:39.520,0:37:45.339
+little bit more it goes like 70 70 or 80
+
+0:37:42.460,0:37:48.640
+as I speed up even more it goes like a
+
+0:37:45.339,0:37:53.080
+hundred and thirty and then my max speed
+
+0:37:48.640,0:37:58.450
+is about 160 for this motor so now my
+
+0:37:53.080,0:38:01.420
+range is is much better cool so that is
+
+0:37:58.450,0:38:04.560
+now some successful code who was that
+
+0:38:01.420,0:38:08.020
+painful sissy hey that's all right
+
+0:38:04.560,0:38:10.930
+that's our really good but I did fix and
+
+0:38:08.020,0:38:13.089
+get the output set up and I did fix to
+
+0:38:10.930,0:38:15.280
+get the speed set up there all right now
+
+0:38:13.089,0:38:18.550
+what I want you to do is I want you to
+
+0:38:15.280,0:38:21.400
+set up the same thing on the right all
+
+0:38:18.550,0:38:24.700
+by yourself so I want a function called
+
+0:38:21.400,0:38:27.700
+right motor and right motor takes a
+
+0:38:24.700,0:38:29.830
+value that goes from zero to a thousand
+
+0:38:27.700,0:38:31.780
+23 is technically the the range I
+
+0:38:29.830,0:38:33.700
+usually just do a zero to a thousand
+
+0:38:31.780,0:38:36.160
+because it's much cleaner and it's gonna
+
+0:38:33.700,0:38:39.910
+control the three pins on this side so
+
+0:38:36.160,0:38:42.730
+it's gonna control pin four pin 2 and
+
+0:38:39.910,0:38:45.310
+pin 3 and pin three as you can see it's
+
+0:38:42.730,0:38:48.760
+the analog one right so see if you can
+
+0:38:45.310,0:38:50.440
+follow the pattern of left motor and
+
+0:38:48.760,0:38:51.700
+make it four right motor and really the
+
+0:38:50.440,0:38:53.349
+thing that's going to change the big
+
+0:38:51.700,0:38:56.440
+thing that's going to change is the pin
+
+0:38:53.349,0:38:56.970
+so instead of being in 11 12 and 13
+
+0:38:56.440,0:38:58.980
+where
+
+0:38:56.970,0:39:02.849
+was the analog now you're going to be in
+
+0:38:58.980,0:39:05.030
+1 2 3 where 3 is the analog so see if
+
+0:39:02.849,0:39:08.220
+you can make that happen
+
+0:39:05.030,0:39:10.530
+all right so I wrote mine and the way I
+
+0:39:08.220,0:39:12.570
+did it as I cheated of course I copied
+
+0:39:10.530,0:39:15.210
+my other one and just anywhere where I
+
+0:39:12.570,0:39:17.490
+had an 11 which was the analog I switch
+
+0:39:15.210,0:39:19.290
+that to the 3 and anywhere where there
+
+0:39:17.490,0:39:20.640
+was a - I made that our 12 I made that a
+
+0:39:19.290,0:39:23.160
+2 and in where was the 13 I made it
+
+0:39:20.640,0:39:24.780
+before now there is entirely a
+
+0:39:23.160,0:39:27.210
+possibility that my motor is gonna go
+
+0:39:24.780,0:39:29.369
+backwards as soon as I run this that's
+
+0:39:27.210,0:39:31.590
+ok I'm not I'm not too worried about it
+
+0:39:29.369,0:39:33.810
+I will just let it happen and then I'll
+
+0:39:31.590,0:39:36.270
+fix it if I need to fix it I'm gonna
+
+0:39:33.810,0:39:38.340
+choose to call right motor with the
+
+0:39:36.270,0:39:41.700
+right potentiometer and hit start
+
+0:39:38.340,0:39:53.400
+simulation cool and so now it should be
+
+0:39:41.700,0:39:55.080
+running it looks like it's doing pretty
+
+0:39:53.400,0:39:58.020
+good I'm gonna hide the code here just
+
+0:39:55.080,0:39:59.490
+so I can see it and so right now my left
+
+0:39:58.020,0:40:00.840
+motor is stopped again but that's just
+
+0:39:59.490,0:40:02.580
+because I left the potentiometer down
+
+0:40:00.840,0:40:07.050
+all the way so I could run them at max
+
+0:40:02.580,0:40:09.599
+speed so it's like 150 160 and run this
+
+0:40:07.050,0:40:11.640
+one at max speed and I've got a cool
+
+0:40:09.599,0:40:13.530
+little program here now what I'm gonna
+
+0:40:11.640,0:40:15.660
+choose to do is I've got the actual
+
+0:40:13.530,0:40:18.930
+hardware so I'm going to go ahead and
+
+0:40:15.660,0:40:20.970
+try this program on the actual hardware
+
+0:40:18.930,0:40:22.890
+and so what this is gonna do is this is
+
+0:40:20.970,0:40:24.780
+gonna make my car like drive around
+
+0:40:22.890,0:40:28.770
+which could be fun right so control a
+
+0:40:24.780,0:40:30.119
+control C I realize that it's unfair
+
+0:40:28.770,0:40:34.170
+that I have the hardware here and you
+
+0:40:30.119,0:40:36.330
+don't but I like to show you it's gotta
+
+0:40:34.170,0:40:38.130
+plug my hardware in I like to show you
+
+0:40:36.330,0:40:41.670
+what it is that you're making like on a
+
+0:40:38.130,0:40:45.150
+real car and so we'll go ahead and try
+
+0:40:41.670,0:40:46.950
+some things with the actual device all
+
+0:40:45.150,0:40:49.020
+right so I've got mine programmed on
+
+0:40:46.950,0:40:51.869
+here let's try it out so what it should
+
+0:40:49.020,0:40:55.290
+do as we put it on a table I should go
+
+0:40:51.869,0:40:56.970
+at a certain speed which is good and
+
+0:40:55.290,0:40:59.460
+then if I take these potentiometers and
+
+0:40:56.970,0:41:03.900
+I just crank them up
+
+0:40:59.460,0:41:06.690
+I should go faster which is fun and if I
+
+0:41:03.900,0:41:07.069
+take these potentiometers and I turn
+
+0:41:06.690,0:41:10.849
+away
+
+0:41:07.069,0:41:14.690
+down then it's like barely going at all
+
+0:41:10.849,0:41:20.089
+and it's going so slow that it may not
+
+0:41:14.690,0:41:23.630
+even work when I put it on cool and so
+
+0:41:20.089,0:41:26.660
+you can see that our code does work on a
+
+0:41:23.630,0:41:30.019
+real car which is fun and we've learned
+
+0:41:26.660,0:41:32.539
+how to wire motors alright so this last
+
+0:41:30.019,0:41:35.209
+part is optional if you want to call
+
+0:41:32.539,0:41:37.249
+this video done here you can I probably
+
+0:41:35.209,0:41:39.259
+would have taken this 1000 down to
+
+0:41:37.249,0:41:40.819
+something smaller but if you want to
+
+0:41:39.259,0:41:42.529
+call it done right now you can be done
+
+0:41:40.819,0:41:44.390
+but I'm going to show you some other
+
+0:41:42.529,0:41:46.670
+neat thing that we can do with serial
+
+0:41:44.390,0:41:49.699
+monitoring so serum monitoring you can
+
+0:41:46.670,0:41:51.680
+send messages to your car and you can
+
+0:41:49.699,0:41:53.449
+also print things from your car and what
+
+0:41:51.680,0:41:56.599
+you can do is you can actually instead
+
+0:41:53.449,0:42:01.130
+of just always going at these speeds you
+
+0:41:56.599,0:42:02.449
+can listen for the serial monitor so I'm
+
+0:42:01.130,0:42:04.670
+just gonna go ahead and type this and
+
+0:42:02.449,0:42:06.920
+then I'll talk about it so if there are
+
+0:42:04.670,0:42:09.199
+bytes available like from your computer
+
+0:42:06.920,0:42:11.599
+if you're but if your computer sent some
+
+0:42:09.199,0:42:13.880
+bytes over then we can see what your
+
+0:42:11.599,0:42:16.729
+computer sent over and then we can
+
+0:42:13.880,0:42:20.509
+respond accordingly and so what we can
+
+0:42:16.729,0:42:23.479
+do is we can receive a byte so this is
+
+0:42:20.509,0:42:27.170
+the message from your computer so we're
+
+0:42:23.479,0:42:29.660
+gonna say serial dot read and depending
+
+0:42:27.170,0:42:34.549
+on what your computer says it's like
+
+0:42:29.660,0:42:37.309
+maybe your computer says four words then
+
+0:42:34.549,0:42:41.119
+you can do things appropriate for four
+
+0:42:37.309,0:42:44.239
+words so type that really fast you can
+
+0:42:41.119,0:42:47.150
+pause it and get caught up but if they
+
+0:42:44.239,0:42:49.279
+send a message for four words then what
+
+0:42:47.150,0:42:52.519
+you might do is you might make the car
+
+0:42:49.279,0:42:57.410
+go at whatever your potentiometers say
+
+0:42:52.519,0:42:59.749
+to go ask right and you can do as many
+
+0:42:57.410,0:43:02.420
+different commands as you would like so
+
+0:42:59.749,0:43:07.789
+that one's four words let's say that I
+
+0:43:02.420,0:43:13.369
+wanted stop right so if I say stop then
+
+0:43:07.789,0:43:14.739
+I can make them both go at zero and I
+
+0:43:13.369,0:43:18.170
+think that that's enough to try it right
+
+0:43:14.739,0:43:20.030
+so now I can turn my motors on to go at
+
+0:43:18.170,0:43:24.710
+the potentiometer speeds or stop
+
+0:43:20.030,0:43:26.750
+so if I hit start simulation what's
+
+0:43:24.710,0:43:30.220
+happening right now is nothing's going
+
+0:43:26.750,0:43:34.310
+yet but I can click on my serie monitor
+
+0:43:30.220,0:43:35.750
+and I can send these messages right so
+
+0:43:34.310,0:43:38.870
+I'm going to clear off my hold messages
+
+0:43:35.750,0:43:41.180
+so I'm going to send a capital F and if
+
+0:43:38.870,0:43:43.040
+I hit Send then both of my motors start
+
+0:43:41.180,0:43:46.580
+going at wherever their pots are set and
+
+0:43:43.040,0:43:48.470
+if I send a capital S that makes them
+
+0:43:46.580,0:43:51.310
+stop and that's what we were kind of
+
+0:43:48.470,0:43:53.870
+showing with a real car at the beginning
+
+0:43:51.310,0:43:54.680
+now you could improve upon this a number
+
+0:43:53.870,0:43:59.690
+of different ways
+
+0:43:54.680,0:44:02.480
+again all optional but you can do as
+
+0:43:59.690,0:44:05.660
+many commands as you'd like you can also
+
+0:44:02.480,0:44:08.300
+to make your program easier to debug you
+
+0:44:05.660,0:44:12.080
+can respond backwards with things like
+
+0:44:08.300,0:44:15.260
+forwards so this is the Arduino
+
+0:44:12.080,0:44:17.630
+microcontroller responding back message
+
+0:44:15.260,0:44:20.090
+so if you do like a a forward so respond
+
+0:44:17.630,0:44:22.160
+back pay forwards and then it'll do it
+
+0:44:20.090,0:44:26.660
+if you send ass it'll send back heystop
+
+0:44:22.160,0:44:29.090
+and then it'll do it if you want to you
+
+0:44:26.660,0:44:32.290
+can make as many commands as you like
+
+0:44:29.090,0:44:36.920
+right so maybe I'll make a left
+
+0:44:32.290,0:44:40.670
+that'll say left and left will make the
+
+0:44:36.920,0:44:45.950
+the right pot go so you turn left by
+
+0:44:40.670,0:44:48.530
+making the right wheel go right and you
+
+0:44:45.950,0:44:52.430
+do the reverse for right you make the
+
+0:44:48.530,0:44:54.230
+left wheel go and then back it up which
+
+0:44:52.430,0:44:59.510
+normally I would call reverse but I've
+
+0:44:54.230,0:45:02.650
+already used R so back up and then there
+
+0:44:59.510,0:45:05.900
+you would go at negative of the left pot
+
+0:45:02.650,0:45:07.250
+and negative of the right pot while the
+
+0:45:05.900,0:45:08.840
+weight on these turns if you'd like you
+
+0:45:07.250,0:45:10.880
+can also make it spin in place so you
+
+0:45:08.840,0:45:13.880
+can make like instead of the motor just
+
+0:45:10.880,0:45:17.230
+stop you could make it go negative which
+
+0:45:13.880,0:45:19.880
+would be in reverse again typing things
+
+0:45:17.230,0:45:22.700
+beyond ludicrous speed there so there's
+
+0:45:19.880,0:45:26.030
+no way that you keep up in real-time but
+
+0:45:22.700,0:45:28.370
+you can see my code and if you'd like to
+
+0:45:26.030,0:45:29.840
+try it you can type it in and you can
+
+0:45:28.370,0:45:30.589
+see how it behaves I think it's good to
+
+0:45:29.840,0:45:32.329
+kind of
+
+0:45:30.589,0:45:33.890
+example of it but if you did want to
+
+0:45:32.329,0:45:36.769
+just watch it is kind of a mountain of
+
+0:45:33.890,0:45:38.599
+code I do want to try it to make sure
+
+0:45:36.769,0:45:42.619
+that it actually is working for me
+
+0:45:38.599,0:45:46.160
+though so I start the simulation I say
+
+0:45:42.619,0:45:47.420
+four words it's gonna be a capital F so
+
+0:45:46.160,0:45:50.299
+I'm going to say four words with a
+
+0:45:47.420,0:45:53.239
+capital F that works fine I'm gonna say
+
+0:45:50.299,0:45:55.940
+stop that works fine I'm gonna say back
+
+0:45:53.239,0:45:58.910
+it up and back it up make them both do
+
+0:45:55.940,0:46:02.029
+it negative and negative if I do a left
+
+0:45:58.910,0:46:04.630
+spin then my left one goes backwards my
+
+0:46:02.029,0:46:08.269
+right one goes forwards if I do a right
+
+0:46:04.630,0:46:11.569
+it does the opposite and then if I do
+
+0:46:08.269,0:46:13.940
+you know a stop it'll stop it I could
+
+0:46:11.569,0:46:16.400
+show this on the car but I think we're
+
+0:46:13.940,0:46:18.619
+starting to to get kind of long and it's
+
+0:46:16.400,0:46:20.690
+the same as that first demo now the
+
+0:46:18.619,0:46:23.420
+downside of this demo is that you will
+
+0:46:20.690,0:46:26.420
+have to use a real car keep your cable
+
+0:46:23.420,0:46:30.349
+plugged in and then it will make your
+
+0:46:26.420,0:46:32.269
+real car go alright so this one was this
+
+0:46:30.349,0:46:33.589
+one was all about motors we saw how to
+
+0:46:32.269,0:46:36.229
+wire the motors this is a little bit
+
+0:46:33.589,0:46:37.789
+longer sorry about that but sissy do you
+
+0:46:36.229,0:46:40.279
+think that some of these things were
+
+0:46:37.789,0:46:41.359
+cool worried a little bit spoiled
+
+0:46:40.279,0:46:42.739
+because you're gonna play with an actual
+
+0:46:41.359,0:46:46.249
+car whereas other people only got to do
+
+0:46:42.739,0:46:47.900
+a simulation just a little cool so I
+
+0:46:46.249,0:46:49.969
+wanted to show you about motors motors
+
+0:46:47.900,0:46:52.400
+are important thing to do if you kind of
+
+0:46:49.969,0:46:54.109
+get into the hobbyist world tomorrow
+
+0:46:52.400,0:46:56.210
+what we're going to play with is we're
+
+0:46:54.109,0:46:58.910
+actually done with circuits so this was
+
+0:46:56.210,0:47:01.309
+our whirlwind Tinkercad circuits
+
+0:46:58.910,0:47:03.950
+tomorrow we're going to do something new
+
+0:47:01.309,0:47:05.630
+and Tinkercad called code blocks and
+
+0:47:03.950,0:47:07.740
+it'll be kind of fun we look forward to
+
+0:47:05.630,0:47:11.750
+seeing you there bye
+
+0:47:07.740,0:47:11.750
+[Music]
+
