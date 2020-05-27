@@ -27,7 +27,7 @@ Status
  - Uploaded https://youtu.be/zXmeJ45nTvU Circuits LEDs
 
 ### Week 2 - Day 3
- - Coming soon        Main video with an RGB led (a refilm of a new Day 3 video)
+ - Not started https://youtu.be/L1cDAWntyPI Main video text based programming with an RGB led
  - In Progress https://youtu.be/uEERTiVaQGM Extra video with an LCD and Servo
 
 ### Week 2 - Day 4

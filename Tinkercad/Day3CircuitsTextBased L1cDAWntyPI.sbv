@@ -1,0 +1,3894 @@
+0:00:00.640,0:00:06.930
+[Music]
+
+0:00:03.920,0:00:09.990
+hey welcome back so today is day three
+
+0:00:06.930,0:00:12.300
+of the Tinkercad camp we're gonna be
+
+0:00:09.990,0:00:14.099
+working with circuits again today but
+
+0:00:12.300,0:00:15.630
+today the code that we type is gonna be
+
+0:00:14.099,0:00:17.970
+text-based coding
+
+0:00:15.630,0:00:20.160
+I'm here with my trusty camper as always
+
+0:00:17.970,0:00:22.650
+McKinley are you ready to go today
+
+0:00:20.160,0:00:26.099
+McKinley yeah are you excited to do tech
+
+0:00:22.650,0:00:29.760
+space programming how are your typing
+
+0:00:26.099,0:00:31.920
+skills working on it that's fair alright
+
+0:00:29.760,0:00:33.870
+so we are going to be typing today so
+
+0:00:31.920,0:00:36.180
+you probably will have to pause the
+
+0:00:33.870,0:00:38.820
+video some because I typed super fast
+
+0:00:36.180,0:00:40.860
+right and I'll try to like delay so I'm
+
+0:00:38.820,0:00:42.989
+here and there but don't be surprised at
+
+0:00:40.860,0:00:46.050
+all if there's times where you kind of
+
+0:00:42.989,0:00:48.149
+need to like pause things so here's the
+
+0:00:46.050,0:00:51.300
+the circuit that we're making today so
+
+0:00:48.149,0:00:53.579
+it's using something called an RGB LED
+
+0:00:51.300,0:00:55.829
+and we'll talk more about that but it
+
+0:00:53.579,0:00:58.079
+stands for a red green blue it's kind of
+
+0:00:55.829,0:00:59.670
+like a single pixel unlike your phone or
+
+0:00:58.079,0:01:01.739
+TV or something like that so where me
+
+0:00:59.670,0:01:03.989
+coding that up and we're going to be
+
+0:01:01.739,0:01:05.489
+learning about some of the main things
+
+0:01:03.989,0:01:07.860
+in coding so we're gonna be learning
+
+0:01:05.489,0:01:09.390
+about functions we're gonna be learning
+
+0:01:07.860,0:01:11.549
+about variables we're gonna be learning
+
+0:01:09.390,0:01:14.220
+about if statements and I'm gonna also
+
+0:01:11.549,0:01:15.750
+kind of sneak in for loops at the end so
+
+0:01:14.220,0:01:18.150
+really it's not that the things we're
+
+0:01:15.750,0:01:19.920
+building or that amazing I'm it's that
+
+0:01:18.150,0:01:21.990
+the skills that we're learning with like
+
+0:01:19.920,0:01:24.540
+if statements and things like that so
+
+0:01:21.990,0:01:26.070
+this light can either flash or be steady
+
+0:01:24.540,0:01:27.360
+on that's what we're gonna be doing so
+
+0:01:26.070,0:01:29.640
+right now it's steady on now it's
+
+0:01:27.360,0:01:32.220
+flashing and then you can change the
+
+0:01:29.640,0:01:33.600
+color with these potentiometers so if I
+
+0:01:32.220,0:01:36.240
+made it red and green it would turn
+
+0:01:33.600,0:01:38.549
+bright yellow if I take down the yellow
+
+0:01:36.240,0:01:40.350
+amount it turns this red or I turn up
+
+0:01:38.549,0:01:42.869
+the blue it kind of turns purple right
+
+0:01:40.350,0:01:46.009
+so that's kind of the goal so to start
+
+0:01:42.869,0:01:49.229
+things off go ahead and open a new
+
+0:01:46.009,0:01:51.270
+Tinkercad circuit so log into Tinkercad
+
+0:01:49.229,0:01:53.850
+hopefully you got that down and click on
+
+0:01:51.270,0:01:56.460
+create new circuit and we'll get started
+
+0:01:53.850,0:01:59.399
+all right so my projects up it picks a
+
+0:01:56.460,0:02:01.350
+crazy name to start with and we need to
+
+0:01:59.399,0:02:04.829
+come up with a name for today's project
+
+0:02:01.350,0:02:07.200
+there's no like good name so I think I'm
+
+0:02:04.829,0:02:09.300
+just gonna give mine a very generic name
+
+0:02:07.200,0:02:12.410
+I'm going to call it CW C which stands
+
+0:02:09.300,0:02:16.010
+for connecting with code 2020 right here
+
+0:02:12.410,0:02:17.690
+day three not really a great name but I
+
+0:02:16.010,0:02:19.160
+didn't really come up with a good name I
+
+0:02:17.690,0:02:20.300
+said that's what it is I guess I could
+
+0:02:19.160,0:02:21.950
+have called it like learning about
+
+0:02:20.300,0:02:23.840
+functions and learning about variables
+
+0:02:21.950,0:02:25.040
+and blah blah blah blah so the first
+
+0:02:23.840,0:02:27.470
+thing we want to do is we want to add a
+
+0:02:25.040,0:02:29.270
+breadboard you can drag to bring the
+
+0:02:27.470,0:02:31.400
+breadboard over but I actually preferred
+
+0:02:29.270,0:02:32.600
+a single click on the breadboard and
+
+0:02:31.400,0:02:34.130
+then it just kind of like follows my
+
+0:02:32.600,0:02:36.290
+mouse around until I click a second time
+
+0:02:34.130,0:02:38.240
+to place it you'll find that with
+
+0:02:36.290,0:02:40.220
+Tinkercad they usually do that where you
+
+0:02:38.240,0:02:41.540
+click once and then you move and you
+
+0:02:40.220,0:02:44.120
+click again they actually did that a lot
+
+0:02:41.540,0:02:45.860
+more than dragging so the first thing I
+
+0:02:44.120,0:02:47.930
+want to do is I want to rotate my board
+
+0:02:45.860,0:02:49.700
+so it's kind of like sitting here next
+
+0:02:47.930,0:02:53.240
+thing I want to do is I want to grab on
+
+0:02:49.700,0:02:55.430
+uno so I single clicked on uno now I'm
+
+0:02:53.240,0:02:57.200
+not touching anything and I'm actually
+
+0:02:55.430,0:02:59.540
+going to rotate it before I place this
+
+0:02:57.200,0:03:01.700
+right so I rotate and then I click a
+
+0:02:59.540,0:03:04.430
+second time to place it so this
+
+0:03:01.700,0:03:05.960
+configuration is what you use a lot when
+
+0:03:04.430,0:03:08.360
+you're kind of learning you know this
+
+0:03:05.960,0:03:09.950
+type of material and there's a lot of
+
+0:03:08.360,0:03:11.480
+boards that are set up like this I
+
+0:03:09.950,0:03:12.590
+didn't bother bring my physical board
+
+0:03:11.480,0:03:15.320
+today because we're going to do
+
+0:03:12.590,0:03:16.640
+everything on the simulation today so
+
+0:03:15.320,0:03:18.530
+the first thing that you do want to do
+
+0:03:16.640,0:03:20.620
+if you have a setup like this is you
+
+0:03:18.530,0:03:23.860
+want to connect the power and ground
+
+0:03:20.620,0:03:26.000
+from your Arduino over to the breadboard
+
+0:03:23.860,0:03:29.930
+and what I'm going to do is I'm going to
+
+0:03:26.000,0:03:32.570
+put power and ground in kind of high up
+
+0:03:29.930,0:03:37.730
+on the board so I'm going to connect my
+
+0:03:32.570,0:03:40.880
+power to row 6 the red line that's right
+
+0:03:37.730,0:03:43.610
+next to row 6 and you can click on the
+
+0:03:40.880,0:03:45.650
+5v over here and then you can click on
+
+0:03:43.610,0:03:47.750
+the the plus rail really you can put it
+
+0:03:45.650,0:03:49.130
+anywhere in the plus rail I put it in
+
+0:03:47.750,0:03:51.709
+row 6 because I know that's where the
+
+0:03:49.130,0:03:53.600
+spacing is network out if you don't care
+
+0:03:51.709,0:03:55.640
+about pretty you can just stick it right
+
+0:03:53.600,0:03:57.110
+on there and be done if you do care
+
+0:03:55.640,0:04:00.020
+about pretty what you can do is you can
+
+0:03:57.110,0:04:03.080
+double click and add some bins to your
+
+0:04:00.020,0:04:04.480
+wire and if you want to you can double
+
+0:04:03.080,0:04:06.739
+click and you can add these pretty bins
+
+0:04:04.480,0:04:09.320
+to kind of like make it look a certain
+
+0:04:06.739,0:04:11.510
+way another thing you can do if you want
+
+0:04:09.320,0:04:12.830
+if you can change the color of wires you
+
+0:04:11.510,0:04:15.260
+can click on them and you can like
+
+0:04:12.830,0:04:17.060
+select it here or there's some shortcut
+
+0:04:15.260,0:04:19.400
+keys that you can memorize so to would
+
+0:04:17.060,0:04:21.470
+it just turned out red I think I'm going
+
+0:04:19.400,0:04:22.610
+to do is I'm going to connect Browns so
+
+0:04:21.470,0:04:25.820
+I'm going to kind of put it right below
+
+0:04:22.610,0:04:26.150
+it and if you want to you can make these
+
+0:04:25.820,0:04:28.070
+things
+
+0:04:26.150,0:04:30.050
+see bins like while you place the wire
+
+0:04:28.070,0:04:32.630
+and then here I'll just press the number
+
+0:04:30.050,0:04:34.669
+one to put it in place trying to do it
+
+0:04:32.630,0:04:36.050
+when I make the wire is okay but I
+
+0:04:34.669,0:04:37.970
+actually kind of prefer to do it after
+
+0:04:36.050,0:04:40.070
+that I can street and everything up the
+
+0:04:37.970,0:04:41.750
+way I want McKinley did you make nice
+
+0:04:40.070,0:04:44.240
+pretty bins and yours or did you just
+
+0:04:41.750,0:04:46.220
+shoot them across today should you shoot
+
+0:04:44.240,0:04:47.509
+some across and that's just five all
+
+0:04:46.220,0:04:49.430
+right so now let's add some other things
+
+0:04:47.509,0:04:53.150
+so what I want to add next is I want to
+
+0:04:49.430,0:04:55.130
+add an RGB LED you can look for an RGB
+
+0:04:53.150,0:04:57.979
+LED in here it's actually not too far
+
+0:04:55.130,0:04:59.660
+down or you can always type em it'll
+
+0:04:57.979,0:05:01.400
+it'll search for your right to make it
+
+0:04:59.660,0:05:06.320
+easier to find so I'm going to take an
+
+0:05:01.400,0:05:09.919
+RGB LED and I'm going to rotate it so
+
+0:05:06.320,0:05:12.530
+that it sticks in the very top four rows
+
+0:05:09.919,0:05:14.210
+over on the left-hand side I
+
+0:05:12.530,0:05:15.530
+intentionally put it over on the
+
+0:05:14.210,0:05:16.490
+left-hand side because by putting it
+
+0:05:15.530,0:05:20.389
+there are some things are going to be
+
+0:05:16.490,0:05:22.070
+easier for me and then by the way I just
+
+0:05:20.389,0:05:23.870
+click on the X to clear off my search
+
+0:05:22.070,0:05:27.199
+the next thing I want to do is I want to
+
+0:05:23.870,0:05:30.229
+add resistors to certain spots of this
+
+0:05:27.199,0:05:32.240
+LEDs so there's four rows on this LED if
+
+0:05:30.229,0:05:35.690
+you hover over the legs they're called
+
+0:05:32.240,0:05:37.550
+green blue cathode
+
+0:05:35.690,0:05:39.199
+I'm written probably all those words
+
+0:05:37.550,0:05:43.669
+make sense except for Cap'n right
+
+0:05:39.199,0:05:45.380
+cathode is another another word for
+
+0:05:43.669,0:05:47.419
+something that needs to be at the lower
+
+0:05:45.380,0:05:49.460
+voltage potential right so in this case
+
+0:05:47.419,0:05:52.250
+it needs to go to ground so connect this
+
+0:05:49.460,0:05:56.389
+line that has the cathode on it to
+
+0:05:52.250,0:06:00.139
+ground and my wire was black because the
+
+0:05:56.389,0:06:02.419
+last wire I'd created was black so the
+
+0:06:00.139,0:06:04.909
+way this RGB LED works is if you could
+
+0:06:02.419,0:06:07.220
+zoom way in on it it's actually three
+
+0:06:04.909,0:06:09.409
+LEDs in the same package one that shines
+
+0:06:07.220,0:06:11.419
+red light one that shines green light
+
+0:06:09.409,0:06:14.030
+and the other that shines blue blue
+
+0:06:11.419,0:06:15.560
+light this is how pixels like on your
+
+0:06:14.030,0:06:18.110
+computer monitor right now work your
+
+0:06:15.560,0:06:20.960
+computer monitor probably has literally
+
+0:06:18.110,0:06:23.990
+like thousands millions of different
+
+0:06:20.960,0:06:26.240
+pixels and we're working with one pixel
+
+0:06:23.990,0:06:28.550
+right and the neat thing about RGB is
+
+0:06:26.240,0:06:30.800
+you can actually make any color using
+
+0:06:28.550,0:06:33.050
+just RGB lights so those three can make
+
+0:06:30.800,0:06:34.520
+any color there's a lot of light Theory
+
+0:06:33.050,0:06:35.750
+things that we could talk about but it
+
+0:06:34.520,0:06:37.789
+would probably make this video get too
+
+0:06:35.750,0:06:40.280
+long if I explain it all so you can look
+
+0:06:37.789,0:06:42.350
+up more about RGB light
+
+0:06:40.280,0:06:43.670
+just know that's how it works so the
+
+0:06:42.350,0:06:47.030
+next thing we want to do is since these
+
+0:06:43.670,0:06:49.100
+ROI are three LEDs we're going to need
+
+0:06:47.030,0:06:51.800
+three resistors so we talked about
+
+0:06:49.100,0:06:53.750
+resistors last time so what I'm going to
+
+0:06:51.800,0:06:55.940
+do is I'm going to take a resistor I'm
+
+0:06:53.750,0:06:58.940
+going to rotate it and I'm going to pop
+
+0:06:55.940,0:07:00.830
+it onto my board now I'll see if your
+
+0:06:58.940,0:07:04.760
+memory is is really really good
+
+0:07:00.830,0:07:07.450
+the default resistor was one kiloohm but
+
+0:07:04.760,0:07:10.639
+I want to change that to regular ohms
+
+0:07:07.450,0:07:11.960
+and I want to type in a number here to
+
+0:07:10.639,0:07:17.330
+see any chance you remember the number
+
+0:07:11.960,0:07:21.169
+yes what is it 330 that's correct and
+
+0:07:17.330,0:07:22.850
+the 330 ohm resistor is what makes an
+
+0:07:21.169,0:07:25.130
+LED have the correct amount of
+
+0:07:22.850,0:07:27.380
+brightness too small and it would be
+
+0:07:25.130,0:07:28.430
+brighter but it might blow up and too
+
+0:07:27.380,0:07:31.070
+big it'll be dimmer
+
+0:07:28.430,0:07:32.570
+so 330 is what I need now I actually
+
+0:07:31.070,0:07:34.910
+need three of these resistors and I
+
+0:07:32.570,0:07:37.190
+could drag over one at a time and change
+
+0:07:34.910,0:07:39.470
+them but this is actually a shortcut if
+
+0:07:37.190,0:07:44.860
+you just click on the existing resistor
+
+0:07:39.470,0:07:47.419
+and you hit control C and then control V
+
+0:07:44.860,0:07:49.580
+that's copy/paste and then it'll just
+
+0:07:47.419,0:07:52.070
+kind of make a duplicate for you once
+
+0:07:49.580,0:07:55.340
+you spend a lot of time on computers
+
+0:07:52.070,0:07:57.620
+copy paste control-c control-v you'll
+
+0:07:55.340,0:08:00.169
+use those all the time so copy paste
+
+0:07:57.620,0:08:02.840
+that top resistor and give me two more
+
+0:08:00.169,0:08:04.580
+so now we've got one for the green one
+
+0:08:02.840,0:08:08.840
+for the blue and one down here for the
+
+0:08:04.580,0:08:13.220
+red now we need to control these three
+
+0:08:08.840,0:08:14.450
+lines from the Arduino Uno so let's go
+
+0:08:13.220,0:08:16.190
+ahead and draw the wires and then I'll
+
+0:08:14.450,0:08:19.250
+kind of show you what all we've got this
+
+0:08:16.190,0:08:21.229
+top one is green the second one is blue
+
+0:08:19.250,0:08:27.039
+and the bottom one is red I actually
+
+0:08:21.229,0:08:27.039
+want to take red and I'll connect it I
+
+0:08:35.229,0:08:42.979
+couldn't remember what pinouts going to
+
+0:08:38.830,0:08:44.890
+and I'll connect it to pin nine so I'm
+
+0:08:42.979,0:08:48.650
+going to connect it to pin 9 over here
+
+0:08:44.890,0:08:50.839
+and since it's for the red component I'm
+
+0:08:48.650,0:08:52.940
+going to switch it red and then because
+
+0:08:50.839,0:08:54.710
+I couldn't stand not to do it I'm going
+
+0:08:52.940,0:08:57.290
+to bend the wire
+
+0:08:54.710,0:08:59.510
+so that it is a kind of a little easier
+
+0:08:57.290,0:09:00.650
+to see cool so I'm going to kind of make
+
+0:08:59.510,0:09:03.620
+it like that so I'm kind of see that
+
+0:09:00.650,0:09:06.830
+it's going to the nine next up I want
+
+0:09:03.620,0:09:08.990
+the green wire so the green wires on top
+
+0:09:06.830,0:09:14.030
+here so I'm going to click on this green
+
+0:09:08.990,0:09:16.070
+wire and it's gonna go to pen ten so I'm
+
+0:09:14.030,0:09:19.160
+going to make it kind of go around here
+
+0:09:16.070,0:09:22.580
+and then two ten ten and then I want it
+
+0:09:19.160,0:09:26.660
+to be green green is the keyboard
+
+0:09:22.580,0:09:32.620
+shortcut five and then the last one is
+
+0:09:26.660,0:09:36.340
+blue and I want blue to go to pen eleven
+
+0:09:32.620,0:09:42.230
+now why did I put them in these spots
+
+0:09:36.340,0:09:45.710
+and blue is shortcut key seven so I put
+
+0:09:42.230,0:09:48.650
+these in crazy spots right but they are
+
+0:09:45.710,0:09:50.330
+there in illogical spots if you look at
+
+0:09:48.650,0:09:51.830
+the nine ten eleven you'll notice that
+
+0:09:50.330,0:09:54.950
+they all have this like little tilde
+
+0:09:51.830,0:09:57.530
+next to them and this little tilde means
+
+0:09:54.950,0:10:00.350
+that this pin can be used as a PWM
+
+0:09:57.530,0:10:02.750
+outlet so I used the top three pins the
+
+0:10:00.350,0:10:05.510
+app Tilda's and I put them in order of
+
+0:10:02.750,0:10:07.910
+red green blue because that's how I
+
+0:10:05.510,0:10:10.040
+think about these LEDs now it is
+
+0:10:07.910,0:10:13.760
+interesting that the actual physical LED
+
+0:10:10.040,0:10:18.110
+is not in order it goes red cathode blue
+
+0:10:13.760,0:10:20.780
+green Tinkercad must have thought that
+
+0:10:18.110,0:10:22.520
+was the most common way to actually get
+
+0:10:20.780,0:10:23.990
+one of these like in your hand so they
+
+0:10:22.520,0:10:25.940
+tried to do it with like what you could
+
+0:10:23.990,0:10:27.470
+physically buy it turns out that what
+
+0:10:25.940,0:10:29.540
+you can physically buy actually is in
+
+0:10:27.470,0:10:33.260
+order these days but take your kid still
+
+0:10:29.540,0:10:36.800
+has the traditional great so if I was
+
+0:10:33.260,0:10:38.390
+following the the current if I wanted to
+
+0:10:36.800,0:10:41.480
+turn on red here's what happens I would
+
+0:10:38.390,0:10:44.720
+bring pen 9 high and would pin nine high
+
+0:10:41.480,0:10:47.270
+power would flow through this rail it
+
+0:10:44.720,0:10:48.950
+would flow through this resistor and
+
+0:10:47.270,0:10:50.510
+that resistor is important is that limit
+
+0:10:48.950,0:10:53.870
+sumit current that is so that's just the
+
+0:10:50.510,0:10:57.290
+right brightness I'm light up the LED it
+
+0:10:53.870,0:10:59.720
+does a diode drop to cause the light and
+
+0:10:57.290,0:11:02.480
+then all the LEDs come back down through
+
+0:10:59.720,0:11:05.080
+ground and then that ground flows back
+
+0:11:02.480,0:11:07.840
+into my board so it doesn't look like
+
+0:11:05.080,0:11:09.310
+loop on the circuit but it is and it's
+
+0:11:07.840,0:11:11.290
+important that anytime you have current
+
+0:11:09.310,0:11:12.190
+flowing there's a loop someone right
+
+0:11:11.290,0:11:14.530
+that makes sense
+
+0:11:12.190,0:11:17.260
+all right now in order to see this we're
+
+0:11:14.530,0:11:19.650
+gonna write some code what we're going
+
+0:11:17.260,0:11:22.480
+to be doing today is all text-based
+
+0:11:19.650,0:11:24.550
+except for this very first thing so
+
+0:11:22.480,0:11:26.950
+we're going to do one thing with blocks
+
+0:11:24.550,0:11:27.730
+and then we're gonna move into text and
+
+0:11:26.950,0:11:30.490
+not look back
+
+0:11:27.730,0:11:32.590
+so with blocks that should be the
+
+0:11:30.490,0:11:34.150
+default editor there's some code on here
+
+0:11:32.590,0:11:36.700
+don't want any of that code
+
+0:11:34.150,0:11:39.880
+take it all dump it in the trash now
+
+0:11:36.700,0:11:43.240
+what I want to do is I want to take this
+
+0:11:39.880,0:11:44.860
+third command it says set pin and then
+
+0:11:43.240,0:11:48.670
+it picks some number three in this case
+
+0:11:44.860,0:11:50.380
+to zero now this command is different
+
+0:11:48.670,0:11:52.360
+than the one that says set pin zero to
+
+0:11:50.380,0:11:55.390
+high and it's different because this one
+
+0:11:52.360,0:11:58.420
+you can give a number from zero to 255
+
+0:11:55.390,0:12:00.580
+for how much you want right so if you
+
+0:11:58.420,0:12:03.250
+wanted to turn it all the way on you
+
+0:12:00.580,0:12:05.560
+would say 255 if you wanted to turn it
+
+0:12:03.250,0:12:07.180
+all the way off you'd say zero if you
+
+0:12:05.560,0:12:11.110
+wanted to turn it halfway on you'd say
+
+0:12:07.180,0:12:13.360
+127 do you get the idea so here's what I
+
+0:12:11.110,0:12:16.300
+want to do I want to turn on red all the
+
+0:12:13.360,0:12:18.340
+way in order to turn on red all the way
+
+0:12:16.300,0:12:22.120
+I need pin nine because it's connected
+
+0:12:18.340,0:12:28.270
+to the red wire and then I want to bring
+
+0:12:22.120,0:12:31.630
+two more over as well for ten and eleven
+
+0:12:28.270,0:12:33.550
+and now for this very first test I want
+
+0:12:31.630,0:12:36.700
+to turn on just red so I'm saying hey
+
+0:12:33.550,0:12:39.070
+turn on red full blast but nothing for
+
+0:12:36.700,0:12:40.810
+green and nothing for blue so when I hit
+
+0:12:39.070,0:12:44.980
+start simulation what should happen is
+
+0:12:40.810,0:12:46.380
+my LED should turn on fully red let's
+
+0:12:44.980,0:12:49.890
+change it let's play some other colors
+
+0:12:46.380,0:12:52.060
+let's say we wanted to do fully green
+
+0:12:49.890,0:12:56.040
+you can test all these or you can just
+
+0:12:52.060,0:12:58.780
+watch mine fully green would be 0 255 0
+
+0:12:56.040,0:13:04.030
+I'm sure you can guess what fully blue
+
+0:12:58.780,0:13:05.700
+would be it's zero 0 255 and now here's
+
+0:13:04.030,0:13:09.190
+the interesting thing you can mix colors
+
+0:13:05.700,0:13:11.980
+as much as you would like so for example
+
+0:13:09.190,0:13:13.780
+if I added some red to my blue I would
+
+0:13:11.980,0:13:16.600
+turn it a light shade of purple so
+
+0:13:13.780,0:13:18.019
+there's a light purple if I added all
+
+0:13:16.600,0:13:20.720
+the colors together
+
+0:13:18.019,0:13:24.709
+so there was 255 to divide 285 it would
+
+0:13:20.720,0:13:26.959
+be white if I did none of the colors 0 0
+
+0:13:24.709,0:13:29.209
+0 it would essentially be black which is
+
+0:13:26.959,0:13:31.040
+off that's the least exciting one and
+
+0:13:29.209,0:13:32.720
+then there are some other interesting
+
+0:13:31.040,0:13:35.660
+color combinations this one I think is
+
+0:13:32.720,0:13:37.939
+always fun red and green they go
+
+0:13:35.660,0:13:41.899
+together and make yellow now this is
+
+0:13:37.939,0:13:44.179
+light addition not light subtraction so
+
+0:13:41.899,0:13:45.709
+if you had paints and you mix like red
+
+0:13:44.179,0:13:47.569
+paint and green paint together
+
+0:13:45.709,0:13:50.029
+that uses a system called light
+
+0:13:47.569,0:13:52.100
+subtraction the the light you see is one
+
+0:13:50.029,0:13:53.509
+of our bounces off of there and it
+
+0:13:52.100,0:13:55.759
+wouldn't be yellow but with light
+
+0:13:53.509,0:13:57.980
+addition that's like somebody's shining
+
+0:13:55.759,0:14:00.259
+in a red flashlight at you and shine in
+
+0:13:57.980,0:14:02.360
+a green flashlight at you and of those
+
+0:14:00.259,0:14:04.850
+two like mixed together perfectly that
+
+0:14:02.360,0:14:06.889
+does create you so light addition is
+
+0:14:04.850,0:14:09.319
+different about subtraction it's I kind
+
+0:14:06.889,0:14:10.519
+of sort of make sense McKinley ho little
+
+0:14:09.319,0:14:12.739
+all right you'll get you'll get better
+
+0:14:10.519,0:14:15.920
+no time so now what I want to do is I
+
+0:14:12.739,0:14:19.369
+want to transition to text so right now
+
+0:14:15.920,0:14:23.329
+I can hit blocks plus text and it will
+
+0:14:19.369,0:14:25.879
+show me the text for these blocks now
+
+0:14:23.329,0:14:28.189
+it's interesting to look at there's some
+
+0:14:25.879,0:14:30.769
+code that happen and set up it sets up
+
+0:14:28.189,0:14:32.029
+all these things to be outputs and then
+
+0:14:30.769,0:14:34.249
+there's some things that happen down
+
+0:14:32.029,0:14:38.600
+inside the loop and it uses a command
+
+0:14:34.249,0:14:40.879
+called analog right pen 9 so that kind
+
+0:14:38.600,0:14:45.049
+of makes sense 255 and the last thing I
+
+0:14:40.879,0:14:47.509
+had in here was 9 10 11 255 255 0 and
+
+0:14:45.049,0:14:50.240
+you can see the code that gets generated
+
+0:14:47.509,0:14:51.619
+so hopefully that that makes sense now
+
+0:14:50.240,0:14:53.779
+what we're going to do is instead of
+
+0:14:51.619,0:14:55.790
+looking at both we're gonna jump
+
+0:14:53.779,0:14:58.189
+straight into text so we're gonna only
+
+0:14:55.790,0:15:01.429
+do text from this moment forward so
+
+0:14:58.189,0:15:01.939
+click on text it warns you big big bold
+
+0:15:01.429,0:15:04.490
+letters
+
+0:15:01.939,0:15:06.889
+that your blocks are gonna go away once
+
+0:15:04.490,0:15:08.569
+you go text you don't come back so
+
+0:15:06.889,0:15:10.970
+that's fine so we're gonna say continue
+
+0:15:08.569,0:15:13.279
+so now from this moment forward are
+
+0:15:10.970,0:15:13.759
+gonna be coding in text which would be
+
+0:15:13.279,0:15:16.279
+fun
+
+0:15:13.759,0:15:19.160
+the program still works the same as it
+
+0:15:16.279,0:15:20.779
+did before it's currently yellow if I
+
+0:15:19.160,0:15:24.769
+wanted to switch it back to red I just
+
+0:15:20.779,0:15:28.389
+have to change the text so to 5500 I run
+
+0:15:24.769,0:15:30.829
+it and it works with text just as well
+
+0:15:28.389,0:15:33.860
+and so now we're gonna start learning
+
+0:15:30.829,0:15:36.169
+about things using text with the same
+
+0:15:33.860,0:15:38.899
+simple circuit the first thing we're
+
+0:15:36.169,0:15:41.480
+going to learn about is functions so
+
+0:15:38.899,0:15:44.899
+what are functions functions are little
+
+0:15:41.480,0:15:47.990
+chunks of code that work together to
+
+0:15:44.899,0:15:50.629
+solve some problem and this chunk of
+
+0:15:47.990,0:15:55.129
+code right here analog right 2 9 10 and
+
+0:15:50.629,0:15:57.470
+11 they work together to cause red so
+
+0:15:55.129,0:16:00.369
+anytime something works together it
+
+0:15:57.470,0:16:03.589
+could become a function so let's do this
+
+0:16:00.369,0:16:06.379
+type with me and then I'll explain it so
+
+0:16:03.589,0:16:11.319
+type this type void which is kind of a
+
+0:16:06.379,0:16:15.019
+weird word red parenthesis parenthesis
+
+0:16:11.319,0:16:17.839
+open curly brace and then a blank line
+
+0:16:15.019,0:16:19.819
+and then closing curly brace the curly
+
+0:16:17.839,0:16:21.379
+braces by the way they're under keyboard
+
+0:16:19.819,0:16:23.419
+you have to hold down shift the title
+
+0:16:21.379,0:16:25.339
+you'll find them of you you don't hold
+
+0:16:23.419,0:16:27.019
+down shift you get a square bracket if
+
+0:16:25.339,0:16:29.389
+you do hold down shift you get a curly
+
+0:16:27.019,0:16:34.249
+brace so now what I want to do is I want
+
+0:16:29.389,0:16:37.879
+to cut cut is control X those three
+
+0:16:34.249,0:16:41.449
+lines and paste them control V down
+
+0:16:37.879,0:16:44.389
+inside here so now what I've done is
+
+0:16:41.449,0:16:47.179
+I've made a little function that I can
+
+0:16:44.389,0:16:49.639
+call anytime I want so now if I want to
+
+0:16:47.179,0:16:53.119
+make the light be red I have a function
+
+0:16:49.639,0:16:54.980
+that I can call to do that so let's go
+
+0:16:53.119,0:16:57.860
+ahead and practice calling it so let's
+
+0:16:54.980,0:17:03.110
+do this type in the word red parenthesis
+
+0:16:57.860,0:17:05.360
+parenthesis semicolon and what we've
+
+0:17:03.110,0:17:09.319
+done here is we've written a function
+
+0:17:05.360,0:17:13.010
+red and we've called the function from
+
+0:17:09.319,0:17:16.429
+our main so this code should work
+
+0:17:13.010,0:17:18.589
+exactly the same as it did before
+
+0:17:16.429,0:17:21.039
+we've just instead of like having this
+
+0:17:18.589,0:17:23.419
+code like right inside of the loop
+
+0:17:21.039,0:17:25.730
+instead we've got a function called read
+
+0:17:23.419,0:17:28.700
+and then this line of code right here is
+
+0:17:25.730,0:17:30.649
+calling the function read to make it run
+
+0:17:28.700,0:17:32.270
+it's good by the way there's a couple
+
+0:17:30.649,0:17:36.020
+functions on here one is the function
+
+0:17:32.270,0:17:37.639
+setup it's called under the hood to do
+
+0:17:36.020,0:17:40.049
+the setup and then there's another
+
+0:17:37.639,0:17:42.029
+function loop and loop is
+
+0:17:40.049,0:17:43.950
+all and then as soon as Luke finishes
+
+0:17:42.029,0:17:45.779
+the system like under the hood it calls
+
+0:17:43.950,0:17:47.519
+the loop function again and you can do
+
+0:17:45.779,0:17:48.659
+whatever you want in here so let's go
+
+0:17:47.519,0:17:51.119
+ahead and run it and make sure that it
+
+0:17:48.659,0:17:53.999
+still shows up red it does which is good
+
+0:17:51.119,0:17:56.999
+let's practice making another function I
+
+0:17:53.999,0:17:59.360
+see if you can pause the video and do
+
+0:17:56.999,0:18:03.320
+this on your own make a function called
+
+0:17:59.360,0:18:06.559
+green and then instead of calling red
+
+0:18:03.320,0:18:09.389
+you can comment out red with slash slash
+
+0:18:06.559,0:18:12.059
+instead create a function called green
+
+0:18:09.389,0:18:13.259
+and then call your function green from
+
+0:18:12.059,0:18:13.850
+the main you see if you can make that
+
+0:18:13.259,0:18:17.070
+happen
+
+0:18:13.850,0:18:20.309
+all right so I've got mine ready here so
+
+0:18:17.070,0:18:22.830
+I call the function green and down here
+
+0:18:20.309,0:18:26.039
+I made the function green I copy pasted
+
+0:18:22.830,0:18:29.700
+red and just changed and then notice
+
+0:18:26.039,0:18:33.090
+that green as a zero for the red value
+
+0:18:29.700,0:18:35.279
+and a 255 for the green value now I'm
+
+0:18:33.090,0:18:37.499
+gonna run it to see if it works so I run
+
+0:18:35.279,0:18:38.970
+it and mine does work but I also want to
+
+0:18:37.499,0:18:42.960
+show you what happened to be making
+
+0:18:38.970,0:18:45.119
+error so coding is very very picky right
+
+0:18:42.960,0:18:47.549
+so for example let's say on this line
+
+0:18:45.119,0:18:51.059
+where I call green I had left off the
+
+0:18:47.549,0:18:54.269
+semicolon if I leave off the semicolon
+
+0:18:51.059,0:18:56.220
+my code is invalid it won't compile now
+
+0:18:54.269,0:18:57.629
+then you're like oh couldn't they figure
+
+0:18:56.220,0:18:59.639
+out what you meant and so I go no that's
+
+0:18:57.629,0:19:02.009
+not how it works right so if I tried to
+
+0:18:59.639,0:19:04.259
+run the simulation now it's gonna show
+
+0:19:02.009,0:19:06.539
+up with a bunch of red tests right and
+
+0:19:04.259,0:19:08.489
+this red like you see red everywhere
+
+0:19:06.539,0:19:09.179
+your eyes like shut down oh my god it's
+
+0:19:08.489,0:19:12.090
+terrible
+
+0:19:09.179,0:19:15.330
+it tells me that there's some error now
+
+0:19:12.090,0:19:19.230
+the error it says is on this line delay
+
+0:19:15.330,0:19:21.659
+10 semicolon do you think the error is
+
+0:19:19.230,0:19:23.789
+really on that line cissie's it really
+
+0:19:21.659,0:19:26.970
+on that line you know so this happened
+
+0:19:23.789,0:19:30.029
+to all the time in code it is often the
+
+0:19:26.970,0:19:32.190
+line before where it says the errors
+
+0:19:30.029,0:19:34.289
+because that's where you actually made
+
+0:19:32.190,0:19:35.759
+the mistake it's just the compiler
+
+0:19:34.289,0:19:36.929
+didn't it was able to kind of like
+
+0:19:35.759,0:19:39.119
+handle it for a little while and then it
+
+0:19:36.929,0:19:41.429
+exploded later I was just missing a
+
+0:19:39.119,0:19:44.009
+semicolon up there now there's lots of
+
+0:19:41.429,0:19:45.629
+errors that can be made on if you can
+
+0:19:44.009,0:19:48.269
+figure it out please do figure it out
+
+0:19:45.629,0:19:50.730
+but know that if it's really a stumper
+
+0:19:48.269,0:19:52.930
+the zoom office hours are here to help I
+
+0:19:50.730,0:19:55.450
+so then I've got two functions
+
+0:19:52.930,0:19:57.250
+red and green I want to make one more
+
+0:19:55.450,0:20:00.280
+function I'll just do this with you I
+
+0:19:57.250,0:20:02.710
+called off so what I do is well first I
+
+0:20:00.280,0:20:05.740
+got to stop my simulation I'm gonna show
+
+0:20:02.710,0:20:08.560
+you how I made mine is I just copied red
+
+0:20:05.740,0:20:10.900
+so now I've got a copy of Reds and I've
+
+0:20:08.560,0:20:13.600
+got red red it'd be bad to have two and
+
+0:20:10.900,0:20:16.450
+I'm gonna change this one to off right
+
+0:20:13.600,0:20:19.090
+and for off I just want to take all of
+
+0:20:16.450,0:20:23.050
+the red the green of the blue values and
+
+0:20:19.090,0:20:26.130
+make them zero zero and zero and now
+
+0:20:23.050,0:20:30.250
+what I could do just for fun is I could
+
+0:20:26.130,0:20:35.050
+call my functions so maybe I'll call red
+
+0:20:30.250,0:20:38.770
+I'll delay for a second and then maybe
+
+0:20:35.050,0:20:43.780
+I'll call off and I'll delay for a
+
+0:20:38.770,0:20:46.150
+second and then this loop is gonna
+
+0:20:43.780,0:20:47.980
+continue to get called by the way
+
+0:20:46.150,0:20:49.510
+there's a delay ten down here which
+
+0:20:47.980,0:20:52.300
+doesn't really do much
+
+0:20:49.510,0:20:55.120
+it says minor delay to improve the
+
+0:20:52.300,0:20:56.710
+performance of the simulation it doesn't
+
+0:20:55.120,0:20:58.420
+do any harm so I'm gonna leave it down
+
+0:20:56.710,0:21:01.090
+there but it also doesn't really do
+
+0:20:58.420,0:21:02.140
+anything useful I'm speaking which I'm
+
+0:21:01.090,0:21:04.120
+gonna go and clean up some of my
+
+0:21:02.140,0:21:06.220
+comments so I'm gonna go ahead and
+
+0:21:04.120,0:21:07.750
+delete my off you can leave comments in
+
+0:21:06.220,0:21:11.020
+there if you want but but they're not
+
+0:21:07.750,0:21:12.460
+really necessary so I thought I just but
+
+0:21:11.020,0:21:15.220
+what you can do here is you can see how
+
+0:21:12.460,0:21:17.650
+you can mix the functions you write with
+
+0:21:15.220,0:21:20.410
+the functions that are like built-in so
+
+0:21:17.650,0:21:22.540
+I'm calling my function red to turn on
+
+0:21:20.410,0:21:24.810
+the red light and then I'm calling a
+
+0:21:22.540,0:21:27.610
+built-in function called delay delay
+
+0:21:24.810,0:21:30.120
+causes some number of like millisecond
+
+0:21:27.610,0:21:33.190
+delays here it's causing a thousand
+
+0:21:30.120,0:21:35.620
+milliseconds thousand milliseconds one
+
+0:21:33.190,0:21:38.620
+second so it should be on and then just
+
+0:21:35.620,0:21:42.010
+wait for a second and then turn off and
+
+0:21:38.620,0:21:44.560
+then just wait for a second so if I run
+
+0:21:42.010,0:21:46.930
+this right now you can see that it
+
+0:21:44.560,0:21:51.220
+should turn red for a second and then
+
+0:21:46.930,0:21:53.830
+off for a second cool and if you wanted
+
+0:21:51.220,0:21:55.870
+it to flash faster I mean you can pick
+
+0:21:53.830,0:21:58.450
+the flashing speed but you could change
+
+0:21:55.870,0:22:01.390
+that number 1000 to a smaller number and
+
+0:21:58.450,0:22:02.890
+that would make it flash fast right so
+
+0:22:01.390,0:22:05.530
+if I did 500 there
+
+0:22:02.890,0:22:07.240
+I would be 500 milliseconds which would
+
+0:22:05.530,0:22:08.710
+be like half a second on out and second
+
+0:22:07.240,0:22:11.920
+off and so it would just kind of flash
+
+0:22:08.710,0:22:14.230
+faster you can leave the code at
+
+0:22:11.920,0:22:16.660
+whatever state you would like I'm gonna
+
+0:22:14.230,0:22:18.190
+leave mine right here I'll warn you that
+
+0:22:16.660,0:22:19.600
+some things we're gonna do later are
+
+0:22:18.190,0:22:21.940
+gonna kind of build on this so if you
+
+0:22:19.600,0:22:24.100
+wanted to make it crazy that's fine
+
+0:22:21.940,0:22:26.680
+but make sure it's not too crazy because
+
+0:22:24.100,0:22:30.460
+we are going to build on this so this is
+
+0:22:26.680,0:22:32.440
+the first of our topics functions and
+
+0:22:30.460,0:22:35.320
+now we're gonna learn about some more
+
+0:22:32.440,0:22:36.520
+more things in programming who actually
+
+0:22:35.320,0:22:38.320
+I want to do more with functions first
+
+0:22:36.520,0:22:41.650
+let's do this this will be fun let's
+
+0:22:38.320,0:22:45.400
+make a function that receives arguments
+
+0:22:41.650,0:22:47.230
+so you see how this delay received an
+
+0:22:45.400,0:22:50.710
+argument it received this argument of
+
+0:22:47.230,0:22:54.040
+500 and that told it a function do use
+
+0:22:50.710,0:22:55.600
+this argument to do your job and you'll
+
+0:22:54.040,0:22:57.490
+notice that there's 10 motive here it
+
+0:22:55.600,0:22:59.290
+has two arguments you can pass arguments
+
+0:22:57.490,0:23:02.500
+in two functions let's create a function
+
+0:22:59.290,0:23:04.120
+that receives arguments now normally I
+
+0:23:02.500,0:23:06.730
+would put mine at the very bottom on my
+
+0:23:04.120,0:23:08.050
+page but I'll tell you what just to kind
+
+0:23:06.730,0:23:10.090
+of keep all my functions together I'm
+
+0:23:08.050,0:23:11.650
+gonna put it right below the loop it
+
+0:23:10.090,0:23:14.170
+doesn't matter where you put your
+
+0:23:11.650,0:23:16.570
+function Arduino is really nice about
+
+0:23:14.170,0:23:22.330
+letting me put them in order let's make
+
+0:23:16.570,0:23:24.070
+a function called RGB sometimes whatever
+
+0:23:22.330,0:23:26.650
+I name my functions they use really long
+
+0:23:24.070,0:23:28.780
+names but I'm trying to keep it short I
+
+0:23:26.650,0:23:30.820
+just because I know that typing isn't as
+
+0:23:28.780,0:23:33.460
+easy for everybody right now
+
+0:23:30.820,0:23:36.040
+RGB this is my new function it's going
+
+0:23:33.460,0:23:40.000
+to receive some parameters it's gonna
+
+0:23:36.040,0:23:42.430
+receive an integer number called our
+
+0:23:40.000,0:23:45.100
+arms gonna represent how much red do you
+
+0:23:42.430,0:23:49.720
+want it's gonna receive an integer
+
+0:23:45.100,0:23:51.490
+number called G and it's gonna probably
+
+0:23:49.720,0:23:55.630
+no surprise receive an integer number
+
+0:23:51.490,0:23:58.270
+called V after you type those you have
+
+0:23:55.630,0:23:59.650
+to type the opening curly brace and then
+
+0:23:58.270,0:24:02.170
+the closing curly brace
+
+0:23:59.650,0:24:04.390
+now this opening curly brace and closing
+
+0:24:02.170,0:24:07.450
+curly brace these are because the
+
+0:24:04.390,0:24:08.680
+language we're using is the C
+
+0:24:07.450,0:24:10.960
+programming language
+
+0:24:08.680,0:24:12.940
+technically it's C++ but as far as
+
+0:24:10.960,0:24:14.620
+you're concerned it's it's C so you're
+
+0:24:12.940,0:24:16.240
+learning the programming language you
+
+0:24:14.620,0:24:20.470
+see if you're using
+
+0:24:16.240,0:24:22.030
+like Python or Java or JavaScript they
+
+0:24:20.470,0:24:24.130
+might have different rules for the
+
+0:24:22.030,0:24:25.809
+syntax but you just kind of have to get
+
+0:24:24.130,0:24:27.970
+used to the syntax whatever language you
+
+0:24:25.809,0:24:30.070
+learn i I know literally like 20
+
+0:24:27.970,0:24:31.600
+different languages and it's not hard to
+
+0:24:30.070,0:24:33.070
+jump from language to language computer
+
+0:24:31.600,0:24:35.440
+programming language it's not not like
+
+0:24:33.070,0:24:37.030
+German but they just all have their own
+
+0:24:35.440,0:24:39.670
+little sin taxes but they all have a lot
+
+0:24:37.030,0:24:42.820
+of the same concepts so here's this
+
+0:24:39.670,0:24:45.340
+function and it receives three arguments
+
+0:24:42.820,0:24:47.080
+RG and B before we even write the
+
+0:24:45.340,0:24:49.059
+insides of this function let's call it
+
+0:24:47.080,0:24:51.280
+and see kind of how it works here's what
+
+0:24:49.059,0:24:55.320
+I want to do right now I'm always making
+
+0:24:51.280,0:24:59.080
+my light be red I'm gonna switch it to
+
+0:24:55.320,0:25:02.620
+use my function RGB and what I'm gonna
+
+0:24:59.080,0:25:05.170
+do is I don't know maybe I'll use a fair
+
+0:25:02.620,0:25:07.929
+amount of red I just kind of picked a
+
+0:25:05.170,0:25:09.490
+number I did 180 so a fair amount of red
+
+0:25:07.929,0:25:12.280
+I know
+
+0:25:09.490,0:25:14.830
+blue I should use do something to make
+
+0:25:12.280,0:25:18.190
+it not be the same red so I chose to do
+
+0:25:14.830,0:25:19.059
+a fair amount of red so like 2/3 of red
+
+0:25:18.190,0:25:23.200
+or something like that
+
+0:25:19.059,0:25:25.990
+no green and then an equal amount of
+
+0:25:23.200,0:25:27.640
+blue as I did red McKinlay do you know
+
+0:25:25.990,0:25:30.700
+what an equal amount of red and blue
+
+0:25:27.640,0:25:32.800
+with no green would cause purple she's
+
+0:25:30.700,0:25:35.860
+on it so right now this is gonna cause
+
+0:25:32.800,0:25:38.740
+purple now if I were to run my program
+
+0:25:35.860,0:25:40.540
+right now it would do nothing because it
+
+0:25:38.740,0:25:44.500
+would call this function it would pass
+
+0:25:40.540,0:25:46.600
+in 180 + 0 + 180 but then my function is
+
+0:25:44.500,0:25:49.900
+blind right so we need to write the
+
+0:25:46.600,0:25:52.240
+inside of this function because I'm lazy
+
+0:25:49.900,0:25:54.880
+it's going to be similar to these other
+
+0:25:52.240,0:25:57.820
+functions so I'm going to do a ctrl C
+
+0:25:54.880,0:26:01.570
+and a ctrl V to kind of type most of it
+
+0:25:57.820,0:26:04.120
+now the one that I copied from was off
+
+0:26:01.570,0:26:07.030
+right but here's what I want to change
+
+0:26:04.120,0:26:11.970
+and off is set those three values to 0 0
+
+0:26:07.030,0:26:16.270
+and 0 now I want to set them to our G
+
+0:26:11.970,0:26:18.790
+and B and so this is an important
+
+0:26:16.270,0:26:22.000
+concept that for how functions work so
+
+0:26:18.790,0:26:26.470
+you call the function or G B you pass in
+
+0:26:22.000,0:26:29.100
+180 0 180 and then the computer goes and
+
+0:26:26.470,0:26:31.080
+runs that function and the
+
+0:26:29.100,0:26:34.169
+you for our is whatever you passed in
+
+0:26:31.080,0:26:36.570
+first which is the 180 G is second which
+
+0:26:34.169,0:26:38.820
+is the zero and then B is the last one
+
+0:26:36.570,0:26:41.039
+which happens to also be a 180 so if I
+
+0:26:38.820,0:26:44.610
+run this program now it should flash
+
+0:26:41.039,0:26:47.480
+with the purple LED and sure enough I
+
+0:26:44.610,0:26:50.580
+run it and it's this cool purple color
+
+0:26:47.480,0:26:52.830
+now just for fun I want you to make up
+
+0:26:50.580,0:26:56.990
+your own color so here's what I think
+
+0:26:52.830,0:27:01.679
+would be fun so open up a new tab in
+
+0:26:56.990,0:27:05.909
+your new tab I do a search for color
+
+0:27:01.679,0:27:08.280
+picker now from color picker what you
+
+0:27:05.909,0:27:10.650
+can do is so I got a hit this is
+
+0:27:08.280,0:27:13.289
+Google's color picker what you can do is
+
+0:27:10.650,0:27:14.669
+you can pick any color you want and
+
+0:27:13.289,0:27:17.669
+notice down here we're showing you an
+
+0:27:14.669,0:27:20.520
+RGB value let's say I wanted just like
+
+0:27:17.669,0:27:22.380
+this perfect shade of purple hottest is
+
+0:27:20.520,0:27:27.780
+pretty good shade right here well this
+
+0:27:22.380,0:27:31.230
+specific shade of purple is 128 87 212
+
+0:27:27.780,0:27:36.929
+so I'm going to take that color and I'm
+
+0:27:31.230,0:27:40.440
+gonna pop that color into my code and
+
+0:27:36.929,0:27:42.840
+now my code should show exactly that
+
+0:27:40.440,0:27:44.400
+shade of purple now this is why we're
+
+0:27:42.840,0:27:46.260
+using the simulator today because in the
+
+0:27:44.400,0:27:48.960
+real world it's not exactly the same
+
+0:27:46.260,0:27:51.750
+shade of purple but that color
+
+0:27:48.960,0:27:53.580
+combination of red green blue should
+
+0:27:51.750,0:27:56.820
+show up and make essentially that single
+
+0:27:53.580,0:27:59.039
+pixel purple it looks like they're and
+
+0:27:56.820,0:28:01.650
+they're the exact same so pause the
+
+0:27:59.039,0:28:03.960
+video use a color picker maybe the color
+
+0:28:01.650,0:28:06.240
+picker that Google had here and pick
+
+0:28:03.960,0:28:08.159
+your very favorite color and see if you
+
+0:28:06.240,0:28:10.289
+can make your LED show up in your very
+
+0:28:08.159,0:28:12.000
+favorite color alright McKinley did you
+
+0:28:10.289,0:28:13.740
+get yours yeah alright let's see what
+
+0:28:12.000,0:28:15.539
+you got I'll color did you pick what's
+
+0:28:13.740,0:28:20.340
+what's Mike Emily's favorite is color in
+
+0:28:15.539,0:28:21.870
+the whole world so right there this is
+
+0:28:20.340,0:28:22.289
+McKinley's favorite color in the whole
+
+0:28:21.870,0:28:24.120
+world
+
+0:28:22.289,0:28:25.799
+yeah really people instead assign like
+
+0:28:24.120,0:28:27.330
+the name like turquoise or teal they
+
+0:28:25.799,0:28:28.500
+should just say that the RGB color
+
+0:28:27.330,0:28:33.120
+combination do you think it's gonna
+
+0:28:28.500,0:28:36.150
+catch on yeah alright let's do some more
+
+0:28:33.120,0:28:39.000
+stuff so that was functions and
+
+0:28:36.150,0:28:42.940
+functions with arguments now let's learn
+
+0:28:39.000,0:28:44.530
+about variables variables are important
+
+0:28:42.940,0:28:47.830
+here's what we need to do so scroll to
+
+0:28:44.530,0:28:50.590
+the very very top and make yourself a
+
+0:28:47.830,0:28:52.840
+couple lines above the set up even right
+
+0:28:50.590,0:28:55.690
+to the very very top so what we want to
+
+0:28:52.840,0:28:58.480
+do is we're going to make a variable
+
+0:28:55.690,0:29:01.150
+that's available for the whole program
+
+0:28:58.480,0:29:04.450
+and the variable is going to be an
+
+0:29:01.150,0:29:05.980
+integer type variable so int is what you
+
+0:29:04.450,0:29:10.110
+say whenever you have an integer type
+
+0:29:05.980,0:29:12.700
+variable and it's gonna be for a red
+
+0:29:10.110,0:29:14.470
+potentiometer now because I know you
+
+0:29:12.700,0:29:17.050
+don't like typing much instead of typing
+
+0:29:14.470,0:29:19.750
+like red potentiometer value I'm going
+
+0:29:17.050,0:29:22.960
+to call this variable our pot where the
+
+0:29:19.750,0:29:23.920
+P is a capital P now as you might guess
+
+0:29:22.960,0:29:26.950
+we're probably gonna have a
+
+0:29:23.920,0:29:29.530
+potentiometer for green as well as a
+
+0:29:26.950,0:29:33.640
+potentiometer for blue so let's go ahead
+
+0:29:29.530,0:29:37.420
+and prepare three variables our pot G
+
+0:29:33.640,0:29:39.430
+pot and B pot now when you declare a
+
+0:29:37.420,0:29:40.740
+variable what it does so what is it
+
+0:29:39.430,0:29:44.500
+variables really works it straight a
+
+0:29:40.740,0:29:46.900
+variable is a number that your computer
+
+0:29:44.500,0:29:49.060
+knows about and it can be saved to your
+
+0:29:46.900,0:29:51.790
+computer and then changed and use later
+
+0:29:49.060,0:29:54.460
+now there's three steps in a variable
+
+0:29:51.790,0:29:56.770
+one is you have to declare that it
+
+0:29:54.460,0:29:58.720
+exists which is what we've done here you
+
+0:29:56.770,0:30:01.300
+have to somehow set or change its value
+
+0:29:58.720,0:30:03.310
+and then you have to use it somewhere so
+
+0:30:01.300,0:30:06.250
+those are kind of the three parts now if
+
+0:30:03.310,0:30:08.200
+I wanted I could set the variables
+
+0:30:06.250,0:30:10.840
+initial value right here at the top to
+
+0:30:08.200,0:30:13.030
+be zero I don't care if you type that or
+
+0:30:10.840,0:30:15.340
+not because to be honest we're gonna
+
+0:30:13.030,0:30:16.660
+change it inside of our code so if you
+
+0:30:15.340,0:30:19.120
+wanted to you could say it's equal to
+
+0:30:16.660,0:30:21.040
+zero right now or you could leave it off
+
+0:30:19.120,0:30:22.570
+and it just doesn't matter the important
+
+0:30:21.040,0:30:24.160
+thing is that we're warning the computer
+
+0:30:22.570,0:30:27.130
+hey I'm gonna have a variable that I'm
+
+0:30:24.160,0:30:28.450
+gonna use and here is it today so now
+
+0:30:27.130,0:30:31.300
+let's go ahead and use this variable
+
+0:30:28.450,0:30:35.250
+here's what we want to do inside the
+
+0:30:31.300,0:30:39.220
+loop at the very top line we want to set
+
+0:30:35.250,0:30:42.430
+our pot to be something and what we want
+
+0:30:39.220,0:30:44.440
+to do is we want to read on an analog
+
+0:30:42.430,0:30:47.740
+pin that we haven't made yet we want to
+
+0:30:44.440,0:30:51.940
+read it so let's go ahead and say analog
+
+0:30:47.740,0:30:54.809
+read and we're going to wire up a
+
+0:30:51.940,0:31:00.289
+potentiometer to go to analog value
+
+0:30:54.809,0:31:03.600
+zero so our pot equals analog read zero
+
+0:31:00.289,0:31:05.909
+so analog read is a function we've been
+
+0:31:03.600,0:31:07.649
+learning about functions right analog
+
+0:31:05.909,0:31:10.409
+read is a function which receives an
+
+0:31:07.649,0:31:13.019
+argument this argument says hey which
+
+0:31:10.409,0:31:14.190
+which pin do I want to go read and we're
+
+0:31:13.019,0:31:18.809
+going to read this one right here it's
+
+0:31:14.190,0:31:21.120
+it's our a zero cool screen and our a
+
+0:31:18.809,0:31:22.860
+zero is going to return something now we
+
+0:31:21.120,0:31:24.870
+haven't had a function returned anything
+
+0:31:22.860,0:31:28.019
+yet this is a first for us but it's
+
+0:31:24.870,0:31:32.669
+going to return a number from 0 to 1023
+
+0:31:28.019,0:31:34.139
+as the range so 1023 1023 is a special
+
+0:31:32.669,0:31:36.539
+number in binary but we're not going to
+
+0:31:34.139,0:31:38.519
+get into binary today and that return
+
+0:31:36.539,0:31:40.049
+value is what the functions can do so
+
+0:31:38.519,0:31:42.450
+our function so we wrote they say
+
+0:31:40.049,0:31:42.899
+bullying Boyd is like nothing that's
+
+0:31:42.450,0:31:44.820
+right
+
+0:31:42.899,0:31:47.220
+so our functions that we wrote return
+
+0:31:44.820,0:31:50.759
+nothing but this one actually returns an
+
+0:31:47.220,0:31:53.039
+integer now let's go make that
+
+0:31:50.759,0:31:55.110
+potentiometer so that we can actually
+
+0:31:53.039,0:31:56.129
+read that value and I can get some
+
+0:31:55.110,0:31:57.600
+numbers so let's go make the
+
+0:31:56.129,0:32:00.149
+potentiometer so hide the code for a
+
+0:31:57.600,0:32:02.220
+second and let's go ahead and make a
+
+0:32:00.149,0:32:03.690
+potentiometer you could search for it
+
+0:32:02.220,0:32:05.009
+but I actually see the potentiometer
+
+0:32:03.690,0:32:09.210
+right here so I'm gonna single click on
+
+0:32:05.009,0:32:10.529
+it over here I'm gonna rotate it and I'm
+
+0:32:09.210,0:32:13.409
+gonna stick it on my board I'm gonna
+
+0:32:10.529,0:32:15.090
+stick mine looks like ro8 doesn't really
+
+0:32:13.409,0:32:16.379
+matter where you put it but I'm gonna
+
+0:32:15.090,0:32:18.749
+put it kind of up there so they've got
+
+0:32:16.379,0:32:21.059
+more space in my board and I am gonna
+
+0:32:18.749,0:32:23.820
+add three of these things so you can
+
+0:32:21.059,0:32:26.999
+just drag three over or if you like to
+
+0:32:23.820,0:32:29.730
+do copy paste you can highlight it and
+
+0:32:26.999,0:32:31.919
+hit control C and then you can hit
+
+0:32:29.730,0:32:33.899
+control V and pop three of them on there
+
+0:32:31.919,0:32:37.409
+alright so there they are one two three
+
+0:32:33.899,0:32:38.940
+ah they're a little crowded towards the
+
+0:32:37.409,0:32:40.950
+top but that it doesn't really matter
+
+0:32:38.940,0:32:42.539
+there's gonna be a one more switch
+
+0:32:40.950,0:32:45.389
+coming later so you can space them out a
+
+0:32:42.539,0:32:48.690
+little one so here's how 10 Xiamen works
+
+0:32:45.389,0:32:50.309
+a potentiometer is like a knob right so
+
+0:32:48.690,0:32:52.590
+like you think of like a sound board has
+
+0:32:50.309,0:32:55.049
+got all these knobs and these knobs send
+
+0:32:52.590,0:32:58.559
+a signal to the microcontroller that's
+
+0:32:55.049,0:33:01.110
+between like 0 to 5 volts and so on the
+
+0:32:58.559,0:33:03.509
+top of the potentiometer you put what
+
+0:33:01.110,0:33:06.960
+the highest extreme is so I'm going to
+
+0:33:03.509,0:33:08.549
+connect it to my red rail so I'm going
+
+0:33:06.960,0:33:11.039
+to connect it to my red
+
+0:33:08.549,0:33:15.089
+I'm gonna actually do all three of their
+
+0:33:11.039,0:33:16.859
+tops first so that says hey when the
+
+0:33:15.089,0:33:19.289
+when the dial is turned all the way this
+
+0:33:16.859,0:33:20.729
+way send a five volt signal to my
+
+0:33:19.289,0:33:22.139
+microcontroller it's really neat it's
+
+0:33:20.729,0:33:23.729
+like every time you look at a knob for
+
+0:33:22.139,0:33:25.619
+the rest of your life you'll think about
+
+0:33:23.729,0:33:28.830
+the fact that you're like just setting
+
+0:33:25.619,0:33:32.789
+what signal goes to a micro jewelry and
+
+0:33:28.830,0:33:34.499
+then the bottom goes to ground so if you
+
+0:33:32.789,0:33:40.139
+turn it the other way it just goes to
+
+0:33:34.499,0:33:41.519
+ground and then that middle is the
+
+0:33:40.139,0:33:43.529
+signal that you send to your
+
+0:33:41.519,0:33:46.409
+microcontroller and so I'm going to take
+
+0:33:43.529,0:33:50.639
+this top one and I'm going to send it to
+
+0:33:46.409,0:33:54.209
+a zero and it's going to be controlling
+
+0:33:50.639,0:33:56.039
+how much juice that one kind of crazy
+
+0:33:54.209,0:33:58.889
+it's gonna be controlling how much red
+
+0:33:56.039,0:34:01.979
+there is I hit the shortcut key R that
+
+0:33:58.889,0:34:07.250
+made my wire go nuts and then this
+
+0:34:01.979,0:34:10.020
+second one it's gonna go to a one and
+
+0:34:07.250,0:34:13.409
+since it's gonna be controlling the
+
+0:34:10.020,0:34:17.039
+greenness I'm gonna turn the wire agree
+
+0:34:13.409,0:34:18.389
+now again why our colors don't matter it
+
+0:34:17.039,0:34:21.119
+doesn't matter what color you make the
+
+0:34:18.389,0:34:23.849
+wires but for the hope of triangle I can
+
+0:34:21.119,0:34:25.829
+remember which wire does what I like to
+
+0:34:23.849,0:34:28.440
+make them colors I just to kind of help
+
+0:34:25.829,0:34:30.720
+me out I'm this bottom one surely you've
+
+0:34:28.440,0:34:34.409
+picked up on the pattern it's going to
+
+0:34:30.720,0:34:38.010
+be how much blue value there is which is
+
+0:34:34.409,0:34:40.349
+going to be the the B pot variable cool
+
+0:34:38.010,0:34:42.779
+so we've done some wiring and now we're
+
+0:34:40.349,0:34:45.839
+ready to write some code that actually
+
+0:34:42.779,0:34:48.450
+uses these these deities so we've
+
+0:34:45.839,0:34:51.089
+already read our the value off here if
+
+0:34:48.450,0:34:54.539
+you wanted to run your simulation you
+
+0:34:51.089,0:34:57.119
+totally could it works but the problem
+
+0:34:54.539,0:35:01.230
+is is that we've we've declared this
+
+0:34:57.119,0:35:05.190
+variable our box we've set the value our
+
+0:35:01.230,0:35:06.779
+pot but we haven't used our pot anywhere
+
+0:35:05.190,0:35:08.130
+right so that's why that's what we need
+
+0:35:06.779,0:35:10.559
+to do we need to somehow use that
+
+0:35:08.130,0:35:11.940
+variable what we're gonna do first is
+
+0:35:10.559,0:35:13.470
+we're just kind of print it out
+
+0:35:11.940,0:35:15.270
+that's this just kind of a simple way to
+
+0:35:13.470,0:35:18.750
+start that way we can kind of see the
+
+0:35:15.270,0:35:21.359
+value in order to do printing say this
+
+0:35:18.750,0:35:22.260
+word down here this is serial monitor in
+
+0:35:21.359,0:35:25.350
+order to do
+
+0:35:22.260,0:35:28.230
+we have to print things to the serial
+
+0:35:25.350,0:35:31.520
+ports details I don't want to go into
+
+0:35:28.230,0:35:34.110
+but in order to use that serial monitor
+
+0:35:31.520,0:35:37.080
+inside your setup function you need to
+
+0:35:34.110,0:35:39.390
+do some initialization and here's what
+
+0:35:37.080,0:35:44.670
+the initialization looks like you need
+
+0:35:39.390,0:35:46.620
+to type serial dot begin and then you
+
+0:35:44.670,0:35:50.670
+need to give it some speed I'm choosing
+
+0:35:46.620,0:35:52.880
+to give it a speed of 9600 now this
+
+0:35:50.670,0:35:56.940
+function is a little different because
+
+0:35:52.880,0:35:59.490
+it's inside of a library it's inside of
+
+0:35:56.940,0:36:02.160
+the serial library so whatever you call
+
+0:35:59.490,0:36:03.900
+a function inside of the library it's a
+
+0:36:02.160,0:36:05.880
+little bit more complex so you say
+
+0:36:03.900,0:36:10.020
+serial note that it has to be a capital
+
+0:36:05.880,0:36:12.780
+S serial dot begin and so that says hey
+
+0:36:10.020,0:36:15.240
+call this function begin look for it
+
+0:36:12.780,0:36:18.750
+inside the Sira library and pass to it
+
+0:36:15.240,0:36:21.390
+the argument nine six zero zero and that
+
+0:36:18.750,0:36:23.910
+says how fast to do communication that
+
+0:36:21.390,0:36:25.860
+actually stands for 9,600 bits per
+
+0:36:23.910,0:36:27.840
+second details details
+
+0:36:25.860,0:36:30.120
+now what I want to do is I want to use
+
+0:36:27.840,0:36:35.730
+my serial library so I'm going to say
+
+0:36:30.120,0:36:38.480
+serial dot print we're gonna use serial
+
+0:36:35.730,0:36:42.150
+dot print and we're gonna use serial dot
+
+0:36:38.480,0:36:44.820
+print L in today and we'll also use them
+
+0:36:42.150,0:36:47.700
+tomorrow print means display to the
+
+0:36:44.820,0:36:49.950
+console and println scenes to play it to
+
+0:36:47.700,0:36:51.300
+the console and then go to a new line so
+
+0:36:49.950,0:36:54.930
+the first thing I want to do is I want
+
+0:36:51.300,0:36:58.530
+to just put a little a little label on
+
+0:36:54.930,0:37:02.190
+here so I'm gonna say your are reading
+
+0:36:58.530,0:37:04.140
+is so I'm kind of preparing it and then
+
+0:37:02.190,0:37:07.910
+on the next line I'm gonna actually hit
+
+0:37:04.140,0:37:10.620
+them with the value so I typed that fast
+
+0:37:07.910,0:37:11.430
+but you can look at it and then you can
+
+0:37:10.620,0:37:14.850
+type it as well
+
+0:37:11.430,0:37:16.680
+so when this works
+
+0:37:14.850,0:37:17.790
+yeah when not if this works but when
+
+0:37:16.680,0:37:21.840
+this works here's what's going to happen
+
+0:37:17.790,0:37:25.110
+it's going to read the analog value the
+
+0:37:21.840,0:37:26.910
+analog values are from 0 to 1023 right
+
+0:37:25.110,0:37:28.860
+now it's pointing right at the 0 so it's
+
+0:37:26.910,0:37:31.200
+going to be 0 to start with but as I
+
+0:37:28.860,0:37:33.540
+turn this knob so like as I dial it up
+
+0:37:31.200,0:37:36.030
+this value is going to get closer and
+
+0:37:33.540,0:37:38.270
+closer to 10 23 now it's interesting
+
+0:37:36.030,0:37:42.510
+that the voltage is from zero to five
+
+0:37:38.270,0:37:44.250
+but analog readings display from 0 to
+
+0:37:42.510,0:37:46.020
+1023 so if it's like two and a half
+
+0:37:44.250,0:37:48.660
+volts that's right in the middle which
+
+0:37:46.020,0:37:50.670
+would be like a 512 I will see it once
+
+0:37:48.660,0:37:52.530
+we get into it and you'll also notice
+
+0:37:50.670,0:37:54.540
+that here I say print which means like
+
+0:37:52.530,0:37:57.210
+keep me on the same line and then here I
+
+0:37:54.540,0:38:00.510
+say println which means like go down to
+
+0:37:57.210,0:38:01.920
+the next line for the frit next tile so
+
+0:38:00.510,0:38:04.740
+when you're ready click on start
+
+0:38:01.920,0:38:07.590
+simulation and then click on serum
+
+0:38:04.740,0:38:10.050
+monitor here and you can see that it
+
+0:38:07.590,0:38:12.180
+says R equals and then mines is printing
+
+0:38:10.050,0:38:13.320
+out a whole bunch of zeros now what I
+
+0:38:12.180,0:38:15.960
+want to do is I'm going to turn this
+
+0:38:13.320,0:38:18.180
+knob so I turn it to roughly the middle
+
+0:38:15.960,0:38:21.120
+of Europe roughly the middle looks like
+
+0:38:18.180,0:38:22.770
+it's 511 and then if I was to take this
+
+0:38:21.120,0:38:24.480
+knob and I even kind of like click it
+
+0:38:22.770,0:38:27.510
+and drag it and I was to turn the knob
+
+0:38:24.480,0:38:29.610
+all the way up it would show me 10 23
+
+0:38:27.510,0:38:32.370
+and you can see that there's a lot of
+
+0:38:29.610,0:38:36.300
+different values in between and the pace
+
+0:38:32.370,0:38:37.980
+at which it prints I depends on how long
+
+0:38:36.300,0:38:40.620
+your loop is here so that's why I kept
+
+0:38:37.980,0:38:43.550
+my loop pretty short so here's the
+
+0:38:40.620,0:38:48.720
+challenge for you we currently are
+
+0:38:43.550,0:38:51.720
+reading analog 0 so a 0 right here we're
+
+0:38:48.720,0:38:53.610
+saving that value off to our pots and
+
+0:38:51.720,0:38:55.800
+then we're printing it but see if you
+
+0:38:53.610,0:38:58.040
+can copy these lines of code so this
+
+0:38:55.800,0:39:01.710
+chunk so make two more copies of it and
+
+0:38:58.040,0:39:04.430
+modify it so that it prints the red the
+
+0:39:01.710,0:39:07.020
+green and the blue all on a single line
+
+0:39:04.430,0:39:08.880
+and then print them and goes to the next
+
+0:39:07.020,0:39:10.170
+line after so I'm going to pause the
+
+0:39:08.880,0:39:13.800
+video I'm going to see if you can do
+
+0:39:10.170,0:39:16.140
+that task all on earth alright so I'm
+
+0:39:13.800,0:39:18.150
+working on my not done yet so I did what
+
+0:39:16.140,0:39:19.800
+you probably did is I copied this and I
+
+0:39:18.150,0:39:24.150
+kind of pasted it two more times
+
+0:39:19.800,0:39:26.730
+I switched our pop to BG pops I had two
+
+0:39:24.150,0:39:28.140
+places and then B pot in two places and
+
+0:39:26.730,0:39:29.820
+then G to be here and the B to be here
+
+0:39:28.140,0:39:31.740
+now what some people miss this they
+
+0:39:29.820,0:39:34.590
+forget to change this what pan am I
+
+0:39:31.740,0:39:38.310
+reading so we want to read pin 0 for red
+
+0:39:34.590,0:39:39.900
+and then pin 1 and then pin 2 now I
+
+0:39:38.310,0:39:40.510
+could run it and it'll work now but it
+
+0:39:39.900,0:39:43.240
+has one
+
+0:39:40.510,0:39:45.370
+problem one one bun and that's that it
+
+0:39:43.240,0:39:49.450
+kind of is hard to read because it
+
+0:39:45.370,0:39:51.760
+prints RGB and RGB it would be better if
+
+0:39:49.450,0:39:54.100
+they were all printed like on one line
+
+0:39:51.760,0:39:55.930
+right so our G and B were one line and
+
+0:39:54.100,0:39:57.670
+the next time it's all online
+
+0:39:55.930,0:39:59.620
+McKinley do you have any ideas for how
+
+0:39:57.670,0:40:00.720
+we can make a print all on one line any
+
+0:39:59.620,0:40:06.880
+ideas
+
+0:40:00.720,0:40:10.180
+not yet so L n stands for like line so
+
+0:40:06.880,0:40:12.280
+print line and this L n on this one is
+
+0:40:10.180,0:40:16.480
+causing it to go to a new line just take
+
+0:40:12.280,0:40:18.130
+off the Ln this one LM on this one is
+
+0:40:16.480,0:40:20.500
+making go to a new line so take off that
+
+0:40:18.130,0:40:22.180
+one as well we only want it in one place
+
+0:40:20.500,0:40:24.790
+we want it after blue
+
+0:40:22.180,0:40:27.300
+so after blue prints then go to a new
+
+0:40:24.790,0:40:29.560
+line it's a Mac and try it again
+
+0:40:27.300,0:40:31.240
+so now hold by the way you can always
+
+0:40:29.560,0:40:34.060
+click on clear if you want a clear zero
+
+0:40:31.240,0:40:39.100
+monitor so now it's displaying the value
+
+0:40:34.060,0:40:40.420
+of my red green and blue domitor you can
+
+0:40:39.100,0:40:42.490
+play with the formatting to your heart's
+
+0:40:40.420,0:40:44.890
+content like it might look better for me
+
+0:40:42.490,0:40:47.380
+I don't know maybe be in my eyes if I
+
+0:40:44.890,0:40:50.260
+didn't have a space after the equals but
+
+0:40:47.380,0:40:52.600
+I had extra space before the the label
+
+0:40:50.260,0:40:53.710
+doesn't matter right you you decide how
+
+0:40:52.600,0:40:55.420
+it looks good for you
+
+0:40:53.710,0:40:56.560
+and then once you've got a system that
+
+0:40:55.420,0:40:57.970
+you think looks good then you can play
+
+0:40:56.560,0:41:00.490
+with it now try turning these
+
+0:40:57.970,0:41:02.790
+potentiometers so if I take red all the
+
+0:41:00.490,0:41:05.950
+way up I can see that it goes to 1023
+
+0:41:02.790,0:41:07.810
+if I crank green all the way up I can
+
+0:41:05.950,0:41:10.450
+see that it gets up to ten twenty three
+
+0:41:07.810,0:41:12.250
+and then if I take blue all the way up I
+
+0:41:10.450,0:41:15.610
+can see that it goes to ten twenty three
+
+0:41:12.250,0:41:18.730
+this is a very good test because if you
+
+0:41:15.610,0:41:20.800
+are not seeing this then something's
+
+0:41:18.730,0:41:23.830
+wrong I mean need to fix that before
+
+0:41:20.800,0:41:26.350
+going on to the next step right so there
+
+0:41:23.830,0:41:28.030
+are blues in the middle and then here it
+
+0:41:26.350,0:41:30.970
+loses the bottom but you should be able
+
+0:41:28.030,0:41:32.500
+to turn these knobs and here I do find
+
+0:41:30.970,0:41:33.940
+it's actually easier to kind of drag
+
+0:41:32.500,0:41:36.880
+them around usually I don't drag
+
+0:41:33.940,0:41:38.380
+anything but if you turn these knobs you
+
+0:41:36.880,0:41:40.930
+should be able to see the values of
+
+0:41:38.380,0:41:42.910
+these knobs if you've got that working
+
+0:41:40.930,0:41:44.440
+then you're ready for the next step if
+
+0:41:42.910,0:41:46.840
+you don't have that working I do
+
+0:41:44.440,0:41:49.900
+recommend that you kind of pause I until
+
+0:41:46.840,0:41:51.280
+it's working right so now what do we
+
+0:41:49.900,0:41:53.430
+want to do is the next step what I
+
+0:41:51.280,0:41:56.590
+really want to do is I want to use these
+
+0:41:53.430,0:42:00.400
+to control my LED right so that I can
+
+0:41:56.590,0:42:03.340
+like live update what color is so that's
+
+0:42:00.400,0:42:05.470
+almost going to work almost so here's
+
+0:42:03.340,0:42:08.440
+what almost works let's go ahead and do
+
+0:42:05.470,0:42:11.530
+this together take your line of code
+
+0:42:08.440,0:42:17.520
+where you put in your favorite color and
+
+0:42:11.530,0:42:19.600
+comment it out and instead type RGB and
+
+0:42:17.520,0:42:23.680
+the three parameters you're going to
+
+0:42:19.600,0:42:28.990
+pass in are going to be our pot G pot
+
+0:42:23.680,0:42:31.930
+and B pots so this is almost going to
+
+0:42:28.990,0:42:33.340
+work but not point so what this would do
+
+0:42:31.930,0:42:35.050
+is it would take that potentiometer
+
+0:42:33.340,0:42:36.820
+value and pass it into your function as
+
+0:42:35.050,0:42:39.990
+well as your green and your blue now
+
+0:42:36.820,0:42:43.690
+here's the the one trouble is our pot
+
+0:42:39.990,0:42:46.390
+potentiometer goes from 0 to 1023 right
+
+0:42:43.690,0:42:48.010
+or a thousand 23 whereas this function
+
+0:42:46.390,0:42:51.520
+down here analog right
+
+0:42:48.010,0:42:54.040
+it only gets values from 0 to 255 so
+
+0:42:51.520,0:42:55.270
+they're a different range so it's kind
+
+0:42:54.040,0:42:57.220
+of like if I said hey McKinley gets the
+
+0:42:55.270,0:42:59.650
+number from 1 to 10 and she says 87
+
+0:42:57.220,0:43:02.320
+really that's not that's not a valid
+
+0:42:59.650,0:43:06.609
+range so what we've got to do is this it
+
+0:43:02.320,0:43:08.500
+is actually only a divided by 4 away
+
+0:43:06.609,0:43:09.910
+from being in the correct range so
+
+0:43:08.500,0:43:13.390
+here's what I'm going to do I'm going to
+
+0:43:09.910,0:43:15.070
+take our pot and before I pass it into
+
+0:43:13.390,0:43:18.369
+the function I'm going to take our pot
+
+0:43:15.070,0:43:20.020
+and divide it by 4 and then that is what
+
+0:43:18.369,0:43:22.450
+I'm going to pass in the function so if
+
+0:43:20.020,0:43:24.850
+the potentiometer says a thousand that
+
+0:43:22.450,0:43:28.690
+I'm going to tell the function 250 right
+
+0:43:24.850,0:43:30.760
+so it's a scaling system so now when I
+
+0:43:28.690,0:43:33.540
+run it so I hit start simulation
+
+0:43:30.760,0:43:36.460
+why don't you do is it should use my
+
+0:43:33.540,0:43:38.290
+potentiometer to decide what color it is
+
+0:43:36.460,0:43:40.660
+so right now I've got just a little bit
+
+0:43:38.290,0:43:43.119
+of blue and so that kind of looks purple
+
+0:43:40.660,0:43:45.640
+needed me but it supposably blue if I
+
+0:43:43.119,0:43:48.670
+crank blue all the way up you can see I
+
+0:43:45.640,0:43:50.490
+get a nice crisp blue if I take red and
+
+0:43:48.670,0:43:52.750
+crank it all the way up I get a purple
+
+0:43:50.490,0:43:55.300
+and then if I take green all the way up
+
+0:43:52.750,0:43:57.700
+as well I get a white right if I take
+
+0:43:55.300,0:43:59.950
+the blue out of the equation red and
+
+0:43:57.700,0:44:02.230
+green make yellow and it's a neat way to
+
+0:43:59.950,0:44:04.390
+kind of like play with different color
+
+0:44:02.230,0:44:06.880
+combinations now to be honest it's
+
+0:44:04.390,0:44:09.519
+probably easier to play with tools
+
+0:44:06.880,0:44:12.039
+like the color chooser that you had on
+
+0:44:09.519,0:44:14.259
+Google but with this like and you can
+
+0:44:12.039,0:44:16.000
+imagine building it you can turn these
+
+0:44:14.259,0:44:18.460
+knobs and you can tweak to get whatever
+
+0:44:16.000,0:44:20.710
+color you want so see if you can get
+
+0:44:18.460,0:44:23.109
+that together I'm gonna help my camper
+
+0:44:20.710,0:44:23.910
+out and then we'll move on to the next
+
+0:44:23.109,0:44:26.529
+step
+
+0:44:23.910,0:44:29.079
+all right so we're doing good so we've
+
+0:44:26.529,0:44:31.690
+learned the big picture concept of
+
+0:44:29.079,0:44:34.569
+functions we've learned the big picture
+
+0:44:31.690,0:44:37.180
+concept of variables so you saved some
+
+0:44:34.569,0:44:39.309
+value off and then here we're printing
+
+0:44:37.180,0:44:41.140
+it and then we're also using it to
+
+0:44:39.309,0:44:43.150
+control a color I mean we're having a
+
+0:44:41.140,0:44:46.569
+little fun as well let's go to our next
+
+0:44:43.150,0:44:48.490
+like big concept encoding and that's def
+
+0:44:46.569,0:44:49.539
+statements and the idea is we're kind of
+
+0:44:48.490,0:44:51.849
+showing you some of the big picture
+
+0:44:49.539,0:44:56.079
+concepts we're not going in depth to
+
+0:44:51.849,0:44:59.529
+anybody so right now our LED is flashing
+
+0:44:56.079,0:45:02.710
+and it's flashing because it's being
+
+0:44:59.529,0:45:04.690
+turned on here and then ruins these
+
+0:45:02.710,0:45:07.059
+three lines of code to make it flash
+
+0:45:04.690,0:45:08.829
+right so like let's imagine we had an if
+
+0:45:07.059,0:45:11.529
+statement or maybe we do those three
+
+0:45:08.829,0:45:14.289
+lines of code or maybe we don't that
+
+0:45:11.529,0:45:17.710
+would determine if it's always on or if
+
+0:45:14.289,0:45:19.240
+it's flashing right so our goal is we're
+
+0:45:17.710,0:45:23.529
+going to prep our code a little bit is
+
+0:45:19.240,0:45:28.269
+we're going to say if if some condition
+
+0:45:23.529,0:45:29.859
+is true now the condition in the middle
+
+0:45:28.269,0:45:32.049
+here we're going to read some some
+
+0:45:29.859,0:45:34.539
+analog pin but if some condition is true
+
+0:45:32.049,0:45:36.009
+then we're going to do some stuff before
+
+0:45:34.539,0:45:40.390
+I fill in the condition I'm gonna go and
+
+0:45:36.009,0:45:42.190
+write the rest of this code so if some
+
+0:45:40.390,0:45:45.759
+condition which I haven't filled in yet
+
+0:45:42.190,0:45:46.930
+is true then run this code and what
+
+0:45:45.759,0:45:50.910
+we're going to do is we're going to take
+
+0:45:46.930,0:45:53.589
+these three lines where it says delay
+
+0:45:50.910,0:45:55.240
+500 and then off and then delay 500
+
+0:45:53.589,0:45:57.910
+those three lines we want make it flash
+
+0:45:55.240,0:46:01.029
+so if some condition is true then do
+
+0:45:57.910,0:46:02.769
+those lines and then if it's not true
+
+0:46:01.029,0:46:03.880
+then just don't do them at all and if
+
+0:46:02.769,0:46:05.769
+you don't know them at all others be
+
+0:46:03.880,0:46:13.660
+steady on so here's what we want to do
+
+0:46:05.769,0:46:15.609
+we want to do a digital read of 10 - so
+
+0:46:13.660,0:46:19.299
+what we're going to do is our condition
+
+0:46:15.609,0:46:20.359
+is we're going to read 10 - and if Penn
+
+0:46:19.299,0:46:22.670
+2 is
+
+0:46:20.359,0:46:24.529
+a high voltage like if it's five volts
+
+0:46:22.670,0:46:27.079
+if it's a high voltage then it's going
+
+0:46:24.529,0:46:29.599
+to do this stuff and if it's low voltage
+
+0:46:27.079,0:46:31.099
+that it won't so let's go ahead and wire
+
+0:46:29.599,0:46:33.980
+that up and so if statements are very
+
+0:46:31.099,0:46:36.109
+common in coding ru you type them all
+
+0:46:33.980,0:46:39.200
+the time and we're just kind of giving
+
+0:46:36.109,0:46:41.059
+you an example so I'm gonna go do some
+
+0:46:39.200,0:46:42.950
+wiring so I'm going to temporarily hide
+
+0:46:41.059,0:46:45.099
+my code so pause the video if you need
+
+0:46:42.950,0:46:48.049
+so that you can have that code in place
+
+0:46:45.099,0:46:49.880
+and I'm gonna go do a little wire so
+
+0:46:48.049,0:46:52.190
+what I want to add this time is a slide
+
+0:46:49.880,0:46:56.269
+switch so I'm going to click on swap
+
+0:46:52.190,0:46:59.150
+slide switch and rotate it around and
+
+0:46:56.269,0:47:01.400
+you can drop it into your board and a
+
+0:46:59.150,0:47:02.869
+slide switch it's similar to a push
+
+0:47:01.400,0:47:04.880
+button and then it can go high and low
+
+0:47:02.869,0:47:06.470
+ease push buttons yesterday the nice
+
+0:47:04.880,0:47:08.749
+thing about this one is it stays in that
+
+0:47:06.470,0:47:10.069
+position so you click it and it stays in
+
+0:47:08.749,0:47:12.710
+that position instead of having to hold
+
+0:47:10.069,0:47:14.329
+it down what happen and a slide switch
+
+0:47:12.710,0:47:17.119
+actually works just like a potentiometer
+
+0:47:14.329,0:47:20.599
+which is kind of funny the top we're
+
+0:47:17.119,0:47:23.660
+gonna connect to five volts the bottom
+
+0:47:20.599,0:47:26.769
+we're gonna connect ground and then the
+
+0:47:23.660,0:47:29.210
+middle we're gonna connect to pin two
+
+0:47:26.769,0:47:31.099
+and you can make the wire some crazy
+
+0:47:29.210,0:47:33.559
+color if you want I picked yellow that'd
+
+0:47:31.099,0:47:34.759
+just be silly also just to be a rebel
+
+0:47:33.559,0:47:37.940
+I'm just gonna let it shoot straight
+
+0:47:34.759,0:47:39.619
+across and so a slight switch is
+
+0:47:37.940,0:47:42.019
+actually very similar to potentiometer
+
+0:47:39.619,0:47:45.710
+the difference is there's no in-between
+
+0:47:42.019,0:47:48.319
+values right there's all the way on or
+
+0:47:45.710,0:47:50.119
+there's all the way off and those words
+
+0:47:48.319,0:47:51.799
+by the way all the way on all the way
+
+0:47:50.119,0:47:53.059
+off that means something is digital that
+
+0:47:51.799,0:47:55.609
+means all the way on all the way off
+
+0:47:53.059,0:47:57.950
+versus the potentiometers are analog
+
+0:47:55.609,0:48:00.160
+they can have a range of values that's
+
+0:47:57.950,0:48:03.380
+what those words digital or really mean
+
+0:48:00.160,0:48:05.329
+so now let's go ahead and look at our
+
+0:48:03.380,0:48:08.749
+code and let's predict what's going to
+
+0:48:05.329,0:48:12.769
+happen so when this switch is at the top
+
+0:48:08.749,0:48:15.049
+I expect it to be flash because if this
+
+0:48:12.769,0:48:17.059
+is getting a 5 volts if the switches at
+
+0:48:15.049,0:48:19.009
+the top expect it to be flashing and
+
+0:48:17.059,0:48:22.519
+then when it's not at the top I expect
+
+0:48:19.009,0:48:24.759
+it to be no flashing I just saw it on so
+
+0:48:22.519,0:48:27.890
+let's go ahead and start the simulation
+
+0:48:24.759,0:48:31.130
+and sure enough right now my LED is
+
+0:48:27.890,0:48:34.180
+solid on but as soon as I flip the
+
+0:48:31.130,0:48:37.099
+switch I should switch to flash
+
+0:48:34.180,0:48:38.960
+so what we've made here and I know it
+
+0:48:37.099,0:48:40.970
+seems kind of simple we've made an
+
+0:48:38.960,0:48:43.490
+Epstein right and if statements are
+
+0:48:40.970,0:48:44.780
+important in code and if statements
+
+0:48:43.490,0:48:46.970
+always follow the same pattern or they
+
+0:48:44.780,0:48:49.490
+have some condition and that abet
+
+0:48:46.970,0:48:50.720
+condition is true then you run the code
+
+0:48:49.490,0:48:52.579
+that's inside of there
+
+0:48:50.720,0:48:53.990
+another thing you couldn't do with if
+
+0:48:52.579,0:48:57.319
+statements I'm just gonna kind of
+
+0:48:53.990,0:49:00.290
+mention this you could add an else
+
+0:48:57.319,0:49:03.140
+statement and this is code that runs if
+
+0:49:00.290,0:49:05.000
+it's false I don't really have any code
+
+0:49:03.140,0:49:07.309
+that I want to run if it's false but
+
+0:49:05.000,0:49:10.670
+maybe I'll stick in just the delay just
+
+0:49:07.309,0:49:11.720
+for fun right so you don't have to type
+
+0:49:10.670,0:49:12.859
+this I don't really care if you do or
+
+0:49:11.720,0:49:15.170
+not but I just wanted to point out that
+
+0:49:12.859,0:49:17.240
+if it's true you're on this code and
+
+0:49:15.170,0:49:20.059
+then you can also optionally have an
+
+0:49:17.240,0:49:21.950
+else to say if it's false didn't run
+
+0:49:20.059,0:49:23.569
+that right and we'll do some more
+
+0:49:21.950,0:49:24.890
+complex things with if statements
+
+0:49:23.569,0:49:27.410
+tomorrow
+
+0:49:24.890,0:49:29.720
+I don't wanted to show up here so we've
+
+0:49:27.410,0:49:32.450
+actually have almost all of the major
+
+0:49:29.720,0:49:32.720
+coding concepts that I wanted to to show
+
+0:49:32.450,0:49:36.140
+you
+
+0:49:32.720,0:49:39.200
+we've got functions we've got variables
+
+0:49:36.140,0:49:42.049
+and we've got 50 that's right so those
+
+0:49:39.200,0:49:43.940
+are those are the big the big few if I
+
+0:49:42.049,0:49:45.589
+was gonna add one more and what the heck
+
+0:49:43.940,0:49:47.630
+we got forgot the interviewed for one
+
+0:49:45.589,0:49:50.030
+more sissy all right if I was gonna have
+
+0:49:47.630,0:49:52.609
+one more I'd beat it before let's show
+
+0:49:50.030,0:49:54.049
+you a forward now I don't
+
+0:49:52.609,0:49:55.130
+just because my boards already kind of
+
+0:49:54.049,0:49:56.390
+complex enough I don't want to do
+
+0:49:55.130,0:49:59.089
+anything on my board I'm just gonna use
+
+0:49:56.390,0:50:00.920
+the serial monitor to show you a for
+
+0:49:59.089,0:50:03.380
+loop so here's what I want you to do
+
+0:50:00.920,0:50:05.809
+find the setup function make sure your
+
+0:50:03.380,0:50:07.640
+code is not running and make a couple
+
+0:50:05.809,0:50:09.559
+lines at the bottom of your setup
+
+0:50:07.640,0:50:11.869
+function and here's what we're gonna do
+
+0:50:09.559,0:50:13.280
+we're going to type a fool so I'm going
+
+0:50:11.869,0:50:14.869
+to type it first and then I'm going to
+
+0:50:13.280,0:50:17.839
+talk about it just because sometimes
+
+0:50:14.869,0:50:21.369
+it's easier to type the whole thing and
+
+0:50:17.839,0:50:23.890
+then afterwards we'll talk about it
+
+0:50:21.369,0:50:27.049
+typing away very quickly
+
+0:50:23.890,0:50:29.599
+pause the video as you need or you can
+
+0:50:27.049,0:50:30.950
+do any type as you watching me type but
+
+0:50:29.599,0:50:35.569
+what I'm going to do is I'm going to
+
+0:50:30.950,0:50:37.369
+make a for loop and then inside that for
+
+0:50:35.569,0:50:43.190
+loop I'm going to print something out
+
+0:50:37.369,0:50:45.260
+and then do a small so pause the video
+
+0:50:43.190,0:50:47.900
+as you need until you type this and then
+
+0:50:45.260,0:50:50.029
+let's run it and see what it does so
+
+0:50:47.900,0:50:52.250
+I don't know when I'll run it first to
+
+0:50:50.029,0:50:57.470
+see what it does and what this code does
+
+0:50:52.250,0:50:59.480
+is it counts 0 1 2 3 4 5 6 7 8 9 which
+
+0:50:57.470,0:51:01.910
+is kind of interesting and then it does
+
+0:50:59.480,0:51:02.450
+some other stuff let's look at how it
+
+0:51:01.910,0:51:06.380
+does it
+
+0:51:02.450,0:51:07.880
+so this is a for loop there's a couple
+
+0:51:06.380,0:51:09.950
+of different types of loops encoding
+
+0:51:07.880,0:51:12.529
+there's a forever loop that runs like
+
+0:51:09.950,0:51:14.809
+forever or there's a for loop that runs
+
+0:51:12.529,0:51:17.359
+a set number of times and here I'm just
+
+0:51:14.809,0:51:19.400
+showing you an example of a for loop and
+
+0:51:17.359,0:51:22.460
+the way this works is it says there's
+
+0:51:19.400,0:51:26.119
+three clauses in here there's the set up
+
+0:51:22.460,0:51:29.240
+cause there's the condition clause and
+
+0:51:26.119,0:51:31.640
+then there's the increment clause and
+
+0:51:29.240,0:51:33.799
+they're divided by semicolons and this
+
+0:51:31.640,0:51:35.299
+is just the syntax that C uses every
+
+0:51:33.799,0:51:37.490
+language is gonna have different syntax
+
+0:51:35.299,0:51:40.910
+and when it says here is it says hey
+
+0:51:37.490,0:51:44.990
+start me off with a variable called K
+
+0:51:40.910,0:51:48.559
+where K is equal to 0 and then it says
+
+0:51:44.990,0:51:52.609
+keep running this loop so long as K is
+
+0:51:48.559,0:51:54.319
+less than 10 notice less than if you
+
+0:51:52.609,0:51:57.589
+wanted it to include 10 you'd have to
+
+0:51:54.319,0:52:00.200
+say less than oops gotta stop the
+
+0:51:57.589,0:52:02.029
+simulation for anything less than equal
+
+0:52:00.200,0:52:06.500
+to and this is read less than or equal
+
+0:52:02.029,0:52:08.960
+to 10 and then here's the increment it
+
+0:52:06.500,0:52:12.559
+says after each loops like between every
+
+0:52:08.960,0:52:16.339
+run of this loop take K and make k equal
+
+0:52:12.559,0:52:17.510
+to what it was before plus one more so
+
+0:52:16.339,0:52:20.930
+what I want you to do is I want you to
+
+0:52:17.510,0:52:24.440
+play with the initial statement the
+
+0:52:20.930,0:52:26.299
+condition and the increment and see if
+
+0:52:24.440,0:52:27.740
+you can print different things and then
+
+0:52:26.299,0:52:29.029
+inside the loop what is doing is it's
+
+0:52:27.740,0:52:31.369
+just printing the number using
+
+0:52:29.029,0:52:33.680
+serial.println like we know before and
+
+0:52:31.369,0:52:36.500
+then I was choosing to make a short
+
+0:52:33.680,0:52:38.839
+delay if you were to do a bigger number
+
+0:52:36.500,0:52:41.029
+like 100 or something make sure to make
+
+0:52:38.839,0:52:43.369
+your delay a little less because
+
+0:52:41.029,0:52:45.920
+otherwise your program is gonna like
+
+0:52:43.369,0:52:47.960
+seem to hang until that finishes so here
+
+0:52:45.920,0:52:50.569
+if I were to go from 0 up to and
+
+0:52:47.960,0:52:53.029
+including 100 that you could see I did
+
+0:52:50.569,0:52:55.010
+that pretty quickly you can also change
+
+0:52:53.029,0:52:58.250
+things like where you say hey it's like
+
+0:52:55.010,0:53:01.039
+counting my one count by tens right and
+
+0:52:58.250,0:53:01.920
+so now we just go 0 10 20 30 40 50 60
+
+0:53:01.039,0:53:05.609
+over left
+
+0:53:01.920,0:53:07.740
+I so see if you can play with your Lube
+
+0:53:05.609,0:53:10.589
+a little bit I just to kind of see how
+
+0:53:07.740,0:53:14.069
+loops work and that's really the end of
+
+0:53:10.589,0:53:17.309
+this day so we learned about functions
+
+0:53:14.069,0:53:20.549
+we learned about variables we learned
+
+0:53:17.309,0:53:22.680
+about if statements and then our last
+
+0:53:20.549,0:53:25.559
+one here as we learned about loops now
+
+0:53:22.680,0:53:28.109
+if you decide to spend your life coding
+
+0:53:25.559,0:53:30.720
+you will use these concepts over and
+
+0:53:28.109,0:53:33.059
+over and over and over and over again we
+
+0:53:30.720,0:53:35.160
+just kind of introduced them today in
+
+0:53:33.059,0:53:36.540
+our next video tomorrow there's a
+
+0:53:35.160,0:53:38.730
+remote-control car that we'll do
+
+0:53:36.540,0:53:40.650
+together also if you want to do more
+
+0:53:38.730,0:53:44.130
+coding there's an extra video for today
+
+0:53:40.650,0:53:45.599
+that uses an LCD and a servo it's pretty
+
+0:53:44.130,0:53:47.730
+cool if you want to do that you can it's
+
+0:53:45.599,0:53:49.619
+optional but we just want you to get
+
+0:53:47.730,0:53:51.480
+better at coding now one thing that you
+
+0:53:49.619,0:53:54.119
+will definitely notice about coding is
+
+0:53:51.480,0:53:56.069
+that it is much pickier when you're
+
+0:53:54.119,0:53:58.770
+using text versus when you're using
+
+0:53:56.069,0:54:02.309
+blocks so McKinley I know is sitting
+
+0:53:58.770,0:54:03.900
+right here next to me McKinley did more
+
+0:54:02.309,0:54:06.020
+things go wrong when you're coding with
+
+0:54:03.900,0:54:08.760
+text as compared to coding with blocks
+
+0:54:06.020,0:54:11.490
+yes do you find that it's very picky on
+
+0:54:08.760,0:54:15.000
+getting things exactly perfect yes is
+
+0:54:11.490,0:54:21.299
+that common than expected is it okay and
+
+0:54:15.000,0:54:23.730
+still fun that's fun so does very honest
+
+0:54:21.299,0:54:25.859
+answer I appreciate that all right so we
+
+0:54:23.730,0:54:27.540
+appreciate you you come to code with us
+
+0:54:25.859,0:54:29.160
+we appreciate you learning text-based
+
+0:54:27.540,0:54:32.309
+programming there's gonna be more
+
+0:54:29.160,0:54:34.140
+tomorrow but this is how real software
+
+0:54:32.309,0:54:36.510
+developers spend their lives and I
+
+0:54:34.140,0:54:38.730
+wanted to spend some time exposing you
+
+0:54:36.510,0:54:41.170
+to text-based programming all right see
+
+0:54:38.730,0:54:45.189
+you next time bye
+
+0:54:41.170,0:54:45.189
+[Music]
+
