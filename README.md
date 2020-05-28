@@ -31,4 +31,4 @@ Status
  - Ready to Upload https://youtu.be/uEERTiVaQGM Extra video with an LCD and Servo
 
 ### Week 2 - Day 4
- - Not started https://youtu.be/jar8rUOOz2E Car
+ - In Progress https://youtu.be/jar8rUOOz2E Car
