@@ -34,4 +34,4 @@ Status
  - Ready to Upload https://youtu.be/jar8rUOOz2E Car
 
 ### Week 2 - Day 5
- - In Progress https://youtu.be/BKSgkRkOMPo Code Blocks
+ - Ready to Upload https://youtu.be/BKSgkRkOMPo Code Blocks
