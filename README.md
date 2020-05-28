@@ -31,7 +31,7 @@ Status
  - Uploaded https://youtu.be/uEERTiVaQGM Extra video with an LCD and Servo
 
 ### Week 2 - Day 4
- - In Progress https://youtu.be/jar8rUOOz2E Car
+ - Ready to Upload https://youtu.be/jar8rUOOz2E Car
 
 ### Week 2 - Day 5
  - Not started https://youtu.be/BKSgkRkOMPo Code Blocks

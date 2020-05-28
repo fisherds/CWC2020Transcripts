@@ -5,11 +5,10 @@
 hey hey welcome to day four of camp as
 
 0:00:07.859,0:00:13.040
-always I'm here with with my camper
+always I'm here with my camper
 
 0:00:10.710,0:00:15.299
-McKinley when I say good morning Kenny
-
+McKinley want to say good morning McKinley
 0:00:13.040,0:00:17.369
 McKinley is going to help us do a demo
 
@@ -32,7 +31,7 @@ today's focus is going to be about
 motors and we've got a little demo for
 
 0:00:28.590,0:00:33.450
-you this you want to be the driver for
+you Sissy you want to be the driver for
 
 0:00:30.420,0:00:35.850
 the demo so what we've got set up here
@@ -47,19 +46,19 @@ so we're going to be learning about
 motors in simulation but we've got
 
 0:00:40.140,0:00:43.829
-motors connected to the bottom this
+motors connected to the bottom of this
 
 0:00:42.239,0:00:45.989
-boards just something this kit can do
+board it's just something this kit can do
 
 0:00:43.829,0:00:48.059
 which is fun we're gonna be controlling
 
 0:00:45.989,0:00:51.809
-it with remote control so since they go
+it with remote control so Sissy go
 
 0:00:48.059,0:00:58.379
-ahead and send an F or forwards great
+ahead and send an F for forwards great
 
 0:00:51.809,0:01:03.660
 and send B for backwards and then go
@@ -77,7 +76,7 @@ to be silly send like three B's or
 something to make it go backwards three
 
 0:01:09.900,0:01:13.200
-times as much I will see if we can catch
+times as much we'll see if we can catch
 
 0:01:11.880,0:01:16.130
 it before it falls off the table I
@@ -95,19 +94,19 @@ things with wheels but we're just kind
 of doing it on the table I've also got
 
 0:01:22.530,0:01:27.750
-my speed set to SuperDuper slow just so
+my speed set to super duper slow just so
 
 0:01:25.680,0:01:36.420
 it doesn't fall off the table but
 
 0:01:27.750,0:01:39.259
-obviously it is this you'll find that
+obviously hit it sis oh no you'll find that
 
 0:01:36.420,0:01:42.360
-when it comes to two kids of
+when it comes to two kids and
 
 0:01:39.259,0:01:44.640
-remote-control cars there's a always a
+remote-control cars there's always a
 
 0:01:42.360,0:01:46.320
 desire to make things crash alright
@@ -128,13 +127,13 @@ motors go you gotta figure out how to
 make this silly car stop
 
 0:01:56.100,0:02:01.800
-maybe I'll just up in the
+maybe I'll just upend it
 
 0:01:59.420,0:02:04.700
 yeah I suppose I can unplug it as well
 
 0:02:01.800,0:02:07.590
-thanks so much for help there's this
+thanks so much for help there sis
 
 0:02:04.700,0:02:10.050
 alright so let's go ahead and get
@@ -146,7 +145,7 @@ started today so this is the the
 finished circuit that we're building so
 
 0:02:12.060,0:02:17.990
-we'll build it piece by piece it's like
+we'll build it piece by piece it's looks like
 
 0:02:14.580,0:02:19.860
 I do need to kill power on this thing
@@ -236,7 +235,7 @@ Daegu they are inexpensive you can buy
 them on a number of different websites
 
 0:03:21.120,0:03:25.500
-sites I think I got mine from robot shop
+I think I got mine from robot shop
 
 0:03:23.549,0:03:27.660
 once upon a time this kit came with a
@@ -254,10 +253,10 @@ those are some things that we're gonna
 use
 
 0:03:32.390,0:03:37.350
-other pieces just kind of what we're
+other pieces just kind of while we're
 
 0:03:34.590,0:03:39.209
-getting are our big pieces together it's
+getting our big pieces together it's
 
 0:03:37.350,0:03:41.820
 always nice to when you deal with motors
@@ -299,19 +298,19 @@ left motor now in simulation you could
 control the speed with a single
 
 0:04:09.060,0:04:12.150
-potentiometer and they both
+potentiometer and they both like
 
 0:04:10.410,0:04:14.760
 go faster or slower together in
 
 0:04:12.150,0:04:15.780
-simulation but in real Hardware every
+simulation but in real hardware every
 
 0:04:14.760,0:04:18.030
 motor is different
 
 0:04:15.780,0:04:19.920
-especially in super slow speeds so you
+especially at super slow speeds so you
 
 0:04:18.030,0:04:22.380
 really do need two potentiometers in a
@@ -362,16 +361,16 @@ the big motor go you don't like get out
 and push right like that's not how it
 
 0:04:55.650,0:05:00.960
-works um with electronics motors take a
+works with electronics motors take a
 
 0:04:58.680,0:05:03.000
-lot of power they take a lot of bumps
+lot of power they take a lot of umph
 
 0:05:00.960,0:05:04.830
 right and the microcontroller is not
 
 0:05:03.000,0:05:06.300
-made to do that the microcontrollers
+made to do that the microcontroller is
 
 0:05:04.830,0:05:09.990
 just made to push the gas pedal right
@@ -392,7 +391,7 @@ a transistor now there's two there's a
 couple different types of transistors
 
 0:05:18.500,0:05:26.550
-one of them is called a MOSFET mosfe t
+one of them is called a MOSFET m o s f e t
 
 0:05:24.300,0:05:27.600
 we're not going to use a MOSFET today
@@ -410,7 +409,7 @@ it stands for like
 metal-oxide-semiconductor field-effect
 
 0:05:33.410,0:05:38.820
-transistor right that might be right I
+transistor that might be right I
 
 0:05:35.430,0:05:40.500
 don't even know and that is a good type
@@ -422,7 +421,7 @@ of transistor they're very popular at
 turning something either on or off so if
 
 0:05:43.260,0:05:48.600
-you wanted your car to go and just
+you wanted your car to go in just
 
 0:05:45.650,0:05:49.980
 forward right then a MOSFET would be
@@ -506,7 +505,7 @@ kind of like the big picture and I think
 that we're ready to start doing some
 
 0:06:44.800,0:06:50.320
-wires Oh actually one more piece one
+wires oh actually one more piece one
 
 0:06:47.740,0:06:53.470
 more piece so motors take a lot of power
@@ -542,7 +541,7 @@ power than just what the computer
 provides and typically what you do is
 
 0:07:16.000,0:07:21.640
-use for double-a batteries so I've
+use four double-a batteries so I've
 
 0:07:18.460,0:07:25.360
 brought over a double-a battery and this
@@ -554,7 +553,7 @@ big power pack is gonna drive the motors
 instead of just using my computer to do
 
 0:07:27.490,0:07:32.260
-it I just to kind of organize my circle
+it just to kind of organize my circuit
 
 0:07:30.550,0:07:35.170
 a little bit I'm gonna put it kind of
@@ -614,7 +613,7 @@ that I did that is after I put the wire
 I hit the one key which is a shortcut
 
 0:08:12.190,0:08:16.360
-key just like black
+key to select like black
 
 0:08:13.320,0:08:19.480
 likewise I'm going to connect my power
@@ -644,7 +643,7 @@ from here to here and that one's gonna
 be black
 
 0:08:35.640,0:08:43.710
-and then I'm gonna use the 5v taken act
+and then I'm gonna use the 5v to connect
 
 0:08:38.700,0:08:44.880
 little power over on the side now you
@@ -707,7 +706,7 @@ that's great but there is only one
 ground and this is true for all
 
 0:09:26.730,0:09:30.480
-electronics you only want one ground one
+electronics you only want one ground on
 
 0:09:28.530,0:09:34.830
 things now we're ready to start
@@ -731,7 +730,7 @@ corner and if you want sometimes I like
 to bend it around that's completely
 
 0:09:48.930,0:09:54.450
-optional I just see can kind of see that
+optional just see can kind of see that
 
 0:09:50.820,0:09:59.820
 it's going to big power and then little
@@ -755,7 +754,7 @@ like a microcontroller needs power and
 then it needs big power because it'll
 
 0:10:10.710,0:10:15.380
-use that with some transistors as inside
+use that with some transistors it has inside
 
 0:10:12.960,0:10:17.880
 to drive the motors with big power
@@ -764,7 +763,7 @@ to drive the motors with big power
 another thing these chips need is they
 
 0:10:17.880,0:10:26.490
-need a lot of ground connections and so
+need is a lot of ground connections and so
 
 0:10:22.230,0:10:28.620
 all the middle pins so two on the left
@@ -773,13 +772,13 @@ all the middle pins so two on the left
 and two on the right all need to get
 
 0:10:28.620,0:10:32.310
-connected to ground now like that's
+connected to ground now you're like that's
 
 0:10:31.680,0:10:34.680
 silly
 
 0:10:32.310,0:10:37.380
-why why do I have to connect four
+why do I have to connect four
 
 0:10:34.680,0:10:40.770
 different pins to ground because really
@@ -791,7 +790,7 @@ a chip only really needs one ground but
 it's because of there's a lot of power
 
 0:10:42.540,0:10:46.079
-things going on here and then
+things going on here and they
 
 0:10:44.339,0:10:48.029
 wanted a really good path to get the
@@ -803,7 +802,7 @@ ground and so that's why there's four of
 them it also made the packaging work out
 
 0:10:50.040,0:10:54.449
-better back when they designed this ship
+better back when they designed this chip
 
 0:10:51.449,0:10:56.550
 many decades ago all right so that's
@@ -827,7 +826,7 @@ side and the right motor to the right
 side so here's what I'm gonna do I'm
 
 0:11:07.319,0:11:16.399
-gonna take a pen just above ground and
+gonna take a pin just above ground and
 
 0:11:12.779,0:11:16.399
 I'm gonna connect it down to my motor
@@ -842,7 +841,7 @@ doesn't really matter a lot of places
 show them is like black and red but
 
 0:11:25.259,0:11:29.370
-they're not blocking around I actually
+they're not black and red I actually
 
 0:11:26.459,0:11:31.139
 dislike that these are labeled black and
@@ -851,13 +850,13 @@ dislike that these are labeled black and
 red and they're labeled black and red
 
 0:11:31.139,0:11:34.889
-because the real car they're black and
+because on the real car they're black and
 
 0:11:32.790,0:11:39.269
-red but murders don't have a black and a
+red but motors don't have a black and a
 
 0:11:34.889,0:11:40.800
-red motors have an implicit in EM -
+red motors have an n + and an n -
 
 0:11:39.269,0:11:43.079
 because if you put power through one
@@ -866,7 +865,7 @@ because if you put power through one
 direction it spins one way and if you
 
 0:11:43.079,0:11:46.379
-put power and the other direction it
+put power in the other direction it
 
 0:11:44.339,0:11:49.019
 spins the other way so really they
@@ -878,7 +877,7 @@ shouldn't be black and red they should
 just be like white and blue or something
 
 0:11:50.610,0:11:55.769
-like that but you know that that's fine
+like that but you know that's fine
 
 0:11:53.220,0:11:58.529
 so to emphasize that I'm gonna make the
@@ -890,7 +889,7 @@ wires that go to them just be blue it
 looks like my wire kind of goes under
 
 0:12:00.540,0:12:04.050
-the motor they're gonna look like it was
+the motor there and it looked like it was
 
 0:12:02.879,0:12:07.559
 disconnected so I'm gonna move it over
@@ -908,16 +907,16 @@ through things kind of fast but you can
 always pause the video if you ever need
 
 0:12:13.800,0:12:17.759
-por McKinley over here she's desperately
+poor McKinley over here she's desperately
 
 0:12:16.230,0:12:21.620
 trying to keep up with me she's doing
 
 0:12:17.759,0:12:24.779
-good I now we got to connect the
+good now we got to connect the
 
 0:12:21.620,0:12:27.929
-right-side motor and it's very similar
+right-side motor and it's very similar it's
 
 0:12:24.779,0:12:30.569
 symmetric which is nice so I'm gonna
@@ -926,7 +925,7 @@ symmetric which is nice so I'm gonna
 bring him down here and when it comes to
 
 0:12:30.569,0:12:34.980
-rotten wires you can see that I always
+running wires you can see that I always
 
 0:12:33.029,0:12:38.189
 like to try to like run them a certain
@@ -962,7 +961,7 @@ all right now I was watching McKinley
 over here and she was trying really hard
 
 0:12:56.370,0:12:59.839
-to figure out it's like
+to figure out it's like does 
 
 0:12:57.410,0:13:01.699
 this bottom wire go to the black and
@@ -986,7 +985,7 @@ these wires in it's easier I guess if
 you do it the exact same as me so we can
 
 0:13:12.620,0:13:16.579
-run in the same problems but what I'm
+run into the same problems but what I'm
 
 0:13:14.060,0:13:19.519
 wiring a circuit like this I just plug
@@ -1001,7 +1000,7 @@ don't care if I get things crossed
 because the worst thing that happens is
 
 0:13:22.639,0:13:26.209
-that my motor goes and reversed when I
+that my motor goes in reverse when I
 
 0:13:24.170,0:13:28.339
 start running and if it does I'll just
@@ -1019,7 +1018,7 @@ this wire honestly where ever it would
 make my circuit prettiest but but if you
 
 0:13:34.670,0:13:37.759
-swap them and doesn't really matter
+swap them and it doesn't really matter
 
 0:13:36.589,0:13:39.740
 because you can always fix it in code
@@ -1034,10 +1033,10 @@ is we want to control the left motor and
 control the right motor we want to
 
 0:13:44.329,0:13:48.170
-control the speed that it goes at that's
+control the speed that it goes at and so 
 
 0:13:46.220,0:13:49.670
-oh there's one pin that's like how fast
+there's one pin that's like how fast
 
 0:13:48.170,0:13:51.560
 you go and so it's kind of like a knob
@@ -1055,7 +1054,7 @@ go forwards backwards or reverse since
 there's three options forwards backwards
 
 0:13:57.920,0:14:03.529
-I'm sorry Forge backwards or stop as
+I'm sorry forwards backwards or stop 
 
 0:14:01.699,0:14:05.269
 since there's three options we actually
@@ -1067,13 +1066,13 @@ need two pins to do that so like it
 could be like one zero because we're
 
 0:14:07.040,0:14:12.170
-over one direction zero one it'll go the
+one direction zero one it'll go the
 
 0:14:10.160,0:14:14.209
 opposite direction or zero zero it'll
 
 0:14:12.170,0:14:15.769
-stop so I knew two pins to control the
+stop so I need two pins to control the
 
 0:14:14.209,0:14:18.980
 direction and then the third one to
@@ -1088,13 +1087,13 @@ ahead and connect these three pins so
 the first one I'm going to connect is
 
 0:14:22.880,0:14:27.410
-I'm going to connect the how fast pen so
+I'm going to connect the how fast pin so
 
 0:14:25.160,0:14:33.319
 I'm going to connect the top left which
 
 0:14:27.410,0:14:35.600
-is right there to pen 11 over here and
+is right there to pin 11 over here and
 
 0:14:33.319,0:14:38.480
 I'm gonna choose to make everything on
@@ -1115,16 +1114,16 @@ of course I want to try to make it
 pretty you can add bins and things as
 
 0:14:48.769,0:14:54.199
-you see fit to try to to pretty your
+you see fit to try to pretty your
 
 0:14:51.889,0:14:56.480
-wires up some I'm good enough obviously
+wires up some good enough I'll just leave it
 
 0:14:54.199,0:15:00.170
-right there so that one's going to pen
+right there so that one's going to pin
 
 0:14:56.480,0:15:01.430
-11 now I pick pen 11 let me put in a
+11 now I pick pin 11 let me put in a
 
 0:15:00.170,0:15:04.160
 little dip here just so you can see it
@@ -1136,7 +1135,7 @@ because it's got this little like tilde
 in front of
 
 0:15:04.810,0:15:12.550
-a tilde in front of a pen means that it
+a tilde in front of a pin means that it
 
 0:15:07.300,0:15:14.470
 can be used in analog output or PWM mode
@@ -1157,7 +1156,7 @@ of those tilde lines now the other two
 lines well there's only two lines left
 
 0:15:22.810,0:15:28.690
-on the side it's here here they're gonna
+on this side it's here and here they're gonna
 
 0:15:25.029,0:15:32.560
 go to 12 and 13 because they don't need
@@ -1187,7 +1186,7 @@ and one of them is special it's like the
 the how fast and it's in the upper left
 
 0:15:56.140,0:16:01.410
-of the chip and it's going to pen 11
+of the chip and it's going to pin 11
 
 0:15:58.660,0:16:04.000
 which has that little tilde symbol right
@@ -1199,7 +1198,7 @@ I'm gonna go ahead and connect my other
 wires while I'm here just kind of while
 
 0:16:05.980,0:16:13.600
-I'm in wiring wood and the right side
+I'm in wiring mode and the right side
 
 0:16:08.920,0:16:17.200
 the lower right controls his speed and
@@ -1226,7 +1225,7 @@ little tilde jobbies so if you look
 right there if your eyes are super good
 
 0:16:31.630,0:16:36.880
-it's got a tilde job' and then the other
+it's got a tilde jobbie and then the other
 
 0:16:35.230,0:16:40.180
 two pins on the side I'm just gonna
@@ -1256,7 +1255,7 @@ the H bridge is in control of driving
 the actual motors and you can look at
 
 0:17:00.190,0:17:03.760
-the data sheets for how these works and
+the data sheets for how these work and
 
 0:17:01.959,0:17:06.730
 why these pins are put in like this but
@@ -1268,16 +1267,16 @@ I think it's a pretty pretty good way to
 arrange it there are different ways to
 
 0:17:07.810,0:17:12.250
-review nature bridge mode with them as
+arrange an H bridge but I won't do that 
 
 0:17:10.060,0:17:14.699
-long as we're doing wiring let's go
+as we're doing wiring let's go
 
 0:17:12.250,0:17:16.610
 ahead and wire up our potentiometers our
 
 0:17:14.699,0:17:18.290
-potentiometers all
+potentiometers on the top
 
 0:17:16.610,0:17:20.839
 top we're gonna put a connection to
@@ -1307,7 +1306,7 @@ power the bottom to ground on that one
 and on this one and again you can see I
 
 0:17:41.630,0:17:45.470
-just connected the the power to
+just connected the power to
 
 0:17:43.340,0:17:48.080
 somewhere in this row and then the
@@ -1316,7 +1315,7 @@ somewhere in this row and then the
 ground to somewhere in this row and then
 
 0:17:48.080,0:17:51.040
-here the top is to power the bottom mr.
+here the top is to power the bottom is to 
 
 0:17:50.390,0:17:53.690
 ground
@@ -1331,19 +1330,19 @@ wires we want to connect the middle of
 this potentiometer this is the analog
 
 0:17:57.919,0:18:04.610
-signal to a zero doesn't matter what
+signal to a0 doesn't matter what
 
 0:18:02.600,0:18:07.130
 color wire you make it I feel like
 
 0:18:04.610,0:18:09.010
-purple just this purple spun and then
+purple just because purple is fun and then
 
 0:18:07.130,0:18:15.200
 I'm gonna connect the middle of this one
 
 0:18:09.010,0:18:17.330
-to a one pretty impressive circuit that
+to a1 pretty impressive circuit that
 
 0:18:15.200,0:18:19.280
 we built here so we've got two
@@ -1409,7 +1408,7 @@ changes saved all right so let's dive
 into code now when it comes to the code
 
 0:19:08.630,0:19:14.809
-we've got a law things to test a lot of
+we've got a lot of things to test a lot of
 
 0:19:11.840,0:19:16.460
 things to test so let's go ahead and
@@ -1484,13 +1483,13 @@ I'm going to read the left pot and right
 pot and I'm going to print the values
 
 0:20:09.960,0:20:14.909
-just to make sure that the values how to
+just to make sure that the values kinda 
 
 0:20:11.999,0:20:19.229
 look good so there's my two variables
 
 0:20:14.909,0:20:21.570
-left pot right pot normally with the pen
+left pot right pot normally with the pin
 
 0:20:19.229,0:20:23.190
 you have to do some setup for it which
@@ -1499,7 +1498,7 @@ you have to do some setup for it which
 would be in the setup area but there's
 
 0:20:23.190,0:20:27.179
-no setup for analog input that's that's
+no setup for analog input that's 
 
 0:20:25.169,0:20:29.309
 the default which is nice so I'm gonna
@@ -1514,19 +1513,19 @@ type this fast you can pause it if you
 need is an analog read and we got to
 
 0:20:34.769,0:20:39.409
-figure out where he's connected to so my
+figure up where he's connected to so my
 
 0:20:37.590,0:20:43.289
 left pot right here if i trace the wire
 
 0:20:39.409,0:20:45.239
-he is on a 1 so I want to do an analog
+he is on a1 so I want to do an analog
 
 0:20:43.289,0:20:47.129
-read of 1 you can also type a 1 and then
+read of 1 you can also type a1 
 
 0:20:45.239,0:20:50.009
-I can like just type in the number 1 and
+I can like just typing in the number 1 and
 
 0:20:47.129,0:20:52.109
 it works so I like to do that and then
@@ -1538,7 +1537,7 @@ we'll do an analog read for the right
 pot this is my right side pot and he's
 
 0:20:55.049,0:21:01.109
-connected to a 0 so I'm just going to
+connected to a0 so I'm just going to
 
 0:20:57.599,0:21:04.679
 type in a 0 now just to make sure that
@@ -1571,7 +1570,7 @@ kind of interesting that your computer
 is used to program it so like you send
 
 0:21:23.879,0:21:27.029
-the program over and then you're 2 then
+the program over and then you're then
 
 0:21:25.259,0:21:29.009
 you're done with it but you can also
@@ -1583,7 +1582,7 @@ communicate with it while it's running
 through the serial monitor and the
 
 0:21:31.649,0:21:35.659
-serial monitor is new today we're going
+serial monitor is new today and we're going
 
 0:21:33.960,0:21:38.429
 to spend a lot of time right
@@ -1598,7 +1597,7 @@ the serial monitor is we have to type a
 command called serial begin whenever you
 
 0:21:45.690,0:21:50.250
-do serial communications you have to
+do serial communication you have to
 
 0:21:47.640,0:21:53.070
 decide how fast it's going to go and so
@@ -1628,7 +1627,7 @@ they're saying like 10,000 things a
 second if you talked and said 10,000
 
 0:22:11.669,0:22:17.179
-words a second I would go very badly and
+words a second it would go very badly and
 
 0:22:14.630,0:22:20.880
 what I want to do is I want to print out
@@ -1664,7 +1663,7 @@ a different speed than me but I have no
 value in typing it slow so I just do it
 
 0:22:50.460,0:22:54.090
-fast and then you can get yup now what I
+fast and then you can catch up now what I
 
 0:22:52.860,0:22:55.770
 want to do is you'll notice that these
@@ -1679,19 +1678,19 @@ the same line
 I want the last one to go onto a new
 
 0:23:00.120,0:23:05.010
-line and to make something going to a
+line and to make something go onto a
 
 0:23:02.429,0:23:07.620
-new line you can put this L in on here
+new line you can put this ln on here
 
 0:23:05.010,0:23:09.960
-it's since the newline character at the
+it's sends the newline character at the
 
 0:23:07.620,0:23:12.539
 end so that way all four of these things
 
 0:23:09.960,0:23:14.309
-the L the Left Pot reading the are the
+the L the Left Pot reading the R the
 
 0:23:12.539,0:23:16.440
 right part reading are on one line then
@@ -1763,16 +1762,16 @@ right at the middle good job me and if I
 click it like all the way up like near
 
 0:24:08.980,0:24:17.590
-the max it should be 10 23 left should
+the max it should be 1023 left should
 
 0:24:13.510,0:24:21.480
-also be movable so there it's 10 23 and
+also be movable so there it's 1023 and
 
 0:24:17.590,0:24:25.300
-then there it's 5 11 and then here it's
+then there it's 511 and then here it's
 
 0:24:21.480,0:24:26.740
-well looks like it's about 164 again
+well it looks like it's about 164 again
 
 0:24:25.300,0:24:29.650
 it's important to note the range of
@@ -1781,7 +1780,7 @@ it's important to note the range of
 these things they go from 0 all the way
 
 0:24:29.650,0:24:35.830
-up to 10 23 now it turns out for motors
+up to 1023 now it turns out for motors
 
 0:24:33.480,0:24:40.330
 motors you're gonna also run in the same
@@ -1790,7 +1789,7 @@ motors you're gonna also run in the same
 range from 0 to 1023 they run about as
 
 0:24:40.330,0:24:45.550
-fastest that are gonna run anything like
+fast as they're gonna run anything like
 
 0:24:43.570,0:24:47.320
 300 above they all run about the same
@@ -1808,19 +1807,19 @@ have to go somewhere in this range so
 I'm gonna put mine like straight down
 
 0:24:54.930,0:24:59.350
-and so straight down that's gonna run it
+and so straight down is gonna run at
 
 0:24:57.460,0:25:00.670
 kind of like a middle speed right so
 
 0:24:59.350,0:25:02.500
-it's gonna run up kind of a middle speed
+it's gonna run at kind of a middle speed
 
 0:25:00.670,0:25:04.420
-now depends on the motor now the nice
+now it depends on the motor now the nice
 
 0:25:02.500,0:25:06.190
-thing is is that we are using simulated
+thing is that we are using simulated
 
 0:25:04.420,0:25:08.230
 motors and they work perfectly but
@@ -1856,7 +1855,7 @@ just comment it out right so I know I
 know it's frustrating it's like I just
 
 0:25:33.520,0:25:38.200
-typed all that code and now if you're
+typed all that code and now you're
 
 0:25:35.650,0:25:40.960
 telling me to comment it out very common
@@ -1889,10 +1888,10 @@ start tackling our motors so we're going
 to start by laying a little groundwork
 
 0:25:59.740,0:26:03.690
-for
+for our 
 
 0:26:00.120,0:26:05.070
-Motors so functions are things that you
+motors so functions are things that you
 
 0:26:03.690,0:26:07.920
 can call so for example here's a
@@ -1901,7 +1900,7 @@ can call so for example here's a
 function analog read one analog read
 
 0:26:07.920,0:26:14.820
-zero another function for delay well I
+zero another function for delay what I
 
 0:26:11.490,0:26:17.570
 wish we had as I wish we had a function
@@ -1931,7 +1930,7 @@ things like that then our motors would
 be much more useful right because we
 
 0:26:35.940,0:26:40.560
-could just say go with the speed so like
+could just say go at this speed so like
 
 0:26:38.820,0:26:43.170
 five hundred would be like a middle
@@ -1940,7 +1939,7 @@ five hundred would be like a middle
 speed negative five hundred would be
 
 0:26:43.170,0:26:47.430
-like a middle speed but in Reverse if I
+like a middle speed but in reverse if I
 
 0:26:45.990,0:26:51.360
 wanted to stop it I could just say you
@@ -2024,25 +2023,25 @@ pass in that number it becomes the value
 speed so don't type this but I'm just
 
 0:27:54.870,0:28:00.900
-gonna say so if i said cyril dot print
+gonna say so if i said Serial.println(speed)
 
 0:27:57.000,0:28:03.330
-line speed it would print out 500 in
+it would print out 500 in
 
 0:28:00.900,0:28:06.210
-this case right cuz i passed it in speed
+this case right because i passed it in speed
 
 0:28:03.330,0:28:08.220
 and if i put in you know like 50 then of
 
 0:28:06.210,0:28:09.290
-course this prep would print out 50
+course this print would print out 50
 
 0:28:08.220,0:28:11.570
-because speed becomes
+because speed becomes 50 
 
 0:28:09.290,0:28:13.910
-you get the idea alright though it's
+you get the idea alright that was
 
 0:28:11.570,0:28:17.570
 just an example so we want to do is we
@@ -2057,7 +2056,7 @@ the value of speed now the first thing
 we need to know is we need to know if
 
 0:28:21.680,0:28:29.900
-speed is positive or negative so if P
+speed is positive or negative so if 
 
 0:28:26.210,0:28:31.280
 speed is positive we'll do one thing and
@@ -2072,7 +2071,7 @@ different and if it's zero we'll do
 something even different so here's how
 
 0:28:35.870,0:28:41.570
-this works so if so use a lot of if
+this works so if so we use a lot of if
 
 0:28:38.810,0:28:44.780
 statements in coding if speed is greater
@@ -2093,7 +2092,7 @@ speed is less than zero I do this stuff
 so the syntax is hard but the concepts
 
 0:29:02.870,0:29:06.550
-were want to care about you learning so
+we want to care about you learning so
 
 0:29:04.430,0:29:09.320
 if it's greater than zero do this stuff
@@ -2102,7 +2101,7 @@ if it's greater than zero do this stuff
 and then else meaning if it's not
 
 0:29:09.320,0:29:14.180
-greater than zero I check to see if it's
+greater than zero check to see if it's
 
 0:29:12.650,0:29:18.320
 less than zero
@@ -2120,7 +2119,7 @@ greater than zero do that if it's less
 than zero do this
 
 0:29:24.050,0:29:28.300
-sissie have you figured out what the
+sissy have you figured out what the
 
 0:29:25.640,0:29:32.660
 other number is what's the other number
@@ -2138,7 +2137,7 @@ right so if it's bigger than zero do
 this if it's less than zero do this and
 
 0:29:42.110,0:29:47.330
-if it is zero I do this so those are
+if it is zero do this so those are
 
 0:29:45.560,0:29:52.370
 kind of the three situations and so that
@@ -2150,7 +2149,7 @@ is go forwards go backwards or stop
 those are kind of our three options now
 
 0:29:55.010,0:29:58.820
-we've got to figure out how do we how do
+we've got to figure up how do we how do
 
 0:29:56.930,0:30:01.430
 we go forwards how do we go backwards
@@ -2159,7 +2158,7 @@ we go forwards how do we go backwards
 how do we stop and the way we do it is
 
 0:30:01.430,0:30:08.000
-we do digital rights to our different
+we do digital writes to our different
 
 0:30:05.420,0:30:12.020
 control pins so I'm gonna say digital
@@ -2168,7 +2167,7 @@ control pins so I'm gonna say digital
 right this is my left motor so these are
 
 0:30:12.020,0:30:19.430
-my green lines so the digital ones are
+my green lines so the digital ones are it 
 
 0:30:14.780,0:30:20.360
 looks like 12 and 13 so I'm gonna say 12
@@ -2186,7 +2185,7 @@ those are my two control lines so
 remember I said how if one of them's one
 
 0:30:40.850,0:30:46.010
-and then the other zero that it'll go in
+and then the other zero then it'll go in
 
 0:30:43.190,0:30:47.809
 that direction and then if you want to
@@ -2198,7 +2197,7 @@ go in the opposite direction I'm just
 gonna copy those two lines and I'm gonna
 
 0:30:49.880,0:30:56.660
-switch it I'm doing low and high again
+switch it I'm gonna do a low and a high again
 
 0:30:53.809,0:30:59.059
 I'm typing ludicrously fast but that's
@@ -2222,13 +2221,13 @@ do the reverse a low and a high so you
 do the exact opposite now if you're not
 
 0:31:16.910,0:31:21.200
-moving at all so if your stop so I'm
+moving at all so if you're stopped so I'm
 
 0:31:19.880,0:31:24.470
 going to copy this down to the stopped
 
 0:31:21.200,0:31:26.630
-area we just bring them below you could
+area we just bring them both low you could
 
 0:31:24.470,0:31:28.340
 also bring them both high that also
@@ -2243,7 +2242,7 @@ the ones called coasts the other is
 called break but it doesn't matter that
 
 0:31:31.549,0:31:38.030
-won't that will stop it now the thing
+that will stop it now the thing
 
 0:31:34.940,0:31:40.220
 we've neglected here is how fast do you
@@ -2258,25 +2257,25 @@ better than just go we can actually like
 set the speed to set the speed we have
 
 0:31:45.679,0:31:55.130
-to do an analogue right the analog right
+to do an analog write the analog write
 
 0:31:52.220,0:31:58.100
 is a different command right and analog
 
 0:31:55.130,0:32:01.280
-rights are only possible on pins that
+writes are only possible on pins that
 
 0:31:58.100,0:32:02.900
-have this little till dinner right so it
+have this little tilde right so it
 
 0:32:01.280,0:32:06.290
-says somewhere on here at least for real
+says somewhere on here at least on real
 
 0:32:02.900,0:32:08.990
-board it does yeah so PWM is is it tilde
+board it does yeah so PWM is a tilde
 
 0:32:06.290,0:32:12.020
-right and so analog right
+right and so analog write
 
 0:32:08.990,0:32:14.330
 if you send 500 that sends like roughly
@@ -2291,7 +2290,7 @@ the speed so each time I want to control
 the direction and I also want to control
 
 0:32:20.929,0:32:26.150
-the speed now in the second case in
+the speed now in the second case since
 
 0:32:24.740,0:32:28.669
 speed is negative I have to put a
@@ -2303,7 +2302,7 @@ negative sign in front of here and the
 reason for putting that negative sign in
 
 0:32:30.559,0:32:32.870
-front of the
+front of there
 
 0:32:31.070,0:32:36.550
 it's because two negatives make a
@@ -2318,7 +2317,7 @@ that I do this to control the direction
 but then the thing I actually analog
 
 0:32:41.480,0:32:47.770
-right is always a positive number so
+is always a positive number so
 
 0:32:43.850,0:32:50.360
 it's there and then our last case
@@ -2333,7 +2332,7 @@ it's actually ignored but I like to be
 thorough so I'm just gonna put an
 
 0:32:55.370,0:33:01.610
-analogue right of zero now I've written
+analogue write of zero now I've written
 
 0:32:59.090,0:33:04.640
 a bunch of code here and I have not
@@ -2354,7 +2353,7 @@ let's say that my wiring is such that
 you know 12 and 13 high-low actually
 
 0:33:14.120,0:33:18.620
-making gu reverse I can always just
+make it go reverse I can always just
 
 0:33:16.370,0:33:19.940
 change it later I didn't worry about it
@@ -2402,7 +2401,7 @@ so I'm just going to intentionally make
 an error here maybe I put a bunch of
 
 0:33:42.860,0:33:47.000
-ease and speed the time the way you
+e's in speed that time the way you
 
 0:33:45.260,0:33:50.270
 check it for errors is you just click
@@ -2414,10 +2413,10 @@ run and if it has an error you see a
 bunch of red nothing wrong with red red
 
 0:33:52.820,0:33:57.830
-is read as part of coding right it's all
+is red is part of coding right so I'll 
 
 0:33:55.760,0:33:59.690
-fixed that one I don't see if I made any
+fix that one now let's see if I made any
 
 0:33:57.830,0:34:02.660
 accidental errors so I don't have any
@@ -2429,7 +2428,7 @@ accidental errors which is good so now
 what I want to see is I want to see if
 
 0:34:04.280,0:34:10.669
-my motors spinning her hat right and so
+my motor is spinning her or not right and so
 
 0:34:08.210,0:34:12.860
 it looks like my motor is currently
@@ -2444,7 +2443,7 @@ in it's running at a hundred and
 fifty-two rpms kind of fluctuates
 
 0:34:18.379,0:34:22.639
-between 150 to 150 three they just kind
+between 152 153 they just kind
 
 0:34:21.230,0:34:24.470
 of put that in the simulation for fun
@@ -2465,22 +2464,19 @@ start simulation and whenever I run it
 at 100 you can see that it's running
 
 0:34:35.750,0:34:40.690
-quite a bit slower now we've went to all
+quite a bit slower now we went to all
 
 0:34:39.050,0:34:43.080
 the trouble to make this potentiometer
 
 0:34:40.690,0:34:44.380
-let's run the left motor
-
-0:34:43.080,0:34:49.130
-[Applause]
+let's run the left motor at
 
 0:34:44.380,0:34:52.850
-left pop speed gonna be kind of fun so
+left pot speed that'll be kind of fun so
 
 0:34:49.130,0:34:55.520
-now it'll run it whatever speed the the
+now it'll run at whatever speed the 
 
 0:34:52.850,0:34:59.030
 potentiometer is getting now this is
@@ -2489,10 +2485,10 @@ potentiometer is getting now this is
 interesting it says zero why is it zero
 
 0:34:59.030,0:35:03.200
-I actually that's like a real questions
+actually that's like a real question
 
 0:35:01.250,0:35:05.990
-to see why is it zero
+sissy why is it zero
 
 0:35:03.200,0:35:07.970
 I don't know why it's zero all right so
@@ -2501,10 +2497,10 @@ I don't know why it's zero all right so
 mine is really freaking out
 
 0:35:07.970,0:35:13.010
-and so the problem it's so I made a
+and so the problem so I made a
 
 0:35:11.390,0:35:14.720
-mistake right it just straight up I made
+mistake right just straight up I made
 
 0:35:13.010,0:35:16.970
 a mistake but I'm gonna just kind of
@@ -2516,10 +2512,10 @@ figure it out with you so when it's all
 the way down at zero when I speed it up
 
 0:35:19.640,0:35:25.280
-a little bit it looks like it's go on at
+a little bit it looks like it's going at
 
 0:35:21.050,0:35:27.290
-5 or 1000 sorry 100 and something but I
+5 or 1000 sorry 100 and something then I
 
 0:35:25.280,0:35:29.450
 speed up a little bit more it's going
@@ -2531,7 +2527,7 @@ faster so that's good speed up a little
 bit more and boom it just drops to like
 
 0:35:30.980,0:35:36.950
-6 or something I'm pretty sure will test
+6 or something I'm pretty sure we'll test
 
 0:35:33.920,0:35:38.510
 this that the problem is and I just made
@@ -2546,7 +2542,7 @@ works I forgot to set any of these pins
 as outputs right so I got lazy
 
 0:35:44.330,0:35:50.720
-so for digital sort of analog inputs you
+so for digital sorry for analog inputs you
 
 0:35:48.920,0:35:52.490
 don't have to set up anything but for
@@ -2582,7 +2578,7 @@ got two three and four which are for the
 other motor now I'm not using that other
 
 0:36:17.540,0:36:23.390
-motor yet but it really was was a
+motor yet but it really was 
 
 0:36:21.350,0:36:24.440
 messing with me that it wasn't working
@@ -2600,10 +2596,10 @@ so let's try this out so I start slow
 and then I move up and then it gets
 
 0:36:33.080,0:36:38.090
-faster it gets faster oh and then some
+faster it gets faster oh and then at some
 
 0:36:35.420,0:36:40.220
-point goes slower again I actually I
+point it goes slower again I actually I
 
 0:36:38.090,0:36:42.200
 made another bug it's all about bugs
@@ -2633,22 +2629,22 @@ the pots here's what I'm going to change
 inside of here I'm just going to do a
 
 0:37:02.200,0:37:09.760
-divided by four and that's because
+divide by four and that's because
 
 0:37:05.800,0:37:12.460
-analog right goes from 0 to 255 I forgot
+analog write goes from 0 to 255 I forgot
 
 0:37:09.760,0:37:14.890
-that Arduino worked I not zero to a
+thats Arduino worked not zero to a
 
 0:37:12.460,0:37:17.410
-thousand 23 so I'm just gonna do a
+1023 so I'm just gonna do a
 
 0:37:14.890,0:37:19.690
-divided by four right there and a
+divide by four right there and a
 
 0:37:17.410,0:37:22.450
-divided by four right there and life
+divide by four right there and life
 
 0:37:19.690,0:37:23.560
 will get quite a bit better all right
@@ -2657,7 +2653,7 @@ will get quite a bit better all right
 sorry
 
 0:37:23.560,0:37:28.150
-made multiple bugs there I could refill
+made multiple bugs there I could refilm
 
 0:37:26.410,0:37:31.330
 them obviously but I choose not to
@@ -2678,7 +2674,7 @@ going like 24 and then as I speed up a
 little bit more it goes like 70 70 or 80
 
 0:37:42.460,0:37:48.640
-as I speed up even more it goes like a
+as I speed up even more it goes at like a
 
 0:37:45.339,0:37:53.080
 hundred and thirty and then my max speed
@@ -2687,16 +2683,16 @@ hundred and thirty and then my max speed
 is about 160 for this motor so now my
 
 0:37:53.080,0:38:01.420
-range is is much better cool so that is
+range is much better cool so that is
 
 0:37:58.450,0:38:04.560
-now some successful code who was that
+now some successful code woo was that
 
 0:38:01.420,0:38:08.020
-painful sissy hey that's all right
+painful sissy hey 
 
 0:38:04.560,0:38:10.930
-that's our really good but I did fix and
+that's how it really goes but I did fix and
 
 0:38:08.020,0:38:13.089
 get the output set up and I did fix to
@@ -2717,10 +2713,10 @@ by yourself so I want a function called
 right motor and right motor takes a
 
 0:38:24.700,0:38:29.830
-value that goes from zero to a thousand
+value that goes from zero to 
 
 0:38:27.700,0:38:31.780
-23 is technically the the range I
+1023 is technically the the range I
 
 0:38:29.830,0:38:33.700
 usually just do a zero to a thousand
@@ -2732,10 +2728,10 @@ because it's much cleaner and it's gonna
 control the three pins on this side so
 
 0:38:36.160,0:38:42.730
-it's gonna control pin four pin 2 and
+it's gonna control pin 4 pin 2 and
 
 0:38:39.910,0:38:45.310
-pin 3 and pin three as you can see it's
+pin 3 and pin 3 as you can see it's
 
 0:38:42.730,0:38:48.760
 the analog one right so see if you can
@@ -2744,7 +2740,7 @@ the analog one right so see if you can
 follow the pattern of left motor and
 
 0:38:48.760,0:38:51.700
-make it four right motor and really the
+make it for right motor and really the
 
 0:38:50.440,0:38:53.349
 thing that's going to change the big
@@ -2771,7 +2767,7 @@ you can make that happen
 all right so I wrote mine and the way I
 
 0:39:08.220,0:39:12.570
-did it as I cheated of course I copied
+did it is I cheated of course I copied
 
 0:39:10.530,0:39:15.210
 my other one and just anywhere where I
@@ -2780,16 +2776,16 @@ my other one and just anywhere where I
 had an 11 which was the analog I switch
 
 0:39:15.210,0:39:19.290
-that to the 3 and anywhere where there
+that to the 3 and anywhere there
 
 0:39:17.490,0:39:20.640
-was a - I made that our 12 I made that a
+was a 2 I made that our 12 I made that a
 
 0:39:19.290,0:39:23.160
-2 and in where was the 13 I made it
+2 and anywhere it was the 13 I made it
 
 0:39:20.640,0:39:24.780
-before now there is entirely a
+a 4 now there is entirely a
 
 0:39:23.160,0:39:27.210
 possibility that my motor is gonna go
@@ -2867,7 +2863,7 @@ control C I realize that it's unfair
 that I have the hardware here and you
 
 0:40:30.119,0:40:36.330
-don't but I like to show you it's gotta
+don't but I like to show you oops gotta
 
 0:40:34.170,0:40:38.130
 plug my hardware in I like to show you
@@ -2888,7 +2884,7 @@ right so I've got mine programmed on
 here let's try it out so what it should
 
 0:40:49.020,0:40:55.290
-do as we put it on a table I should go
+do as we put it on a table it should go
 
 0:40:51.869,0:40:56.970
 at a certain speed which is good and
@@ -2900,13 +2896,13 @@ then if I take these potentiometers and
 I just crank them up
 
 0:40:59.460,0:41:06.690
-I should go faster which is fun and if I
+it should go faster which is fun and if I
 
 0:41:03.900,0:41:07.069
 take these potentiometers and I turn
 
 0:41:06.690,0:41:10.849
-away
+them way
 
 0:41:07.069,0:41:14.690
 down then it's like barely going at all
@@ -2915,10 +2911,10 @@ down then it's like barely going at all
 and it's going so slow that it may not
 
 0:41:14.690,0:41:23.630
-even work when I put it on cool and so
+even work when I put it on cool and so you can see there that
 
 0:41:20.089,0:41:26.660
-you can see that our code does work on a
+it's going super slow  cool and so you can see that our code does work on a
 
 0:41:23.630,0:41:30.019
 real car which is fun and we've learned
@@ -2948,7 +2944,7 @@ but I'm going to show you some other
 neat thing that we can do with serial
 
 0:41:44.390,0:41:49.699
-monitoring so serum monitoring you can
+monitoring so serial monitoring you can
 
 0:41:46.670,0:41:51.680
 send messages to your car and you can
@@ -2975,7 +2971,7 @@ then I'll talk about it so if there are
 bytes available like from your computer
 
 0:42:06.920,0:42:11.599
-if you're but if your computer sent some
+if you're if your computer sent some
 
 0:42:09.199,0:42:13.880
 bytes over then we can see what your
@@ -2990,28 +2986,28 @@ respond accordingly and so what we can
 do is we can receive a byte so this is
 
 0:42:20.509,0:42:27.170
-the message from your computer so we're
+the message from your computer we're
 
 0:42:23.479,0:42:29.660
 gonna say serial dot read and depending
 
 0:42:27.170,0:42:34.549
-on what your computer says it's like
+on what your computer says so like
 
 0:42:29.660,0:42:37.309
-maybe your computer says four words then
+maybe your computer says forwords then
 
 0:42:34.549,0:42:41.119
-you can do things appropriate for four
+you can do things appropriate for 
 
 0:42:37.309,0:42:44.239
-words so type that really fast you can
+forwards so type that really fast you can
 
 0:42:41.119,0:42:47.150
 pause it and get caught up but if they
 
 0:42:44.239,0:42:49.279
-send a message for four words then what
+send a message for forwards then what
 
 0:42:47.150,0:42:52.519
 you might do is you might make the car
@@ -3026,7 +3022,7 @@ to go ask right and you can do as many
 different commands as you would like so
 
 0:42:59.749,0:43:07.789
-that one's four words let's say that I
+that one's forwards let's say that I
 
 0:43:02.420,0:43:13.369
 wanted stop right so if I say stop then
@@ -3050,13 +3046,13 @@ so if I hit start simulation what's
 happening right now is nothing's going
 
 0:43:26.750,0:43:34.310
-yet but I can click on my serie monitor
+yet but I can click on my serial monitor
 
 0:43:30.220,0:43:35.750
 and I can send these messages right so
 
 0:43:34.310,0:43:38.870
-I'm going to clear off my hold messages
+I'm going to clear off my old messages
 
 0:43:35.750,0:43:41.180
 so I'm going to send a capital F and if
@@ -3104,10 +3100,10 @@ microcontroller responding back message
 so if you do like a a forward so respond
 
 0:44:17.630,0:44:22.160
-back pay forwards and then it'll do it
+back hey forwards and then it'll do it
 
 0:44:20.090,0:44:26.660
-if you send ass it'll send back heystop
+if you send S it'll send back hey stop
 
 0:44:22.160,0:44:29.090
 and then it'll do it if you want to you
@@ -3143,10 +3139,10 @@ already used R so back up and then there
 you would go at negative of the left pot
 
 0:45:02.650,0:45:07.250
-and negative of the right pot while the
+and negative of the right pot by the
 
 0:45:05.900,0:45:08.840
-weight on these turns if you'd like you
+way on these turns if you'd like you
 
 0:45:07.250,0:45:10.880
 can also make it spin in place so you
@@ -3161,7 +3157,7 @@ stop you could make it go negative which
 would be in reverse again typing things
 
 0:45:17.230,0:45:22.700
-beyond ludicrous speed there so there's
+beyond at ludicrous speed there so there's
 
 0:45:19.880,0:45:26.030
 no way that you keep up in real-time but
@@ -3176,7 +3172,7 @@ try it you can type it in and you can
 see how it behaves I think it's good to
 
 0:45:29.840,0:45:32.329
-kind of
+kind of get an 
 
 0:45:30.589,0:45:33.890
 example of it but if you did want to
@@ -3194,10 +3190,10 @@ that it actually is working for me
 though so I start the simulation I say
 
 0:45:42.619,0:45:47.420
-four words it's gonna be a capital F so
+forwards it's got to be a capital F so
 
 0:45:46.160,0:45:50.299
-I'm going to say four words with a
+I'm going to say forwards with a
 
 0:45:47.420,0:45:53.239
 capital F that works fine I'm gonna say
@@ -3227,7 +3223,7 @@ you know a stop it'll stop it I could
 show this on the car but I think we're
 
 0:46:13.940,0:46:18.619
-starting to to get kind of long and it's
+starting to get kind of long and it's
 
 0:46:16.400,0:46:20.690
 the same as that first demo now the
@@ -3236,7 +3232,7 @@ the same as that first demo now the
 downside of this demo is that you will
 
 0:46:20.690,0:46:26.420
-have to use a real car keep your cable
+have to if you use a real car keep your cable
 
 0:46:23.420,0:46:30.349
 plugged in and then it will make your
@@ -3257,10 +3253,10 @@ longer sorry about that but sissy do you
 think that some of these things were
 
 0:46:37.789,0:46:41.359
-cool worried a little bit spoiled
+cool were a little bit spoiled
 
 0:46:40.279,0:46:42.739
-because you're gonna play with an actual
+because you got to play with an actual
 
 0:46:41.359,0:46:46.249
 car whereas other people only got to do
@@ -3272,7 +3268,7 @@ a simulation just a little cool so I
 wanted to show you about motors motors
 
 0:46:47.900,0:46:52.400
-are important thing to do if you kind of
+are an important thing to do if you kind of
 
 0:46:49.969,0:46:54.109
 get into the hobbyist world tomorrow
@@ -3290,7 +3286,7 @@ our whirlwind Tinkercad circuits
 tomorrow we're going to do something new
 
 0:47:01.309,0:47:05.630
-and Tinkercad called code blocks and
+in Tinkercad called code blocks and
 
 0:47:03.950,0:47:07.740
 it'll be kind of fun we look forward to
