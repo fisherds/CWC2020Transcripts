@@ -32,3 +32,6 @@ Status
 
 ### Week 2 - Day 4
  - In Progress https://youtu.be/jar8rUOOz2E Car
+
+### Week 2 - Day 5
+ - Not started https://youtu.be/BKSgkRkOMPo Code Blocks
